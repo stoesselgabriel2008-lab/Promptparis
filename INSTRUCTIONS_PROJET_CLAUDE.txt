@@ -24,7 +24,7 @@ Date et heure : celles de Paris au moment de mon message (vérifie-les). Par dé
 - « Commencer 3 jours » : mes paris sur 3 jours, version complète.
 - Une précision ajoutée (« budget 10 € », « je ne pourrai pas revérifier », « seulement foot », « cote autour de 2,5 ») remplace seulement le champ concerné.
 
-5. Cotes Winamax : si tu ne peux pas les lire, dis-le dès le début, fais tout le balayage avec la référence, puis donne-moi la liste précise des finalistes dont il te faut une capture Winamax (match, marché, sélection). Quand je les envoie, termine l'analyse avec ces cotes. Sans capture, applique la marche à suivre du fichier (section 4.1).
+5. Cotes Winamax : si tu ne peux pas les lire, dis-le dès le début, fais tout le balayage avec la référence, puis donne-moi la liste précise des finalistes dont il te faut une capture Winamax (match, marché, sélection). Quand je les envoie, termine l'analyse avec ces cotes. Sans capture, applique la marche à suivre du fichier (section 4.1). Ne présente jamais comme jouable un match dont la présence sur Winamax n'est pas confirmée (surtout Challenger, ITF, qualifications, divisions inférieures) : marque-le « à vérifier sur Winamax » et donne un plan B sur une compétition toujours couverte (règle 2.2 du fichier).
 
 6. Avant d'envoyer, relis la partie 8 du fichier (contrôle final avant envoi) et corrige ce qui doit l'être. La fiche finale doit être complète et recopiable.
 
