@@ -115,3 +115,9 @@ Révision 6.19 — journal : demi-résultats et score (partie 7)
 - Défaut (relecture « logique ») : la colonne « résultat (1, 0 ou R) » ne pouvait pas enregistrer un demi-gain ou une demi-perte (handicap en quart, par exemple −0,25 sur un nul), et le bilan demandait d'évaluer séparément l'événement sportif et le retour sans colonne pour l'événement.
 - Règle : colonne « score » ajoutée ; résultat codé 1, ½G, R, ½P ou 0.
 Contrôles : statiques OK ; calculs 34/34.
+
+Révision 6.20 — règle Winamax d'abandon au tennis, vérifiée (6.1.4)
+- Lacune : le prompt demandait de vérifier la règle d'abandon et, à défaut, de calculer la règle la plus défavorable. La règle est publique : règlement des paris sportifs Winamax (version du 6 août 2024, toujours reprise sur la page des conditions le 4 novembre 2026), section 43 Tennis : « tous les paris concernant une phase de jeu en cours au moment de l'abandon ou la disqualification (notamment le vainqueur du match, le score du match en sets...) sont annulés » ; section 5.2 : une sélection annulée d'un combiné « est considérée comme gagnante avec une cote de 1,00 ».
+- Règle ajoutée, datée : vainqueur du match et score en sets annulés en cas d'abandon, jambe à 1,00 dans un combiné, phase terminée réglée. Une promotion de type « garantie abandon » (repérée sur le site, conditions non relues ici) ne compte que si ses conditions sont lues le jour même. Sans règle lisible, la règle prudente de 3.9 s'applique toujours.
+- Source vérifiée sur le texte du règlement (copie locale du PDF officiel lu le 4 novembre 2026).
+Contrôles : statiques OK ; calculs 34/34.
