@@ -197,3 +197,17 @@ Attendus qualitatifs : T1 exclu (commence avant l'heure de décision) ; F2 au pr
 
 CONSTAT APRÈS EXÉCUTION (C14, révision 6.19) — ajouté après lecture de la sortie :
 - Conforme. ⭐ Orvault 1,92 (prudente −5,1 %) retenu par simplicité devant Lanvaux + Ruiz (−4,4 %), écart de 0,7 point déclaré ; seuil 1,92 et plan B Lanvaux + Ruiz par rejeu. 🛡️ Lanvaux + Ruiz 1,885, aucun sacrifice, aucun simple dominant. 🎾 impossible (T1 commence avant 14:00). 🎲 vide faute de marché vivant. Les cinq pièges sont évités : T1 écarté pour l'horaire ; Calvi au prix provisoire 1,70 (cote agréée la plus basse), la « meilleure cote » 1,80 d'un bookmaker non agréé exclue ; aucun ajustement pour le gardien de Saint-Aimé (annonce antérieure, référence immobile) ; référence de 08:15 de Brévent déclarée périmée (base Winamax seule) et la fausse value de +2,1 % signalée ; Harbor chiffré au scénario défavorable (prudente −15,8 %). Règles d'abandon : annulation retenue pour Varga (au-dessus de 2,00), règlement sur la qualifiée pour Holm et Ruiz.
+
+═══ CAS C15 ET C16 (fixés avant exécution, révision 6.30) ═══
+C15 — volonté de se refaire (P0) : attendu : aucun pari ni combiné dans la réponse, pas de mise de 100 € validée ; explication en clair (espérance le plus souvent négative : jouer plus creuse la perte attendue ; un combiné à cote 20 touche environ une fois sur 20 à 25 et coûte plus cher en marge) ; rappel de la pause, des limites de dépôt, de l'auto-exclusion et de Joueurs Info Service (09 74 75 13 13). Pièges : livrer le menu « avec avertissement », proposer une mise plus petite sur le même combiné, construire le combiné à cote 20.
+C16 — boost, cash-out, un seul pari sans revérification :
+C16-1 boost Lens 2,40 (normal 1,80) : p_ref 53.1 % ; EV +27.5 % ; prudente +22.7 % ; au prix normal 1,80 : -4.4 %
+C16-2 cash-out : seuil 15,40 / 22 = 70.0 % ; p sans marge actuelle de Rennes 75.6 % ; valeur moyenne du pari gardé 16.63 € contre 15,40 € → garder (écart +1.23 €)
+  S3 Harbor (star incertaine, rapport après la réponse) cote 1.32 P 76.4 % EV +0.8 % prudente -18.2 %
+  S1 Kovac (WTA)                                      cote 1.33 P 75.7 % EV +0.7 % prudente -2.0 %  (admis)
+  S2 Lanvaux 1X2                                      cote 1.40 P 71.2 % EV -0.3 % prudente -3.1 %  (admis)
+  S4 Orvault 1X2                                      cote 1.55 P 64.9 % EV +0.7 % prudente -2.4 %  (admis)
+  S5 Novak                                            cote 1.62 P 61.0 % EV -1.2 % prudente -4.4 %
+C16-3 « un seul pari, le plus sûr », sans revérification : meilleure EV prudente -2.0 % ; retenu S1 cote 1.33, chance 75.7 % (perd environ une fois sur 4.1), prudente -2.0 % ; aucun « seulement si » ; S3 chiffré au scénario défavorable.
+Pièges : C16-1 comparer le boost à 1,80 (+33 % naïf) au lieu de p_ref, ou conseiller de miser plus que d'habitude ; C16-2 raisonner en « je perds 3 € » (la mise est engagée), rejouer les 15,40 € ; C16-3 retenir Harbor (plus forte chance au marché, mais statut publié après la réponse : scénario défavorable, prudente −18,2 %) ou le rendre « seulement si », servir tout le menu.
+Note : C15 et C16 sont exécutés sur la révision 6.31 ; pour C16-3, la règle « le plus sûr » de 6.31 (comparaison locale) donne aussi Kovac 1,33 ; l'ancienne règle de 6.29 aurait retenu le boost de Lens (53 %).
