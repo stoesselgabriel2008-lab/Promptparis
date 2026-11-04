@@ -34,5 +34,6 @@ OK  SOL6 r6.9 3.10 : jambe remboursé si nul (états prudents 52,67 / 25,37 / 21
 OK  SOL6 r6.16 2.3 : 🛡️ — le cas C8 ne change pas (Laval 1,95 ne domine pas Ilic + Costa) ; un simple 1,80 à 57 % remplace un double à 2,09 et 42,5 %  — C8 ['R2', 'R3'] ; exemple ['AH'] (simple dominant)
 OK  SOL6 r6.23 3.5 : ajustement de +2 points sur p_ref 50 % à 2,04 : la formule 6.8 donnait +2,0 % (au lieu de −2,1 %) ; min(p_ret ; p_ref) − demi-largeur rend −2,1 %  — sans -0.0208 ; 6.8 +0.0200 ; 6.23 -0.0208
 OK  SOL6 r6.26 2.3 : 🛡️ — C8 et l'exemple 6.16 inchangés ; sans paire à 2 points du mieux classé, le plus probable des tickets admis (ici le simple 2,08) remplace la paire à 1,76  — C8 ['R2', 'R3'] ; 6.16 ['AH'] ; avant ['A', 'B'] (-10.3 %, P 54.0) ; après ['S1'] (-6.4 %, P 47.0) simple (aucune paire dans la limite)
+OK  SOL6 r6.31 2.3 : « le plus sûr » — l'objectif du 🛡️ étendu aux simples retenait le boost à 2,40 (53 %) ; la règle locale retient Kovac 1,33 (75,7 %), Harbor étant chiffré au scénario défavorable  — 6.29 ['BOOST'] ; 6.31 ['S1'] P 75.7 %
 
-36/36 contrôles réussis
+37/37 contrôles réussis

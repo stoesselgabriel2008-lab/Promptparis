@@ -232,3 +232,15 @@ def shield_v3(legs, lo=1.75, hi=2.10, cap=0.02):
         dom = [t for t in allowed if t["n"] == 1 and t["P"] >= pick["P"] - 1e-12 and t["ev_low"] >= pick["ev_low"] - 1e-12]
         return (max(dom, key=lambda t: (t["P"], t["ev_low"])), "simple dominant") if dom else (pick, "deux jambes")
     return max(allowed, key=lambda t: (t["P"], t["ev_low"])), "simple (aucune paire dans la limite)"
+
+
+# ---------------- 6.31 : « le plus sûr » ----------------
+def safest_single(legs, min_odds=1.30, dp=0.03, dev=0.02):
+    """Most probable admissible single (odds >= min_odds), unless a nearly as probable single (at most dp lower)
+    has an EV prudente better by more than dev: then that one."""
+    s = sorted([ticket_stats([l]) for l in legs if l.odds >= min_odds - 1e-9 and admissible([l])], key=lambda t: -t["P"])
+    if not s:
+        return None
+    top = s[0]
+    near = [t for t in s[1:] if t["P"] >= top["P"] - dp - 1e-12 and t["ev_low"] > top["ev_low"] + dev + 1e-12]
+    return max(near, key=lambda t: (t["ev_low"], t["P"])) if near else top

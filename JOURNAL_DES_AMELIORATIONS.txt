@@ -180,3 +180,9 @@ Révision 6.30 — finitions de cohérence (journal, fiche, Q3, freebet, présé
 - Présélection : en « Analyse du jour + tennis complet », l'absence de plafond ne vaut que pour le tennis.
 (Relecture du texte ajouté, remarques mineures.)
 Contrôles : statiques OK ; calculs 36/36.
+
+Révision 6.31 — « le plus sûr » (2.3) : ma règle de 6.29 était mal posée
+- Défaut (trouvé en construisant le cas C16, vérifié en code) : « applique l'objectif du 🛡️ aux simples de cote ≥ 1,30 » comparait chaque simple au meilleur simple du jour, à 2 points d'EV prudente près. Dès qu'un pari bien payé existe à cote plus longue (un boost, ou une rare value à 2,50), tous les favoris sortent de la fenêtre et « le plus sûr » devient ce pari-là. Exemple : avec un boost à 2,40 (EV prudente +22,7 %, chance 53 %), la règle retenait le boost au lieu de Kovac 1,33 (chance 75,7 %).
+- Règle : retenir le simple le plus probable de cote ≥ 1,30, sauf si un simple presque aussi probable (au plus 3 points de chance en dessous) a une EV prudente meilleure de plus de 2 points ; la comparaison reste locale, entre paris de sûreté voisine. Dans l'exemple : Harbor (76,4 %, mais statut publié après l'heure de décision, prudente −18,2 %) cède sa place à Kovac (75,7 %, −2,0 %).
+- Calculateur : fonction safest_single ; un contrôle ajouté.
+Contrôles : statiques OK ; calculs 37/37.

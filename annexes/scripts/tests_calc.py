@@ -165,6 +165,17 @@ check("SOL6 r6.26 2.3 : 🛡️ — C8 et l'exemple 6.16 inchangés ; sans paire
       _a8["rids"] == ["R2", "R3"] and _a12["rids"] == ["AH"] and _old["rids"] == ["A", "B"] and _new["rids"] == ["S1"],
       f"C8 {_a8['rids']} ; 6.16 {_a12['rids']} ; avant {_old['rids']} ({_old['ev_low']*100:+.1f} %, P {_old['P']*100:.1f}) ; après {_new['rids']} ({_new['ev_low']*100:+.1f} %, P {_new['P']*100:.1f}) {_knew}")
 
+# ---------- 6.31 : « le plus sûr » ----------
+_C16 = [Leg("S3", "S3", "basket", 1.32, devig_power([1.29, 3.90])[0], 0.0, "B"), Leg("S1", "S1", "tennis", 1.33, devig_power([1.30, 3.80])[0], 0.02),
+        Leg("S2", "S2", "foot", 1.40, devig_power([1.38, 5.00, 8.50])[0], 0.02), Leg("BOOST", "L", "foot", 2.40, devig_power([1.85, 3.70, 4.60])[0], 0.02)]
+_C16[0].band = _C16[0].p - min(0.62, _C16[0].p - 0.03)
+_safe = safest_single(_C16)
+_singles = [ticket_stats([l]) for l in _C16]
+_bestv = max(t["ev_low"] for t in _singles)
+_old = max([t for t in _singles if t["ev_low"] >= _bestv - 0.02 - 1e-12], key=lambda t: t["P"])
+check("SOL6 r6.31 2.3 : « le plus sûr » — l'objectif du 🛡️ étendu aux simples retenait le boost à 2,40 (53 %) ; la règle locale retient Kovac 1,33 (75,7 %), Harbor étant chiffré au scénario défavorable",
+      _old["rids"] == ["BOOST"] and _safe["rids"] == ["S1"], f"6.29 {_old['rids']} ; 6.31 {_safe['rids']} P {_safe['P']*100:.1f} %")
+
 w = max(len(n) for n, _, _ in results)
 ok = sum(1 for _, c, _ in results if c)
 for n, c, d in results:
