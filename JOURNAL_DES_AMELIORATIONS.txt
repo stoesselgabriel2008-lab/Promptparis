@@ -101,3 +101,12 @@ Révision 6.17 — compression sans perte de règle
 - Trois coupes refusées parce qu'elles affaiblissaient un point important : la priorité P6 garde « une EV négative ne supprime pas un format » ; 2.2 garde « le sport ne donne aucune priorité », exigence explicite du cahier des charges ; le contrôle final 2 garde le détail des mises à jour de p_ref, corrigé en 6.10.
 - Aucun nombre, exemple, seuil ni titre de section n'a disparu (vérifié en code).
 Contrôles : statiques OK ; calculs 34/34.
+
+Révision 6.18 — précisions de cohérence (2.2, 2.3, 3.5, 3.12, 5.2, fiche de sortie)
+- Égalité exacte à 1 point : « à moins d'un point » (groupe de tête) et « dépasse de plus d'un point » (🎾) tranchaient le cas limite en sens contraires ; le groupe de tête est désormais « à un point ou moins », comme dans le calculateur.
+- Robustesse : « la fourchette passe de ±2 à ±3 » n'était pas défini pour une ligne déjà à ±3 ; désormais « chaque fourchette s'élargit d'un point (±2 → ±3, ±3 → ±4) ».
+- Hors zone : la règle générale (« le plus proche hors zone ») et celle du ⭐ (« le meilleur hors zone ») sont réconciliées : pour le ⭐, le meilleur selon R★.
+- « Dispersion entre références » est défini (écart entre leurs probabilités sans marge).
+- Le tableau de comparaison de 5.2 reprend les colonnes de la fiche de sortie (deux mises en page différentes existaient) ; les « assemblages à éviter » de 5.4 ont leur place dans la fiche.
+- Point 4 de R★ : la fourchette en points pèse davantage sur l'EV d'une cote longue ; c'est une incertitude réelle, pas un critère de chance (évite qu'un modèle « corrige » cette prudence de façon incohérente).
+Contrôles : statiques OK ; calculs 34/34.
