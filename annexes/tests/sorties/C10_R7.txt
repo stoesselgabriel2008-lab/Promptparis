@@ -1,0 +1,96 @@
+📌 DÉCISION
+Préparé le vendredi 27 novembre 2026 à 19:30 (Paris), avant tout match ; horizon ce soir ; tennis (4 matchs) et football (2) balayés, aucune donnée basket ni rugby ; base : Pinnacle via un comparateur qui le nomme (référence indépendante), Winamax lu dans l'application.
+
+⭐ CHOIX PRINCIPAL : **R6 Laval vainqueur** (1X2, temps réglementaire), Laval – Rodez, 21:00 · **1,66 ✅** · chance 62,4 % · EV +3,7 %, prudente +0,3 % · 🟢 value estimée, mince.
+Pourquoi lui : seule EV prudente positive du soir ; le deuxième ticket, Kerr + Laval (2,76), est 2,1 points plus bas, Kerr seul (même cote) 2,5 points. Choix net, même à ±3 points (Laval −1,3 %, Kerr −3,8 %).
+Il reste mon choix tant que **Laval ≥ 1,62** (rejeu complet, Pinnacle inchangé) et **meneur titulaire** ; sinon **Kerr vainqueur à 1,66**, avant 20:30 (après 20:30 : Stein + Weber, 1,79).
+Avant de cliquer : meneur dans la composition (vers 20:00) ; cote ≥ 1,62 et Pinnacle relu, sinon probabilité recalculée ; décision avant 20:30.
+
+Ce qui a changé depuis 17:00
+- À 17:00 : ⭐ Kerr 1,75 (🟢, EV +6,7 %, prudente +3,2 %), choisi par simplicité devant Kerr + Aubrac et Kerr + Laval (+3,5 %) ; seuil 1,71 ; plan B Aubrac 1,70 (🟢, prudente +0,3 %) ; Laval conditionnel au meneur.
+- Kerr à 1,66 (19:20), Pinnacle relu inchangé : même probabilité (61,0 %), EV +1,2 %, prudente −2,1 %, sous le seuil.
+- Buteur de Sévérac de retour (19:00), Pinnacle à 1,75/4,00/5,20 (19:15) : Aubrac recalculé de 61,0 à 56,7 % ; Winamax figé à 1,70 : EV −3,6 %, prudente −7,0 %, le plan B tombe. Garder l'ancienne probabilité fabriquerait une fausse value (+3,7 %) ; la nouvelle est dans le prix, aucun ajustement en plus.
+- Meneur de Laval confirmé (18:35), cotes inchangées : condition levée (Q2 → Q1), probabilité inchangée.
+- Avant → après : ⭐ Kerr → Laval ; plan B Aubrac → Kerr.
+
+Menu (alternatives, pas à cumuler) : 🎯 = ⭐ · 🛡️ Stein + Weber 1,79 (56,0 %, 🟡) · 🎾 Kerr + Stein + Weber 2,97 (34,1 %, 🟡) · 🎲 vide (aucune cote) · 🚀 Kerr + Laval 2,76 (38,1 %, 🟡) · 🎉 non servi (facultatif) · 🟢 Laval seul ; 🟡 en simple : Kerr, Stein.
+Exposition commune : Laval (⭐, 🚀), Kerr (🎾, 🚀, plan B), Stein et Weber (🛡️, 🎾).
+
+🔭 COUVERTURE
+Tennis M1, M2, M4, M5 (compétitions, surfaces non fournies), football M3, M6 : outsiders, nuls et extérieurs écartés (EV −4,3 à −21,0 % face à Pinnacle), favoris au registre, finalistes approfondis (Laval, Kerr, Stein, Weber). Basket, rugby : ni donnée ni accès, non balayés. Sans web, ni Elo ni physique : base de marché pure ; pas de programme de demain, 🎾 sur 4 matchs. À 19:30, ⭐ et plan B renversés.
+
+📒 REGISTRE (19:30)
+Conventions : Pinnacle sans marge, méthode power (multiplicative entre parenthèses) ; aucun ajustement, p_ret = p_ref ; fourchette ±2 points, écart entre méthodes ≤ 1,1 ; règles vérifiées : tennis, vainqueur du match, abandon après le début = pari annulé, cote 1 ; football, 1X2 en temps réglementaire. M2, M4, M5 : cotes de 17:00, rien de nouveau à 19:30.
+R1 · M1 tennis · M. Kerr – A. Lopez, 20:30 fixe · Kerr · Winamax 1,66/2,45 ✅ 19:20 · Pinnacle 1,62/2,50 relu 19:15 · p_ret 61,0 % (60,7) [59,0 ; 63,0] · EV +1,2/−2,1 % · marge 1,1 % · Q1 · tier A/B · 🟡
+R2 · M2 tennis · H. Stein – J. Pavic, pas avant 21:00 · Stein · 1,28/3,80 ✅ · 1,26/4,30 · 78,4 % (77,3) [76,4 ; 80,4] · +0,4/−2,2 % · 4,4 % · Q1 · S · 🟡 fragile (−1,0 % en multiplicative)
+R3 · M3 football · Aubrac – Sévérac, 21:00 · Aubrac · 1,70/3,80/5,00 ✅ relu 19:20 · 1,75/4,00/5,20 (19:15) · 56,7 % (56,4) [54,7 ; 58,7] · −3,6/−7,0 % · 5,1 % · Q1 · B · sans label
+R4 · M4 tennis · H. Weber – K. Lind, pas avant 21:30 · Weber · 1,40/3,05 ✅ · 1,38/3,30 · 71,4 % (70,5) [69,4 ; 73,4] · −0,1/−2,9 % · 4,2 % · Q1 · S/A · sans label
+R5 · M5 tennis · E. Novak – M. Ruiz, pas avant 22:00 · Novak · 1,42/2,90 ✅ · 1,40/3,15 · 70,2 % (69,2) [68,2 ; 72,2] · −0,4/−3,2 % · 4,9 % · Q1 · S/A · sans label
+R6 · M6 football · Laval – Rodez, 21:00 · Laval · 1,66/4,10/5,00 ✅ inchangé à 19:30 · 1,58/4,40/6,00 inchangé · 62,4 % (61,6) [60,4 ; 64,4] · +3,7/+0,3 % · 4,6 % · Q1 · A · 🟢, condition levée
+Abandons : chances tennis match mené à terme ; recalcul par états (repère ≈ 3 % par match, PLOS ONE 2024) : aucun choix ni seuil ne bouge.
+
+⚖️ COMPARAISON DES TICKETS
+Règle de décision R★ : prix prudent, puis simplicité ; zone du ⭐ 1,50 à 4,00.
+Ticket | Cote | Chance ; EV centrale/prudente | Pourquoi ce rang
+Laval | 1,66 | 62,4 % ; +3,7/+0,3 | ⭐, seule EV prudente positive
+Kerr + Laval | 2,76 | 38,1 % ; +4,9/−1,8 | 2ᵉ, meilleur à 2 et multisport ; Kerr coûte 2,1 points et 24,4 points de chance
+Kerr + Stein + Laval | 3,53 | 29,8 % ; +5,3/−4,0 | meilleur à 3 ; environ 2 points par jambe
++ Weber | 4,94 | 21,3 % ; +5,2/−6,7 | meilleur à 4, hors zone
++ Novak | 7,01 | 14,9 % ; +4,8/−9,7 | meilleur à 5, hors zone
+Kerr | 1,66 | 61,0 % ; +1,2/−2,1 | meilleur mono-tennis, plan B
+Seuil de bascule, rejeu complet en code : Laval reste premier jusqu'à 1,62 ; à 1,61, Kerr seul passe devant. Kerr + Laval baisse avec Laval : ce n'est pas un plan B.
+🛡️ (1,75 à 2,10) : Stein + Weber (56,0 % ; −5,0), Stein + Novak (55,0 % ; −5,3), Weber + Novak (50,1 % ; −6,0) : le plus probable est le mieux payé, aucun sacrifice. EV centrale positive en power seulement (−2,3 % en multiplicative).
+🎾 : à 3, Kerr + Stein + Weber (2,97 ; 34,1 % ; +1,5/−7,0 ; −1,6 % en multiplicative) ; à 4, + Novak (4,22 ; 23,9 % ; +1,1/−10,0) ; à 5, impossible, il manque un match. Trois matchs : la quatrième jambe retire 10,2 points de chance (−30 %) et 3,0 points prudents. Kerr + Stein + Novak (−7,4) est à moins d'un point ; à longueur et qualité égales, l'EV prudente départage.
+À éviter : Aubrac en combiné (−7,0 % prudent) ; Stein ajouté au ⭐ « pour sécuriser » (−13,5 points de chance, −2,2 prudents).
+
+🔬 DOSSIERS DES FINALISTES
+Laval (R6, ⭐) : 1,66 pour 1,60 sans marge, seul écart qui survit à la fourchette. Le meneur confirmé après le prix de 17:00 ne déplace rien (référence immobile, aucune méthode chiffrée) : il lève la condition. Objection la plus forte : avantage mince, quand le favori bouge de 2 points en médiane avant le coup d'envoi (repère football 2022-2026) ; le nul (21,8 %) perd ; rien de connu sur Rodez. Alternative : remboursé si nul ou double chance, sans cote lue. Bascule : sous 1,62 ou meneur absent, Kerr.
+Kerr (R1 ; plan B, 🎾, 🚀) : 1,66 pour 1,64 sans marge ; baisse venue de Winamax seul. Objection : aucune donnée physique ni de calendrier, et l'absence de nouvelle n'est pas un certificat de forme. Alternative : Lopez 2,45 (−4,3 %). Redevient ⭐ à 1,71.
+Stein (R2) et Weber (R4) : marché seul ; horaires « pas avant » ; Novak (−3,2 % prudent) quasi à égalité avec Weber.
+Seconde passe : chiffres identiques au registre ; matchs distincts, aucun joueur commun ; aucune jambe hors format imposé ; Laval figurait dès 17:00 avec la même probabilité ; écartés les mieux placés (Lopez −4,3 %, Sévérac −6,0 %, nul d'Aubrac – Sévérac −6,8 %) : exclusion maintenue. Pas de contradiction matérielle.
+
+📋 FICHE FINALE
+A. Calendrier (vendredi 27 novembre, heure de Paris)
+- Vers 20:00 : compositions de Laval – Rodez, contrôle du ⭐ et du 🚀.
+- Avant 20:30 : limite du 🎾, du 🚀 et du plan B (première jambe : Kerr).
+- 20:30 Kerr – Lopez ; 21:00 Laval – Rodez et Aubrac – Sévérac ; pas avant 21:00 Stein – Pavic (limite du 🛡️) ; pas avant 21:30 Weber – Lind ; pas avant 22:00 Novak – Ruiz.
+
+B. Paris
+⭐ CHOIX PRINCIPAL = 🎯 MEILLEUR SIMPLE · 🟢 · **Laval vainqueur · 1,66 · 62,4 %**
+— Football · Laval – Rodez · compétition non fournie · vendredi 21:00
+— 1X2, temps réglementaire (le nul perd) · Winamax 1,66 ✅ inchangée à 19:30 · Pinnacle 1,58/4,40/6,00
+— Pourquoi : seule cote du soir au-dessus du prix sans marge même en prudent (EV +3,7 %, prudente +0,3 %)
+— Avant de cliquer : **meneur dans la composition officielle** ; **cote ≥ 1,62** (🟢 seulement à 1,66)
+— Plan B : Kerr vainqueur à 1,66, avant 20:30
+
+🛡️ TICKET COURT · 🟡 · **Stein + Weber · 1,79 · 56,0 %**
+— Tennis, Stein – Pavic, pas avant 21:00, Stein vainqueur, 1,28 ✅ 17:00 (R2)
+— Tennis, Weber – Lind, pas avant 21:30, Weber vainqueur, 1,40 ✅ 17:00 (R4)
+— 1,79 ; 56,0 % si les deux matchs vont à terme (avec abandons, jambe ramenée à 1 : profit ≈ 57 %, gain plein ≈ 53 %) ; EV +0,3 %, prudente −5,0 % ; indépendants
+— Pourquoi : le plus probable et le mieux payé de la zone, environ une chance sur deux
+— Avant de cliquer : avant 21:00 ; **Stein ≥ 1,27, Weber ≥ 1,37**
+— Plan B : Novak à la place de Weber, 1,82 (55,0 % ; −0,3 point prudent)
+
+🎾 COMBINÉ TENNIS · 🟡 · **Kerr + Stein + Weber · 2,97 · 34,1 %**
+— Kerr – Lopez, 20:30, Kerr vainqueur, 1,66 ✅ 19:20 (R1)
+— Stein – Pavic, pas avant 21:00, Stein vainqueur, 1,28 ✅ (R2)
+— Weber – Lind, pas avant 21:30, Weber vainqueur, 1,40 ✅ (R4)
+— 2,97 ; 34,1 % (avec abandons : profit ≈ 35 %, gain plein ≈ 31 %) ; EV +1,5 %, prudente −7,0 % (rend 93 % de la mise) ; indépendants
+— Pourquoi : un quatrième match coûterait 10 points de chance et 3 points prudents
+— Avant de cliquer : avant 20:30 ; **Kerr ≥ 1,65, Stein ≥ 1,27, Weber ≥ 1,40**
+— Plan B : Novak à la place de la jambe qui échoue (pour Kerr, la plus fragile : 2,54, 39,3 %, −8,1 %)
+
+🎲 PLAISIR · vide : aucune cote de marché vivant ni donnée de jeu.
+
+🚀 COMBINÉ PLAISIR · 🟡 · **Kerr + Laval · 2,76 · 38,1 %**
+— Kerr – Lopez, 20:30, Kerr vainqueur, 1,66 ✅ (R1)
+— Laval – Rodez, 21:00, Laval vainqueur en temps réglementaire, 1,66 ✅ (R6)
+— 2,76 ; 38,1 % (abandon de Kerr possible : profit ≈ 39 %, gain plein ≈ 37 %) ; EV +4,9 %, prudente −1,8 % ; indépendants
+— Pourquoi : meilleure EV prudente des doubles de 2 à 4, 0,03 point devant Stein + Laval
+— Avant de cliquer : avant 20:30, meneur confirmé ; **Kerr ≥ 1,66, Laval ≥ 1,62**
+— Plan B : Stein à la place de Kerr, la jambe la plus fragile : 2,12, 49,0 %
+
+🎉 Non servi (facultatif).
+
+C. Un seul pari : Laval vainqueur à 1,66, jamais sous 1,62, une fois le meneur vu dans la composition.
+D. Rappel : une seule référence et un avantage mince ; aucune donnée sportive au-delà des cotes ; vérifie prix et compositions avant de jouer ; aucune promesse de gain ; 18+.

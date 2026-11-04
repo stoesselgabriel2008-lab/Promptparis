@@ -1,0 +1,121 @@
+📌 DÉCISION
+
+Préparé le mercredi 25 novembre 2026 à 11:00 (Paris) · horizon : aujourd'hui et nuit NBA (jeudi 01:00) · tennis, football, NBA · base : référence indépendante (Pinnacle via comparateur, 10:40), Winamax observé (10:45) · données figées.
+
+⭐ CHOIX PRINCIPAL : **Union Bréda vainqueur** (R3, Bréda – Hautval, 18:30) · **1,85 ✅** · chance 54,7 % · EV +1,1 %, prudente −2,6 % · 🟡 value fragile (deux centimes, méthode de retrait).
+
+Pourquoi lui : meilleur prix prudent de la zone 1,50–4,00, 0,3 point seulement devant Weber + Bréda remboursé si nul (1,90 ; −2,9 %) : selon la règle de décision R★ (prix prudent, puis simplicité), c'est une préférence de simplicité entre options de prix équivalent, qu'un autre réglage pourrait inverser. Il reste premier à ±3 points et en retrait multiplicatif.
+
+Il reste mon choix tant que : cote **≥ 1,83** (seuil de bascule, rejeu complet) et compositions de 17:30 sans absence décisive (gardien, axe, meneur, buteur) ; sinon : **Novak vainqueur 1,55** (plan B) avant son début, puis rien dans la zone.
+
+Avant de cliquer : vers 16:45, cote Bréda ≥ 1,83 (sinon Novak) ; à 17:30, compositions ; valider avant 18:30.
+
+Menu (alternatives, pas à cumuler) :
+- 🎯 **Bréda remboursé si nul 1,40** (R4), 🟡, gain 54,7 %, EV +1,9 %/−0,9 %, hors zone du ⭐.
+- 🛡️ **Weber + Bréda remboursé si nul 1,90** (R1+R4), 🟡, profit 59,3 %, EV +2,6 %/−2,9 %.
+- 🚀 **Weber + Bréda vainqueur 2,52** (R1+R3), 🟡, 40,5 %, EV +1,9 %/−4,5 %.
+- 🎾, 🎲, 🎉 non servis (voir fiche) ; 🟢 aucun.
+Exposition : Bréda – Hautval dans ⭐, 🎯, 🛡️, 🚀 ; Weber dans 🛡️, 🚀 ; ⭐ + 🎯 = double mise sur un match.
+
+
+🔭 COUVERTURE
+
+Tennis (Trophée de Brévent, dur intérieur) : 2 matchs, favoris approfondis (briques), outsiders écartés (prix). Football (Ligue de Valmorie, D1) : 1 match, Bréda 1X2 et remboursé si nul approfondis (EV centrale ≥ 0), nul et Hautval écartés (prix). NBA : 1 match, Harbor approfondi (« Questionable »), Gulf écarté (prix). Rien d'autre dans les données.
+Limites : ni statistiques, Elo, forme, marchés vivants ou bonus ; prix non relus ; règle d'abandon de Pinnacle inconnue. Probabilités = prix sans marge, sans ajustement.
+Ce que l'exploration a changé : le meilleur prix prudent (1,40) sort de la zone du ⭐ ; le rapport NBA (19:00) exclut la NBA des combinés ; l'heure des compositions (17:30) contraint les plans B.
+
+
+📒 REGISTRE
+
+Matchs : M1 Weber – Lind 15:00 (fixe) ; M2 Novak – Ruiz 17:00 pas avant ; M3 Bréda – Hautval 18:30 (compositions ~17:30) ; M4 Harbor – Gulf jeudi 26/11 01:00 (rapport ~19:00). Tous à venir, confirmés et approfondis.
+Méthode : power sur le marché Pinnacle complet (10:40), contrôle multiplicatif (écart ≤ 1,0 point) ; fourchette ±2 points, ±3 en NBA avant le rapport ; Winamax ✅ 10:45. Football en Q1 : aucune absence annoncée, aucun statut douteux ; compositions = contrôle.
+
+R1 · M1, tennis, Trophée de Brévent (tour non précisé) · **Weber vainqueur**, abandon après le début : annulé, cote 1 (vérifié) · Winamax 1,36/3,05, Pinnacle 1,33/3,60 · p_ref 74,1 % (multiplicatif 73,0), ajustement aucun, p_ret 74,1 % [72,1 ; 76,1] · EV +0,7 %/−2,0 %, marge 6,3 % (Pinnacle 3,0) · Q1, tier S, condition aucune.
+R2 · M2 · **Novak vainqueur**, même règle · 1,55/2,45, Pinnacle 1,52/2,62 · p_ref 64,1 % (63,3), p_ret 64,1 % [62,1 ; 66,1] · EV −0,7 %/−3,8 %, marge 5,3 % (4,0) · Q1, tier A, aucune.
+R3 · M3, football · **Bréda vainqueur, 1X2 temps réglementaire** · 1,85/3,60/4,40, Pinnacle 1,80/3,80/4,80 → 54,7/25,4/20,0 % (multiplicatif 54,1/25,6/20,3) · p_ret 54,7 % [52,7 ; 56,7] · EV +1,1 %/−2,6 %, équilibre 1,83, marge 4,6 % (2,7) · Q1, tier B, aucune.
+R4 · M3 · **Bréda remboursé si nul**, mise rendue si nul, cote 1 en combiné (vérifié) · 1,40/2,95 (marge 5,3 %) · états du 1X2 Pinnacle : gain 54,7, remboursé 25,4, perte 20,0 % ; prudent 52,7/25,4/22,0 · EV +1,9 %/−0,9 %, équilibre 1,37, EV prudente nulle à 1,42 · Q1, tier B (gain plein), aucune.
+R5 · M4, NBA · **Harbor vainqueur, prolongations incluses (vérifié)** · 1,48/2,70 (marge 4,6 %), Pinnacle 1,45/2,85 (« Questionable » déjà intégré) · p_ref 67,3 % (66,3), ajustement aucun, p_ret 67,3 % [64,3 ; 70,3] · EV −0,4 %/−4,9 % ; star absente (repère : référence vers 1,75/2,15 → 55,4 %) : −18,0 % ; présente : non estimable sans nouveau prix · Q2, tier A/S, condition : rapport ~19:00, en simple, prix relus.
+R6–R11, écartés (EV centrale) : Lind 3,05 −20,9 % (sans marge 3,85), Ruiz 2,45 −12,0 %, nul 3,60 −8,7 %, Hautval 4,40 −12,2 %, Hautval remboursé si nul 2,95 −15,7 %, Gulf 2,70 −11,7 %.
+
+
+⚖️ COMPARAISON DES TICKETS
+
+Tickets de 1 à 4 jambes énumérés en code, une sélection par match (5 jambes impossibles : 4 matchs).
+
+| Ticket | Cote | Chance, EV centrale/prudente | Pourquoi ce rang |
+|---|---|---|---|
+| ⭐ R3 | 1,85 | 54,7 % ; +1,1/−2,6 | 1er de la zone 1,50–4,00 |
+| R1+R4, meilleur à 2 et multisport | 1,90 | profit 59,3 %, plein 40,5 % ; +2,6/−2,9 | groupe de tête, battu sur la simplicité ; 🛡️ |
+| R4, meilleur à 1 | 1,40 | gain 54,7 % ; +1,9/−0,9 | hors zone → 🎯 |
+| R1+R2+R4, meilleur à 3 | 2,95 | plein 25,9 %, profit 38,0 % ; +1,9/−6,6 | Novak coûte 3,7 points |
+| R1+R2+R4+R5, meilleur à 4 | 4,37 | plein 17,5 % ; +1,5/−23,4 | NBA invérifiable avant 15:00 : scénario absent |
+
+Troisième de la zone : Novak (R2) 1,55, 64,1 %, −0,7/−3,8 %, plan B. Mono-sport : tennis, Weber 1,36 (−2,0, hors zone) ou Weber+Novak 2,11 (47,5 % ; −5,7) ; football, R4 puis R3 ; basket, R5 conditionnel (−4,9).
+Coût d'une jambe : Weber ajouté au ⭐ (2,52) : chance 54,7 → 40,5 % (−26 % relatif), EV prudente −2,6 → −4,5 % ; aucune jambe n'a d'EV prudente positive.
+🛡️ (1,75–2,10) : R1+R4 est le mieux payé et le plus probable, aucun sacrifice ; R4+Harbor (2,07) et Weber+Harbor (2,01) tombent à −18,7 et −19,6 % (rapport invérifiable avant leur première jambe) ; Weber+Novak (2,11) est hors zone.
+🚀 (2–4) : Weber+Bréda (−4,5 %) devance Novak+Bréda remboursé si nul (2,17 ; −4,6 %) d'un dixième, ordre inversé en multiplicatif.
+Robustesse : à ±3 points, Bréda (−4,4 %) reste devant Novak (−5,3 %) et R1+R4 (−5,6 %) ; avec 3 % d'abandons (repère PLOS ONE 2024), EV tennis × 0,97, ordre et seuils inchangés.
+Jambe fragile et remplacement : 🛡️ Weber → Novak (2,17, hors zone, −4,6 %) ; 🚀 Bréda → remboursé si nul (1,90, hors zone, −2,9 %).
+À éviter : un combiné avec Harbor validé avant 19:00 (≈ −19 % prudent) ; Lind, Ruiz ou Hautval pour gonfler la cote (−12 à −21 % par jambe).
+
+
+🔬 DOSSIERS DES FINALISTES
+
+**Bréda vainqueur (R3), 1,85, p_ret 54,7 %.** Données : prix seuls (« aucune absence annoncée » est déjà dans le prix : aucun ajustement) ; seul argument, un écart de +1,1 %. Objection : il tient à deux centimes (équilibre 1,83), tombe à +0,1 % en multiplicatif et reste sous le mouvement médian d'un favori de football avant la clôture (2 points, repère 2022-2026) ; une composition surprise peut l'effacer. Alternative : le remboursé si nul, mieux payé au prix prudent (−0,9 %) car le nul (25,4 %) est remboursé, mais hors zone. Bascule : sous 1,83 → Novak ; absence décisive → rien sur Bréda.
+
+**Weber vainqueur (R1), 1,36, p_ret 74,1 %.** Prix seul ; « rien de notable » n'est pas un certificat de forme ; la marge Winamax pèse sur Lind, d'où un favori juste à l'équilibre (1,36). Objection : sa value (+0,7 %) change de signe en multiplicatif (−0,7 %). Abandon : jambe annulée, pas perdue. Alternative : Novak (−3,8 %).
+
+**Bréda remboursé si nul (R4), 1,40.** Même match et même risque de composition, inconnu au moment du combiné (avant 15:00) ; R1+R4 gagne en EV centrale (+2,6 contre +1,1 %), pas en prudente.
+
+Contestation : composition, règle, marché voisin et combiné à 0,3 point examinés, rien de matériel hors la fragilité du prix ; le simple peut attendre les compositions, pas le combiné. Écartés revérifiés : Novak (1,2 point derrière), Harbor (statut, horaire), outsiders (prix). Dépendances : aucune. Aucune jambe ajoutée pour atteindre une cote.
+
+
+📋 FICHE FINALE
+
+A. Calendrier (mercredi 25/11, heure de Paris)
+- Avant 15:00 : limite 🛡️ ou 🚀 (Weber – Lind).
+- 16:45 : cote Bréda ; si < 1,83, Novak avant son début (pas avant 17:00).
+- 17:30 : compositions Bréda – Hautval.
+- Avant 18:30 : limite ⭐ ou 🎯.
+- ~19:00 rapport NBA : un simple Harbor ou Gulf seulement après relecture des prix ; 23:00 votre limite ; jeudi 26/11 01:00 Harbor – Gulf.
+
+B. Paris (✅ = cote Winamax observée à 10:45)
+
+⭐ CHOIX PRINCIPAL · 🟡 · **Union Bréda vainqueur · 1,85 · 54,7 %**
+— Football · Union Bréda – SC Hautval · Ligue de Valmorie (D1) · mercredi 25/11, 18:30
+— 1X2, temps réglementaire · Winamax **1,85 ✅** · référence Pinnacle 1,80/3,80/4,80
+— Pourquoi : meilleur prix prudent de la zone (EV +1,1 %, prudente −2,6 %), sans avantage démontré.
+— Avant de cliquer : **cote ≥ 1,83** ; compositions de 17:30 sans absence décisive.
+— Plan B : Novak vainqueur 1,55, s'il n'a pas commencé.
+
+🎯 MEILLEUR SIMPLE · 🟡 · **Bréda remboursé si nul · 1,40 · gain 54,7 % (remboursé 25,4 %)**
+— Football · même match · 18:30
+— Remboursé si nul : mise rendue en cas de nul · Winamax **1,40 ✅**
+— Pourquoi : meilleur prix prudent du jour (EV +1,9 %, prudente −0,9 %).
+— Avant de cliquer : **cote ≥ 1,38** ; compositions de 17:30.
+— Plan B : Weber 1,36 avant 15:00 ; ensuite, le ⭐.
+
+🛡️ TICKET COURT · 🟡 · **Weber + Bréda remboursé si nul · 1,90 · profit 59,3 % (gain plein 40,5 %)**
+— Tennis · Weber – Lind · Trophée de Brévent · 15:00 · Weber vainqueur · 1,36 ✅ (R1)
+— Football · Bréda – Hautval · 18:30 · Bréda remboursé si nul · 1,40 ✅ (R4)
+— Cote 1,90, EV +2,6 %, prudente −2,9 %, matchs indépendants ; si nul, ticket à 1,36 ; abandon au tennis, jambe à 1
+— Pourquoi : le plus probable et le mieux payé de sa zone, aucun sacrifice.
+— Avant de cliquer : **valider avant 15:00**, sans la composition de Bréda.
+— Plan B : aucun autre deux-jambes acceptable dans la zone ; à défaut, le 🎯.
+
+🎾 COMBINÉ TENNIS · non servi : deux matchs de tennis seulement, il manque une jambe.
+🎲 PLAISIR · non servi : aucun prix de marché vivant lu (totaux, handicaps, sets, buteurs).
+
+🚀 COMBINÉ PLAISIR · 🟡 · **Weber + Bréda vainqueur · 2,52 · 40,5 %**
+— Tennis · Weber – Lind · 15:00 · Weber vainqueur · 1,36 ✅ (R1)
+— Football · Bréda – Hautval · 18:30 · Bréda vainqueur (1X2) · 1,85 ✅ (R3)
+— EV +1,9 %, prudente −4,5 %, matchs indépendants ; abandon au tennis, jambe à 1
+— Pourquoi : meilleur prix prudent des deux-jambes de 2 à 4, d'un dixième.
+— Avant de cliquer : **valider avant 15:00**.
+— Plan B : Novak + Bréda remboursé si nul 2,17, avant 17:00.
+
+🎉 FUN · non servi (facultatif).
+
+C. Si je ne devais jouer qu'un pari : **Bréda vainqueur à 1,83 ou mieux, après les compositions de 17:30.**
+
+D. Rappel : prix figés à 10:40/10:45, sans autre donnée sportive ; value estimée inférieure au mouvement normal d'un prix ; vérifiez prix et compositions ; aucune promesse de gain ; 18+.

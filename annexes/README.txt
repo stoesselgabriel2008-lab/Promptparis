@@ -19,7 +19,7 @@ resultats/
 tests/
 - cas/ : les dix cas de contrôle fictifs (C1 à C6 pour le test A/B ; C7 pour la validation de la v4 ; C8 à C10 pour la passe ciblée v7).
 - verite_de_calcul/ : vérité de calcul et erreurs graves, fixées avant les exécutions ; consignes des évaluateurs ; correspondance X/Y ; récapitulatif des notes.
-- sorties/ : les douze réponses du test A/B (suffixe _R = refonte SOL 6.0 v1 ; suffixe _M = correction minimale), plus les deux validations : C7_R4.txt (v4) et C4_R6.txt (version finale v6).
-- variantes/ : le correctif d'une page qui, placé devant SOL 5.16, formait la « correction minimale », ainsi que les versions 1 (test A/B) et 4 (cas C7) de la refonte telles qu'elles ont été testées.
+- sorties/ : les douze réponses du test A/B (suffixe _R = refonte SOL 6.0 v1 ; suffixe _M = correction minimale), plus les validations : C7_R4.txt (v4), C4_R6.txt (v6), C8_R7.txt, C9_R7.txt et C10_R7.txt (version finale v7).
+- variantes/ : le correctif d'une page qui, placé devant SOL 5.16, formait la « correction minimale », ainsi que les versions 1 (test A/B), 4 (cas C7) et 7 (cas C8 à C10, identique à la version livrée) de la refonte telles qu'elles ont été testées.
 
 La version livrée, PROMPT_PARIS_VERSION_FINALE.txt, intègre les corrections faites après ces tests ; la liste figure dans l'audit, sections 8.6 et 8.8.

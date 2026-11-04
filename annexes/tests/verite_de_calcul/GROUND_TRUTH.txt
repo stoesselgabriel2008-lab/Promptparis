@@ -63,3 +63,7 @@ C10 — plan B qui change quand la cote bouge
 17:00 : Kerr simple 1,75 (p 61,0 %, EV +6,7 %, prudente +3,2 %), devant Kerr + Aubrac (prudente +3,5 %, même groupe de tête, deux jambes). Seuil par rejeu complet : 1,71, puis Aubrac simple (plan B à 17:00). La formule contre Kerr + Aubrac (qui contient Kerr) donnerait 1,74 : faux.
 19:30 : Kerr 1,66, référence inchangée → p reste 61,0 % (EV +1,2 %, prudente −2,1 %). Aubrac : référence passée à 1,75 → p 56,7 % (EV −3,6 %, prudente −7,0 %). Laval confirmé → admissible (EV +3,7 %, prudente +0,3 %). Choix principal à 19:30 : Laval simple 1,66 ; plan B : Kerr simple 1,66 ; seuil de Laval par rejeu 1,62.
 Pièges : garder l'ancienne p d'Aubrac (fausse EV +3,7 %) ; recalculer Kerr sur la seule cote Winamax (p 58,5 % au lieu de 61,0 %) alors que la référence n'a pas bougé.
+
+CORRECTION APRÈS EXÉCUTION (C9) — ajoutée après lecture de la sortie, signalée comme telle :
+- Le marché 1X2 de Bréda (Winamax 1,85) figurait dans le cas mais pas dans mes calculs : Bréda vainqueur 1,85 a une EV de +1,1 % et une EV prudente de −2,6 %. C'est le meilleur prix prudent de la zone, et le choix principal correct selon la règle (devant Weber + Bréda remboursé si nul, −2,9 %, par simplicité).
+- Scénario défavorable de Harbor : le prompt prend le scénario « star absente » comme borne basse, sans fourchette supplémentaire. Bréda remboursé si nul + Harbor vaut donc environ −18,7 % et non −21,7 %.

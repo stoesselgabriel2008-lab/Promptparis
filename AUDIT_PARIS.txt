@@ -1,7 +1,7 @@
 AUDIT DE « SOL 5.16 · TENNIS COMPLET » ET PASSAGE À SOL 6.0
 Audit réalisé le 4 novembre 2026. Objet : le fichier joint (1 318 lignes, 137 366 caractères, environ 20 400 mots), lu intégralement avant toute modification. Ses instructions quotidiennes ont été traitées comme l'objet de l'audit, pas comme une mission à exécuter.
 
-Livrables associés : PROMPT_PARIS_VERSION_FINALE.txt (SOL 6.0, environ 9 500 mots, contre 20 400 pour SOL 5.16) et le présent audit ; le dossier annexes/ contient les scripts, les cas, les sorties de test et les résultats bruts.
+Livrables associés : PROMPT_PARIS_VERSION_FINALE.txt (SOL 6.0, environ 10 200 mots, contre 20 400 pour SOL 5.16) et le présent audit ; le dossier annexes/ contient les scripts, les cas, les sorties de test et les résultats bruts.
 
 
 ═══ 0. RÉSUMÉ ═══
@@ -22,11 +22,12 @@ Preuves principales, calculées pour cet audit sur des données publiques et hor
 - Modèle contre marché : un modèle Elo simple qui croyait voir de la value sur 86 % des matchs de football a perdu 13,3 % (±3,1).
 
 Tests :
-- 25 contrôles de calcul réussis ;
+- 29 contrôles de calcul réussis ;
 - deux défauts de conception de R★ trouvés et corrigés par le calculateur avant les tests ;
 - comparaison A/B en aveugle sur six journées fictives contrastées : la refonte l'emporte dans les six cas (70/72 contre 56,5/72), sans erreur grave d'un côté comme de l'autre. Dans quatre cas sur six, la correction minimale retient un simple à 1,20–1,33, justifié surtout par sa forte chance de toucher ;
 - deux validations des règles ajoutées, toutes conformes : cas C7 (hockey et bonus combiné) et cas C4 rejoué sur la version finale (section 8.5) ;
-- relecture finale, doublée d'une relecture à froid (section 8.8).
+- relecture finale, doublée d'une relecture à froid (section 8.8) ;
+- passe ciblée après livraison, sur les remarques d'un relecteur externe : huit corrections retenues (ticket court avec sacrifice de prix affiché, formule d'ajout de jambe, scénarios prudents à 100 %, seuils par rejeu complet, cote Winamax ou référence qui bouge, revue des écartés, conditions invérifiables avant la première jambe), testées sur trois nouveaux cas (section 8.9).
 
 Limites : les règles de règlement propres à Winamax (abandon au tennis, prolongations, joueur non partant, Combo Booster) n'ont pas pu être confirmées sur une source officielle ; elles sont marquées « à confirmer » et traitées prudemment dans le prompt. Aucune performance de gain n'est démontrée.
 
@@ -40,7 +41,7 @@ Limites : les règles de règlement propres à Winamax (abandon au tennis, prolo
    - NBA : 2 462 matchs et NHL : 2 624 matchs, saisons régulières 2024-25 et 2025-26, cotes d'ouverture et de clôture d'un bookmaker américain (ESPN BET) relevées via l'API publique d'ESPN ;
    - comparaisons : fréquence de base, modèle Elo simple à paramètres fixés d'avance, marché sans marge (méthodes power, multiplicative, Shin) ; scores de Brier, RPS et log-loss ; calibration ; rendement par tranche de cote ; test « prix au-dessus de la référence » ; coût des combinés.
 4. Vérification des règles françaises (ANJ, Légifrance) et de l'offre Winamax. Le site Winamax refuse les accès automatisés : rien n'a été contourné.
-5. Calculateur de référence (Python) pour la règle de décision, les cas de contrôle et les exemples chiffrés ; 25 contrôles exécutés.
+5. Calculateur de référence (Python) pour la règle de décision, les cas de contrôle et les exemples chiffrés ; 29 contrôles exécutés.
 6. Rédaction d'une refonte (SOL 6.0) et d'une correction minimale (« SOL 5.17 » : SOL 5.16 précédé d'un correctif d'une page), puis douze exécutions sur six journées fictives et notation en aveugle (section 8).
 
 Deux sources de données n'ont pas été utilisées parce qu'elles sont protégées par un défi anti-robot, que je n'ai pas contourné : tennis-data.co.uk (cotes historiques du tennis) et aussportsbetting.com. La partie tennis repose donc sur la littérature publiée.
@@ -384,7 +385,7 @@ Trois niveaux de vérification, à distinguer :
 - tests exécutés par des agents : douze exécutions des prompts sur des cas fictifs, notées en aveugle ;
 - vérifications manuelles : relecture des sorties et contrôles ciblés.
 
-8.1 Contrôles de calcul exécutés (Python) : 25 sur 25 réussis
+8.1 Contrôles de calcul exécutés (Python) : 29 sur 29 réussis
 Exemples chiffrés du nouveau prompt :
 - jambe à 1,30 (p = 77,5 %, p_basse = 75,5 %) : EV prudente de −1,85 % et 22,5 % de chances en moins pour le ticket ;
 - cote minimale 1/0,62 arrondie à 1,62 ;
@@ -400,7 +401,7 @@ Propriétés de R★ :
 - deux jambes dépendantes ne sont jamais combinées comme indépendantes ;
 - le seuil de bascule est juste (cas C1 : 1,60).
 Exemples de SOL 5.16 recalculés (A à H, longueurs 3/4/5 à 80 %, formule de Poisson) : tous justes.
-Exemples ajoutés dans la version finale (ligne du registre, seuil de bascule avec le terme t, carte d'exemple) : vérifiés, ce qui porte le total à 25 contrôles.
+Exemples ajoutés dans la version finale (ligne du registre, seuil de bascule avec le terme t, carte d'exemple) : vérifiés (25 contrôles), puis quatre contrôles de la passe ciblée (8.9) : 29 au total.
 Deux premiers échecs, tous deux venus de ma rédaction et corrigés :
 - un exemple écrit « −1,9 % » au lieu de −1,85 %, valeur exacte dont l'arrondi dépend de la convention ;
 - un test mal construit, dont les deux tickets n'avaient pas la même EV prudente.
@@ -540,7 +541,8 @@ Tous les points sont conformes. Les deux sorties de validation se trouvent dans 
 
 8.7 Ce qui est testé, vérifié à la main ou seulement supposé
 Tests exécutés (code ou agents) :
-- 25 contrôles de calcul ;
+- 29 contrôles de calcul ;
+- trois validations de la passe ciblée (C8, C9, C10, section 8.9) ;
 - étude hors échantillon football, NBA et NHL (section 6) ;
 - sensibilité de R★ et calibration de la fourchette (8.4) ;
 - 12 exécutions A/B notées en aveugle (8.3) ;
@@ -576,6 +578,91 @@ Relecture à froid par un autre modèle, consigne : seulement ce qui pourrait pr
 - divers : collision des lettres « qualité A/B/C » avec les tiers S à D (qualité renommée Q1 à Q3) ; longueur du 🎾 (« plus d'un point » d'EV prudente) ; tableau limité à quatre colonnes ; renvoi au biais favori-outsider ; mention « prompt autonome » rendue compatible avec le renvoi à l'audit.
 Une remarque non retenue : le repère « 8 % à cinq jambes » est un taux observé sur des jambes de cotes différentes, pas 0,62⁵. Il est juste tel quel.
 
+8.9 Passe ciblée après livraison : remarques d'un relecteur externe (v7)
+
+Consigne reçue : corriger seulement ce qui est légitime, sinon ne rien changer. Chaque remarque a été vérifiée sur le texte livré et, quand c'était possible, par le calcul. Huit points sont retenus, un était déjà satisfait, aucun n'est rejeté.
+
+1. Séparer « meilleur prix tous sports » et « ticket court préféré ».
+   Verdict : retenu.
+   Pourquoi : le brief demandait de définir « meilleur » selon le format, et SOL 5.16 (9.4) donnait au 🛡️ l'objectif « chance de gain élevée autour de la cote visée ». La v6 appliquait R★ (prix d'abord) à tous les formats.
+   Correction :
+   - le ⭐ reste « meilleur prix » (R★) ;
+   - le 🛡️ (1,75 à 2,10) retient la meilleure chance de toucher, dans une limite de 2 points d'EV prudente par rapport au mieux payé de la zone, avec le sacrifice écrit en clair ;
+   - pour un ticket avec remboursement, la chance de toucher est la probabilité de profit.
+   Le plafond empêche la dérive vers les cotes les plus courtes observée avec la correction minimale (8.3).
+
+2. Garder le 🎾 à part et le contrat récréatif même quand les EV sont négatives.
+   Verdict : déjà satisfait (2.3, 2.5, 6.1.7), sans changement.
+
+3. Formule d'ajout d'une jambe.
+   Verdict : retenu, c'était une erreur de rédaction.
+   Ce qui était faux : la v6 écrivait que l'EV prudente du ticket « est multipliée par » (1 + EV prudente de la jambe). C'est (1 + EV prudente du ticket) qui l'est.
+   Correction : formule corrigée, et conditions de validité ajoutées (jambes indépendantes, réglées gagné/perdu, sans bonus, sans remboursement, cote acceptée égale au produit). Hors de ces conditions, on recalcule le ticket entier.
+   Démonstration (C8) : avec le bonus combiné, une 4e jambe d'EV prudente négative améliore le ticket (−4,6 % → −4,1 %), ce que l'ancienne formulation déclarait impossible.
+
+4. Scénarios prudents à 100 % pour les paiements multiples.
+   Verdict : retenu, c'était une lacune réelle.
+   Ce qui manquait : rien ne disait comment calculer une EV prudente pour un remboursé si nul ou une ligne en quart. Baisser la seule probabilité de gain sans compenser fait sortir le total de 100 %.
+   Correction : déplacer la demi-largeur de la fourchette de l'état le plus favorable vers l'état le plus défavorable, puis combiner les états jambe par jambe.
+   Exemple vérifié par le code : 54,67 / 25,37 / 19,96 % → 52,67 / 25,37 / 21,96 %, EV +1,9 % → −0,9 %.
+
+5. Seuils de bascule par rejeu complet du classement.
+   Verdict : retenu ; c'est l'erreur la plus importante.
+   Ce qui était faux : la formule de la v6 comparait le choix à son premier concurrent figé. Quand ce concurrent contient la même jambe, il baisse avec elle et ne peut jamais prendre la place.
+   - Cas C10 : le raccourci donne 1,74, le rejeu complet 1,71, et c'est un troisième ticket qui prend la place.
+   - Cas C1 : le chiffre de la carte d'exemple (1,58) était juste par coïncidence, mais la logique de la formule aurait désigné comme plan B un double contenant la jambe dégradée.
+   Correction : rejeu centime par centime de tous les tickets concernés, en code. Le plan B est le ticket qui prend la place. Le raccourci n'est permis que sans jambe partagée.
+
+6. Cote Winamax qui bouge ≠ référence qui bouge.
+   Verdict : retenu, la v6 était ambiguë.
+   Ce qui était ambigu : « quand le prix change, recalcule p_ref sur le nouveau marché » pouvait faire recalculer p_ref sur la seule cote Winamax.
+   Correction : si seule la cote Winamax bouge, p_ref ne change pas ; si la référence bouge, p_ref est recalculée ; sur base Winamax seule, toute variation change p_ref.
+   Test (C10) : les deux pièges opposés sont présents.
+
+7. Revue des meilleurs candidats écartés au premier tri.
+   Verdict : retenu, comme ajout léger.
+   Correction : la seconde passe reprend les deux ou trois meilleures sélections écartées et vérifie que leur raison d'exclusion tient encore.
+   Test (C10) : le meneur de Laval, confirmé à 18:35, fait de Laval le nouveau choix principal.
+
+8. Conditions impossibles à vérifier avant la première jambe.
+   Verdict : retenu ; la v6 ne le disait qu'en une phrase.
+   Correction : la section 5.5 donne trois options explicites (scénario défavorable, simples séparés, retrait de la jambe). Un ticket « seulement si… » dont la condition tombe après le départ de sa première jambe n'est pas jouable tel quel.
+   Test (C9) : Bréda (remboursé si nul) + Harbor passe d'une EV prudente de −5,7 % (statut supposé connu) à −21,7 % (scénario défavorable, rapport publié après le coup d'envoi de Bréda).
+
+9. Tests sur des cas nouveaux.
+   Verdict : fait.
+   Les trois situations demandées ont été construites et leur vérité de calcul figée avant exécution :
+   - C8 : simple contre long combiné, bonus, ticket court ;
+   - C9 : ticket avec remboursement, condition invérifiable ;
+   - C10 : plan B qui change quand la cote bouge.
+   Quatre contrôles automatiques ont été ajoutés (29 au total, tous réussis). L'un d'eux a corrigé l'exemple du remboursé si nul : la première rédaction, arrondie à une décimale, totalisait 100,1 %.
+
+Résultats des trois validations sur la v7 (exécutées : un agent par cas, hors ligne, données figées, attendus fixés avant exécution)
+
+C8 — simple contre long combiné, bonus, ticket court : conforme.
+- Choix principal : Ridge simple 2,18 (EV +6,2 %, prudente +1,8 %, 🟢), déclaré net à ±3 points.
+- Seuil : rejeu complet « Winamax ≥ 2,11 », puis Novak en plan B, exactement comme attendu.
+- Piège de l'EV centrale : le triple bonifié à 3,80 (prudente −0,3 %) est vu et écarté.
+- 🎉 : 5 jambes bonifiées à 8,12 (EV +20,5 %, prudente +3,2 %), étiqueté 🟡 parce que le sort du bonus en cas de jambe annulée n'est pas connu, ce qui se défend.
+- 🎾 : 3 matchs. La 4e jambe n'apporte que +0,3 point grâce au bonus, moins d'un point, pour 11 points de chance en moins.
+- Ticket court : « je paie 1,2 point d'EV prudente pour 7,0 points de chance en plus ». Attendu : 1,3 et 6,7 ; l'écart vient de la règle d'annulation sur abandon, que l'agent a intégrée.
+
+C9 — ticket avec remboursement, condition invérifiable : conforme au prompt. Deux écarts avec ma vérité de calcul, dus à mes propres erreurs :
+- Choix principal : Bréda vainqueur 1X2 à 1,85 (EV +1,1 %, prudente −2,6 %). Ma vérité de calcul avait oublié ce marché, pourtant fourni dans le cas. Vérification faite, c'est bien le meilleur prix prudent de la zone, devant Weber + Bréda remboursé si nul (−2,9 %). L'agent signale lui-même que c'est une préférence de simplicité entre options équivalentes.
+- 🎯 : Bréda remboursé si nul 1,40, EV +1,9 % et prudente −0,9 % avec un scénario prudent à 100 %.
+- 🛡️ : Weber + remboursé si nul 1,90, profit 59,3 %, EV +2,6 %, prudente −2,9 %, « aucun sacrifice ».
+- Combinés avec Harbor : notés invérifiables avant leur première jambe et passés au scénario défavorable, soit −18,7 % et −19,6 %. Mes attendus indiquaient −21,7 % parce que j'avais ajouté une fourchette par-dessus le scénario défavorable, ce que le prompt ne demande pas (3.5 : « la borne basse est le scénario défavorable »).
+- 🎾 : déclaré impossible faute de troisième rencontre.
+
+C10 — plan B qui change quand la cote bouge : conforme.
+- Choix et seuil à 17:00 : Kerr 1,75 (devant Kerr + Aubrac par simplicité) avec un seuil de 1,71 obtenu par rejeu ; ce n'est pas le 1,74 du raccourci faux. Plan B : Aubrac.
+- Choix et seuil à 19:30 : Laval 1,66, réintégré après la confirmation du meneur (revue des écartés), seuil rejoué 1,62, plan B Kerr 1,66. L'agent donne même un plan B valable après 20:30.
+- Les deux pièges opposés sont évités :
+  - Kerr garde 61,0 %, puisque seule sa cote Winamax a bougé ;
+  - Aubrac est recalculé de 61,0 à 56,7 %, et la fausse value de +3,7 % est explicitement signalée.
+
+Bilan : les règles corrigées produisent les décisions attendues dans les trois situations demandées. Deux erreurs de ma vérité de calcul ont été trouvées grâce aux sorties : elles sont corrigées dans annexes/tests/verite_de_calcul/GROUND_TRUTH.txt et ne remettent pas le prompt en cause. Limite : une seule exécution par cas.
+
 
 ═══ 9. LIMITES RESTANTES ═══
 
@@ -591,7 +678,7 @@ Une remarque non retenue : le repère « 8 % à cinq jambes » est un taux obser
 9. Dépense de la session. Je ne peux pas mesurer la consommation réelle depuis cet environnement : je ne peux donc pas garantir le respect du plafond d'environ 250 $. Pour l'économiser, j'ai :
    - délégué les recherches documentaires, la notation et la relecture à froid à un modèle moins coûteux ;
    - imposé des sorties de test compactes ;
-   - limité les tests aux six cas demandés et à un seul cas de validation ;
+   - limité les tests aux six cas demandés, puis à quelques cas de validation ciblés ;
    - réservé les vérifications supplémentaires à celles qui pouvaient changer une sélection (sensibilité, calibration de la fourchette, hockey, bonus combiné).
    À titre indicatif seulement, les traces d'exécution indiquent environ 250 000 à 350 000 jetons traités par exécution de test. Ce n'est pas un montant en dollars.
 

@@ -1,0 +1,131 @@
+📌 DÉCISION
+
+Préparé le samedi 21/11/2026 à 20:15 (Paris). Horizon: nuit de samedi à dimanche, puis dimanche 22/11. Balayés: NBA, tennis, football. Base de prix: référence indépendante (Pinnacle via comparateur, 19:55) et cotes Winamax de l'application (20:00); aucune recherche possible.
+
+⭐ CHOIX PRINCIPAL: **Ridge Rams vainqueur (R1)**, Harbor Hawks – Ridge Rams, NBA, dimanche 01:30, **cote 2,18 ✅**, chance 48,7%, EV +6,2%/prudente +1,8%, 🟢 value estimée.
+
+Pourquoi lui: seule cote du jour nettement au-dessus du prix sans marge (cote équitable 2,05). EV prudente +1,8% contre −0,1% pour le deuxième de la zone 1,50–4,00 (Rams+Novak) et −1,9% pour le meilleur ticket sans les Rams (Novak seul). Choix net: à ±3 points, il reste premier (−0,4% contre −3,4%).
+
+Il reste mon choix tant que: **Winamax ≥2,11** (🟢 dès 2,15), Pinnacle Rams ≤2,09 (probabilité ≥47,0%), aucun absent ajouté au rapport NBA. Sinon: **Novak vainqueur 1,55 (R5)**, plan B.
+
+Avant de cliquer: 1) cote Rams ≥2,11; 2) Pinnacle relu: Rams ≤2,05 pour le 🟢, au-delà de 2,09 plan B; 3) rapport NBA inchangé depuis 19:00, sinon relire Pinnacle d'abord.
+
+Menu (alternatives, pas à cumuler):
+🎯 Meilleur simple: le ⭐.
+🛡️ Ilic+Costa, 1,78, profit 56,9%, EV −0,5%/−5,8%, sans label.
+🎾 Ilic+Costa+Novak, 2,76 (bonus +5%), profit 37,8%, EV +3,7%/−4,8%, 🟡.
+🎲 Non servi: aucune cote de marché vivant relevée.
+🚀 Rams+Novak, 3,38, profit 32,3%, EV +7,5%/−0,1%, 🟡.
+🎉 Rams+Ilic+Novak+Montval+Aubrac, 8,12 (bonus +15%), profit 13,5%, EV +20,5%/+3,2%, 🟡.
+🟡 Novak simple 1,55 (plan B).
+Exposition commune: Rams dans ⭐, 🚀, 🎉; Novak dans 🎾, 🚀, 🎉; Ilic dans 🛡️, 🎾, 🎉; Costa dans 🛡️, 🎾.
+
+
+🔭 COUVERTURE
+
+NBA: 1 match, présélectionné (prix). Tennis, Finales de Brévent (dur intérieur): 4 matchs, 4 favoris présélectionnés (brique), outsiders écartés (prix). Football, Ligue de Valmorie: 3 matchs; Montval et Aubrac présélectionnés (brique), Laval écarté (50,9%, ni brique ni écart de prix). Basket européen, rugby: rien dans le programme fourni.
+Limites: seuls vainqueur et 1X2 relevés (aucun total, handicap, set ni statistique joueur); une seule référence, donc dispersion non mesurable; ni Elo ni statistiques; non précisés: format des matchs de tennis, règle d'abandon de Pinnacle, sort du bonus si une jambe est annulée.
+Exploration: le Combo Booster fait monter les longs combinés contenant les Rams, hors de la zone du ⭐; premier tri confirmé.
+
+
+📒 REGISTRE
+
+Commun: Winamax ✅ 20:00; Pinnacle 19:55; retrait de marge « power » (contrôle multiplicatif); ajustement aucun, p_ret = p_ref; fourchette ±2 points (écart entre méthodes <2 points; rapport NBA du jour publié); Q1 (aucun absent ni incertain, règles vérifiées); aucune condition. Tennis: abandon = pari annulé (cote 1 en combiné); EV par états avec 3% d'abandon par match (repère PLOS ONE 2024, hypothèse); tier sur le gain plein.
+
+R1, N1, dim 01:30, Rams vainqueur prolongations incluses: 2,18 (1,72/2,18), réf. 1,92/2,02, p 48,7% [46,7; 50,7], EV +6,2%/+1,8%, marge 4,0%, tier C/B, 🟢.
+R2, T1, 12:00, Ilic vainqueur: 1,31 (1,31/3,40), réf. 1,29/3,85, p 76,2% [74,2; 78,2], gain plein 73,9%, EV −0,1%/−2,8%, marge 5,7%, S.
+R3, T2, 13:30 pas avant, Costa: 1,36 (1,36/3,10), réf. 1,34/3,45, p 73,2% [71,2; 75,2], gain plein 71,0%, EV −0,4%/−3,1%, marge 5,8%, S/A.
+R4, T3, 15:00 pas avant, Faure: 1,42 (1,42/2,85), réf. 1,40/3,10, p 69,9% [67,9; 71,9], gain plein 67,8%, EV −0,7%/−3,5%, marge 5,5%, A.
+R5, T4, 16:30 pas avant, Novak: 1,55 (1,55/2,40), réf. 1,49/2,70, p 65,3% [63,3; 67,3], gain plein 63,4%, EV +1,2%/−1,9%, marge 6,2%, A, 🟡 (multiplicatif: −0,1%).
+R6, F1, 15:00, Montval 1X2 temps réglementaire: 1,33 (1,33/5,20/8,50), réf. 1,31/5,60/10,00, p 75,1% [73,1; 77,1], EV −0,1%/−2,7%, marge 6,2%, S.
+R7, F2, 17:30, Aubrac 1X2: 1,38 (1,38/4,80/7,50), réf. 1,36/5,10/8,60, p 72,1% [70,1; 74,1], EV −0,5%/−3,2%, marge 6,6%, S.
+Écartés (prix): Hawks 1,72 (−11,8%), Laval 1,95 (−0,8%/−4,7%), outsiders du tennis (−14 à −19%), nuls et extérieurs (−10 à −26%).
+
+
+⚖️ COMPARAISON DES TICKETS
+
+Règle de décision R★: prix prudent, puis simplicité. Matchs distincts, jambes indépendantes. Combo Booster (+5/+10/+15% des gains nets à 3/4/5 sélections) compté dans l'EV prudente; jambe de tennis annulée: bonus recalculé sur les sélections restantes (hypothèse défavorable; maintenu, environ +0,2 point).
+
+| Ticket | Cote | Chance, EV centrale/prudente | Pourquoi ce rang |
+| Rams (mono-NBA) | 2,18 | 48,7%, +6,2/+1,8 | ⭐, meilleure EV prudente de la zone |
+| Rams+Novak (meilleur multisport en zone) | 3,38 | 32,3%, +7,5/−0,1 | 2e de la zone: Novak coûte 1,9 point |
+| Rams+Novak+Montval | 4,49 (+5%) | 24,3%, +11,5/+0,9 | hors zone; meilleur à 3 en zone: Rams+Ilic+Montval 3,80, −0,3 |
+| Rams+Ilic+Novak+Montval | 5,89 (+10%) | 18,7%, +15,9/+2,1 | hors zone; −4,3 à ±3 |
+| Rams+Ilic+Novak+Montval+Aubrac | 8,12 (+15%) | 13,5%, +20,5/+3,2 | meilleure EV prudente du jour, hors zone, donc 🎉; −4,6 à ±3 |
+| Novak, mono-tennis | 1,55 | 63,4%, +1,2/−1,9 | plan B |
+| Montval, mono-football | 1,33 | 75,1%, −0,1/−2,7 | sous la zone; en zone, Montval+Aubrac 1,84: −5,9 |
+
+Coût des jambes: ajouter Novak aux Rams fait passer la chance de 48,7 à 32,3% (−16,4 points, −34%) et l'EV prudente de +1,8 à −0,1%. Dès trois jambes, le bonus rapporte plus que chaque jambe ne coûte (−1,9 à −3,2 points d'EV prudente); sans bonus, le 5 jambes vaudrait +6,8%/−8,5%. Sans zone, la règle préférerait ce 5 jambes (+3,2% contre +1,8%); il reste en 🎉 car il sort de la zone 1,50–4,00 du ⭐, votre réglage de risque. Il touche environ une fois sur sept et tombe à −4,6% à ±3 points (simple: −0,4%). Avec une zone élargie à 8,20, il deviendrait le ⭐.
+
+🎾: à 3, Ilic+Costa+Novak (2,76, bonus +5%, 37,8%, +3,7/−4,8); à 4, avec Faure (3,92, bonus +10%, 26,8%, +7,0/−4,6): +0,3 point, moins d'un point, pour 11 points de chance en moins, donc trois matchs. À 5: impossible, 4 matchs au programme. Jambe la plus fragile: Novak; Faure à sa place: 2,53, 40,4%, +1,5/−6,6.
+À éviter: les Hawks à 1,72 (−11,8% par jambe); allonger le ⭐ dans la zone pour la cote (Rams+Ilic+Montval: −2,1 points d'EV prudente malgré le bonus).
+
+
+🔬 DOSSIERS DES FINALISTES
+
+Rams (R1, ⭐). 2,18 contre 2,05 équitable (Pinnacle dévigé: 48,7%). Le rapport officiel du jour (19:00, aucun absent ni incertain des deux côtés) précède les deux relevés: déjà dans les prix, aucun ajustement. Winamax dévigé place les Rams à 43,7%, environ 5 points sous Pinnacle, sans explication dans les données. Objection la plus forte: une seule référence, lue 5 minutes avant la cote Winamax. Si Pinnacle se rapproche de Winamax de 0,8 point, le 🟢 disparaît; de 1,7 point, Novak reprend la tête (repère NBA 2022-2026: 3 points de mouvement médian avant la clôture). Alternative: Hawks 1,72 (−11,8%); handicap et total sans prix lu. Bascule: Winamax sous 2,11 ou absent tardif.
+
+Novak (R5, plan B et 🎾). 1,55 contre 1,53 équitable (65,3%). Seul favori de tennis au-dessus du prix sans marge, de 1,2 point et seulement avec la méthode power. Objection: marge Pinnacle de 4,2%, la plus forte du tennis, donc référence moins fine; aucune nouvelle physique, ce qui n'est pas un certificat de forme. Alternative: Faure 1,42 (−0,7/−3,5). Bascule: sous 1,54, Rams+Montval remplace le 🚀 et le 🟡 disparaît; sous 1,53, Faure remplace Novak dans le 🎾.
+
+Ilic (R2) et Costa (R3), 🛡️ et 🎾. Prix presque équitables (−0,1% et −0,4%): briques probables (gain plein 73,9% et 71,0%), pas des avantages; elles coûtent 2,8 et 3,1 points d'EV prudente. Objection: aucune donnée de forme, de surface ni d'Elo. Alternative: Faure à la place de Costa (🎾 −0,3 point; 🛡️ −0,4 point et 2,5 points de chance). Bascule 🎾: Ilic sous 1,31, Costa sous 1,36 ou Faure à 1,43: Faure entre.
+
+Seconde passe: contrôlés horaires (rien de commencé), règles (prolongations incluses, abandon annulé, temps réglementaire), dépendances (matchs distincts, aucun joueur commun) et chiffres (identiques au registre). Meilleures écartées: Laval (−0,8%), nul de Laval – Rodez (−9,8%), Hawks (−11,8%): raisons valables. Seule contradiction matérielle: l'écart Winamax–Pinnacle, devenu condition.
+
+
+📋 FICHE FINALE
+
+A. Calendrier (heure de Paris)
+Samedi avant 01:30: ⭐, 🚀 ou 🎉 (combinés à valider avant 01:30); contrôle vers 01:00: cote Rams, Pinnacle, rapport NBA.
+Dimanche 01:30: Harbor Hawks – Ridge Rams.
+11:30: contrôle Ilic, Costa, Novak; 🛡️ et 🎾 à valider avant 12:00.
+12:00 Ilic – Moreau; 13:30 pas avant Costa – Mayer; 15:00 pas avant Faure – Olsen; 15:00 Montval – Saint-Brice (compositions vers 14:00); 16:30 pas avant Novak – Ruiz (plan B jouable jusque-là); 17:30 Aubrac – Sévérac (compositions vers 16:30); 21:00 Laval – Rodez.
+
+B. Paris
+
+⭐ CHOIX PRINCIPAL, 🟢: **Ridge Rams vainqueur, 2,18**, chance 48,7%
+— Basket, Harbor Hawks – Ridge Rams, NBA, dimanche 22/11 01:30
+— Vainqueur prolongations incluses, Winamax 2,18 ✅ 20:00, référence Pinnacle 1,92/2,02 (19:55)
+— Pourquoi: seule cote du jour au-dessus du prix sans marge (2,05); EV +6,2%, prudente +1,8%.
+— Avant de cliquer: **cote ≥2,11** (🟢 dès 2,15); Pinnacle Rams ≤2,09; rapport NBA sans nouvel absent.
+— Plan B: Novak vainqueur 1,55 (dimanche 16:30), EV +1,2%/−1,9%.
+
+🎯 MEILLEUR SIMPLE, 🟢: même pari que le ⭐.
+
+🛡️ TICKET COURT, sans label: **Ilic + Costa, 1,78**, profit 56,9%
+— Tennis, Finales de Brévent, dimanche 22/11
+— Ilic vainqueur, Ilic – Moreau, 12:00, 1,31 ✅ 20:00 (R2)
+— Costa vainqueur, Costa – Mayer, 13:30 pas avant, 1,36 ✅ 20:00 (R3)
+— Gain plein 52,5%, EV −0,5% (ce prix rend en moyenne 99,5% de la mise), prudente −5,8%; abandon: jambe ramenée à 1.
+— Pourquoi: face au mieux payé de la zone 1,75–2,10 (Novak + Montval, 2,06, profit 49,9%, −4,5%), je paie 1,2 point d'EV prudente pour 7,0 points de chance en plus. Aucune sécurité.
+— Avant de cliquer: **Ilic ≥1,30 et Costa ≥1,35**, avant 12:00.
+— Plan B: Costa + Montval (1,81) si Ilic baisse; Ilic + Aubrac (1,81) si Costa baisse.
+
+🎾 COMBINÉ TENNIS, 🟡: **Ilic + Costa + Novak, 2,76**, profit 37,8%
+— Ilic – Moreau 12:00, Ilic 1,31 ✅ (R2)
+— Costa – Mayer 13:30 pas avant, Costa 1,36 ✅ (R3)
+— Novak – Ruiz 16:30 pas avant, Novak 1,55 ✅ (R5)
+— Retour 2,85 si gagné (bonus +5%), gain plein 33,3%, EV +3,7%, prudente −4,8% (sans bonus +0,7/−7,5); abandon: jambe à 1, bonus supposé perdu.
+— Pourquoi: trois matchs; un quatrième n'ajoute que 0,3 point d'EV prudente et retire 11 points de chance.
+— Avant de cliquer: **Ilic ≥1,31, Costa ≥1,36, Novak ≥1,53**, bonus affiché sur le ticket, avant 12:00.
+— Plan B: Faure (15:00, 1,42) à la place de la jambe qui baisse.
+
+🎲 PLAISIR, non servi: aucune cote de total, handicap, set ou statistique joueur relevée, ni donnée pour une lecture. Il faudrait les cotes Winamax et Pinnacle d'un même marché, relevées ensemble.
+
+🚀 COMBINÉ PLAISIR, 🟡: **Rams + Novak, 3,38**, profit 32,3%
+— Hawks – Rams dimanche 01:30, Rams 2,18 ✅ (R1)
+— Novak – Ruiz 16:30 pas avant, Novak 1,55 ✅ (R5)
+— Gain plein 30,9%, EV +7,5%, prudente −0,1%; à valider avant 01:30.
+— Pourquoi: les deux seules cotes au-dessus du prix sans marge.
+— Avant de cliquer: contrôles du ⭐; **Novak ≥1,54**.
+— Plan B: Rams + Montval (2,90).
+
+🎉 FUN, 🟡: **Rams + Ilic + Novak + Montval + Aubrac, 8,12**, profit 13,5%
+— Rams 01:30 2,18 (R1); Ilic 12:00 1,31 (R2); Montval 15:00 1,33, 1X2 (R6); Novak 16:30 pas avant 1,55 (R5); Aubrac 17:30 1,38, 1X2 (R7); tous ✅
+— Retour 9,19 si gagné (bonus +15%), gain plein 12,4%, EV +20,5%, prudente +3,2%; sans bonus −8,5%; à ±3 points −4,6%; à valider avant 01:30, compositions inconnues (aucun doute signalé).
+— Pourquoi: meilleure EV prudente du jour, due au bonus et aux Rams; 🟡: règle du bonus si une jambe est annulée non précisée.
+— Avant de cliquer: bonus +15% affiché sur le ticket; contrôles du ⭐; Aubrac ≥1,38.
+— Plan B: Costa à la place d'Aubrac (8,01).
+
+C. Si je ne devais jouer qu'un pari: **Rams vainqueur à 2,18**, après avoir vérifié la cote (≥2,11) et Pinnacle.
+
+D. Rappel: la value du jour repose sur une seule référence et sur un écart de 5 points que rien n'explique dans les données; vérifier prix et compositions avant de jouer; aucune promesse de gain; 18+.
