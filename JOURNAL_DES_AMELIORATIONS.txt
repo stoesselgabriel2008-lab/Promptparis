@@ -21,3 +21,8 @@ Révision 6.3 — freebet (3.12) : la règle « n'allonge pas un ticket » faisa
 - Nouvelle règle : classement par valeur prudente avec la logique de R★ (groupe de tête à 1 % du montant, puis le moins de jambes) ; les portes d'admissibilité ne changent pas ; le meilleur simple est toujours montré avec le coût en euros de le préférer, et le choix reste à l'utilisateur ; freebet à mise rendue = pari en espèces ; carte « Freebet » dans la fiche finale.
 - Calculateur : fonction freebet_rank ; deux contrôles ajoutés (exemple 2,00 / 8,00 et cas C13).
 Contrôles : statiques OK ; calculs 31/31.
+
+Révision 6.4 — horizon du jour (É1)
+- Ambiguïté corrigée : « aujourd'hui » ne disait pas si les matchs de la nuit (NBA, NHL vers 01:00–04:00 à Paris, tennis en Asie ou en Océanie) en faisaient partie. Ils étaient inclus dans les cas de test, mais un agent pouvait les exclure en lisant la date de Paris.
+- Règle : l'horizon du jour va jusqu'à 6:00 le lendemain (heure de Paris) ; pour un match de nuit, la fiche écrit la date réelle (« dimanche 01:30 »).
+Contrôles : statiques OK ; calculs 31/31.
