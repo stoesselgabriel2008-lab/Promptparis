@@ -8,7 +8,8 @@ errors, notes = [], []
 # 1. cross-references resolve to existing section headings
 heads = set(re.findall(r"^(\d+\.\d+(?:\.\d+)?) ", s, flags=re.M))
 cited = set()
-for a, b in re.findall(r"\((?:voir |repères en |sinon applique )?(\d+\.\d+(?:\.\d+)?)\)|\b(\d\.\d{1,2}(?:\.\d)?)\b", s):
+s_refs = re.sub(r"Révision \d+\.\d+", "", s)  # the revision number in the header is not a section reference
+for a, b in re.findall(r"\((?:voir |repères en |sinon applique )?(\d+\.\d+(?:\.\d+)?)\)|\b(\d\.\d{1,2}(?:\.\d)?)\b", s_refs):
     x = a or b
     if x and not re.match(r"^\d\.\d{2,}$", x):
         cited.add(x)
