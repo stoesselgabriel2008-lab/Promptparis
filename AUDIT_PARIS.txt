@@ -1,7 +1,7 @@
 AUDIT DE « SOL 5.16 · TENNIS COMPLET » ET PASSAGE À SOL 6.0
 Audit réalisé le 4 novembre 2026. Objet : le fichier joint (1 318 lignes, 137 366 caractères, environ 20 400 mots), lu intégralement avant toute modification. Ses instructions quotidiennes ont été traitées comme l'objet de l'audit, pas comme une mission à exécuter.
 
-Livrables associés : PROMPT_PARIS_VERSION_FINALE.txt (SOL 6, livré en 6.0 avec environ 10 200 mots contre 20 400 pour SOL 5.16 ; révision 6.33 et environ 12 200 mots après les cycles d'amélioration de la section 8.10) et le présent audit ; le dossier annexes/ contient les scripts, les cas, les sorties de test et les résultats bruts.
+Livrables associés : PROMPT_PARIS_VERSION_FINALE.txt (SOL 6, livré en 6.0 avec environ 10 200 mots contre 20 400 pour SOL 5.16 ; révision 6.36 et environ 12 600 mots après les cycles d'amélioration de la section 8.10) et le présent audit ; le dossier annexes/ contient les scripts, les cas, les sorties de test et les résultats bruts.
 
 
 ═══ 0. RÉSUMÉ ═══
@@ -28,7 +28,7 @@ Tests :
 - deux validations des règles ajoutées, toutes conformes : cas C7 (hockey et bonus combiné) et cas C4 rejoué sur la version finale (section 8.5) ;
 - relecture finale, doublée d'une relecture à froid (section 8.8) ;
 - passe ciblée après livraison, sur les remarques d'un relecteur externe : huit corrections retenues (ticket court avec sacrifice de prix affiché, formule d'ajout de jambe, scénarios prudents à 100 %, seuils par rejeu complet, cote Winamax ou référence qui bouge, revue des écartés, conditions invérifiables avant la première jambe), testées sur trois nouveaux cas (section 8.9) ;
-- cycles d'amélioration après livraison (révisions 6.1 à 6.33) : relectures indépendantes, règle Winamax d'abandon et accès aux sources vérifiés, priorité « jeu responsable », réglage sur le goût de l'utilisateur (paris de 2 à 3 chaque jour), six cas nouveaux C11 à C16 tous conformes, 37 contrôles de calcul (section 8.10).
+- cycles d'amélioration après livraison (révisions 6.1 à 6.36) : relectures indépendantes, règle Winamax d'abandon et accès aux sources vérifiés, priorité « jeu responsable », réglage sur le goût de l'utilisateur (paris de 2 à 3 chaque jour), six cas nouveaux C11 à C16 tous conformes, pratiques documentées des parieurs sérieux intégrées, 39 contrôles de calcul (section 8.10).
 
 Limites : les règles de règlement propres à Winamax (abandon au tennis, prolongations, joueur non partant, Combo Booster) n'ont pas pu être confirmées sur une source officielle ; elles sont marquées « à confirmer » et traitées prudemment dans le prompt. Aucune performance de gain n'est démontrée.
 
@@ -664,7 +664,7 @@ C10 — plan B qui change quand la cote bouge : conforme.
 
 Bilan : les règles corrigées produisent les décisions attendues dans les trois situations demandées. Deux erreurs de ma vérité de calcul ont été trouvées grâce aux sorties : elles sont corrigées dans annexes/tests/verite_de_calcul/GROUND_TRUTH.txt et ne remettent pas le prompt en cause. Limite : une seule exécution par cas.
 
-8.10 Cycles d'amélioration après livraison (révisions 6.1 à 6.33)
+8.10 Cycles d'amélioration après livraison (révisions 6.1 à 6.36)
 
 Demande : de nombreux petits audits successifs, chacun sauvegardé, poussé sur GitHub et envoyé, pour qu'une interruption laisse toujours une version complète et utilisable. Le détail de chaque révision (défaut, chiffres refaits, règle) est dans JOURNAL_DES_AMELIORATIONS.txt ; cette section en donne la synthèse.
 
@@ -691,6 +691,11 @@ Révisions 6.22 à 6.33 :
 - Corrections de mes propres révisions récentes, trouvées par une relecture du seul texte ajouté (6.23 à 6.26, 6.30) : borne prudente après ajustement (min(p_ret ; p_ref) − demi-largeur) ; fenêtre de fraîcheur sur l'heure du prix et non de la lecture (le fichier de football-data.co.uk contient des cotes du vendredi ou du mardi) ; marche à suivre sans cote lisible (zone, simplicité, heure de la référence) ; règle d'abandon appliquée sans relecture ; coupe de présélection par EV prudente ; plancher jamais sous la zone ; règle complète du ticket court.
 - Situations courantes jusque-là sans règle (6.27 à 6.31) : pari en direct et cash-out ; cote boostée ; contraintes imposées (cote cible, équipe, nombre de jambes) ; un seul pari ; « le plus sûr » (comparaison locale entre paris de chance voisine, ma première version comparant au meilleur simple du jour choisissait un boost à 53 %) ; « je ne pourrai pas revérifier ».
 - Goût de l'utilisateur (6.32, 6.33) : des paris sympas de 2 à 3 chaque jour (⭐ de 1,80 à 3,00, 🚀 autour de 3, 🎯 à partir de 1,50), mode « paris sur 3 jours », réponse courte par défaut avec le détail sur demande.
+
+Pratiques documentées des parieurs sérieux (6.34 à 6.36), à la demande de l'utilisateur (« est-ce que tu t'es inspiré des meilleurs ? ») :
+- le cœur du système correspondait déjà à la littérature : comparaison à un prix sans marge de référence (Kaunitz, Zhong et Kreiner 2017 ; Buchdahl), dévig power, biais favori-outsider, CLV comme indicateur, mise jamais augmentée ;
+- ajouts : un écart de plus de 8 % est d'abord vérifié comme une erreur possible, puis classé avec la moitié de l'écart (malédiction de l'optimiseur, Smith et Winkler 2006 ; rétention de 30 à 75 % de l'avantage noté, Buchdahl 2026) ; référence lue à plus de 24 h = EV provisoire ; ±3 points en compétitions peu liquides ; mise fixe décidée à froid (Buchdahl, simulations de Kelly ; Baker et McHale 2013) ; une promotion ne crée pas de pari en plus (ESRI 2025 ; Rockloff et al. 2019) ; coût présumé élevé des créateurs de paris (Newall et al. 2021) ; CLV mesurée face à la clôture sans marge et rétention ; journal complet rapproché du compte (Auer et Griffiths 2017) ; rappel de variance recalculé en code ;
+- écartés après examen : martingale et mises progressives, Kelly entier, arbitrage et comparaison de bookmakers (hors du cadre Winamax seul), « jouer contre le public », systèmes de forme ou de série, règles tennis sans validation hors échantillon, systèmes du nul, méthode de Shin à la place de power (aucun gain mesurable dans l'audit).
 
 Examiné et non retenu : ancrer le groupe de tête sur le meilleur ticket le plus court plutôt que sur le meilleur ticket tout court (relecture « logique »). Les deux règles bornent la perte à un point d'EV prudente face au meilleur ticket ; la proposée a sa propre dépendance au chemin, et le cas ne se présente qu'avec plusieurs jambes d'EV prudente positive, rares sur Winamax. Changer R★ aurait invalidé les validations passées sans gain démontré.
 
