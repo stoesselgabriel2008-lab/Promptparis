@@ -202,3 +202,10 @@ Révision 6.33 — des paris sympas de 2 à 3 chaque jour (UTILISATION, 2.3, fic
   - la chance s'affiche aussi en clair (« environ x fois sur 10 »).
 - Cohérence : l'exemple de seuil de 3.10 précise sa zone (1,50 à 4,00) ; la carte d'exemple de la fiche (1,62) devient un 🎯, puisque le ⭐ commence désormais à 1,80 (ses chiffres, vérifiés par le calculateur, ne changent pas).
 Contrôles : statiques OK ; calculs 37/37.
+
+Révision 6.34 — fiabilité de la référence et écarts trop beaux (3.4, 3.5, 3.7)
+Issu d'une recherche ciblée sur les pratiques documentées des parieurs sérieux (Joseph Buchdahl, football-data.co.uk ; Kaunitz, Zhong et Kreiner 2017 ; Smith et Winkler 2006 ; Clegg et Cartlidge 2025) :
+- Écart exceptionnel : en classant par EV, on sélectionne mécaniquement les erreurs (mauvaise ligne, prix périmé, marché suspendu) et les écarts surestimés ; c'est la « malédiction de l'optimiseur ». Mesuré sur des milliers de paris à valeur apparente, seule une partie de l'avantage noté au moment du pari se retrouve face à la clôture (de 30 à 75 % environ). Règle : une EV centrale de plus de 8 % face à une référence liquide (hors cote boostée) est d'abord une anomalie à vérifier ; si elle tient, elle est classée avec la moitié de l'écart, p = (p_ref + 1/o) / 2, et annoncée « value exceptionnelle, à confirmer ». Contrôle ajouté.
+- Référence lue tôt : à plus de 24 h du départ, l'avantage apparent ne se retrouve presque pas à la clôture ; les prix d'ouverture sont les moins efficaces. Règle : EV provisoire (🟡 au mieux), à relire le jour même ; utile surtout au mode « paris sur 3 jours ».
+- Compétitions peu liquides (Challenger, ITF, qualifications, WTA 125, divisions inférieures, basket européen) : fourchette de ±3 points au lieu de ±2.
+Contrôles : statiques OK ; calculs 38/38.

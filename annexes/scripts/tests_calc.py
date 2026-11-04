@@ -176,6 +176,13 @@ _old = max([t for t in _singles if t["ev_low"] >= _bestv - 0.02 - 1e-12], key=la
 check("SOL6 r6.31 2.3 : « le plus sûr » — l'objectif du 🛡️ étendu aux simples retenait le boost à 2,40 (53 %) ; la règle locale retient Kovac 1,33 (75,7 %), Harbor étant chiffré au scénario défavorable",
       _old["rids"] == ["BOOST"] and _safe["rids"] == ["S1"], f"6.29 {_old['rids']} ; 6.31 {_safe['rids']} P {_safe['P']*100:.1f} %")
 
+# ---------- 6.34 : écart exceptionnel ramené à moitié ----------
+_o, _pr = 2.30, 0.48
+_ev = _o * _pr - 1
+_ps = (_pr + 1 / _o) / 2
+check("SOL6 r6.34 3.7 : p = (p_ref + 1/o)/2 divise l'EV centrale par deux (2,30 et 48 % : +10,4 % → +5,2 %)",
+      abs((_o * _ps - 1) - _ev / 2) < 1e-12 and round(_ev * 100, 1) == 10.4, f"{_ev:+.4f} → {_o*_ps-1:+.4f}")
+
 w = max(len(n) for n, _, _ in results)
 ok = sum(1 for _, c, _ in results if c)
 for n, c, d in results:
