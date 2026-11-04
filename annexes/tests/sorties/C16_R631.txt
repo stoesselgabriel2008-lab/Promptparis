@@ -1,0 +1,143 @@
+📌 DÉCISION
+
+Préparé le dimanche 20 décembre 2026 à 15:10 (heure de Paris) · horizon : ce soir, jusqu'à lundi 06:00 · balayé : les six matchs que tu as fournis (football, tennis, NBA) et ton pari en cours · base de prix : référence indépendante (Pinnacle via un comparateur qui le nomme, 15:00) face aux cotes Winamax lues dans l'application (15:05) · aucune recherche possible au-delà de ces données.
+
+**1) Boost « Lens vainqueur » à 2,40 : oui, c'est un vrai bon prix. 10 € au plus.** 🟢 Value estimée
+Sans marge, Pinnacle donne Lens gagnant à **53,1 %**, soit une cote d'équilibre d'environ 1,88. À **2,40**, l'EV est de **+27,5 %** (prudente **+22,7 %**) : environ +2,75 € en moyenne pour 10 € misés (+2,27 € au scénario prudent). C'est une moyenne, pas une promesse : tu perds tes 10 € **environ une fois sur deux** (46,9 %). Toute la value vient du boost : au prix normal de 1,80, le même pari coûte −4,4 %. Les 10 € sont un plafond, pas une cible : ne complète pas au prix normal, et ne prends ce pari que s'il entre dans ce que tu comptais jouer.
+
+**2) Cash-out : garde le pari, n'encaisse pas.**
+Seuil = offre ÷ (mise × cote prise) = 15,40 ÷ (10 × 2,20) = **70,0 %**. Tes cotes en direct (1,28 / 4,75 / 10,00, marge 9,2 %) donnent Rennes sans marge à **75,6 %** (méthode par défaut) et à 71,6 % (contrôle multiplicatif). Les deux dépassent 70,0 % : garder vaut en moyenne 15,74 à 16,63 €, contre 15,40 € si tu encaisses. Les 10 € déjà misés n'entrent pas dans le choix. Le match est commencé : je ne te conseille aucun pari en direct (prix et nouvelles en retard), ni pour « couvrir » ni pour rejouer.
+
+**3) Ton pari unique, le plus sûr : Kovac vainqueur à 1,33** (finale du WTA 250 de Lisière, dimanche 18:00) · 🟡 · chance **73,4 %**
+Il **perd environ une fois sur quatre** (23,6 %). En cas d'abandon, le pari est annulé et la mise rendue (environ 3 % des matchs). EV +0,7 % / prudente −2,0 %.
+Pourquoi lui : Harbor (NBA, 1,32) paraît un peu plus probable au prix central (76,4 %), mais le statut de Mbeki ne sera connu que vers 19:00 et tu ne pourras pas revérifier. S'il est absent, Harbor tombe à environ 62 % (EV prudente −18,2 %). Face à Lanvaux, le suivant, Kovac a 2,2 points de chance en plus et perd moins souvent (23,6 % contre 28,8 %).
+Il reste mon choix tant que **la cote affichée sur le ticket est entre 1,30 et 1,39**. Sinon : **Lanvaux vainqueur à 1,40** (Ligue de Valmorie, 18:30), 71,2 %.
+Avant de cliquer : un seul contrôle, la cote du ticket, avant 18:00.
+
+Menu : non servi. Tu demandes un seul pari, donc seuls lui et son premier concurrent (Lanvaux) sont donnés.
+Exposition : trois matchs distincts, sans lien entre eux (Rennes – Brest en cours, Kovac – Brandt à 18:00, Lens – Morlaix à 21:00). Ce sont trois décisions séparées, pas une invitation à tout jouer. Si « un seul pari ce soir » inclut le boost, il faut choisir : Kovac pour la chance (73,4 %), le boost pour le prix (EV prudente +22,7 %, pour 53,1 % de chance).
+
+
+🔭 COUVERTURE
+
+- Football, Ligue de Valmorie (D1) : 3 matchs ce soir, Lanvaux – Rocher (18:30), Lens – Morlaix (21:00) et Orvault – Belmar (21:00), avec le 1X2 complet chez Winamax et chez Pinnacle. Rennes – Brest, déjà commencé, n'est traité que pour ton cash-out.
+- Tennis : 2 finales, Kovac – Brandt (WTA 250 de Lisière, 18:00) et Novak – Ruiz (ATP 250 de Corvel, 19:30), sur le marché du vainqueur.
+- NBA : Harbor Hawks – Ridge Rams (lundi 01:30), vainqueur prolongations incluses.
+- Tri : les six favoris sont les seuls simples crédibles pour « le plus sûr ». Les nuls et les outsiders (10 à 39 % sans marge, EV de −6 % à −27 % chez Winamax) sont écartés. Approfondis : Kovac, Lanvaux, Harbor et le boost Lens. Triés sans dossier : Orvault (64,9 %) et Novak (59,2 % de gain), trop loin derrière.
+- Limites : ni compositions, ni état physique, ni forme, ni Elo (aucune recherche possible). Seule information d'effectif : Mbeki « Questionable », avec les chiffres d'un site d'analyse (un modèle, pas un prix). Les prix Winamax (15:05) et Pinnacle (15:00) ont moins de 30 minutes d'écart : je les traite comme simultanés. Règlement Winamax vérifié selon tes données : football 1X2 sur le temps réglementaire, NBA prolongations incluses, tennis vainqueur annulé en cas d'abandon. Aucun autre championnat ni aucun marché vivant (totaux, handicaps) n'a été balayé.
+- Ce que l'analyse a changé : le favori le plus court au prix (Harbor) sort à cause d'un statut que tu ne pourras pas lire, et Kovac prend sa place.
+
+
+📒 REGISTRE
+
+Matchs
+M1 · tennis · WTA 250 de Lisière, finale · Kovac – Brandt · dimanche 18:00 · à venir · approfondi
+M2 · football · Ligue de Valmorie (D1) · Lanvaux – Rocher · dimanche 18:30 · à venir · approfondi (plan B)
+M3 · tennis · ATP 250 de Corvel, finale · Novak – Ruiz · dimanche 19:30 · à venir · trié (trop peu probable pour « le plus sûr »)
+M4 · football · Ligue de Valmorie (D1) · Lens – Morlaix · dimanche 21:00 · à venir · approfondi (boost)
+M5 · football · Ligue de Valmorie (D1) · Orvault – Belmar · dimanche 21:00 · à venir · trié (trop peu probable)
+M6 · NBA · Harbor Hawks – Ridge Rams · lundi 01:30 · à venir · approfondi, écarté (statut de Mbeki)
+M7 · football · Rennes – Brest · commencé (1-0, 60e) · cash-out seulement, aucun pari en direct
+
+Sélections
+R1 · M4 · Lens vainqueur, 1X2 temps réglementaire · **cote boostée 2,40** ✅ 15:05 (10 € au plus, gain en cash selon toi ; marché normal 1,80 / 3,60 / 4,40) · réf. Pinnacle 15:00 : 1,85 / 3,70 / 4,60, power (multiplicatif 52,6 %) · p_ref 53,1 % · ajustement : aucun · p_ret 53,1 % [51,1 ; 55,1] · EV +27,5 % / prudente +22,7 % (à 1,80 : −4,4 % / −8,0 %) · marge Winamax 6,1 % (Pinnacle 2,8 %) · Q1 (aucun statut en suspens dans tes données) · tier B · condition : ticket à 2,40, gain en cash.
+R2 · M1 · Kovac vainqueur du match (annulé si abandon) · 1,33 ✅ 15:05 · réf. Pinnacle 15:00 : 1,30 / 3,80, power (multiplicatif 74,5 %) · p_ref 75,7 % · ajustement : aucun · p_ret 75,7 % [73,7 ; 77,7] · états, avec le repère d'environ 3 % d'abandons en deux sets gagnants (étude PLOS ONE 2024) : gain 73,4 % / annulé 3,0 % / perte 23,6 % ; prudent 71,4 / 3,0 / 25,6 % · EV +0,7 % / prudente −2,0 % · marge Winamax 5,5 % · Q1 · tier S · condition : aucune.
+R3 · M6 · Harbor vainqueur, prolongations incluses · 1,32 ✅ 15:05 · réf. Pinnacle 15:00 : 1,29 / 3,90, power (multiplicatif 75,1 %) · p_ref 76,4 % · ajustement : aucun · p_ret 76,4 % [62,0 ; 79,4]. La borne basse est le scénario « Mbeki absent », environ 62 % selon le site d'analyse, plus bas que 76,4 − 3 = 73,4 : le rapport de 19:00 tombe après ton heure de décision · EV +0,8 % / prudente −18,2 % (s'il joue, environ 81 % : +6,9 %) · marge Winamax 5,2 % · Q2 · tier S/A · condition : statut de Mbeki, invérifiable pour toi.
+R4 · M2 · Lanvaux vainqueur, 1X2 temps réglementaire · 1,40 ✅ 15:05 · réf. Pinnacle 15:00 : 1,38 / 5,00 / 8,50, power (multiplicatif 69,5 %) · p_ref 71,2 % · ajustement : aucun · p_ret 71,2 % [69,2 ; 73,2] · EV −0,3 % / prudente −3,1 % · marge Winamax 7,9 % · Q1 · tier S/A · condition : aucune.
+R5 · M5 · Orvault vainqueur, 1X2 temps réglementaire · 1,55 ✅ 15:05 · réf. Pinnacle 15:00 : 1,52 / 4,50 / 6,80, power (multiplicatif 64,0 %) · p_ref 64,9 % · ajustement : aucun · p_ret 64,9 % [62,9 ; 66,9] · EV +0,7 % / prudente −2,4 % · marge Winamax 7,1 % · Q1 · tier A.
+R6 · M3 · Novak vainqueur du match (annulé si abandon) · 1,62 ✅ 15:05 · réf. Pinnacle 15:00 : 1,60 / 2,45, power (multiplicatif 60,5 %) · p_ref 61,0 % · ajustement : aucun · p_ret 61,0 % [59,0 ; 63,0] · états : gain 59,2 % / annulé 3,0 % / perte 37,8 % · EV −1,1 % / prudente −4,4 % · marge Winamax 5,2 % · Q1 · tier B/A.
+R7 · M7 · Rennes vainqueur (ton pari : 10 € à 2,20, en cours) · offre de cash-out 15,40 € · cotes Winamax en direct 1,28 / 4,75 / 10,00 (au moment de ta lecture) · base Winamax seule, power (multiplicatif 71,6 %) · p 75,6 % [71,6 ; 79,6] (demi-largeur = écart entre méthodes, 4,0 points, plus large que 3) · seuil d'encaissement 70,0 % · marge 9,2 % · Q2 · décision : garder.
+
+
+⚖️ COMPARAISON DES TICKETS
+
+Règle appliquée à ta demande : je prends le simple de cote ≥ 1,30 le plus probable. Exception : un simple au plus 3 points de chance en dessous l'emporte si son EV prudente est meilleure de plus de 2 points. Comme tu ne pourras pas revérifier, ton heure de décision est maintenant : aucun pari « seulement si… », et un statut encore inconnu compte au scénario défavorable.
+
+| Ticket | Cote | Chance et EV (centrale / prudente) | Pourquoi ce rang |
+|---|---|---|---|
+| **R2 Kovac** | **1,33** | 73,4 % · +0,7 % / −2,0 % | Retenu : le plus probable sans statut en suspens |
+| R4 Lanvaux | 1,40 | 71,2 % · −0,3 % / −3,1 % | 2,2 points de chance en moins, EV prudente plus basse : plan B |
+| R3 Harbor | 1,32 | 76,4 % au centre, environ 62 % si Mbeki est absent · +0,8 % / −18,2 % | Statut connu vers 19:00, après ton heure de décision |
+| R5 Orvault | 1,55 | 64,9 % · +0,7 % / −2,4 % | 8,5 points de chance en moins |
+| R6 Novak | 1,62 | 59,2 % · −1,1 % / −4,4 % | Trop loin |
+| R1 Lens boosté | 2,40 | 53,1 % · +27,5 % / +22,7 % | Meilleur prix du jour (premier selon la règle de décision R★ : prix prudent, puis simplicité), mais pas « le plus sûr » |
+
+Contrôle : même en comptant Harbor à son prix central (76,4 %), Kovac n'est qu'à 2,9 points de chance, sous la limite de 3, avec une EV prudente meilleure de 16,2 points. La règle retient Kovac dans les deux lectures.
+
+Seuil de bascule (j'ai baissé la cote de Kovac centime par centime en rejouant toute la règle) : Kovac reste retenu jusqu'à **1,30**. À 1,29, il sort du format « simple ≥ 1,30 » et **Lanvaux** prend la place. Harbor reste derrière tant que le statut de Mbeki t'est inconnu. L'EV centrale de Kovac passe sous zéro dès 1,32 (−0,1 %) et vaut −1,5 % à 1,30, sans changer le rang : Lanvaux ne passerait devant que si son EV prudente dépassait celle de Kovac de plus de 2 points, et à 1,30 l'écart n'est que de 1,0 point. Plafond à 1,39 : au-delà, la cote aurait monté de plus de 5 %, ce qui peut signaler une nouvelle, et tu ne pourras pas relire la référence.
+
+À éviter : additionner les deux favoris les plus sûrs. Kovac + Lanvaux (cote 1,86) ne gagne que 52,3 % du temps et perd 45,6 % du temps (presque une fois sur deux), pour une EV de +0,4 % / prudente −5,0 %. Kovac + Harbor (1,76) perd 41,6 % du temps, et son EV prudente est de −19,8 % avec Mbeki au scénario défavorable.
+
+
+🔬 DOSSIERS DES FINALISTES
+
+Boost Lens (R1), question 1
+Conclusion : Lens vainqueur à 2,40 boosté, p_ret 53,1 % (Pinnacle sans marge), EV +27,5 % / prudente +22,7 %, 🟢.
+Données décisives : le marché 1X2 complet de Pinnacle à 15:00 (marge 2,8 %) et la cote boostée lue dans l'application à 15:05, avec tes conditions (10 € au plus, gain en cash). Rien d'autre : la value tient seulement à l'écart entre 2,40 et la cote d'équilibre d'environ 1,88. Ce n'est pas une lecture du match.
+Objection la plus forte : les compositions (vers 20:00) ne sont pas dans les données. Pour effacer l'EV prudente, il faudrait qu'une nouvelle fasse tomber Lens sous 43,7 % sans marge, soit une chute de plus de 9 points.
+Ce qui changerait le verdict : une cote sous 1,96 sur le ticket (si le boost a disparu, l'EV à 1,80 est de −4,4 %), ou un supplément versé en freebet plutôt qu'en cash (la part en freebet compte pour 0 au scénario prudent : EV prudente −8,0 %).
+Ce que la value ne change pas : la mise. Une forte EV ne justifie jamais une mise plus grosse.
+
+Cash-out Rennes (R7), question 2
+Calcul : seuil de 70,0 %. Rennes sans marge vaut 75,6 % (power) ou 71,6 % (multiplicatif). Même la borne basse de la fourchette (71,6 %, puisque les deux méthodes s'écartent de 4,0 points) passe le seuil.
+En euros : garder vaut 16,63 € (power) ou 15,74 € (multiplicatif) en moyenne. Encaisser revend ton pari 2 à 7 % sous sa valeur sans marge.
+Contrepartie : en gardant, tu touches 22 € environ trois fois sur quatre et 0 € environ une fois sur quatre (24 à 28 %). C'est ce risque que l'offre te fait payer pour l'éviter.
+Ce qui changerait la décision : un but, un carton rouge ou une nouvelle offre. Refais alors le calcul avec l'offre et les cotes du même instant : garde si la probabilité sans marge dépasse offre ÷ 22. Si tu encaisses quand même, les 15,40 € ne se rejouent pas, pas plus que les 22 € si Rennes gagne.
+
+Kovac vainqueur (R2), ton pari
+Conclusion : Kovac à 1,33 ✅, p_ret 75,7 % si le match va au bout (Pinnacle sans marge) ; gain 73,4 %, annulé environ 3 %, perte 23,6 %.
+Données décisives : seulement les prix. Pinnacle donne 1,30 / 3,80 (15:00, marge 3,2 %), Winamax 1,33 / 3,30 (15:05, marge 5,5 %). Winamax paie Kovac un centime au-dessus de sa cote d'équilibre (environ 1,32) et prend sa marge sur Brandt (3,30 contre 3,80). Affiche confirmée : finale à 18:00.
+Objection la plus forte : je n'ai aucune information physique ni de calendrier sur les deux joueuses (matchs de la semaine, soins). Rien ne permet d'écarter ou de confirmer un problème, et le prix ne contient que ce qui était connu à 15:00. Un abandon annule le pari (mise rendue) sans le perdre.
+Alternative : Lanvaux à 1,40 (dossier suivant). Même si le risque d'abandon doublait (6 %), Kovac perdrait encore moins souvent que Lanvaux (22,8 % contre 28,8 %).
+Bascule : si la cote du ticket sort de 1,30–1,39, joue Lanvaux.
+
+Lanvaux vainqueur (R4), premier concurrent et plan B
+Conclusion : Lanvaux à 1,40 ✅, p_ret 71,2 % (Pinnacle 1,38 / 5,00 / 8,50 sans marge ; multiplicatif 69,5 %).
+Données : les prix seulement (marge 4,2 % chez Pinnacle, 7,9 % chez Winamax). Aucune information d'effectif ; les compositions sortent vers 17:30 et tu ne les verras pas.
+Objection : le nul seul pèse 18,3 % sans marge. Le pari perd environ une fois sur 3,5 (28,8 %).
+Pourquoi il est second : 2,2 points de chance de moins que Kovac et une EV prudente plus basse (−3,1 % contre −2,0 %). Il se joue à la place de Kovac quand la cote de son ticket sort de 1,30–1,39 : cote du ticket de Lanvaux entre 1,30 et 1,47, avant 18:30.
+
+Harbor vainqueur (R3), le plus court au prix, écarté
+Conclusion : 1,32 ✅. p_ret 76,4 % au prix de 15:00, qui intègre déjà le « Questionable » de Mbeki.
+Données : selon le site d'analyse nommé, environ 81 % s'il joue et environ 62 % s'il est absent (un modèle, pas un prix). Rapprochés de ces chiffres, les 76,4 % du marché supposent environ trois chances sur quatre qu'il joue.
+Pourquoi il perd : le rapport tombe vers 19:00, après ton heure de décision. Au scénario défavorable, l'EV prudente est de −18,2 % (+6,9 % s'il joue). Tu jouerais à l'aveugle sur un statut que le marché lui-même n'a pas tranché.
+Ce qui le ferait revenir : seulement un pari placé après le rapport, avec la nouvelle cote et un nouveau prix de référence. C'est impossible pour toi ce soir.
+
+Seconde passe : les chiffres des cartes sont ceux du registre. Aucune probabilité n'a été ajustée : tout part des prix. La règle d'abandon est appliquée aux deux matchs de tennis. Orvault (EV centrale +0,7 %) garde sa raison d'exclusion : 64,9 % de chance, 8,5 points sous Kovac. Aucun combiné n'est retenu.
+
+
+📋 FICHE FINALE
+
+A. Calendrier (dimanche 20 décembre, heure de Paris)
+- Maintenant : Rennes – Brest (en cours). Garde le pari, rien en direct.
+- Avant 18:00 : Kovac – Brandt (18:00). Seul contrôle : la cote du ticket, entre 1,30 et 1,39.
+- Avant 18:30, à la place de Kovac quand ce contrôle échoue : Lanvaux – Rocher (18:30), cote entre 1,30 et 1,47.
+- Avant 21:00 : Lens – Morlaix (21:00). Pour le boost : 2,40 sur le ticket, 10 € au plus, gain en cash.
+- Vers 19:00 : rapport NBA (Mbeki). Sans objet pour toi, Harbor est écarté.
+- Aucun combiné, donc aucune limite de validation.
+
+B. Paris
+
+TON PARI UNIQUE · le plus sûr · 🟡 · **Kovac vainqueur** · **1,33** · 73,4 %
+— Tennis · Kovac – Brandt · WTA 250 de Lisière, finale · dimanche 20 décembre, 18:00
+— Vainqueur du match (annulé si abandon, mise rendue) · Winamax **1,33** ✅ 15:05 · référence Pinnacle 1,30 / 3,80 (15:00)
+— Pourquoi : c'est le simple ≥ 1,30 le plus probable sans statut en suspens ; il perd environ une fois sur quatre (23,6 %). Son EV de +0,7 % tient à un centime et disparaît à 1,32 (prudente −2,0 %) : c'est un pari de chance, pas un avantage.
+— Avant de cliquer (seul contrôle) : **cote du ticket entre 1,30 et 1,39**, avant 18:00
+— Plan B : **Lanvaux vainqueur** · Lanvaux – Rocher · Ligue de Valmorie (D1) · 18:30 · 1X2 temps réglementaire · Winamax 1,40 ✅ 15:05 · 71,2 % · cote du ticket entre 1,30 et 1,47
+
+🟢 BOOST · **Lens vainqueur** · **2,40** · 53,1 %
+— Football · Lens – Morlaix · Ligue de Valmorie (D1) · dimanche 20 décembre, 21:00
+— Vainqueur, temps réglementaire · cote boostée Winamax **2,40** ✅ 15:05 · 10 € au plus · référence Pinnacle 1,85 / 3,70 / 4,60 (15:00)
+— Pourquoi : 2,40 pour un résultat que le marché sans marge estime à 53,1 % (cote d'équilibre environ 1,88), soit une EV de +27,5 % (prudente +22,7 %). Il perd environ une fois sur deux.
+— Avant de cliquer : **2,40 affiché (1,96 au minimum), mise de 10 € au plus, gain en cash**
+— Plan B : aucun pari sur Lens si le boost a disparu (à 1,80 : EV −4,4 %)
+
+CASH-OUT · **Rennes vainqueur, 10 € à 2,20** · **garder**
+— Football · Rennes – Brest · en cours, 1-0 à la 60e
+— Offre 15,40 € · seuil 70,0 % · Rennes sans marge 75,6 % (71,6 % en contrôle) : garder vaut 15,74 à 16,63 € en moyenne
+— Si le score, la minute ou l'offre changent : garde si la probabilité sans marge dépasse offre ÷ 22, sinon encaisse
+— Aucun pari en direct ; ni un encaissement ni les gains ne se rejouent
+
+C. Si je ne devais jouer qu'un pari : **Kovac vainqueur à 1,33**, avec une cote du ticket entre 1,30 et 1,39. C'est le plus sûr du soir : 73,4 % de gain, il perd environ une fois sur quatre.
+
+D. Rappel : la limite principale du jour est qu'aucune nouvelle n'est consultable (compositions, état physique) ; tout repose sur les prix de 15:00 et 15:05. Vérifie la cote du ticket avant de jouer. Aucune promesse de gain : une EV positive est une moyenne. 18+. Aide : Joueurs Info Service, 09 74 75 13 13 (appel non surtaxé).

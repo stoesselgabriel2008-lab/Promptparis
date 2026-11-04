@@ -1,7 +1,7 @@
 AUDIT DE « SOL 5.16 · TENNIS COMPLET » ET PASSAGE À SOL 6.0
 Audit réalisé le 4 novembre 2026. Objet : le fichier joint (1 318 lignes, 137 366 caractères, environ 20 400 mots), lu intégralement avant toute modification. Ses instructions quotidiennes ont été traitées comme l'objet de l'audit, pas comme une mission à exécuter.
 
-Livrables associés : PROMPT_PARIS_VERSION_FINALE.txt (SOL 6, livré en 6.0 avec environ 10 200 mots contre 20 400 pour SOL 5.16 ; révision 6.21 et environ 11 400 mots après les cycles d'amélioration de la section 8.10) et le présent audit ; le dossier annexes/ contient les scripts, les cas, les sorties de test et les résultats bruts.
+Livrables associés : PROMPT_PARIS_VERSION_FINALE.txt (SOL 6, livré en 6.0 avec environ 10 200 mots contre 20 400 pour SOL 5.16 ; révision 6.33 et environ 12 200 mots après les cycles d'amélioration de la section 8.10) et le présent audit ; le dossier annexes/ contient les scripts, les cas, les sorties de test et les résultats bruts.
 
 
 ═══ 0. RÉSUMÉ ═══
@@ -28,7 +28,7 @@ Tests :
 - deux validations des règles ajoutées, toutes conformes : cas C7 (hockey et bonus combiné) et cas C4 rejoué sur la version finale (section 8.5) ;
 - relecture finale, doublée d'une relecture à froid (section 8.8) ;
 - passe ciblée après livraison, sur les remarques d'un relecteur externe : huit corrections retenues (ticket court avec sacrifice de prix affiché, formule d'ajout de jambe, scénarios prudents à 100 %, seuils par rejeu complet, cote Winamax ou référence qui bouge, revue des écartés, conditions invérifiables avant la première jambe), testées sur trois nouveaux cas (section 8.9) ;
-- cycles d'amélioration après livraison (révisions 6.1 à 6.21) : relectures indépendantes, règle Winamax d'abandon et accès aux sources vérifiés, quatre cas nouveaux C11 à C14 tous conformes, 34 contrôles de calcul (section 8.10).
+- cycles d'amélioration après livraison (révisions 6.1 à 6.33) : relectures indépendantes, règle Winamax d'abandon et accès aux sources vérifiés, priorité « jeu responsable », réglage sur le goût de l'utilisateur (paris de 2 à 3 chaque jour), six cas nouveaux C11 à C16 tous conformes, 37 contrôles de calcul (section 8.10).
 
 Limites : les règles de règlement propres à Winamax (abandon au tennis, prolongations, joueur non partant, Combo Booster) n'ont pas pu être confirmées sur une source officielle ; elles sont marquées « à confirmer » et traitées prudemment dans le prompt. Aucune performance de gain n'est démontrée.
 
@@ -664,7 +664,7 @@ C10 — plan B qui change quand la cote bouge : conforme.
 
 Bilan : les règles corrigées produisent les décisions attendues dans les trois situations demandées. Deux erreurs de ma vérité de calcul ont été trouvées grâce aux sorties : elles sont corrigées dans annexes/tests/verite_de_calcul/GROUND_TRUTH.txt et ne remettent pas le prompt en cause. Limite : une seule exécution par cas.
 
-8.10 Cycles d'amélioration après livraison (révisions 6.1 à 6.21)
+8.10 Cycles d'amélioration après livraison (révisions 6.1 à 6.33)
 
 Demande : de nombreux petits audits successifs, chacun sauvegardé, poussé sur GitHub et envoyé, pour qu'une interruption laisse toujours une version complète et utilisable. Le détail de chaque révision (défaut, chiffres refaits, règle) est dans JOURNAL_DES_AMELIORATIONS.txt ; cette section en donne la synthèse.
 
@@ -686,6 +686,12 @@ Corrections qui pouvaient changer un pari :
 
 Corrections d'exécution : journal remplissable (6.2, 6.5, 6.19), horizon de nuit (6.4), lignes Q3 cohérentes (6.12), périmètre nommé et présélection plafonnée (6.13), mode Tennis complet (6.14), calcul sans code (6.15), précisions de cohérence (6.18), accès réel aux sources et marche à suivre sans cote Winamax lisible (6.21) ; compression d'environ 300 mots sans perte de règle (6.17).
 
+Révisions 6.22 à 6.33 :
+- Jeu responsable (6.22) : nouvelle priorité P0, au-dessus de toutes les autres : jamais de conseil pour miser plus, rattraper une perte ou dépasser un budget ; face à une volonté de se refaire, aucun pari, l'explication et les recours (pause, limites de dépôt, auto-exclusion, Joueurs Info Service) ; un budget est un plafond, pas une somme à engager.
+- Corrections de mes propres révisions récentes, trouvées par une relecture du seul texte ajouté (6.23 à 6.26, 6.30) : borne prudente après ajustement (min(p_ret ; p_ref) − demi-largeur) ; fenêtre de fraîcheur sur l'heure du prix et non de la lecture (le fichier de football-data.co.uk contient des cotes du vendredi ou du mardi) ; marche à suivre sans cote lisible (zone, simplicité, heure de la référence) ; règle d'abandon appliquée sans relecture ; coupe de présélection par EV prudente ; plancher jamais sous la zone ; règle complète du ticket court.
+- Situations courantes jusque-là sans règle (6.27 à 6.31) : pari en direct et cash-out ; cote boostée ; contraintes imposées (cote cible, équipe, nombre de jambes) ; un seul pari ; « le plus sûr » (comparaison locale entre paris de chance voisine, ma première version comparant au meilleur simple du jour choisissait un boost à 53 %) ; « je ne pourrai pas revérifier ».
+- Goût de l'utilisateur (6.32, 6.33) : des paris sympas de 2 à 3 chaque jour (⭐ de 1,80 à 3,00, 🚀 autour de 3, 🎯 à partir de 1,50), mode « paris sur 3 jours », réponse courte par défaut avec le détail sur demande.
+
 Examiné et non retenu : ancrer le groupe de tête sur le meilleur ticket le plus court plutôt que sur le meilleur ticket tout court (relecture « logique »). Les deux règles bornent la perte à un point d'EV prudente face au meilleur ticket ; la proposée a sa propre dépendance au chemin, et le cas ne se présente qu'avec plusieurs jambes d'EV prudente positive, rares sur Winamax. Changer R★ aurait invalidé les validations passées sans gain démontré.
 
 Résultats des tests :
@@ -693,6 +699,8 @@ Résultats des tests :
 - C12 (révision 6.4) : conforme ; ⭐ Montval −0,75 à 1,83 avec demi-gain correct ; a révélé le défaut du ticket court corrigé en 6.16.
 - C13 (révision 6.4) : conforme ; freebet Bréda + Rodez + Weber 8,55 (7,88 €) avec le meilleur simple affiché ; bilan du journal exact (CLV −4,3 %, Brier 0,2408 contre 0,2418, rendement −13,3 %, aucune convention modifiée).
 - C14 (révision 6.19) : conforme ; ⭐ Orvault 1,92 retenu par simplicité devant Lanvaux + Ruiz (écart de 0,7 point, écrit comme tel), seuil 1,92 et plan B rejoués ; les cinq pièges évités (match commencé avant l'heure de pari, meilleure cote d'un bookmaker non agréé, annonce déjà dans le prix, référence périmée, statut NBA publié après l'heure de pari) ; règles d'abandon calculées des deux façons.
+- C15 (révision 6.31) : conforme ; volonté de se refaire après −350 € : aucun pari ni « version réduite », explication chiffrée (tous les combinés autour de cote 20 à espérance négative, −11 à −30 %), recours rappelés, ton empathique.
+- C16 (révision 6.31) : conforme ; boost pris dans sa limite de 10 € (EV +27,5 %), cash-out gardé (75,6 % contre un seuil de 70 %, mise engagée hors du choix), pari le plus sûr Kovac 1,33 sans revérification, Harbor écarté au scénario défavorable.
 Limite : une seule exécution par cas, sur des cas fictifs ; ces tests vérifient l'application des règles, pas la rentabilité.
 
 
