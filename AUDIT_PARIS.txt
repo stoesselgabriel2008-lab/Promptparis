@@ -1,0 +1,468 @@
+AUDIT DE « SOL 5.16 · TENNIS COMPLET » ET PASSAGE À SOL 6.0
+Audit réalisé le 4 novembre 2026. Objet : le fichier joint (1 318 lignes, 137 366 caractères, environ 20 400 mots), lu intégralement avant toute modification. Ses instructions quotidiennes ont été traitées comme l'objet de l'audit, pas comme une mission à exécuter.
+
+Livrables associés : PROMPT_PARIS_VERSION_FINALE.txt (SOL 6.0, environ 8 500 mots) et le présent audit.
+
+
+═══ 0. RÉSUMÉ ═══
+
+Le problème central de SOL 5.16 n'est pas mathématique : ses formules sont justes (22 contrôles exécutés, section 8.1). Il est décisionnel. Le prompt ne dit jamais ce qu'est le « meilleur » pari. Il impose une dizaine de formats et une couverture tennis exhaustive, et il laisse l'EV, la probabilité et la « lecture » se disputer le classement selon la section consultée. Résultat : des calculs corrects peuvent conduire à un choix principal arbitraire, à des jambes ajoutées pour remplir une cote cible, et à un tennis prioritaire par construction plutôt que par mérite.
+
+Ce qui change dans SOL 6.0 :
+1. Une règle de décision unique et vérifiable, R★ : le prix d'abord (EV prudente), puis la simplicité à prix quasi égal. La chance de toucher n'est jamais un critère entre deux cotes différentes. Conséquence directe : une jambe n'entre dans un ticket que si sa propre EV prudente est positive, ou si le format l'impose, et son coût est alors affiché.
+2. Un registre unique (R1, R2…) dont tous les tickets et la fiche finale reprennent les chiffres.
+3. Une recherche en entonnoir : balayage large de tous les sports au niveau du marché, dossiers seulement pour les concurrents capables de gagner, seconde passe qui conteste le premier choix. Le mode Tennis complet reste disponible sur demande.
+4. Une règle anti-double-comptage : on ne s'écarte du prix qu'avec une information postérieure au prix, chiffrée par une méthode nommée et non redondante.
+5. Un périmètre de sports fondé sur des preuves : tennis, football et basket balayés par défaut ; rugby en option légère ; hockey en option à tester ; esport exclu.
+
+Preuves principales, calculées pour cet audit sur des données publiques et hors échantillon :
+- Prévisibilité, mesurée par le score de Brier relatif à une simple fréquence de base (marché de clôture sans marge) : NBA 0,215 ; football 1X2 0,107 ; NHL 0,026.
+- Calibration : marchés de clôture bien calibrés dans les trois sports.
+- Biais favori-outsider marqué en football : rendement de −1 % sous la cote 1,50, contre −16 % entre 5 et 10.
+- Modèle contre marché : un modèle Elo simple qui croyait voir de la value sur 86 % des matchs de football a perdu 13,3 % (±3,1).
+
+Tests : 22 contrôles de calcul réussis ; deux défauts de conception de R★ trouvés et corrigés par le calculateur avant les tests ; comparaison A/B (refonte contre correction minimale) sur six journées fictives contrastées EN COURS au moment de cette sauvegarde (section 8.3).
+
+Limites : les règles de règlement propres à Winamax (abandon au tennis, prolongations, joueur non partant, Combo Booster) n'ont pas pu être confirmées sur une source officielle ; elles sont marquées « à confirmer » et traitées prudemment dans le prompt. Aucune performance de gain n'est démontrée.
+
+
+═══ 1. MÉTHODE DE L'AUDIT ═══
+
+1. Lecture intégrale du fichier, puis reconstitution du parcours de décision (section 2).
+2. Recherche documentaire sur la prévisibilité et l'efficience des marchés : tennis, football, basket, hockey, rugby, autres sports. Les articles ont été vérifiés sur leurs pages de résumé ou en texte intégral quand c'était possible ; le niveau de vérification est indiqué en section 10.
+3. Étude empirique hors échantillon (section 6) :
+   - football : 36 423 matchs de 9 championnats européens, 2015-16 à 2025-26 (football-data.co.uk) ;
+   - NBA : 2 462 matchs et NHL : 2 624 matchs, saisons régulières 2024-25 et 2025-26, cotes d'ouverture et de clôture d'un bookmaker américain (ESPN BET) relevées via l'API publique d'ESPN ;
+   - comparaisons : fréquence de base, modèle Elo simple à paramètres fixés d'avance, marché sans marge (méthodes power, multiplicative, Shin) ; scores de Brier, RPS et log-loss ; calibration ; rendement par tranche de cote ; test « prix au-dessus de la référence » ; coût des combinés.
+4. Vérification des règles françaises (ANJ, Légifrance) et de l'offre Winamax. Le site Winamax refuse les accès automatisés : rien n'a été contourné.
+5. Calculateur de référence (Python) pour la règle de décision, les cas de contrôle et les exemples chiffrés ; 22 contrôles exécutés.
+6. Rédaction d'une refonte (SOL 6.0) et d'une correction minimale (« SOL 5.17 » : SOL 5.16 précédé d'un correctif d'une page), puis douze exécutions sur six journées fictives et notation en aveugle (section 8).
+
+Deux sources de données n'ont pas été utilisées parce qu'elles sont protégées par un défi anti-robot, que je n'ai pas contourné : tennis-data.co.uk (cotes historiques du tennis) et aussportsbetting.com. La partie tennis repose donc sur la littérature publiée.
+
+
+═══ 2. LE PARCOURS DE DÉCISION DE SOL 5.16, RECONSTITUÉ ═══
+
+1. Recensement (T1, T2, 3.1). Le programme tennis complet est obligatoire chaque jour : ATP, WTA, Challenger, WTA 125, qualifications, plus ITF et doubles de l'offre Winamax. Football et rugby sont présélectionnés (12 à 20 rencontres).
+2. Collecte (T3, 3.2). Six familles de données par joueur et par match ; un « carnet » non publié.
+3. Estimation (4, 4.1–4.4, 7) : q_brute, p_marche, p_modele, p_retenue. Méthode de retrait de marge au choix (multiplicative ou power). Ajustements permis sur « information nouvelle ».
+4. Choix du marché (8.1) : trois à cinq marchés candidats par rencontre principale.
+5. Comparaison (8.2–8.5) : scénarios, contrôle des anomalies, labels 🟢/🟡/🎲.
+6. Construction des tickets (9) : ⭐ ticket du jour, ⭐ meilleur simple, 🛡️ safe (environ 1,90), 🛡️ bis, 🎲 et 🎲 bis, 🚀 (2 à 4), 🎉 (5 à 15), 🎾 « systématique » (3 à 5 matchs), 🟢, 🟡, plus un kit de sept fonctions.
+7. Vérification (10, 12) : contrôle H-1 et 20 questions de contrôle.
+8. Restitution (11) : résumé, registre tennis, une fiche par match (150 à 300 mots), dossiers des finalistes (450 à 750 mots), comparaisons, preuves, puis une fiche finale (A à E) avec une tier list par sport.
+
+Où une décision incohérente peut sortir de calculs justes :
+- entre 3 et 6, rien ne dit comment arbitrer entre probabilité, prix et preuves (faille F1) ;
+- en 6, les formats imposés et leurs cotes cibles tirent vers l'ajout de jambes (F2) ;
+- entre 1 et 2, l'effort est absorbé par l'inventaire tennis (F3) ;
+- en 3, la base « Winamax seule » et le choix libre de la méthode fabriquent des écarts d'EV (F4), et les ajustements peuvent compter deux fois ce que la cote contient déjà (F5) ;
+- de 6 à 8, les mêmes chiffres sont recopiés dans huit blocs sans registre commun (F6).
+
+
+═══ 3. FAILLES PRINCIPALES ═══
+
+Chaque faille est classée selon le niveau de preuve :
+- Démontrée (texte) : la contradiction ou l'effet découle directement du texte ou d'un calcul.
+- Démontrée (données) : établie sur les données de la section 6.
+- Observée en test : apparue dans les exécutions de la section 8.
+- Hypothèse : plausible, non mesurée.
+Pour chacune : données d'entrée → erreur possible → conséquence → correction.
+
+F1 — « Meilleur » n'est jamais défini [Démontrée (texte)]
+Entrée : trois candidats.
+- Simple A à 1,25 : p = 80 %, EV −1 % face à la référence.
+- Simple B à 1,95 : p = 54 %, EV +5 %.
+- Double C à 1,90 : p = 50 %, EV −5 %.
+Erreur : SOL 5.16 demande « le meilleur compromis pour mon profil » sans définir ce profil pour un simple. La section 9.4 donne « priorité à une chance de gain élevée » pour le 🛡️, la section 8.5 classe par prix, et la section 11 veut un « ⭐ ticket du jour » autour de 1,90. Selon le passage suivi, A, B ou C peuvent être présentés comme « meilleur ».
+Conséquence : deux exécutions sur les mêmes données peuvent livrer des choix principaux différents, sans critère pour vérifier lequel est juste.
+Correction : la règle R★ (2.2 du nouveau prompt). L'EV prudente départage ; à moins d'un point d'écart, le ticket le plus simple l'emporte ; la zone de cote propre à chaque format porte la préférence de risque. Avec ces entrées, R★ retient B. La fiche affiche « X plutôt que Y parce que… » avec le chiffre qui départage, ainsi que la cote plancher qui ferait basculer le choix.
+
+F2 — Formats imposés et cotes cibles qui poussent à ajouter des jambes [Démontrée (texte et données)]
+Entrée : une journée où un seul simple présente un vrai écart de prix. SOL 5.16 exige pourtant un 🛡️ autour de 1,90, un 🎲, un 🚀 et le 🎾 « systématique », et répète au moins dix fois qu'une EV négative ne supprime aucun format.
+Erreur : des jambes sans avantage sont ajoutées pour atteindre 1,90 ou trois matchs, et le « ticket du jour » devient un double alors qu'un simple le domine.
+Conséquence mesurée sur les favoris de football à 2,00 au plus, matchs distincts, 2022-2026 :
+- taux de réussite : 62 % en simple, 39 % à deux jambes, 23 % à trois, 14 % à quatre, 8 % à cinq ;
+- chaque jambe a coûté environ 3 points d'espérance face au prix sans marge ;
+- même schéma en NBA (68 % → 48 % → 32 % → 22 % → 17 %) et en NHL (56 % → 30 % → 17 % → 10 % → 7 %).
+Correction : les formats sont gardés comme menu ; le choix principal est choisi par R★, tous formats et longueurs confondus. Une jambe d'EV prudente négative fait mécaniquement baisser l'EV prudente du ticket (propriété vérifiée sur 20 000 tirages aléatoires, section 8.1) : elle n'entre que si le format l'exige, et son coût est affiché.
+
+F3 — Priorité tennis et couverture exhaustive obligatoire [Démontrée (texte, arithmétique)]
+Entrée : un mardi de novembre avec deux ATP 250, un WTA 500, plusieurs Challengers, des ITF et des doubles, soit souvent 80 à 150 matchs.
+Ce que demande SOL 5.16 :
+- une fiche de 150 à 300 mots pour chaque match ;
+- 450 à 750 mots pour chaque finaliste ;
+- « Le football, le rugby […] ne doivent pas absorber le temps nécessaire à la couverture tennis ».
+Erreur : 80 × 225 mots, cela fait 18 000 mots de fiches avant même les dossiers. Le travail aboutit soit à une couverture partielle, soit à des fiches génériques. Les autres sports ne sont jamais réellement mis en concurrence.
+Conséquence : le choix principal est tennis par construction. Or, dans les données, le marché NBA est deux fois plus prévisible que le 1X2 du football et le marché NHL presque pas : le meilleur pari du jour peut venir de n'importe quel sport.
+Correction :
+- balayage large de tous les sports au niveau du marché, avec une ligne par match et une raison de tri ;
+- dossiers réservés aux concurrents ;
+- mode Tennis complet sur demande, avec fiches courtes et précises, registre de couverture et rapport TXT ;
+- aucun sport prioritaire : R★ décide.
+
+F4 — L'EV « base Winamax seule » est circulaire [Démontrée (calcul)]
+Entrée : cotes Winamax 1,25 / 3,80, soit une marge de 6,3 %.
+Erreur : avec la méthode multiplicative, les deux issues ont exactement la même EV (−5,94 %). Avec la méthode power, elles valent −2,8 % et −15,5 %. SOL 5.16 accepte cette base, laisse le choix de la méthode libre (4.1) et utilise l'EV pour classer et étiqueter (8.5).
+Conséquence : le classement et un éventuel « 🟡 » dépendent de la méthode retenue, pas de l'information.
+Correction :
+- méthode power par défaut, multiplicative en contrôle (la power a prévu aussi bien que Shin et légèrement mieux que la multiplicative, section 6.2) ;
+- sur base Winamax seule, l'EV n'exprime qu'un coût de marge et aucune value n'est affichée.
+
+F5 — Ajustements sans garde-fou de date : le double comptage [Démontrée (texte et données)]
+Entrée : « les Arrows jouent le second soir d'un back-to-back », ou « le gardien de Molinar est suspendu », alors que l'information a été publiée avant la cote.
+Erreur : SOL 5.16 (4.4) autorise un écart à p_marche sur « information nouvelle » sans exiger qu'elle soit postérieure au prix. Ses dossiers invitent aussi à lister « ce qui soutient la lecture » (forme, Elo, confrontations directes, service), informations déjà contenues dans la cote.
+Conséquence mesurée : un Elo simple qui « voyait » de la value sur 86 % des matchs de football (EV estimée moyenne +18,6 %) a perdu 13,3 % (±3,1) sur 11 299 paris réels, de 2022 à 2026. La seule disposition de SOL 5.16 qui protégeait contre ce piège était une phrase de prudence.
+Correction : règle des trois conditions (3.4 : postériorité, méthode nommée, non-redondance) et test d'effet de chaque facteur (4.5 : change-t-il le scénario ? est-il déjà dans le prix ? quel effet sur la décision ?).
+
+F6 — Pas de registre commun : les mêmes chiffres recopiés dans huit blocs [Démontrée (texte)]
+Entrée : une même sélection apparaît dans le ⭐ meilleur simple, le 🛡️, le 🚀, le 🎾, la tier list, le kit de sept fonctions et la fiche finale.
+Erreur : la cote corrigée à H-1 dans un bloc reste périmée dans un autre. Le « carnet » de 5.16 n'est pas publié ; les contrôles 3 et 10 le signalent, mais la structure ne l'empêche pas.
+Conséquence : chiffres contradictoires, et fiche finale potentiellement fausse.
+Correction : registre R-id publié (3.1), tickets qui ne citent que des R-id, propagation obligatoire (4.7) et contrôle final n° 2.
+
+F7 — Une mise à jour de cote sans recalcul de la probabilité fabrique de la value [Démontrée (calcul) ; testée en C6]
+Entrée : la cote de Kerr passe de 1,32 à 1,45 après une nouvelle sur son épaule.
+Erreur : garder l'ancienne probabilité de référence (75,7 %) avec la nouvelle cote.
+Conséquence : une EV de +9,8 % totalement fictive, au lieu de −0,1 %, et un faux choix principal.
+Correction : 3.4 et 4.7 du nouveau prompt imposent de recalculer p_ref sur le nouveau marché.
+
+F8 — Abandons et dépendances au tennis sans règle opérationnelle [Démontrée (calcul) ; Hypothèse sur la règle Winamax]
+Entrée : un 🎾 de cinq favoris, avec une règle d'abandon Winamax non vérifiée.
+Erreur : ticket calculé comme un simple produit de probabilités, sans état « abandon ». Avec environ 1,5 abandon pour 1 000 jeux (PLOS ONE 2024), soit de l'ordre de 3 % des matchs en deux sets gagnants, il y a environ 14 % de chances qu'au moins une rencontre sur cinq se termine par un abandon.
+Conséquence : la distribution du ticket change selon que l'abandon vaut perte ou annulation.
+Correction : appliquer la règle vérifiée ; à défaut, la règle la plus défavorable plausible, avec l'autre cas indiqué. Le même joueur en simple et en double le même jour est traité comme une dépendance.
+
+F9 — Sports demandés mais absents : la période de règlement au hockey [Démontrée (données)]
+Entrée : un favori NHL coté autour de 1,60 « prolongation incluse », soit environ 62 %.
+Erreur : utiliser 62 % pour un 1N2 en 60 minutes.
+Conséquence : surestimation d'environ 11 points. Sur 2024-2026, les favoris cotés de 60 à 70 % ont gagné 62,5 % des matchs, mais 51 % seulement dans le temps réglementaire ; 21 à 25 % des matchs étaient à égalité après 60 minutes.
+Correction : module hockey (6.5) avec règle de conversion explicite, et statut « option à tester ».
+
+F10 — Étiquettes qui suggèrent une sécurité [Démontrée (texte)]
+Entrée : « 🛡️ Ticket safe » à 1,90 ; tier « S » pour une probabilité de 70 % ou plus.
+Erreur : le nom laisse croire à une sécurité qui n'existe pas (le ticket perd environ une fois sur deux), et une jambe « S » à 1,30 perd environ une fois sur quatre.
+Conséquence : les cotes courtes sont prises pour des preuves de sécurité.
+Correction : « 🛡️ Ticket court (ancien safe) » avec sa chance réelle affichée. La chance de toucher n'est jamais un critère de classement entre deux cotes différentes ; le tier reste une simple bande de probabilité dans le registre.
+
+F11 — Quotas, répétitions et numérotation qui brouillent les priorités [Démontrée (texte)]
+Quotas : « 6–10 dossiers », « 12–20 présélections », « 40–80 actions », « 5 000–8 000 mots », « 150–300 », « 450–750 » et « 250–450 mots ». Ils sont tous présentés comme « non contraignants », mais assez nombreux pour faire de la longueur un objectif.
+Répétitions : la règle « une EV négative ne supprime pas… » apparaît au moins dix fois.
+Numérotation : 3.2, 3.2 bis, 3.2 ter.
+Confusions : deux formats ⭐ (ticket du jour et meilleur simple) portent le même symbole ; 🛡️ et ⭐ partagent une ligne du tableau des formats.
+Correction : aucun volume imposé ; un critère d'arrêt fondé sur la décision ; la règle récréative énoncée une seule fois (2.5) ; un symbole par format.
+
+F12 — Un critère d'arrêt lié à l'inventaire, pas à la décision [Démontrée (texte)]
+Entrée : « Conclue lorsque le registre tennis a été traité… » (3.2 ter).
+Erreur : quand le meilleur pari est ailleurs, l'effort reste dans l'inventaire. Inversement, rien ne dit quand une recherche de plus ne peut plus changer la décision.
+Correction : conclure quand aucune vérification encore possible ne peut plausiblement inverser le choix principal et son premier concurrent ; sinon la faire, ou la transformer en condition.
+
+F13 — Une préférence héritée sans fondement mesuré [Hypothèse]
+Entrée : « une sélection féminine, tier S de préférence ».
+Erreur : la composition est orientée par le circuit plutôt que par le prix et les preuves.
+Correction : même méthode pour tous les circuits, aucun quota (6.1.5).
+
+F14 — Volume de statistiques confondu avec la qualité [Démontrée (données) pour le principe ; Hypothèse pour chaque statistique]
+Entrée : service et retour, confrontations directes et 10 à 20 derniers matchs exigés pour chaque rencontre.
+Erreur : ces données décrivent surtout un niveau que l'Elo et la cote contiennent déjà. Hors échantillon, le marché fait mieux que l'Elo :
+- NBA : 0,215 contre 0,153 ;
+- football : 0,107 contre 0,085 ;
+- NHL : 0,026 contre 0,004.
+Conséquence : du temps passé sur des chiffres qui ne peuvent pas déplacer la décision, et un risque de double comptage (F5).
+Correction : pour chaque sport, une liste des données qui changent la décision (6.1.3, 6.2.3, 6.3.2…). Le service et le retour sont réservés aux handicaps, aux totaux et à l'explication d'un écart Elo–marché.
+
+F15 — Points mineurs corrigés [Démontrée (texte)]
+- L'URL citée pour Clarke, Kovalchik et Ingram (2017) ne pointe pas vers l'article. Référence corrigée : DOI 10.11648/j.ajss.20170506.12.
+- Le plafond légal de 85 % de retour aux joueurs était évoqué sans base légale ; il est désormais sourcé (décret n° 2020-1349, art. 27-28, moyenne annuelle par opérateur).
+- La règle Tennis Abstract de 5.16 (hElo, cElo et gElo sont déjà mélangés : ne pas les remélanger) a été vérifiée sur la source et conservée.
+
+
+═══ 4. CE QUI EST CONSERVÉ ═══
+
+SOL 5.16 contient beaucoup de bonnes règles ; elles sont gardées, souvent sous forme plus courte.
+- Honnêteté : rien d'inventé ; distinction entre autorisé (ANJ), proposé par Winamax et cote observée ; statuts ✅ / ⚠️ / à relever.
+- Calcul :
+  - retrait de marge sur marché complet, et pièges : marchés incomplets, meilleures cotes agrégées, doubles chances qui se recouvrent, DNB conditionnel ;
+  - retour par état (DNB, quarts de ligne, demi-gains), combinés avec remboursement, bornes de Fréchet pour les probabilités jointes ;
+  - grille de Poisson, non-linéarité des minutes pour les buteurs, lissage des petits échantillons ;
+  - cote minimale arrondie au centième supérieur, freebet, CLV, score de Brier et validation chronologique pour le journal.
+  Tous les exemples chiffrés de 5.16 ont été recalculés : ils sont justes (section 8.1).
+- Tennis :
+  - recensement par tournoi, sémantique des horaires (heure fixe, « pas avant », ordre de passage) ;
+  - « vainqueur de A/B » n'est pas un duel confirmé ;
+  - compteurs de couverture exclusifs, rapport TXT ;
+  - même exigence pour le tennis féminin et le double ;
+  - colonnes Elo de Tennis Abstract.
+- Formats : 🎯 simple, 🛡️ ticket court, 🎾 de 3 à 5 matchs, 🎲 plaisir et bis, 🚀, 🎉 facultatif, labels 🟢 et 🟡, contrat récréatif (une EV négative ne supprime pas un format).
+- Restitution :
+  - fiche finale autonome : calendrier, paris écrits explicitement, plan B, « si je ne jouais qu'un pari », rappel 18+ ;
+  - tier list (désormais une colonne du registre) ;
+  - meilleur remplacement d'une jambe, assemblages tentants à éviter, coût d'une extension.
+- Comportement : initiative sans questions inutiles, avant-match par défaut, pas de nul sec, aucune mise ni bankroll, prudence sur les tipsters et les mouvements de cote.
+
+
+═══ 5. PRÉFÉRENCES MODIFIÉES ET POURQUOI ═══
+
+1. Plus de priorité automatique du tennis sur le choix principal.
+   Pourquoi : la prévisibilité varie fortement selon le sport (6.2). Le meilleur prix du jour peut venir de n'importe où, et une priorité structurelle empêche la comparaison.
+   Gain : un sport n'est retenu que s'il gagne la comparaison R★ (cas C1, section 8).
+2. Couverture tennis exhaustive seulement sur demande (« tout le programme »). En mode standard, le programme tennis est quand même recensé en entier au niveau du marché.
+   Gain : l'effort va aux concurrents. Rien n'est oublié, puisque chaque match garde une ligne et une raison de tri.
+3. 🎾 servi quand le tennis est au périmètre et qu'au moins trois rencontres admissibles existent, plutôt que « systématique ». Longueur choisie par R★ ; une longueur précise reste possible sur demande, avec son coût affiché.
+   Gain : on ne fabrique plus de 5e jambe ; la jambe la plus fragile et son remplaçant sont nommés.
+4. « Ticket safe » renommé « ticket court », avec sa chance réelle affichée.
+   Gain : plus d'illusion de sécurité (F10).
+5. Préférence « une sélection féminine » supprimée ; même méthode pour tous les circuits (F13).
+6. Périmètre des sports (détail en 6.3) :
+   - basket ajouté par défaut ;
+   - rugby à XV en option légère (preuves minces, mais compositions connues tôt) ;
+   - hockey en option à tester ;
+   - autres sports sur demande ;
+   - esport exclu (non autorisé en France).
+7. Zone de cote du choix principal : 1,50 à 4,00 par défaut, modifiable.
+   Pourquoi : traduire la préférence historique (ticket autour de 1,90, 🚀 de 2 à 4) sans laisser la chance de toucher décider entre cotes différentes.
+8. Label 🟢 réservé aux cas avec une référence indépendante de Winamax (F4).
+9. Quotas de volume supprimés ; restitution plus courte, mais vérifiable : registre, frontière par longueur, seuils de bascule.
+10. Kit de sept fonctions réduit à ce qui sert la décision : coût d'une extension, meilleur remplacement, assemblage à éviter, frontière par longueur.
+
+
+═══ 6. SPORTS ET MARCHÉS : COMPARAISON SOURCÉE ═══
+
+6.1 Méthode de l'étude empirique (hors échantillon)
+Football :
+- 9 championnats (Angleterre D1 et D2, Allemagne, Italie, Espagne, France D1 et D2, Pays-Bas, Portugal), saisons 2015-16 à 2025-26 ; source football-data.co.uk ;
+- ajustement des modèles sur 2017-18, 2018-19 et 2021-22 (saisons à huis clos exclues) ; test sur 2022-23 à 2025-26, soit 13 108 matchs, dont 11 429 où toutes les prévisions existent ;
+- modèles comparés : fréquence de base ; Elo par championnat (K = 20, avantage du terrain 60, paramètres fixés d'avance) traduit en probabilités par une régression logistique ordonnée ; marché sans marge (Pinnacle et Bet365, avant-match et clôture ; méthodes power, multiplicative et Shin).
+NBA et NHL :
+- saisons régulières 2024-25 (ajustement) et 2025-26 (test), matchs d'exhibition exclus ;
+- cotes d'ouverture et de clôture d'ESPN BET (moneyline, handicap, total), relevées via l'API publique d'ESPN ;
+- modèle Elo simple ajusté sur 2024-25.
+Mesures : score de Brier, log-loss et RPS (football), rapportés à la fréquence de base (« skill score » : 0 signifie pas mieux que la fréquence de base) ; calibration par tranches ; rendement à mise fixe par tranche de cote ; intervalles à 95 %, par normale ou bootstrap.
+Prudence : un seul bookmaker américain grand public pour la NBA et la NHL ; une seule saison de test ; aucune donnée Winamax historique. Les marges Winamax ne sont donc pas mesurées ici.
+
+6.2 Résultats
+
+Football, 1X2, test 2022-2026 (11 429 matchs). Skill scores Brier / RPS / log-loss :
+- marché de clôture Pinnacle (power) : 0,107 / 0,146 / 0,093 ;
+- Bet365 avant-match : 0,103 / 0,140 / 0,089 ;
+- Elo simple : 0,085 / 0,117 / 0,073.
+Comparaisons de log-loss :
+- l'Elo fait pire que le marché de clôture : +0,021, IC 95 % [0,018 ; 0,025] ;
+- la clôture fait mieux que l'avant-match : −0,0044, IC [−0,0059 ; −0,0031] ;
+- multiplicative contre power : +0,0006, IC [0,0002 ; 0,0009] ;
+- Shin contre power : +0,0001, IC [0,0000 ; 0,0002].
+Football, autres marchés :
+- plus/moins de 2,5 buts (Pinnacle, clôture) : skill score 0,043 ;
+- handicap asiatique en demi-ligne : 0,002, autrement dit pile ou face par construction.
+Calibration : les favoris de Pinnacle (clôture, power) restent dans l'intervalle à 95 % dans presque toutes les tranches, avec un léger excès de réussite des gros favoris (0,746 prévu contre 0,776 observé, à la limite de l'intervalle).
+Marges moyennes à la clôture :
+- 1X2 : Bet365 6,1 %, Pinnacle 3,1 %, moyenne du marché 5,4 % ;
+- plus/moins de 2,5 : Bet365 5,2 % ;
+- handicap asiatique : Bet365 3,3 %.
+Biais favori-outsider : rendement à mise fixe sur toutes les issues aux cotes Bet365 de clôture.
+
+| Tranche de cote | Rendement moyen | IC 95 % |
+|---|---|---|
+| sous 1,5 | −1,1 % | ±2,3 |
+| 1,5 à 2 | −4,4 % | ±2,5 |
+| 2 à 3 | −5,4 % | ±2,5 |
+| 3 à 5 | −6,6 % | ±2,3 |
+| 5 à 10 | −16,3 % | ±6,0 |
+| 10 et plus | −44,4 % | ±16,9 |
+
+« Un prix au-dessus de la référence rapporte-t-il ? »
+- Bet365 au-dessus du prix sans marge de Pinnacle (clôture) : 960 paris, −4,2 % (±8,8), non significatif.
+- Même test en avant-match : 778 paris, +11,5 % (±12,8), non significatif.
+- Meilleur prix du marché au-dessus de Pinnacle : 13 174 paris, +1,2 % (±2,6), non significatif.
+- Modèle Elo « EV > 3 % » contre Bet365 de clôture : 11 299 paris, −13,3 % (±3,1), significativement négatif.
+
+NBA, test 2025-26 (1 219 matchs).
+Skill scores Brier : clôture 0,215, ouverture 0,198, Elo 0,153.
+Comparaisons de log-loss :
+- l'Elo fait pire que la clôture : +0,039, IC [0,025 ; 0,053] ;
+- l'ouverture fait pire que la clôture : +0,010, IC [0,003 ; 0,018].
+Favori de clôture gagnant : 69,6 % des matchs (2 450 matchs sur deux saisons), pour une probabilité moyenne annoncée de 70,4 % ; calibration dans l'intervalle à 95 % pour toutes les tranches.
+Handicaps et totaux de clôture : favori couvert 49,7 %, over 51,1 %. Le Brier du total sans marge vaut 0,2498, contre 0,25 pour pile ou face.
+Marges ESPN BET : vainqueur 4,4 %, handicap 4,8 %, total 4,9 %.
+Cotes de 4 et plus : rendement −17,1 % (±14,2) ; même sens que le football, mais non significatif.
+
+NHL, test 2025-26 (1 312 matchs).
+Skill scores Brier : clôture 0,026, ouverture 0,022, Elo 0,004.
+Comparaisons de log-loss :
+- l'Elo fait pire que la clôture : +0,012, IC [0,004 ; 0,019] ;
+- ouverture contre clôture : +0,002, IC [−0,002 ; 0,006], non significatif.
+Matchs à égalité après 60 minutes : 20,7 % en 2024-25, 24,8 % en 2025-26.
+Favori gagnant : 58,2 % (2 624 matchs), dont 46,1 % dans le temps réglementaire.
+Handicap −1,5 : le favori couvre 35,9 % des fois.
+Marge de la moneyline ESPN BET : 4,2 %. Pas de biais favori-outsider net.
+
+Tennis (littérature, données de cotes inaccessibles ici) :
+- Kovalchik (2016) : comparaison de 11 modèles publiés sur 2 395 matchs ATP de 2014. L'Elo de FiveThirtyEight était le plus précis des modèles publiés, à 75 % pour les joueurs les mieux classés, « compétitif avec les bookmakers ». Tous les modèles perdaient 10 à 20 points de précision pour les joueurs moins bien classés.
+- Wilkens (2021) : la précision moyenne plafonne autour de 70 % ; les modèles ne battent pas les prévisions tirées des cotes, et les rendements sont surtout négatifs à long terme.
+- Lahvička (2014), sur environ 45 000 matchs, et Abinzano, Muga et Santamaria (2016), sur les bourses de paris : les favoris sont mieux payés que les outsiders. Le biais est plus fort chez les joueurs moins bien classés, en fin de tournoi et dans les grands tournois.
+- Abandons : environ 1,56 (hommes) et 1,36 (femmes) pour 1 000 jeux (PLOS ONE 2024).
+
+Ligues nord-américaines (littérature) :
+- Lopez, Matthews et Baumer (2018), modèle fondé sur les probabilités du marché : la meilleure équipe bat une équipe moyenne sur terrain neutre 67 % du temps en NBA, contre 57 % en NHL ; la NBA est la ligue la moins aléatoire, la NHL l'une des plus aléatoires.
+- NBA : Compton et Sigler (2012), sur environ 10 300 matchs, trouvent des handicaps et totaux proches de 50 %, donc efficients une fois la commission déduite. Hubáček, Šourek et Železný (2019) annoncent des profits avec un modèle volontairement décorrélé du bookmaker, sur des données 2007-2014 ; résultat isolé et ancien.
+- NHL : Woodland et Woodland (2001) observaient un biais inverse en faveur des outsiders sur 1990-1996 ; ce biais a disparu sur les sept dernières saisons étudiées par Woodland et Woodland (2011). Buttrey (2016) annonce un rendement positif avec un modèle, mais c'est une étude isolée.
+- Le plafond de précision d'environ 62 % en NHL (Weissbock, 2014) est une estimation par simulation.
+
+Rugby à XV : peu de preuves.
+- Buckle et Huang : arbitrages fréquents entre bookmakers en Super Rugby (inefficience entre books, pas un biais exploitable sur un seul book).
+- Taux de victoire à domicile de 59 à 69 %, mesurés sur de petits échantillons.
+
+Autres sports : rien de citable n'a été trouvé pour les fléchettes, le snooker, le volley, le handball ou le MMA. L'esport n'est pas autorisé en France (réponse ministérielle).
+
+Disponibilité sur Winamax et règles françaises :
+- Confirmé (ANJ) :
+  - plafond de retour aux joueurs de 85 % en moyenne annuelle par opérateur (décret n° 2020-1349, art. 27-28) ;
+  - supports autorisés en basket : vainqueur, temps réglementaire et prolongations, statistiques d'équipe et statistiques individuelles (points, rebonds, passes, contres, interceptions, paniers à 3 points), restriction des « 20 points » levée au 1er mars 2024 ;
+  - supports autorisés en hockey : score en temps réglementaire et avec prolongations, buteurs, passes décisives ;
+  - homologation d'un logiciel « Combo Booster » de Winamax.
+- Non confirmé (sources secondaires ou rien) :
+  - conditions du Combo Booster ;
+  - règle d'abandon au tennis ;
+  - inclusion des prolongations au basket et au hockey ;
+  - règle du joueur non partant ;
+  - présence de chaque compétition (NBA, NHL, EuroLigue, Challengers, ITF, doubles) dans l'offre du jour ;
+  - marges réelles : des comparateurs annoncent un retour d'environ 90 à 93 % sur les marchés principaux du football, chiffres peu fiables.
+  Le prompt les marque « à vérifier » et prévoit une règle prudente.
+
+6.3 Les quatre questions, sport par sport, et décision
+
+| Sport et marché | 1. Issue prévisible ? | 2. Probabilités calibrées ? | 3. Données fraîches avant le match ? | 4. Raison démontrée de préférer un prix ? | Décision |
+|---|---|---|---|---|---|
+| Basket NBA, vainqueur | Oui, la plus forte mesurée (0,215 ; favori 70 %) | Oui | Oui : rapport de blessures officiel à heures fixes ; l'information de dernière heure compte (clôture meilleure que l'ouverture) | Aucune règle simple ; seulement un écart face à une référence | Défaut. Coût de recherche faible (une source officielle). Matchs entre minuit et 4 h 30 à Paris : statuts fixés ou jambe conditionnelle |
+| Basket NBA, handicap et total | Non, pile ou face par construction | Oui | Comme ci-dessus | Seulement un écart de ligne ou de prix face à la référence | Défaut, mais jamais choisi « par probabilité » |
+| Basket européen | Non mesuré | Prix efficients sur l'avantage du terrain à huis clos (De Angelis et Reade 2023) | Moins accessibles | Aucune | Balayage léger, qualité B au mieux |
+| Football, 1X2, DNB, double chance | Modérée (0,107) | Oui | Oui : compositions environ une heure avant | Biais favori-outsider ; pas d'avantage démontré face à la référence | Défaut |
+| Football, totaux, handicap asiatique, BTTS | Faible (0,043) ou nulle (0,002) | Oui | Comme ci-dessus | Seulement un écart de prix ou une information précise | Défaut, sans choix « par probabilité » |
+| Tennis, vainqueur | Élevée (environ 70 % de favoris), plus faible plus bas dans la hiérarchie | Oui ; biais favori-outsider documenté | Variable : physique peu documenté, abandons environ 3 % | Les favoris sont mieux payés (littérature) | Défaut ; mode complet sur demande |
+| Tennis, handicaps et totaux de jeux | Non mesuré | Non mesuré | Comme ci-dessus | Aucune | Marchés vivants (🎲) seulement |
+| Hockey NHL | Faible (0,026 ; favori 58 %, 46 % en 60 minutes) | Oui | Médiocres : gardien titulaire confirmé tard et de façon informelle | Biais historique disparu ; aucun avantage actuel | Option à tester, sur demande ou écart de prix précis, jamais en jambe de remplissage |
+| Rugby à XV | Non mesuré | Non mesuré | Bonnes : compositions 1 à 2 jours avant, à vérifier | Aucune | Option légère, balayée quand une grande compétition joue |
+| Autres sports | Pas de preuve | Pas de preuve | Variable | Aucune | Sur demande, méthode générique |
+| Esport | — | — | — | — | Exclu (non autorisé) |
+
+Pourquoi le hockey n'est pas exclu : ses probabilités de marché sont correctement calibrées et l'offre est vraisemblablement disponible. Ce qui manque, c'est un avantage décisionnel. Une jambe NHL à 1,60 touche environ 60 % du temps : elle affaiblit presque toujours un ticket. Le statut « à tester » permet de l'évaluer avec un journal (partie 7 du prompt) sans l'imposer.
+
+Pourquoi le basket entre par défaut alors qu'aucun avantage de prix n'est démontré : ses favoris sont les briques les plus prévisibles mesurées ; l'information décisive (rapport officiel) est accessible et datée ; et la règle R★ ne le retient que s'il bat les autres sports.
+
+
+═══ 7. RECHERCHE ET RAISONNEMENT : CE QUI CHANGE ═══
+
+1. Entonnoir explicite :
+   - balayage du marché de tous les sports du périmètre (une ligne par rencontre) ;
+   - présélection sur quatre critères nommés : prix, brique, information, lecture ;
+   - dossiers seulement pour les concurrents ;
+   - seconde passe sur le choix principal, ses deux premiers concurrents et le 🎾.
+2. Chaque sélection approfondie répond à quatre questions vérifiables :
+   - quelles données, sur quelle période, et sont-elles déjà dans le prix ?
+   - quel fait la contredit le plus ?
+   - pourquoi ce marché plutôt que l'alternative la plus crédible ?
+   - qu'est-ce qui changerait le verdict ?
+3. Les facteurs de contexte (fatigue, récupération, absences, compositions, enjeux, calendrier) passent un test d'effet en trois questions avant de compter ; une information déjà dans le prix ne crée pas d'avantage.
+4. Pour chaque sport, une liste de ce qui change réellement la décision, et à quelle heure l'information tombe : rapport de blessures NBA, compositions de football environ une heure avant, physique et calendrier au tennis, gardien NHL. Le reste est rangé en « contexte, pas preuve ».
+5. Critère d'arrêt fondé sur la valeur de l'information : on cherche tant qu'une vérification possible peut inverser l'ordre du choix principal et de son concurrent.
+6. Mises à jour : nouvelle ligne de registre, p_ref recalculée sur le nouveau marché, tickets recalculés, « avant → après » affiché.
+
+
+═══ 8. TESTS EXÉCUTÉS ET RÉSULTATS ═══
+
+Trois niveaux de vérification, à distinguer :
+- tests exécutés par du code : calculateur et contrôles automatiques ;
+- tests exécutés par des agents : douze exécutions des prompts sur des cas fictifs, notées en aveugle ;
+- vérifications manuelles : relecture des sorties et contrôles ciblés.
+
+8.1 Contrôles de calcul exécutés (Python) : 22 sur 22 réussis
+Exemples chiffrés du nouveau prompt :
+- jambe à 1,30 (p = 77,5 %, p_basse = 75,5 %) : EV prudente de −1,85 % et 22,5 % de chances en moins pour le ticket ;
+- cote minimale 1/0,62 arrondie à 1,62 ;
+- minutes d'un buteur : mélange des scénarios 19,7 % contre 22,1 % avec la moyenne des minutes ;
+- base Winamax seule avec la méthode multiplicative : EV identique pour toutes les issues ;
+- méthode power : le favori garde une EV moins négative que l'outsider ;
+- abandons : 1 − 0,97⁵ ≈ une chance sur sept ;
+- bonus sur gain net.
+Propriétés de R★ :
+- ajouter une jambe d'EV prudente négative fait toujours baisser l'EV prudente du ticket, et une jambe positive la fait monter (0 violation sur 20 000 tirages aléatoires) ;
+- deux jambes positives de sports différents battent chaque simple ;
+- la chance de toucher ne départage pas deux cotes différentes à prix égal ;
+- deux jambes dépendantes ne sont jamais combinées comme indépendantes ;
+- le seuil de bascule est juste (cas C1 : 1,60).
+Exemples de SOL 5.16 recalculés (A à H, longueurs 3/4/5 à 80 %, formule de Poisson) : tous justes.
+Deux premiers échecs, tous deux venus de ma rédaction et corrigés :
+- un exemple écrit « −1,9 % » au lieu de −1,85 %, valeur exacte dont l'arrondi dépend de la convention ;
+- un test mal construit, dont les deux tickets n'avaient pas la même EV prudente.
+
+8.2 Défauts de conception trouvés par le calculateur avant les tests d'agents
+Première version de la règle de décision : tolérance de 2 points d'EV prudente, puis plus forte chance de toucher.
+Défaut : elle choisissait presque toujours la cote la plus basse de la zone. Dans le cas C2, elle retenait un simple à 1,50 d'EV −2,4 % plutôt qu'un double à EV +1,0 %, simplement parce qu'une cote courte touche plus souvent. C'est exactement le piège que SOL 5.16 signalait en 9.4 sans l'empêcher.
+Correction : la chance n'est plus jamais un critère entre cotes différentes ; tolérance ramenée à 1 point ; à l'intérieur du groupe de tête, le ticket le plus simple l'emporte.
+Deuxième version : départage par proximité d'une cote cible de 1,90.
+Défaut : dans le cas C4, elle donnait la victoire au moins bon prix du groupe de tête (EV prudente −4,6 % contre −3,9 %).
+Correction : départage par nombre de jambes, puis qualité, puis conditions en attente, puis EV prudente.
+Le calculateur a aussi servi à concevoir les six cas pour qu'ils testent vraiment ce qui est demandé. Exemple : la première version de C6 ne changeait pas de choix principal après la mise à jour ; elle a été refaite.
+
+8.3 Tests A/B sur six journées fictives — EN COURS
+Version de sauvegarde, enregistrée avant les tests les plus coûteux. Douze exécutions sont lancées (six cas × deux variantes) : refonte SOL 6.0 et « SOL 5.17 », c'est-à-dire SOL 5.16 précédé d'un correctif d'une page. Toutes les exécutions se font hors ligne, sur des données figées, avec une restitution compacte de 2 000 mots au plus.
+Les six cas :
+- C1 : le meilleur ticket vient d'un autre sport (NBA), et ajouter une jambe affaiblit le choix ; joueur avec un problème de dos.
+- C2 : un combiné multisport bat les tickets par sport ; dépendance (même joueuse en simple et en double) ; MyMatch.
+- C3 : grosse journée tennis sur trois tournois, en mode complet ; affiche non confirmée ; match commencé ; cote absente ; informations contradictoires sur une blessure.
+- C4 : programme pauvre et cotes Winamax inaccessibles.
+- C5 : base Winamax seule, toutes les EV négatives.
+- C6 : la conclusion change après une mise à jour du prix et de l'état physique.
+La vérité de calcul et la liste des erreurs graves ont été figées avant les exécutions. Les résultats, la notation à l'aveugle et les corrections qui en découlent seront ajoutés ici.
+
+
+═══ 9. LIMITES RESTANTES ═══
+
+1. Aucune performance n'est démontrée. Les tests vérifient la cohérence et la vérifiabilité des décisions, pas leur rentabilité. Les données historiques ne montrent d'ailleurs aucune règle simple gagnante dans les sports étudiés. La refonte aide surtout à ne pas payer de coûts inutiles (jambes ajoutées, prix périmés, double comptage) et à repérer les rares écarts de prix face à une référence.
+2. Règles Winamax non confirmées : abandon au tennis, prolongations au basket et au hockey, joueur non partant, conditions du Combo Booster, présence des Challengers, ITF et doubles dans l'offre. Le prompt demande de les vérifier et prévoit une règle prudente. Une lecture du règlement officiel par l'utilisateur dans l'application lèverait cette limite.
+3. Marges Winamax non mesurées. Elles sont probablement supérieures à celles de Pinnacle et de Bet365 (plafond légal de 85 % de retour en moyenne annuelle, sources secondaires à 90–93 % sur les marchés principaux). La règle « une jambe sans avantage coûte sa marge » est donc probablement plus sévère sur Winamax que dans les repères historiques.
+4. Tennis : aucune mesure propre (cotes historiques inaccessibles). Les conclusions reposent sur la littérature : environ 70 % de favoris gagnants, biais favori-outsider, Elo compétitif seulement en haut de la hiérarchie.
+5. NBA et NHL : une seule saison de test et un seul bookmaker américain grand public. Les intervalles de confiance sont donnés ; les écarts entre sports sont nets, mais les écarts fins (par exemple le biais sur les cotes longues en NBA) ne sont pas significatifs.
+6. Paramètres conventionnels de R★, choisis a priori et non estimés : groupe de tête à 1 point, fourchette de ±2 points (±3 sur base Winamax seule), zone de 1,50 à 4,00. Le calculateur montre que le choix change si on les modifie fortement. Un journal tenu sur plusieurs mois (partie 7 du prompt) permettrait de les ajuster hors échantillon.
+7. Accès réel aux références : Pinnacle et les bourses de paris ne sont pas toujours lisibles par un assistant en ligne. Quand elles manquent, la décision repose sur la marge Winamax et la qualité des preuves. Le prompt l'assume (base « Winamax seule », aucune value affichée), mais l'avantage de prix devient alors invisible.
+8. Les tests A/B portent sur six journées fictives et douze exécutions d'un même modèle, notées en aveugle par un autre modèle et contrôlées à la main. Ils montrent des tendances ; ce ne sont pas des statistiques. Les journées historiques réelles n'ont pas été utilisées, car le modèle testé peut connaître les résultats de matchs réels passés (contamination), et un résultat isolé ne prouve rien.
+
+9. Dépense de la session. Je ne peux pas mesurer la consommation réelle depuis cet environnement : je ne peux donc pas garantir le respect du plafond d'environ 250 $. Pour l'économiser, j'ai délégué les recherches documentaires et la notation à un modèle moins coûteux, imposé des sorties de test compactes, limité les tests aux six cas demandés et réservé les nouvelles exécutions aux points capables de changer une sélection.
+
+
+═══ 10. SOURCES ═══
+
+Données utilisées pour les calculs
+- football-data.co.uk : résultats et cotes (Pinnacle, Bet365, moyenne et maximum du marché, avant-match et clôture), 9 championnats, 2015-16 à 2025-26. https://www.football-data.co.uk/
+- ESPN, API publique (scoreboard et cotes d'ouverture et de clôture ESPN BET), NBA et NHL, saisons régulières 2024-25 et 2025-26. https://site.api.espn.com et https://sports.core.api.espn.com
+- Calculs : scripts Python de l'audit (calculateur R★, étude football, étude NBA/NHL, 22 contrôles).
+
+Littérature (niveau de vérification entre crochets)
+- Lopez, Matthews, Baumer (2018), How often does the best team win? A unified approach to understanding randomness in North American sport, Annals of Applied Statistics 12(4) : 2483-2516. arXiv 1701.05976 [texte intégral].
+- Kovalchik (2016), Searching for the GOAT of tennis win prediction, Journal of Quantitative Analysis in Sports 12(3) : 127-138, DOI 10.1515/jqas-2015-0059 [résumé].
+- Wilkens (2021), Sports prediction and betting models in the machine learning age: The case of tennis, Journal of Sports Analytics 7(2) : 99-117, DOI 10.3233/JSA-200463 [résumé].
+- Angelini, Candila, De Angelis (2022), Weighted Elo rating for tennis match predictions, European Journal of Operational Research 297(1) : 120-132 [résumé ; affirmation de rentabilité non vérifiée].
+- Lahvička (2014), What causes the favorite-longshot bias? Further evidence from tennis, Applied Economics Letters 21(2) : 90-92 [résumé].
+- Abinzano, Muga, Santamaria (2016), Game, set and match: the favorite-long shot bias in tennis betting exchanges, Applied Economics Letters 23(8) : 605-608 [résumé].
+- Étude des abandons au tennis, PLOS ONE (2024), PMC11146734 [résumé].
+- Sackmann, An Introduction to Tennis Elo, Tennis Abstract (2019) : mélange 50/50 et colonnes hElo, cElo, gElo et HardRaw [page lue directement]. https://www.tennisabstract.com/blog/2019/12/03/an-introduction-to-tennis-elo/
+- Clarke, Kovalchik, Ingram (2017), Adjusting bookmaker's odds to allow for overround, American Journal of Sports Science 5(6) : 45-49, DOI 10.11648/j.ajss.20170506.12 [résumé : power au moins aussi bonne que Shin, meilleure que multiplicative].
+- Štrumbelj (2014), On determining probability forecasts from betting odds, International Journal of Forecasting 30(4) [non vérifié directement ; cité via des travaux ultérieurs].
+- Angelini, De Angelis (2019), Efficiency of online football betting markets, International Journal of Forecasting 35(2) : 712-721 [résumé].
+- Kaunitz, Zhong, Kreiner (2017), Beating the bookies with their own numbers, arXiv 1710.02824 [texte intégral : gains par comparaison entre bookmakers, puis comptes limités].
+- Hubáček, Šourek, Železný (2019), Exploiting sports-betting market using machine learning, International Journal of Forecasting 35(2) : 783-796 [résumé].
+- Constantinou, Fenton (2012), RPS pour les prévisions de football, JQAS 8(1) [résumé] ; Wheatcroft (2021), critique du RPS, arXiv 1908.08980 [résumé].
+- Compton, Sigler (2012), NBA Gambling Inefficiencies: A Second Look, The Sport Journal [page lue].
+- De Angelis, Reade (2023), Home advantage and mispricing in indoor sports' ghost games: the case of European basketball, Annals of Operations Research 325 : 391-418 [résumé].
+- Woodland, Woodland (2001), Southern Economic Journal 67(4) : 983-995 ; Woodland, Woodland (2011), Journal of Sports Economics 12(1) : 106-117 ; Gandar, Zuber, Johnson (2004), Journal of Sports Economics 5(2) : 152-168 [résumés].
+- Buttrey (2016), Beating the market betting on NHL hockey games, JQAS 12(2) : 87-98 [résumé].
+- Weissbock, Viktor, Inkpen (2013) et Weissbock (2014, mémoire, Université d'Ottawa) : plafond de précision d'environ 62 % en NHL estimé par simulation [résumé].
+- Buckle, Huang, arbitrage en Super Rugby, International Journal of Sport Finance [extrait seulement].
+
+Règles et offre
+- ANJ, Règle de détermination du TRJ (délibération du 1er avril 2021) et décret n° 2020-1349 du 4 novembre 2020, art. 27-28 : plafond de 85 % en moyenne annuelle par agrément. https://ressources.anj.fr/regulation/trj/regle_determination_trj.pdf
+- ANJ, types de résultats et phases de jeu, annexe 2 de la décision 2026-159. https://ressources.anj.fr/sport/types_resultats_phases_jeux.pdf
+- ANJ, réforme de la liste des supports de paris (statistiques individuelles de basket, mars 2024). https://anj.fr/reforme-de-la-liste-des-supports-de-paris-autorises-dite-liste-sport
+- ANJ, homologation du logiciel « Combo Booster » de Winamax (2025). https://anj.fr/sites/default/files/2025-05/decision_Winamax_0003-PS-HOM-012-2025-05-05_20250429.pdf
+- NBA, rapport officiel de blessures, horaires de publication 2025-26. https://official.nba.com/nba-injury-report-2025-26-season/
+- Sources secondaires sur Winamax (Combo Booster, TRJ estimés) : topmercato.com, goal.com, les-transferts.com, sportytrader [faible fiabilité, utilisées seulement pour marquer « à confirmer »].
