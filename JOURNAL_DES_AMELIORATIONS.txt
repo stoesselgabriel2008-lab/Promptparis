@@ -56,3 +56,8 @@ Révision 6.9 — raccourci du seuil de bascule (3.10, contrôle 12)
 - Règle : raccourci réservé aux jambes gagné/perdu sans bonus ; plancher de la jambe = (1 + EV prudente de Y + t) / (P_basse(X) × produit des cotes des autres jambes) ; t = −1 point si X gagne le départage de R★ (jambes, puis qualité, puis conditions), +1 s'il le perd, 0 à égalité complète ; avec remboursement, résolution par états. Le contrôle final accepte le raccourci dans ces seules conditions.
 - Deux contrôles automatiques ajoutés (rejeu 1,79 ; plancher par états 1,37).
 Contrôles : statiques OK ; calculs 33/33.
+
+Révision 6.10 — fraîcheur des prix (3.4, contrôle final 2)
+- Défaut 1 (relecture « exécution ») : « n'applique jamais une p_ref plus ancienne que la cote » ne pouvait pas être suivi à la lettre (deux sources ne sont jamais lues au même instant), et l'exemple de registre du prompt l'enfreignait lui-même (Winamax 11:05, référence 11:00). Sans seuil, un modèle pouvait aussi bien relire toutes les références que garder une référence de 10:00 face à un prix de 18:30 lu après le rapport NBA. Règle : lectures à moins de 30 minutes d'écart et sans nouvelle entre-temps = simultanées ; au-delà, ou après une nouvelle, relire la référence avant toute EV.
+- Défaut 2 (relecture « logique », chiffres refaits) : le contrôle final demandait de garder p_ref « quand seule la cote Winamax a bougé », sans l'exception de la base Winamax seule. Exemple : 1,50 / 2,60 devenu 1,62 / 2,30 ; garder p_ref 64,46 % affiche EV +4,4 % (prudente −0,4 %), alors que la p_ref recalculée (59,36 %) donne −3,8 % (prudente −8,7 %). Le contrôle rappelle désormais l'exception.
+Contrôles : statiques OK ; calculs 33/33.
