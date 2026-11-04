@@ -95,3 +95,9 @@ Révision 6.16 — ticket court 🛡️ (2.3) : un simple peut le remplacer quan
 - Précisions au passage (relecture « logique ») : la référence du plafond de 2 points est « le ticket de la zone dont l'EV prudente est la plus haute » (« le mieux payé » pouvait se lire comme la cote la plus haute, ce qui autorisait un sacrifice de 5,8 points au lieu de 2) ; la mention « autour de 1,90–2,00 » est retirée, puisque la recherche de la chance la plus haute place souvent ce ticket vers 1,75–1,85.
 - Calculateur : fonction shield_with_single ; un contrôle ajouté.
 Contrôles : statiques OK ; calculs 34/34.
+
+Révision 6.17 — compression sans perte de règle
+- 27 coupes de doublons et de formulations longues (environ 300 mots), proposées par une relecture dédiée puis vérifiées une à une. Exemples : l'interdiction de l'esport et le statut ANJ des statistiques de basket figuraient deux fois (4.2 et modules) ; l'ordre de la fiche de sortie répétait les titres numérotés juste en dessous ; les repères NHL étaient copiés de 6.0 vers 6.5 ; plusieurs parenthèses recopiaient une liste déjà donnée dans la section citée.
+- Trois coupes refusées parce qu'elles affaiblissaient un point important : la priorité P6 garde « une EV négative ne supprime pas un format » ; 2.2 garde « le sport ne donne aucune priorité », exigence explicite du cahier des charges ; le contrôle final 2 garde le détail des mises à jour de p_ref, corrigé en 6.10.
+- Aucun nombre, exemple, seuil ni titre de section n'a disparu (vérifié en code).
+Contrôles : statiques OK ; calculs 34/34.
