@@ -21,7 +21,7 @@ resultats/
 tests/
 - cas/ : les treize cas de contrôle fictifs (C1 à C6 pour le test A/B ; C7 pour la validation de la v4 ; C8 à C10 pour la passe ciblée v7 ; C11 à C13, cas de stress des révisions 6.x : tennis complet à vingt matchs, marchés vivants, freebet et bilan de journal).
 - verite_de_calcul/ : vérité de calcul et erreurs graves, fixées avant les exécutions ; consignes des évaluateurs ; correspondance X/Y ; récapitulatif des notes.
-- sorties/ : les douze réponses du test A/B (suffixe _R = refonte SOL 6.0 v1 ; suffixe _M = correction minimale), plus les validations : C7_R4.txt (v4), C4_R6.txt (v6), C8_R7.txt, C9_R7.txt et C10_R7.txt (version finale v7).
+- sorties/ : les douze réponses du test A/B (suffixe _R = refonte SOL 6.0 v1 ; suffixe _M = correction minimale), plus les validations : C7_R4.txt (v4), C4_R6.txt (v6), C8_R7.txt, C9_R7.txt et C10_R7.txt (version finale v7), puis C11_R64.txt (avec son rapport TXT), C12_R64.txt et C13_R64.txt (révision 6.4).
 - variantes/ : le correctif d'une page qui, placé devant SOL 5.16, formait la « correction minimale », ainsi que les versions 1 (test A/B), 4 (cas C7) et 7 (cas C8 à C10, identique à la version livrée) de la refonte telles qu'elles ont été testées.
 
 La version livrée, PROMPT_PARIS_VERSION_FINALE.txt, intègre les corrections faites après ces tests ; la liste figure dans l'audit (sections 8.6, 8.8 et 8.9), puis, pour les révisions 6.1 et suivantes, dans JOURNAL_DES_AMELIORATIONS.txt.

@@ -1,0 +1,220 @@
+📌 DÉCISION
+
+Préparé le mardi 8 décembre 2026 à 16:00 (Paris) · horizon : ce soir jusqu'à mercredi 06:00 · rencontres : les 5 que tu as fournies (football ×2, tennis ×2, NBA ×1) · base de prix : référence indépendante (Pinnacle via un comparateur qui le nomme, 15:35) face aux cotes Winamax de 15:40 ✅ · aucune recherche possible : je travaille uniquement sur tes données. Tous les calculs (dévig, EV, valeur du freebet, énumération des 431 tickets possibles, seuils, journal) sont faits en code.
+
+🎁 TON FREEBET 10 € → **Weber × Bréda × Rodez** · cote **8,55** · chance **11,9 %** · valeur estimée **9,02 €** · valeur prudente **7,88 €** · gain net si le ticket passe : environ 75,5 € · **à valider avant 18:00**
+- Weber vainqueur (Weber – Lind, tennis, 18:00) · 1,36 ✅ · R9
+- Bréda vainqueur (Bréda – Hautval, football, 20:45) · 1,85 ✅ · R1
+- Rodez vainqueur (Laval – Rodez, football, 21:00) · 3,40 ✅ · R8
+
+Pourquoi lui : ton freebet est à mise non rendue, donc 1 € de freebet vaut chance × (cote − 1), et non l'EV d'un pari en espèces : à EV égale, plus la cote est longue, plus le freebet vaut cher. Ces trois jambes sont cotées par Winamax au niveau ou un peu au-dessus du prix sans marge de Pinnacle (1,36 pour 1,35 ; 1,85 pour 1,83 ; 3,40 pour 3,39) : le ticket garde 90 % de la valeur nominale du freebet (78,8 % à la borne prudente). Règle de décision (valeur prudente, puis simplicité) : trois tickets se tiennent à moins de 0,10 € (1 % du freebet) — Weber × Novak × Bréda × Rodez 7,94 €, Weber × Bréda × Rodez 7,88 €, Novak × Bréda × Rodez 7,87 € ; je retiens le plus court, puis le mieux valorisé à qualité égale.
+
+Choix non net, je le dis clairement : avec une fourchette de ±3 points partout, avec le dévig multiplicatif, ou une fois le rapport NBA du jour publié sans changement, **Bréda × Rams × Rodez** (16,35 · chance 6,1 % · aucune jambe de tennis) passe devant, à 0,05–0,10 € près de valeur prudente. C'est une préférence entre options de valeur équivalente, pas un écart de prix.
+
+Alternative en simple : **Rodez vainqueur à 3,40** · chance 29,5 % · valeur 7,08 € (prudente 6,60 €) · gain net 24 €. Avec lui, je renonce à 1,28 € de valeur prudente (1,94 € en valeur centrale) pour toucher environ 2,5 fois plus souvent. Le choix entre les deux est le tien.
+
+Il reste mon choix tant que (seuils de bascule, classement rejoué en entier) : **Weber ≥ 1,36, Bréda ≥ 1,79, Rodez ≥ 3,21**, ticket validé avant 18:00. Sinon, plan horaire :
+- 18:00–19:30 : **Novak × Bréda × Rodez** (9,75 · 10,3 % · 7,87 €).
+- 19:30–20:45 : **Bréda × Rodez** (6,29 · 16,1 % · 7,66 €).
+- Dans ces deux créneaux, si le rapport NBA du jour est sorti sans changement et que les cotes tiennent (Rams ≥ 2,55, Bréda ≥ 1,82, Rodez ≥ 3,20) : **Bréda × Rams × Rodez** (16,35 · 6,1 % · 7,94 €), avant 20:45.
+- 20:45–21:00 : Rams × Rodez (8,84 · 11,1 % · 7,48 €) ; 21:00–23:59 : Rams seul (2,60 · 37,7 % · 5,55 €).
+
+Avant de cliquer :
+1. Freebet bien sélectionné, cote totale affichée d'environ 8,55 (minimum 1,80 respecté), validation avant 18:00.
+2. Les trois cotes au-dessus de leur seuil ; si Weber tombe à 1,35, passe à Novak × Bréda × Rodez.
+3. Règle d'abandon en tennis dans l'application : j'ai compté un abandon de Weber comme perdu ; si Winamax annule le match en cas d'abandon, la jambe passe à 1,00 et le ticket paie sur 6,29.
+
+📓 Journal en bref : **CLV −4,3 %** (9 paris sur 60 au-dessus de la clôture) ; **Brier 0,2408 pour tes p_ret contre 0,2418 pour la clôture** (écart non significatif) ; **rendement −13,3 %** à mise égale (−8 unités sur 60 ; intervalle à 95 % d'environ −34 % à +7 %). Seul signal net : tes cotes prises sont presque toujours sous la clôture. Aucune convention modifiée (60 jambes, il en faut 200). Détail dans le bilan plus bas.
+
+⭐ CHOIX PRINCIPAL en espèces (facultatif, seulement si tu mises aussi) : **Bréda vainqueur** · **1,85** ✅ 15:40 · chance 54,7 % · EV +1,1 % / prudente −2,6 % · 🟡 value fragile.
+Pourquoi lui : aucune EV prudente n'est positive ce soir, c'est donc le ticket le moins coûteux de la zone 1,50–4,00 selon la règle de décision : −2,6 % contre −3,8 % pour Novak 1,55, premier concurrent (1,2 point d'écart), avec un règlement sans inconnue face à une règle d'abandon non fournie. Choix net : il garde sa place avec ±3 points (−4,4 % contre −5,3 %).
+Il reste mon choix tant que : **Bréda ≥ 1,81** ; sinon Novak vainqueur à 1,55 (R11), avant 19:30.
+Avant de cliquer : cote ≥ 1,81, référence relue sans mouvement contre Bréda, avant 20:45.
+
+Menu (alternatives, pas à cumuler) :
+- 🎯 Meilleur simple : le ⭐ (Bréda 1,85). Weber 1,36 a une EV prudente un peu meilleure (−2,0 %, même groupe de tête) mais sa règle d'abandon n'est pas connue : à nombre de jambes égal, la qualité départage.
+- 🛡️ Ticket court : Weber × Hawks · 2,04 · chance 46,1 % · EV −5,9 % / −12,9 %, seul ticket de la zone 1,75–2,10. Juste au-dessus : Weber × Novak · 2,11 · 47,5 % · EV +0,0 % / −5,7 % : plus de chance et 7 points d'EV prudente de moins à payer ; c'est lui que je prendrais si tu acceptes 2,11.
+- 🎾 Combiné tennis : impossible, 2 matchs de tennis fournis pour 3 requis (1 manquant) et aucune autre source accessible.
+- 🎲 Plaisir : vide, aucun marché vivant (total, handicap, buteur, sets…) dans tes données.
+- 🚀 Combiné plaisir : Bréda × Weber · 2,52 · 40,5 % · EV +1,9 % / −4,5 % · 🟡 · avant 18:00.
+- 🎉 Fun : non servi en espèces, car sa meilleure version (Weber × Bréda × Rodez, EV prudente −10,7 %) est exactement le ticket du freebet : joue-la avec le freebet.
+- 🟡 Value fragile : Bréda (+1,1 %), Weber (+0,7 %), Rodez (+0,3 %), toutes négatives à la borne prudente ; aucune 🟢.
+
+Exposition commune : Bréda est dans le freebet, le ⭐/🎯 et le 🚀 ; Weber dans le freebet, le 🛡️ et le 🚀 ; Rodez dans le freebet. Freebet + ⭐ = double exposition à Bréda.
+
+
+🔭 COUVERTURE
+
+- Football : 2 rencontres (M1, M3), 6 issues chiffrées. Retenues : Bréda et Rodez, seules cotes Winamax au-dessus du prix sans marge de Pinnacle. Écartées : les deux nuls, Hautval, Laval (Winamax sous Pinnacle : 3,60 contre 3,80 ; 3,40 contre 3,50 ; 4,40 contre 4,80 ; 2,15 contre 2,25).
+- Tennis : 2 rencontres (M4, M5), 4 issues. Retenus : Weber (prix et brique à 74 %), Novak (brique à 64 %). Écartés : Lind (3,05 contre 3,60, EV −20,9 %) et Ruiz (2,45 contre 2,62, EV −12,0 %).
+- NBA : 1 rencontre (M2), 2 issues. Rams retenu comme concurrent du freebet (2,60 contre 2,50, mais sous son prix juste de 2,65) ; Hawks gardé seulement pour le 🛡️.
+- Basket européen, rugby, hockey : rien fourni, rien couvert. Je ne peux pas vérifier s'il existe d'autres rencontres ce soir.
+- Limites et conséquences : aucune donnée sportive (forme, absences, calendrier), donc aucun ajustement possible, chaque probabilité est celle du marché ; règle d'abandon tennis non fournie, d'où des jambes de tennis en qualité Q2 ; aucun marché vivant, donc pas de 🎲 ; deux matchs de tennis, donc pas de 🎾.
+- Ce que l'exploration a changé : le meilleur usage du freebet n'est pas le simple le plus long mais un combiné de jambes proches du prix juste (+1,28 € de valeur prudente face au meilleur simple) ; la seconde passe a montré que ce classement n'est pas net (Rams).
+
+
+📒 REGISTRE
+
+Matchs
+M1 · football · compétition non précisée · Bréda – Hautval · mardi 20:45 · à venir · approfondi
+M2 · basket, NBA · Ridge Rams – Harbor Hawks · mercredi 01:00 · à venir · approfondi
+M3 · football · compétition non précisée · Laval – Rodez (Rodez à l'extérieur) · mardi 21:00 · à venir · approfondi
+M4 · tennis · tournoi et tour non précisés · Weber – Lind · mardi 18:00 (heure fixe ou « pas avant » : non précisé) · à venir · approfondi
+M5 · tennis · tournoi et tour non précisés · Novak – Ruiz · mardi 19:30 (idem) · à venir · approfondi
+
+Sélections. Conventions communes : Winamax 15:40 ✅ ; référence Pinnacle via comparateur 15:35 ; dévig power, contrôle multiplicatif ; ajustement : aucun (aucune information datée hors prix) ; fourchette ±2 points (écart entre méthodes ≤ 1,0 point), ±3 en NBA tant que le rapport de blessures du jour n'est pas publié.
+R1 · M1 · **Bréda vainqueur**, 1X2 temps réglementaire · Winamax 1,85 / 3,60 / 4,40 · réf. Pinnacle 1,80 / 3,80 / 4,80 · p_ref 54,7 % (multiplicatif 54,1 %) · p_ret 54,7 % [52,7 ; 56,7] · EV +1,1 % / prudente −2,6 % · marge Winamax 4,6 % (Pinnacle 2,7 %) · Q1 · tier B · condition : aucune
+R2 · M1 · Nul · 3,60 · p_ref 25,4 % [23,4 ; 27,4] · EV −8,7 % / −15,9 % · Q1 · tier D
+R3 · M1 · Hautval · 4,40 · p_ref 20,0 % [18,0 ; 22,0] · EV −12,2 % / −21,0 % · Q1 · tier D
+R4 · M2 · **Rams vainqueur**, prolongations incluses (marché à deux issues) · Winamax 2,60 / 1,50 · réf. Pinnacle 2,50 / 1,56 · p_ref 37,7 % (multiplicatif 38,4 %) · p_ret 37,7 % [34,7 ; 40,7] (±3 : rapport du jour attendu vers 17–19 h à Paris) · EV −2,0 % / −9,8 % · marge Winamax 5,1 % (Pinnacle 4,1 %) · Q1 · tier D/C · condition : aucune (aucun statut incertain)
+R5 · M2 · Hawks · 1,50 · p_ref 62,3 % [59,3 ; 65,3] · EV −6,6 % / −11,1 % · Q1 · tier A/B
+R6 · M3 · Laval · 2,15 · p_ref 43,2 % [41,2 ; 45,2] · EV −7,2 % / −11,5 % · Q1 · tier C
+R7 · M3 · Nul · 3,40 · p_ref 27,3 % [25,3 ; 29,3] · EV −7,1 % / −13,9 % · Q1 · tier D
+R8 · M3 · **Rodez vainqueur** (à l'extérieur), 1X2 temps réglementaire · Winamax 2,15 / 3,40 / 3,40 · réf. Pinnacle 2,25 / 3,50 / 3,25 · p_ref 29,5 % (multiplicatif 29,6 %) · p_ret 29,5 % [27,5 ; 31,5] · EV +0,3 % / −6,5 % · marge Winamax 5,3 % (Pinnacle 3,8 %) · Q1 · tier D · condition : aucune
+R9 · M4 · **Weber vainqueur** · règle d'abandon non fournie, calculé « abandon de Weber = perdu » · Winamax 1,36 / 3,05 · réf. Pinnacle 1,33 / 3,60 · p_ref 74,1 % (multiplicatif 73,0 %) · p_ret 74,1 % [72,1 ; 76,1] · EV +0,7 % / −2,0 % · marge Winamax 6,3 % (Pinnacle 3,0 %) · Q2 · tier S · condition : aucune
+R10 · M4 · Lind · 3,05 · p_ref 25,9 % [23,9 ; 27,9] · EV −20,9 % / −27,0 % · Q2 · tier D
+R11 · M5 · **Novak vainqueur** · même règle d'abandon que R9 · Winamax 1,55 / 2,45 · réf. Pinnacle 1,52 / 2,62 · p_ref 64,1 % (multiplicatif 63,3 %) · p_ret 64,1 % [62,1 ; 66,1] · EV −0,7 % / −3,8 % · marge Winamax 5,3 % (Pinnacle 4,0 %) · Q2 · tier A · condition : aucune
+R12 · M5 · Ruiz · 2,45 · p_ref 35,9 % [33,9 ; 37,9] · EV −12,0 % / −16,9 % · Q2 · tier D
+
+
+⚖️ COMPARAISON DES TICKETS
+
+Freebet 10 €, mise non rendue : 431 tickets énumérés (1 à 5 jambes, un pari par match), dont 428 à cote ≥ 1,80 (Weber, Novak et Hawks seuls sont trop courts). Classement par valeur prudente, groupe de tête à 0,10 €, puis le moins de jambes.
+
+| Ticket | Cote | Chance · valeur / prudente | Pourquoi ce rang |
+|---|---|---|---|
+| Weber × Novak × Bréda × Rodez | 13,26 | 7,7 % · 9,38 / 7,94 € | meilleure valeur prudente, mais 4 jambes : battu par la simplicité dans le groupe de tête |
+| **Weber × Bréda × Rodez** | **8,55** | **11,9 % · 9,02 / 7,88 €** | **retenu** : groupe de tête, 3 jambes, meilleure valeur des 3 jambes |
+| Novak × Bréda × Rodez | 9,75 | 10,3 % · 9,04 / 7,87 € | équivalent (−0,02 €) ; plan B après 18:00 |
+| Bréda × Rams × Rodez | 16,35 | 6,1 % · 9,34 / 7,72 € | hors groupe avant le rapport NBA (0,22 € sous la meilleure valeur) ; 7,94 € et en tête après un rapport sans changement |
+| Bréda × Rodez | 6,29 | 16,1 % · 8,53 / 7,66 € | meilleur à 2 jambes |
+| Rodez (simple) | 3,40 | 29,5 % · 7,08 / 6,60 € | meilleur simple admissible |
+| Les cinq (Weber, Novak, Bréda, Rodez, Rams) | 34,47 | 2,9 % · 9,66 / 7,53 € | meilleur à 5 jambes : la cinquième jambe coûte plus qu'elle n'apporte |
+
+Ce qu'apporte chaque jambe (valeur prudente) : Bréda × Rodez 7,66 € → + Weber 7,88 € (+0,22 €, chance 16,1 → 11,9 %) → + Novak 7,94 € (+0,06 €, chance → 7,7 %). Ce dernier gain est sous le seuil de 0,10 € : la quatrième jambe est refusée.
+À éviter pour le freebet : Bréda × Nul (Laval – Rodez) × Weber, même cote 8,55 que le choix mais 7,26 € de valeur prudente (−0,62 €), car le nul a la même cote que Rodez avec 2,2 points de probabilité en moins ; Hautval × Rodez (14,96) : 6,89 €, presque 1 € de moins malgré une cote presque double, car Hautval est payé 4,40 contre 4,80 chez Pinnacle.
+
+Espèces : frontière (règle de décision R★ : EV prudente, puis simplicité)
+
+| Ticket | Cote | Chance · EV centrale / prudente | Pourquoi ce rang |
+|---|---|---|---|
+| **Bréda** | **1,85** | 54,7 % · +1,1 / −2,6 % | ⭐ et 🎯 : meilleure EV prudente de la zone 1,50–4,00 |
+| Weber (simple) | 1,36 | 74,1 % · +0,7 / −2,0 % | hors zone ⭐ ; pour le 🎯, même groupe que Bréda mais règle d'abandon inconnue |
+| Bréda × Weber | 2,52 | 40,5 % · +1,9 / −4,5 % | meilleur à 2 jambes et meilleur multisport ; 🚀 |
+| Weber × Novak × Bréda | 3,90 | 25,9 % · +1,2 / −8,1 % | meilleur à 3 jambes |
+| Weber × Novak × Bréda × Rodez | 13,26 | 7,7 % · +1,5 / −14,1 % | meilleur à 4 jambes, hors zone |
+| Les cinq | 34,47 | 2,9 % · −0,5 / −22,5 % | meilleur à 5 jambes, hors zone |
+
+Mono-sport : football Bréda ; tennis Weber (dans la zone ⭐ : Novak 1,55, −3,8 %) ; NBA Rams 2,60 (−9,8 %). Bréda plutôt que Novak parce que −2,6 % contre −3,8 % d'EV prudente : 1,2 point, hors du groupe de tête.
+Coût d'une jambe de plus sur le ⭐ : + Weber → chance 54,7 → 40,5 % (−26 % relatif), EV prudente −2,6 → −4,5 % ; + Novak → 35,0 %, −6,2 % ; + Rodez → 16,1 %, −8,9 %. Aucune jambe n'a d'EV prudente positive : en espèces, chaque ajout coûte.
+
+
+🔬 DOSSIERS DES FINALISTES
+
+Point commun : tes données ne contiennent que des prix (« aucun statut incertain », rien sur la forme, les absences ou le calendrier). Aucune probabilité n'est donc ajustée : p_ret = prix sans marge de Pinnacle partout, et aucun argument sportif ne peut ici renforcer ou affaiblir une jambe.
+
+**Rodez vainqueur à 3,40 (R8)**, la jambe qui porte la valeur du freebet.
+Données : Winamax 3,40 contre 3,25 chez Pinnacle ; prix sans marge 3,39 ; EV +0,3 % (multiplicatif +0,8 %). C'est la cote la plus longue du jour qui reste au niveau du prix juste.
+Objection : l'avance (0,01 au-dessus du prix juste) est bien plus petite que les mouvements habituels d'un prix avant la clôture ; Rodez ne gagne que 29,5 fois sur 100.
+Alternative : le nul du même match, à la même cote 3,40, a 2,2 points de probabilité de moins ; Hautval 4,40 est loin sous Pinnacle (4,80).
+Bascule : sous 3,21, le freebet change de ticket.
+
+**Bréda vainqueur à 1,85 (R1)** : ⭐, 🎯 et jambe du freebet.
+Données : 1,85 contre 1,80 chez Pinnacle (marge Pinnacle faible, 2,7 %) ; prix sans marge 1,83 ; EV +1,1 % (power), +0,1 % (multiplicatif).
+Objection : la value dépend de la méthode de retrait de marge et disparaît dans la fourchette (prudente −2,6 %) : c'est un 🟡, pas un avantage établi. Winamax reprend sa marge sur l'outsider (Hautval 4,40).
+Alternative : Novak 1,55 pour le ⭐ (−3,8 % prudent).
+Bascule : ⭐ sous 1,81 → Novak ; freebet sous 1,79 → Weber × Novak × Rodez.
+
+**Weber vainqueur à 1,36 (R9)**, troisième jambe du freebet.
+Données : 1,36 contre 1,33 ; prix sans marge 1,35 (EV positive dès 1,36) ; EV +0,7 % en power, −0,7 % en multiplicatif.
+Objection : règle d'abandon non fournie ; calcul fait avec l'hypothèse défavorable (abandon de Weber = perdu) ; si Winamax annule le match, la jambe passe à 1,00 et le ticket paie 6,29. Le départ à 18:00 impose de valider avant.
+Alternative : Novak, même rôle, valeur prudente identique à 0,02 € près.
+Bascule : à 1,35, Novak × Bréda × Rodez passe devant.
+
+**Premier concurrent : Novak vainqueur à 1,55 (R11).**
+Données : 1,55 contre 1,52 ; prix sans marge 1,56 ; EV −0,7 % / −3,8 % ; même inconnue sur l'abandon.
+Pourquoi second : dans le freebet, il ne perd que sur le dernier critère (0,02 € de valeur prudente) ; son seul atout est l'horaire (jouable jusqu'à 19:30).
+
+**Concurrent selon le réglage : Rams vainqueur à 2,60 (R4).**
+Données : 2,60 contre 2,50 chez Pinnacle, mais la marge Pinnacle (4,1 %) place le prix juste à 2,65 : EV −2,0 % en power, −0,1 % en multiplicatif. Fourchette ±3 tant que le rapport de blessures NBA du jour n'est pas publié (en général entre 17 h et 19 h à Paris pour un match du soir de la côte Est ; 01:00 à Paris = 19:00 à New York).
+Ce qui le ferait passer devant : rapport publié sans changement et cotes inchangées → fourchette ±2 → Bréda × Rams × Rodez à 7,94 €, en tête du freebet car sans jambe de tennis.
+Objection : EV centrale négative avec la méthode par défaut ; le ticket ne passe que 6 fois sur 100.
+Bascule : Rams ≥ 2,55 après le rapport.
+
+Seconde passe, ce qui a été contrôlé : chiffres des tickets identiques au registre ; jambes toutes sur des matchs différents (les deux matchs de football sont distincts, aucune dépendance à traiter) ; aucune jambe ajoutée pour atteindre une cote (Weber ajoute +0,22 € ; la quatrième jambe, Novak, est refusée) ; les sélections écartées (Lind, Ruiz, Hautval, Laval, les nuls, Hawks) restent sous le prix juste de Pinnacle ; contradiction matérielle trouvée et écrite : le classement du freebet n'est pas net (Rams).
+
+
+📓 BILAN DU JOURNAL (60 simples réglés, J01 à J60)
+
+Base : 60 jambes, une par ticket, résultats gagné/perdu (aucun remboursement). Tes mises ne sont pas indiquées : rendement calculé à mise égale (1 unité par pari). Colonnes absentes par rapport au format du journal : format, sport, match, marché, ligne, règle, heure, p_ref, p_basse, source, EV, label, qualité, gain net.
+
+1. CLV (cote prise / cote de clôture − 1) : **moyenne −4,3 %** (médiane −4,3 %), intervalle approximatif à 95 % [−5,5 ; −3,1] %. **9 paris sur 60 au-dessus de la clôture (15 %)**, 3 égaux, 48 en dessous ; test de signe p ≈ 1,5 × 10⁻⁷. Stable dans le temps : −4,1 % sur J01–J30, −4,5 % sur J31–J60. Lecture : tu prends presque toujours une cote plus basse que la clôture. C'est l'indicateur le plus rapide, et le seul signal net de ce bilan.
+Contrôle de cohérence : sur les 60 lignes, p de clôture × cote de clôture − 1 est positif (+3,5 % en moyenne). Une cote avec marge et la probabilité sans marge du même marché donneraient toujours l'inverse : les deux colonnes ne viennent probablement pas de la même source. Précise-la (cote Winamax de clôture ? meilleure cote d'un comparateur ? Pinnacle sans marge ?). Mesure complémentaire fondée sur p de clôture : EV au prix pris de −1,0 % en moyenne [−2,2 ; +0,3].
+
+2. Probabilités : Brier **0,2408 pour p_ret contre 0,2418 pour la clôture** (écart apparié −0,0010, intervalle à 95 % [−0,0065 ; +0,0045]) ; log-loss 0,678 contre 0,681 (écart −0,003 [−0,016 ; +0,010]). Sur 60 jambes, tes probabilités et la clôture sont indiscernables : rien ne montre que tu prévois mieux, ni moins bien.
+Calibration : aucun découpage en bandes de 10 points ne donne 30 jambes par bande (coupe à 60 % : 27 et 33 ; à 70 % : 42 et 18), donc une seule bande : p_ret moyen 61,9 % pour 55,0 % de réussite (33 sur 60), soit 37,1 gains attendus pour 33 (z ≈ −1,1) ; la clôture en attendait 37,5 (z ≈ −1,2). L'écart est dans le bruit, et la clôture le partage.
+
+3. Rendement : **−8,00 unités sur 60 misées, soit −13,3 %**, intervalle approximatif à 95 % [−34 ; +7] % (±21 points). Rendement attendu au prix pris : −1,9 % selon tes p_ret, −1,0 % selon la clôture : l'essentiel du −13,3 % vient de quatre gains de moins que prévu. Même CLV dans les deux moitiés, mais rendement +0,7 % puis −27,4 % : c'est le résultat qui varie, pas la méthode. Par format : 60 simples, aucun autre format dans le journal ; par sport : non calculable, colonne absente.
+À noter : selon tes propres p_ret, l'EV centrale moyenne au moment du pari était de −1,9 % (21 paris sur 60 à EV positive) ; ce journal décrit surtout des paris récréatifs, pas une recherche de value.
+
+4. Remboursements, DNB, lignes en quart : aucun.
+
+Conclusion : avec 60 jambes (il en faut 200), aucune convention de la règle de décision n'est modifiée (tolérance, fourchette, zones, plafond du ticket court). Tendance notée : CLV nettement négative. Dans le cadre actuel, elle renforce deux habitudes déjà prévues : relire cote et référence juste avant de cliquer, et compléter le journal (colonnes manquantes, source de la clôture) pour qu'un prochain bilan puisse trancher par sport et par format.
+
+
+📋 FICHE FINALE
+
+A. Calendrier (heure de Paris)
+- Maintenant → 18:00 : relire les cotes (lues à 15:35–15:40) ; **valider le freebet Weber × Bréda × Rodez avant 18:00** (limite aussi du 🛡️ et du 🚀).
+- Vers 17:00–19:00 : rapport de blessures NBA du jour (Rams – Hawks), à lire avant tout ticket avec Rams ou Hawks.
+- 18:00 : Weber – Lind (tennis).
+- 19:30 : Novak – Ruiz (tennis) ; limite du plan B Novak × Bréda × Rodez.
+- 20:45 : Bréda – Hautval (football) ; limite du ⭐/🎯 et des plans Bréda × Rams × Rodez ou Bréda × Rodez.
+- 21:00 : Laval – Rodez (football).
+- 23:59 : expiration du freebet.
+- Mercredi 01:00 : Ridge Rams – Harbor Hawks (NBA).
+
+B. Paris
+
+⭐ CHOIX PRINCIPAL (espèces, facultatif) · 🟡 · **Bréda vainqueur · 1,85 · 54,7 %**
+— Football · Bréda – Hautval · compétition non précisée · mardi 20:45
+— Résultat du match (1X2), temps réglementaire · Winamax 1,85 ✅ 15:40 · référence Pinnacle 1,80 / 3,80 / 4,80 (15:35)
+— Pourquoi : le pari en espèces le moins coûteux du jour (EV +1,1 % ; prudente −2,6 %, contre −3,8 % pour Novak)
+— Avant de cliquer : **cote ≥ 1,81**, référence relue sans mouvement contre Bréda
+— Plan B : Novak vainqueur à 1,55, avant 19:30
+
+🎯 MEILLEUR SIMPLE · même pari que le ⭐ (Bréda 1,85).
+
+🛡️ TICKET COURT · sans label · **Weber × Hawks · 2,04 · 46,1 %**
+— Weber vainqueur · Weber – Lind · tennis · mardi 18:00 · 1,36 ✅ (R9)
+— Hawks vainqueur, prolongations incluses · Ridge Rams – Harbor Hawks · NBA · mercredi 01:00 · 1,50 ✅ (R5)
+— EV −5,9 % (en moyenne, ce prix rend 94 % de la mise) ; prudente −12,9 % ; seul ticket de la zone 1,75–2,10, donc aucun sacrifice à arbitrer ; il perd plus d'une fois sur deux.
+— Avant de cliquer : avant 18:00, donc avant le rapport NBA (classé avec la fourchette défavorable)
+— Plan B (0,01 hors zone) : **Weber × Novak · 2,11 · 47,5 %** · EV +0,0 % / −5,7 %, à préférer si tu acceptes 2,11
+
+🎾 COMBINÉ TENNIS · non servi : 2 matchs de tennis fournis, il en faut au moins 3.
+
+🎲 PLAISIR · non servi : aucun marché vivant (total, handicap, buteur, sets) dans tes données.
+
+🚀 COMBINÉ PLAISIR · 🟡 · **Bréda × Weber · 2,52 · 40,5 %**
+— Weber vainqueur · tennis · mardi 18:00 · 1,36 ✅ (R9)
+— Bréda vainqueur · football · mardi 20:45 · 1,85 ✅ (R1)
+— EV +1,9 % / prudente −4,5 % ; matchs indépendants ; abandon de Weber compté perdu
+— Avant de cliquer : avant 18:00 ; Bréda ≥ 1,81
+— Plan B : Bréda × Novak (2,87), avant 19:30
+
+🎉 FUN · non servi en espèces : sa meilleure version est le ticket du freebet ci-dessous.
+
+🎁 FREEBET 10 € · **Weber × Bréda × Rodez · 8,55 · 11,9 %**
+— Weber vainqueur · Weber – Lind · tennis · mardi 18:00 · 1,36 ✅ 15:40 (R9)
+— Bréda vainqueur (1X2, temps réglementaire) · Bréda – Hautval · football · mardi 20:45 · 1,85 ✅ (R1)
+— Rodez vainqueur (1X2, temps réglementaire) · Laval – Rodez · football · mardi 21:00 · 3,40 ✅ (R8)
+— Cote 8,55 · chance 11,9 % · **valeur estimée 9,02 € · valeur prudente 7,88 €** · gain net si gagnant ≈ 75,5 € (la mise du freebet n'est pas rendue) · jambes indépendantes · si Winamax annule Weber – Lind sur abandon, le ticket paie 6,29
+— Pourquoi : à 0,10 € près la meilleure valeur du jour pour un freebet, avec le moins de jambes ; trois jambes au niveau du prix juste
+— Avant de cliquer : **valider avant 18:00** ; Weber ≥ 1,36, Bréda ≥ 1,79, Rodez ≥ 3,21
+— Plan B : après 18:00, Novak × Bréda × Rodez (9,75) avant 19:30, puis Bréda × Rodez (6,29) avant 20:45 ; si le rapport NBA est sorti sans changement et que Rams ≥ 2,55, Bréda × Rams × Rodez (16,35) avant 20:45
+— Alternative en simple : **Rodez vainqueur 3,40 · 29,5 %** · valeur 7,08 € (prudente 6,60 €) : 1,28 € de valeur prudente en moins pour toucher 2,5 fois plus souvent. À toi de choisir.
+
+C. Si je ne devais jouer qu'un pari : le freebet Weber × Bréda × Rodez avant 18:00 ; il ne te coûte rien, alors qu'aucun pari en espèces n'a ce soir d'EV prudente positive.
+
+D. Rappel : limite principale du jour, seulement des prix lus à 15:35–15:40, sans données sportives ni règle d'abandon tennis ; relis les cotes et les compositions avant de jouer. Un freebet a une valeur moyenne, pas une promesse : 88 fois sur 100, ce ticket ne rapporte rien. Aucune promesse de gain. 18+.

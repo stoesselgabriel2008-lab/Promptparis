@@ -1,0 +1,413 @@
+SOL 6 · MODE TENNIS COMPLET · RAPPORT JOINT
+Jeudi 3 décembre 2026 · préparé à 11:30 (heure de Paris) · horizon : aujourd'hui jusqu'à vendredi 4 décembre 6:00
+
+Données : uniquement celles de ta saisie ; aucune recherche n'était possible au-delà.
+- Cotes Winamax : captures de 11:10 à 11:20, observées (✅).
+- Référence : Pinnacle via un comparateur qui le nomme, lue de 11:05 à 11:15.
+- Elo de surface, déjà mélangés surface/global (je ne les mélange pas une seconde fois), relevés lundi 30 novembre.
+- Règlement Winamax vérifié : un abandon après le début annule le pari (cote ramenée à 1 dans un combiné) ; un forfait avant le début annule aussi le pari.
+- Absent des données : forme récente, statistiques service/retour, cotes des marchés secondaires (sets, jeux, handicaps, totaux), règle de report.
+- Football et basket : aucune donnée, donc non balayés.
+
+
+CONVENTIONS DE CALCUL (identiques pour toutes les lignes ; calculs faits en code)
+- Probabilité de référence : retrait de marge « power » sur le marché Pinnacle complet à deux issues. Contrôle par la méthode multiplicative : l'écart entre les deux méthodes reste sous 0,8 point partout.
+- p_ret = p_ref. Aucun ajustement : aucune information datée n'est postérieure aux cotes.
+- Fourchette : ±2 points ; ±3 points sur base Winamax seule (I1).
+- États de paiement Winamax :
+  · gain = 97 % × p_ret ;
+  · annulé = 3 % (abandon) ;
+  · perte = le reste.
+  Les 3 % sont une hypothèse d'ordre de grandeur : repère publié d'environ 3 % des matchs en deux sets gagnants terminés par un abandon (étude PLOS ONE 2024), appliqué à tous les matchs, double compris. Avec 0 % ou 6 %, les tickets retenus restent les mêmes.
+- EV centrale = gain × cote + annulé − 1.
+- EV prudente : 2 points (3 pour I1) retirés au gain et ajoutés à la perte, l'état annulé ne bougeant pas.
+- Combinés : matchs différents, jambes indépendantes. (1 + EV) du ticket = produit des (1 + EV) des jambes ; une jambe annulée compte pour 1. Chance de gain plein = produit des gains. Chance de profit = toutes les jambes non annulées gagnent (calculée sur tous les états).
+- Qualité :
+  · Q1 = cote Winamax observée, référence Pinnacle, aucun statut incertain, règle vérifiée.
+  · Q2 = base Winamax seule (I1), ou extérieur sous la pluie avec une règle de report non fournie (C2, C4) ; hypothèse prudente pour le report : pari maintenu jusqu'au match ou annulé, ticket bloqué entre-temps.
+- Tier : calculé sur la chance de gain plein (S ≥ 70 %, A 60–70, B 50–60, C 40–50, D < 40) ; deux tiers si la fourchette traverse une frontière.
+- Règle de décision R★ : classement par EV prudente ; groupe de tête à moins d'un point de la meilleure ; dans ce groupe, le moins de jambes, puis la meilleure qualité, le moins de conditions, et enfin la meilleure EV prudente.
+
+
+REGISTRE DES MATCHS (M-id = code de ta saisie ; toutes les heures sont celles de Paris, jeudi 3 décembre sauf mention)
+A1  · Valbonne Indoor ATP 500, 8e, dur intérieur · Kerr – Saric · 11:00 · commencé à 11:00 · à part : hors avant-match
+A2  · Valbonne Indoor ATP 500, 8e · Pavic – Dumas · 13:30 (pas avant) · à venir · analysé, approfondi (Dumas)
+A3  · Valbonne Indoor ATP 500, 8e · Petrova – Rossi · 15:00 (pas avant) · à venir · analysé, approfondi, retenu (plan B du ⭐, 🎉)
+A4  · Valbonne Indoor ATP 500, 8e · Mayer – Hosszu · 17:00 (pas avant) · à venir · analysé, approfondi, retenu (🛡️ 🎾 🚀)
+A5  · Valbonne Indoor ATP 500, 8e · Pujol – Amari · 19:00 · à venir · analysé, écarté (prix)
+A6  · Valbonne Indoor ATP 500, 8e · vainqueur de A5 – Rinaldi · 20:30 (pas avant) · affiche non confirmée · à part : réintégrable après A5 si Winamax le propose
+AD1 · Valbonne Indoor ATP 500, double, quart · Weber/Morel – Haas/Mertens · 12:00 (heure fixe) · à venir · analysé, approfondi, retenu (⭐ 🎯 🎾 🚀 🎉)
+AD2 · Valbonne Indoor ATP 500, double, quart · Costa/Vega – Pavic/Ito · 16:00 (pas avant) · à venir · analysé, écarté (prix ; dépendance Pavic traitée)
+W1  · Lisière Ladies WTA 250, 2e tour, dur intérieur · Kovac – Brandt · 12:30 · à venir · analysé, approfondi, retenu (🛡️ 🎾 🎉)
+W2  · Lisière Ladies WTA 250, 2e tour · Duval – Ilic · 14:00 (pas avant) · à venir · analysé, écarté (prix) ; piste 🎲 à relever
+W3  · Lisière Ladies WTA 250, 2e tour · Kaspar – Varga · 15:30 (pas avant) · forfait annoncé à 10:15 (poignet) · à part : pas de match
+W4  · Lisière Ladies WTA 250, 2e tour · Okafor – Ibarra · 17:00 (pas avant) · à venir · analysé, approfondi (remplaçante)
+C1  · Challenger de Valcorta, 2e tour, terre battue extérieure · Garin – Ruiz · 11:30 · départ prévu à l'heure de la préparation · à part : hors avant-match en pratique
+C2  · Challenger de Valcorta, 2e tour · Brennan – Lind · 13:00 (pas avant) · à venir · analysé, écarté (prix)
+C3  · Challenger de Valcorta, 2e tour · Laine – Faure · reporté à vendredi 4 décembre 11:00 (pluie) · reporté · à part : hors horizon
+C4  · Challenger de Valcorta, qualifications, dernier tour · Holm – Adeyemi · 14:30 (pas avant ; prévu 10:00, retard pluie) · à venir · analysé, écarté (prix)
+C5  · Challenger de Valcorta, qualifications, dernier tour · Olsen – Valente · 16:00 (pas avant) · à venir, non proposé sur Winamax · limité : hors offre Winamax
+I1  · ITF W50 de Brévent, 2e tour, terre battue intérieure · Ricci – Arendt · 12:00 · à venir · limité : base Winamax seule ; écarté (prix)
+I2  · ITF W50 de Brévent, 2e tour · Marchetti – Novak · 13:30 (pas avant) · à venir, non proposé · à part : ITF hors offre Winamax, donc hors périmètre
+I3  · ITF W50 de Brévent, 2e tour · Lomé – Stein · 15:00 (pas avant) · à venir · analysé, alternative (remplaçant du 🛡️)
+
+
+REGISTRE DE COUVERTURE
+Lignes du programme : 20.
+
+À part (hors du compte des recensés) : 6
+- A1 : commencé.
+- C1 : départ 11:30, à l'heure de la préparation.
+- A6 : affiche non confirmée.
+- W3 : forfait, pas de match.
+- C3 : reporté à vendredi, hors horizon.
+- I2 : ITF hors offre Winamax, donc hors périmètre.
+
+Recensés (à venir aujourd'hui, affiche confirmée, dans le périmètre) : 14 = analysés 12 + limités après recherche 2 + en attente 0.
+- Analysés : A2, A3, A4, A5, AD1, AD2, W1, W2, W4, C2, C4, I3.
+- Limités : I1 (pas de référence indépendante) ; C5 (non proposé sur Winamax).
+
+Couverture complète. Chaque rencontre a sa fiche ci-dessous, y compris une fiche courte pour chaque ligne à part.
+
+Attributs (des matchs déjà comptés) :
+- Approfondis : 6 (AD1, A4, W1, A3, W4, A2).
+- Retenus dans un ticket du menu : 4 (AD1, A4, W1, A3).
+- Admissibles pour les tickets : 13 matchs (les 12 analysés et I1), soit 26 sélections.
+
+Contrôle Elo : sur les 12 matchs analysés, l'Elo et le marché Pinnacle sans marge concordent à 0,1 point près. Aucun écart n'est donc à expliquer. Sur I1, l'Elo est 2,0 points au-dessus de la base Winamax seule : simple contrôle, sans effet sur le choix.
+
+
+FICHES PAR TOURNOI
+
+=== VALBONNE INDOOR (ATP 500, dur intérieur) — 8es de finale, simple ===
+
+A1 · Kerr – Saric · 11:00 · COMMENCÉ à 11:00
+Hors avant-match : aucune jambe possible.
+Pour mémoire : Winamax 1,40 / 2,85 (marge 6,5 %), Pinnacle 1,45 / 2,98 (2,5 %) → Kerr 67,9 % sans marge. L'Elo 1890 / 1760 donne aussi 67,9 %.
+Verdict : à part.
+
+A2 · Pavic – Dumas · 13:30 (pas avant)
+- Niveau : Elo 1915 / 1790 → Pavic 67,3 % ; le marché sans marge donne 67,3 % : accord.
+- Forme : non fournie.
+- Physique et calendrier : rien de signalé pour ce match. Pavic joue aussi le quart de double AD2 (16:00 pas avant), après ce simple.
+- Prix : Winamax 1,38 / 2,95 (marge 6,4 %) ; Pinnacle 1,46 / 2,92 (2,7 %).
+  · Pavic (R1) : EV −6,8 % / prudente −9,6 %.
+  · Dumas (R2) : Winamax paie plus que Pinnacle (2,95 contre 2,92), mais la cote juste après retrait de marge est 3,06 → EV −3,6 % / prudente −9,5 %. Ce n'est pas une value.
+- Verdict : alternative seulement. Dumas entre dans le 🎉 de remplacement. Pavic en simple et Pavic/Ito en double ne vont jamais dans le même ticket.
+- Sources décisives : cotes Winamax 11:10–11:20, Pinnacle 11:05–11:15, Elo du lundi.
+
+A3 · Petrova – Rossi · 15:00 (pas avant)
+- Niveau : Elo 1820 / 1805 → Petrova 52,2 % ; marché 52,3 % : accord. C'est le match le plus serré du tableau ATP en simple.
+- Forme : non fournie. Physique : rien de signalé.
+- Prix : Winamax 1,74 / 2,04 (marge 6,5 %) ; Pinnacle 1,87 / 2,04 (2,5 %). Winamax met sa marge sur Petrova (1,74 contre 1,87) et paie Rossi comme Pinnacle.
+  · Rossi (R4) : cote juste 2,09 → EV −2,5 % / prudente −6,6 %. C'est la deuxième EV centrale du jour.
+  · Petrova (R3) : −8,8 % / −12,3 %.
+- Verdict : alternative.
+  · Rossi est le plan B du ⭐ : le meilleur ticket de la zone 1,50–4,00 sans la jambe AD1.
+  · Il remplace Kovac à 0,3 point près dans le 🎾.
+  · Il est une jambe du 🎉.
+
+A4 · Mayer – Hosszu · 17:00 (pas avant)
+- Niveau : Elo 1950 / 1770 → Mayer 73,8 % ; marché 73,7 % : accord.
+- Physique et calendrier : ta saisie indique « a joué 2 h 55 hier, fin à 23:15 », sans dire lequel des deux. Je ne l'attribue pas.
+  · L'information est publique depuis hier soir, donc antérieure aux cotes de 11:05–11:20 : elle est déjà dans le prix.
+  · Aucun ajustement : aucune méthode ne permet d'en chiffrer l'effet.
+  · Il y a au moins 17 h 45 entre la fin de ce match et le début de A4.
+  · Si c'est Mayer, c'est la réserve principale des tickets qui le contiennent. Un abandon de sa part annulerait la jambe (règle vérifiée), il ne la perdrait pas.
+- Prix : Winamax 1,34 / 3,16 (marge 6,3 %) ; Pinnacle 1,34 / 3,61 (2,3 %). Winamax paie Mayer comme Pinnacle et met toute sa marge sur Hosszu.
+  · Mayer (R5) : cote juste 1,36 → EV −1,2 % / prudente −3,8 %. C'est le deuxième meilleur simple du jour.
+  · Hosszu (R6) : −16,5 % / −22,8 %.
+- Verdict : candidat. Jambe du 🛡️, du 🎾 et du 🚀 ; option quasi équivalente du 🎯, à 0,98 point d'EV prudente derrière Weber/Morel.
+
+A5 · Pujol – Amari · 19:00
+- Niveau : Elo 1840 / 1870 → Amari 54,3 % ; marché 54,4 %.
+- Forme et physique : rien de signalé.
+- Prix : Winamax 2,05 / 1,73 (marge 6,6 %) ; Pinnacle 2,13 / 1,80 (2,5 %).
+  · Amari (R8) : −5,8 % / −9,2 %.
+  · Pujol (R7) : −6,2 % / −10,3 %.
+- Verdict : écarté (prix). Le vainqueur joue A6.
+
+A6 · vainqueur de A5 – Rinaldi · 20:30 (pas avant)
+Affiche non confirmée, non proposée sur Winamax, pas de Pinnacle (Elo de Rinaldi : 1905).
+Verdict : à part. Réintégrable quand A5 sera terminé, si Winamax le propose. Aucun combiné validé avant ce soir ne peut l'inclure.
+
+=== VALBONNE INDOOR (ATP 500, dur intérieur) — double, quarts de finale ===
+
+AD1 · Weber/Morel – Haas/Mertens · 12:00 (heure fixe)
+- Niveau : Elo de paire fourni 1700 / 1640 → 58,5 % ; marché 58,5 % : accord, rien à expliquer. Je n'ai additionné aucun Elo de simple.
+- Format : double. Selon la règle habituelle du circuit (non précisée dans ta saisie), le troisième set se joue en super tie-break, ce qui rend le résultat plus aléatoire qu'en simple. C'est déjà dans le prix.
+- Forme : non fournie. Physique : rien de signalé pour les quatre joueurs.
+- Prix : Winamax 1,72 / 2,07 (marge 6,4 %) ; Pinnacle 1,68 / 2,34 (2,3 %). Winamax paie Weber/Morel plus que Pinnacle.
+  · Weber/Morel (R9) : cote juste 1,71 → EV +0,6 % / prudente −2,9 %. C'est la seule EV centrale positive du programme.
+  · Haas/Mertens (R10) : −13,6 % / −17,8 %.
+  · L'EV centrale tombe à 0 à 1,71 et devient négative à 1,70.
+- Verdict : candidat → ⭐ choix principal et 🎯 ; jambe du 🎾, du 🚀 et du 🎉.
+  · Label 🟡 value fragile : EV centrale positive, mais EV prudente négative.
+  · Cet avantage repose sur un centime de cote et sur un prix Pinnacle qui n'a pas pu être relu.
+
+AD2 · Costa/Vega – Pavic/Ito · 16:00 (pas avant)
+- Niveau : Elo de paire 1660 / 1685 → Pavic/Ito 53,6 % ; marché 53,7 %.
+- Dépendance : Pavic joue A2 en simple (13:30 pas avant).
+  · L'horaire de AD2 dépend donc de la fin de A2.
+  · Un forfait en double reste possible (pari annulé s'il survient avant le début).
+  · Je ne combine jamais A2 et AD2. Sans estimation jointe, la borne basse de « Pavic gagne les deux » est 21,1 %, contre 36,2 % pour le produit naïf.
+- Prix : Winamax 2,02 / 1,76 (marge 6,3 %) ; Pinnacle 2,10 / 1,82 (2,6 %).
+  · Pavic/Ito (R12) : −5,3 % / −8,8 %.
+  · Costa/Vega (R11) : −6,3 % / −10,3 %.
+- Verdict : écarté (prix).
+
+=== LISIÈRE LADIES (WTA 250, dur intérieur) — 2e tour ===
+
+W1 · Kovac – Brandt · 12:30
+- Niveau : Elo 1800 / 1690 → Kovac 65,3 % ; marché 65,2 % : accord.
+- Forme et physique : rien de signalé.
+- Prix : Winamax 1,48 / 2,58 (marge 6,3 %) ; Pinnacle 1,51 / 2,77 (2,3 %).
+  · Kovac (R13) : cote juste 1,53 → EV −3,4 % / prudente −6,3 %.
+  · Brandt (R14) : −10,0 % / −15,1 %.
+- Verdict : candidat. Jambe du 🛡️, du 🎾 et du 🎉. À égalité de prix, à 0,3 point près, avec Rossi et Okafor pour la troisième place du 🎾.
+
+W2 · Duval – Ilic · 14:00 (pas avant)
+- Niveau : Elo 1755 / 1748 → Duval 51,0 % ; marché 51,1 %. C'est le match le plus équilibré joué en salle aujourd'hui.
+- Prix : Winamax 1,87 / 1,89 (marge 6,4 %) ; Pinnacle 1,91 / 1,99 (2,6 %).
+  · Duval (R15) : −4,4 % / −8,1 %.
+  · Ilic (R16) : −7,3 % / −11,1 %.
+- Verdict : écarté (prix). Piste 🎲 « match en 3 sets » à relever : aucune cote lue, probabilité non estimée.
+
+W3 · Kaspar – Varga · 15:30 (pas avant)
+Forfait annoncé à 10:15 (poignet) : l'adversaire passe sans jouer. Non proposé.
+Verdict : à part (pas de match).
+
+W4 · Okafor – Ibarra · 17:00 (pas avant)
+- Niveau : Elo 1835 / 1655 → Okafor 73,8 % ; marché 73,7 % : accord.
+- Physique : ta saisie indique « retour de blessure (cheville) il y a 3 semaines, 2e tournoi », sans nommer la joueuse.
+  · L'information est ancienne et publique avant les cotes : elle est déjà dans le prix.
+  · L'Elo et le marché concordent : rien à expliquer. Aucun ajustement.
+  · Si c'est Okafor, un abandon annulerait la jambe, il ne la perdrait pas.
+- Prix : Winamax 1,30 / 3,39 (marge 6,4 %) ; Pinnacle 1,34 / 3,61 (2,3 %).
+  · Okafor (R17) : même probabilité que Mayer (73,7 %), mais payée 1,30 au lieu de 1,34 → EV −4,0 % / prudente −6,6 %.
+  · Ibarra (R18) : −10,6 % / −17,4 %.
+- Verdict : alternative. Remplaçante à 0,3 point près dans le 🎾 ; jambe du 🎾 de secours si 12:30 est passé.
+
+=== CHALLENGER DE VALCORTA (terre battue extérieure) — 2e tour ===
+
+C1 · Garin – Ruiz · 11:30
+Départ prévu à l'heure même de la préparation : hors avant-match en pratique. Le statut réel est inconnu : la pluie a déjà retardé C4 et reporté C3.
+Pour mémoire :
+- Winamax 1,49 / 2,54 ; Pinnacle 1,57 / 2,58.
+- Garin (R19) : −6,5 % / −9,5 %. Ruiz (R20) : −4,9 % / −10,0 %.
+- Elo 1680 / 1590 → 62,7 % ; marché 62,6 %.
+Verdict : à part. Même retardé, ce match ne fournit aucun concurrent.
+
+C2 · Brennan – Lind · 13:00 (pas avant)
+- Niveau : Elo 1620 / 1625 → Lind 50,7 % ; marché 50,8 %.
+- Conditions : extérieur, pluie dans la journée → retard ou report possibles. La règle Winamax de report ne figure pas dans les données → qualité Q2.
+- Prix : Winamax 1,91 / 1,85 (marge 6,4 %) ; Pinnacle 1,98 / 1,92 (2,6 %).
+  · Brennan (R21) : −5,8 % / −9,7 %.
+  · Lind (R22) : −5,8 % / −9,5 %.
+- Verdict : écarté (prix).
+
+C3 · Laine – Faure · reporté à vendredi 4 décembre 11:00 (pluie)
+Hors horizon, et inutile : le programme du jour suffit.
+Pour mémoire : Winamax 1,51 / 2,49 ; Pinnacle 1,58 / 2,54 → Laine 62,1 % (Elo 62,0 %). EV binaire sur les cotes d'aujourd'hui : Laine −6,2 %, Faure −5,7 %.
+Verdict : à part.
+
+=== CHALLENGER DE VALCORTA (terre battue extérieure) — qualifications, dernier tour ===
+
+C4 · Holm – Adeyemi · 14:30 (pas avant) — prévu 10:00, retardé par la pluie
+- Niveau : Elo 1560 / 1520 → Holm 55,7 % ; marché 55,6 %.
+- Conditions : nouveau retard possible ; règle de report non fournie → Q2.
+- Prix : Winamax 1,70 / 2,09 (marge 6,7 %) ; Pinnacle 1,76 / 2,19 (2,5 %).
+  · Holm (R23) : −5,2 % / −8,6 %.
+  · Adeyemi (R24) : −7,1 % / −11,3 %.
+- Verdict : écarté (prix).
+
+C5 · Olsen – Valente · 16:00 (pas avant)
+Non proposé sur Winamax. Pinnacle 1,98 / 1,92 (marge 2,6 %) → 49,2 / 50,8 % (R25, R26) ; Elo 1540 / 1545 → 49,3 / 50,7 %.
+Verdict : limité (hors offre Winamax) ; aucune jambe possible.
+
+=== ITF W50 DE BRÉVENT (terre battue intérieure) — 2e tour ===
+
+I1 · Ricci – Arendt · 12:00
+- Prix : pas de référence indépendante → base Winamax seule, 1,64 / 2,19 (marge 6,6 %) → Ricci 57,9 % (power ; 57,2 % en multiplicatif), fourchette ±3.
+  · Ricci (R27) : −4,9 % / −9,8 %.
+  · Arendt (R28) : −7,6 % / −14,2 %.
+  · Ces EV ne mesurent que la marge : aucune value n'est affichable.
+- Niveau : Elo 1500 / 1430 → 59,9 %, soit 2 points au-dessus de la base Winamax. C'est un contrôle, pas une référence de prix, et l'Elo est moins fiable à ce niveau ITF.
+- Verdict : limité (Q2), écarté (prix).
+
+I2 · Marchetti – Novak · 13:30 (pas avant)
+Ni Winamax ni Pinnacle (Elo 1470 / 1465). Tournoi ITF hors offre Winamax → hors périmètre.
+Verdict : à part.
+
+I3 · Lomé – Stein · 15:00 (pas avant)
+- Niveau : Elo 1520 / 1410 → Lomé 65,3 % ; marché 65,2 %.
+- Prix : Winamax 1,45 / 2,66 (marge 6,6 %) ; Pinnacle 1,51 / 2,77 (2,3 %).
+  · Lomé (R29) : −5,3 % / −8,2 %.
+  · Stein (R30) : −7,3 % / −12,6 %.
+- Verdict : alternative. Mayer + Lomé (1,94) a la même chance que le 🛡️, mais paie moins (EV prudente −11,7 % contre −9,9 %).
+
+
+REGISTRE COMPLET DES SÉLECTIONS (R1–R30)
+R1 · A2 · Valbonne Indoor ATP 500, 8e de finale, dur intérieur · Pavic – Dumas · jeudi 13:30 (pas avant) · Pavic vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,38 / 2,95 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,46 / 2,92), power, contrôle mult. 66,7 % · p_ref 67,3 % · ajustement : aucun · p_ret 67,3 % [65,3 ; 69,3] · états gain 65,3 % / annulé 3,0 % / perte 31,7 % · EV −6,8 % / prudente −9,6 % · cote juste 1,48 · marge Winamax 6,4 % (Pinnacle 2,7 %) · Elo 67,3 % (écart −0,1 pt) · Q1 · tier A
+
+R2 · A2 · Valbonne Indoor ATP 500, 8e de finale, dur intérieur · Pavic – Dumas · jeudi 13:30 (pas avant) · Dumas vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,38 / 2,95 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,46 / 2,92), power, contrôle mult. 33,3 % · p_ref 32,7 % · ajustement : aucun · p_ret 32,7 % [30,7 ; 34,7] · états gain 31,7 % / annulé 3,0 % / perte 65,3 % · EV −3,6 % / prudente −9,5 % · cote juste 3,06 · marge Winamax 6,4 % (Pinnacle 2,7 %) · Elo 32,7 % (écart +0,1 pt) · Q1 · tier D
+
+R3 · A3 · Valbonne Indoor ATP 500, 8e de finale, dur intérieur · Petrova – Rossi · jeudi 15:00 (pas avant) · Petrova vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,74 / 2,04 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,87 / 2,04), power, contrôle mult. 52,2 % · p_ref 52,3 % · ajustement : aucun · p_ret 52,3 % [50,3 ; 54,3] · états gain 50,7 % / annulé 3,0 % / perte 46,3 % · EV −8,8 % / prudente −12,3 % · cote juste 1,91 · marge Winamax 6,5 % (Pinnacle 2,5 %) · Elo 52,2 % (écart −0,1 pt) · Q1 · tier C/B
+
+R4 · A3 · Valbonne Indoor ATP 500, 8e de finale, dur intérieur · Petrova – Rossi · jeudi 15:00 (pas avant) · Rossi vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,74 / 2,04 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,87 / 2,04), power, contrôle mult. 47,8 % · p_ref 47,7 % · ajustement : aucun · p_ret 47,7 % [45,7 ; 49,7] · états gain 46,3 % / annulé 3,0 % / perte 50,7 % · EV −2,5 % / prudente −6,6 % · cote juste 2,09 · marge Winamax 6,5 % (Pinnacle 2,5 %) · Elo 47,8 % (écart +0,1 pt) · Q1 · tier C
+
+R5 · A4 · Valbonne Indoor ATP 500, 8e de finale, dur intérieur · Mayer – Hosszu · jeudi 17:00 (pas avant) · Mayer vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,34 / 3,16 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,34 / 3,61), power, contrôle mult. 72,9 % · p_ref 73,7 % · ajustement : aucun · p_ret 73,7 % [71,7 ; 75,7] · états gain 71,5 % / annulé 3,0 % / perte 25,5 % · EV −1,2 % / prudente −3,8 % · cote juste 1,36 · marge Winamax 6,3 % (Pinnacle 2,3 %) · Elo 73,8 % (écart +0,1 pt) · Q1 · tier A/S
+
+R6 · A4 · Valbonne Indoor ATP 500, 8e de finale, dur intérieur · Mayer – Hosszu · jeudi 17:00 (pas avant) · Hosszu vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,34 / 3,16 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,34 / 3,61), power, contrôle mult. 27,1 % · p_ref 26,3 % · ajustement : aucun · p_ret 26,3 % [24,3 ; 28,3] · états gain 25,5 % / annulé 3,0 % / perte 71,5 % · EV −16,5 % / prudente −22,8 % · cote juste 3,81 · marge Winamax 6,3 % (Pinnacle 2,3 %) · Elo 26,2 % (écart −0,1 pt) · Q1 · tier D
+
+R7 · A5 · Valbonne Indoor ATP 500, 8e de finale, dur intérieur · Pujol – Amari · jeudi 19:00 · Pujol vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 2,05 / 1,73 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (2,13 / 1,80), power, contrôle mult. 45,8 % · p_ref 45,6 % · ajustement : aucun · p_ret 45,6 % [43,6 ; 47,6] · états gain 44,3 % / annulé 3,0 % / perte 52,7 % · EV −6,2 % / prudente −10,3 % · cote juste 2,19 · marge Winamax 6,6 % (Pinnacle 2,5 %) · Elo 45,7 % (écart 0,0 pt) · Q1 · tier C
+
+R8 · A5 · Valbonne Indoor ATP 500, 8e de finale, dur intérieur · Pujol – Amari · jeudi 19:00 · Amari vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 2,05 / 1,73 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (2,13 / 1,80), power, contrôle mult. 54,2 % · p_ref 54,4 % · ajustement : aucun · p_ret 54,4 % [52,4 ; 56,4] · états gain 52,7 % / annulé 3,0 % / perte 44,3 % · EV −5,8 % / prudente −9,2 % · cote juste 1,84 · marge Winamax 6,6 % (Pinnacle 2,5 %) · Elo 54,3 % (écart 0,0 pt) · Q1 · tier B
+
+R9 · AD1 · Valbonne Indoor ATP 500, double, quart, dur intérieur · Weber/Morel – Haas/Mertens · jeudi 12:00 · Weber/Morel vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,72 / 2,07 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,68 / 2,34), power, contrôle mult. 58,2 % · p_ref 58,5 % · ajustement : aucun · p_ret 58,5 % [56,5 ; 60,5] · états gain 56,7 % / annulé 3,0 % / perte 40,3 % · EV +0,6 % / prudente −2,9 % · cote juste 1,71 · marge Winamax 6,4 % (Pinnacle 2,3 %) · Elo 58,5 % (écart +0,1 pt) · Q1 · tier B
+
+R10 · AD1 · Valbonne Indoor ATP 500, double, quart, dur intérieur · Weber/Morel – Haas/Mertens · jeudi 12:00 · Haas/Mertens vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,72 / 2,07 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,68 / 2,34), power, contrôle mult. 41,8 % · p_ref 41,5 % · ajustement : aucun · p_ret 41,5 % [39,5 ; 43,5] · états gain 40,3 % / annulé 3,0 % / perte 56,7 % · EV −13,6 % / prudente −17,8 % · cote juste 2,41 · marge Winamax 6,4 % (Pinnacle 2,3 %) · Elo 41,5 % (écart −0,1 pt) · Q1 · tier D/C
+
+R11 · AD2 · Valbonne Indoor ATP 500, double, quart, dur intérieur · Costa/Vega – Pavic/Ito · jeudi 16:00 (pas avant) · Costa/Vega vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 2,02 / 1,76 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (2,10 / 1,82), power, contrôle mult. 46,4 % · p_ref 46,3 % · ajustement : aucun · p_ret 46,3 % [44,3 ; 48,3] · états gain 44,9 % / annulé 3,0 % / perte 52,1 % · EV −6,3 % / prudente −10,3 % · cote juste 2,16 · marge Winamax 6,3 % (Pinnacle 2,6 %) · Elo 46,4 % (écart +0,1 pt) · Q1 · tier C
+
+R12 · AD2 · Valbonne Indoor ATP 500, double, quart, dur intérieur · Costa/Vega – Pavic/Ito · jeudi 16:00 (pas avant) · Pavic/Ito vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 2,02 / 1,76 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (2,10 / 1,82), power, contrôle mult. 53,6 % · p_ref 53,7 % · ajustement : aucun · p_ret 53,7 % [51,7 ; 55,7] · états gain 52,1 % / annulé 3,0 % / perte 44,9 % · EV −5,3 % / prudente −8,8 % · cote juste 1,86 · marge Winamax 6,3 % (Pinnacle 2,6 %) · Elo 53,6 % (écart −0,1 pt) · Q1 · tier B
+
+R13 · W1 · Lisière Ladies WTA 250, 2e tour, dur intérieur · Kovac – Brandt · jeudi 12:30 · Kovac vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,48 / 2,58 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,51 / 2,77), power, contrôle mult. 64,7 % · p_ref 65,2 % · ajustement : aucun · p_ret 65,2 % [63,2 ; 67,2] · états gain 63,3 % / annulé 3,0 % / perte 33,7 % · EV −3,4 % / prudente −6,3 % · cote juste 1,53 · marge Winamax 6,3 % (Pinnacle 2,3 %) · Elo 65,3 % (écart +0,1 pt) · Q1 · tier A
+
+R14 · W1 · Lisière Ladies WTA 250, 2e tour, dur intérieur · Kovac – Brandt · jeudi 12:30 · Brandt vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,48 / 2,58 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,51 / 2,77), power, contrôle mult. 35,3 % · p_ref 34,8 % · ajustement : aucun · p_ret 34,8 % [32,8 ; 36,8] · états gain 33,7 % / annulé 3,0 % / perte 63,3 % · EV −10,0 % / prudente −15,1 % · cote juste 2,88 · marge Winamax 6,3 % (Pinnacle 2,3 %) · Elo 34,7 % (écart −0,1 pt) · Q1 · tier D
+
+R15 · W2 · Lisière Ladies WTA 250, 2e tour, dur intérieur · Duval – Ilic · jeudi 14:00 (pas avant) · Duval vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,87 / 1,89 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,91 / 1,99), power, contrôle mult. 51,0 % · p_ref 51,1 % · ajustement : aucun · p_ret 51,1 % [49,1 ; 53,1] · états gain 49,5 % / annulé 3,0 % / perte 47,5 % · EV −4,4 % / prudente −8,1 % · cote juste 1,96 · marge Winamax 6,4 % (Pinnacle 2,6 %) · Elo 51,0 % (écart −0,1 pt) · Q1 · tier C/B
+
+R16 · W2 · Lisière Ladies WTA 250, 2e tour, dur intérieur · Duval – Ilic · jeudi 14:00 (pas avant) · Ilic vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,87 / 1,89 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,91 / 1,99), power, contrôle mult. 49,0 % · p_ref 48,9 % · ajustement : aucun · p_ret 48,9 % [46,9 ; 50,9] · états gain 47,5 % / annulé 3,0 % / perte 49,5 % · EV −7,3 % / prudente −11,1 % · cote juste 2,04 · marge Winamax 6,4 % (Pinnacle 2,6 %) · Elo 49,0 % (écart +0,1 pt) · Q1 · tier C
+
+R17 · W4 · Lisière Ladies WTA 250, 2e tour, dur intérieur · Okafor – Ibarra · jeudi 17:00 (pas avant) · Okafor vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,30 / 3,39 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,34 / 3,61), power, contrôle mult. 72,9 % · p_ref 73,7 % · ajustement : aucun · p_ret 73,7 % [71,7 ; 75,7] · états gain 71,5 % / annulé 3,0 % / perte 25,5 % · EV −4,0 % / prudente −6,6 % · cote juste 1,36 · marge Winamax 6,4 % (Pinnacle 2,3 %) · Elo 73,8 % (écart +0,1 pt) · Q1 · tier A/S
+
+R18 · W4 · Lisière Ladies WTA 250, 2e tour, dur intérieur · Okafor – Ibarra · jeudi 17:00 (pas avant) · Ibarra vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,30 / 3,39 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,34 / 3,61), power, contrôle mult. 27,1 % · p_ref 26,3 % · ajustement : aucun · p_ret 26,3 % [24,3 ; 28,3] · états gain 25,5 % / annulé 3,0 % / perte 71,5 % · EV −10,6 % / prudente −17,4 % · cote juste 3,81 · marge Winamax 6,4 % (Pinnacle 2,3 %) · Elo 26,2 % (écart −0,1 pt) · Q1 · tier D
+
+R19 · C1 · Challenger de Valcorta, 2e tour, terre battue extérieure · Garin – Ruiz · jeudi 11:30 · Garin vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,49 / 2,54 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,57 / 2,58), power, contrôle mult. 62,2 % · p_ref 62,6 % · ajustement : aucun · p_ret 62,6 % [60,6 ; 64,6] · états gain 60,7 % / annulé 3,0 % / perte 36,3 % · EV −6,5 % / prudente −9,5 % · cote juste 1,60 · marge Winamax 6,5 % (Pinnacle 2,5 %) · Elo 62,7 % (écart +0,1 pt) · hors avant-match (non admissible) · tier B/A
+
+R20 · C1 · Challenger de Valcorta, 2e tour, terre battue extérieure · Garin – Ruiz · jeudi 11:30 · Ruiz vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,49 / 2,54 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,57 / 2,58), power, contrôle mult. 37,8 % · p_ref 37,4 % · ajustement : aucun · p_ret 37,4 % [35,4 ; 39,4] · états gain 36,3 % / annulé 3,0 % / perte 60,7 % · EV −4,9 % / prudente −10,0 % · cote juste 2,67 · marge Winamax 6,5 % (Pinnacle 2,5 %) · Elo 37,3 % (écart −0,1 pt) · hors avant-match (non admissible) · tier D
+
+R21 · C2 · Challenger de Valcorta, 2e tour, terre battue extérieure · Brennan – Lind · jeudi 13:00 (pas avant) · Brennan vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,91 / 1,85 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,98 / 1,92), power, contrôle mult. 49,2 % · p_ref 49,2 % · ajustement : aucun · p_ret 49,2 % [47,2 ; 51,2] · états gain 47,7 % / annulé 3,0 % / perte 49,3 % · EV −5,8 % / prudente −9,7 % · cote juste 2,03 · marge Winamax 6,4 % (Pinnacle 2,6 %) · Elo 49,3 % (écart +0,1 pt) · Q2 · tier C
+
+R22 · C2 · Challenger de Valcorta, 2e tour, terre battue extérieure · Brennan – Lind · jeudi 13:00 (pas avant) · Lind vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,91 / 1,85 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,98 / 1,92), power, contrôle mult. 50,8 % · p_ref 50,8 % · ajustement : aucun · p_ret 50,8 % [48,8 ; 52,8] · états gain 49,3 % / annulé 3,0 % / perte 47,7 % · EV −5,8 % / prudente −9,5 % · cote juste 1,97 · marge Winamax 6,4 % (Pinnacle 2,6 %) · Elo 50,7 % (écart −0,1 pt) · Q2 · tier C/B
+
+R23 · C4 · Challenger de Valcorta, qualif. dernier tour, terre battue extérieure · Holm – Adeyemi · jeudi 14:30 (pas avant) · Holm vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,70 / 2,09 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,76 / 2,19), power, contrôle mult. 55,4 % · p_ref 55,6 % · ajustement : aucun · p_ret 55,6 % [53,6 ; 57,6] · états gain 54,0 % / annulé 3,0 % / perte 43,0 % · EV −5,2 % / prudente −8,6 % · cote juste 1,80 · marge Winamax 6,7 % (Pinnacle 2,5 %) · Elo 55,7 % (écart +0,1 pt) · Q2 · tier B
+
+R24 · C4 · Challenger de Valcorta, qualif. dernier tour, terre battue extérieure · Holm – Adeyemi · jeudi 14:30 (pas avant) · Adeyemi vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,70 / 2,09 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,76 / 2,19), power, contrôle mult. 44,6 % · p_ref 44,4 % · ajustement : aucun · p_ret 44,4 % [42,4 ; 46,4] · états gain 43,0 % / annulé 3,0 % / perte 54,0 % · EV −7,1 % / prudente −11,3 % · cote juste 2,25 · marge Winamax 6,7 % (Pinnacle 2,5 %) · Elo 44,3 % (écart −0,1 pt) · Q2 · tier C
+
+R25 · C5 · Challenger de Valcorta, qualif. dernier tour, terre battue extérieure · Olsen – Valente · jeudi 16:00 (pas avant) · Olsen vainqueur · Winamax : non proposé · réf. Pinnacle via comparateur 11:05–11:15 (1,98 / 1,92), power · p_ref 49,2 % (mult. 49,2 %) · marge Pinnacle 2,6 % · Elo 49,3 % · non admissible : aucune cote Winamax (hors offre)
+
+R26 · C5 · Challenger de Valcorta, qualif. dernier tour, terre battue extérieure · Olsen – Valente · jeudi 16:00 (pas avant) · Valente vainqueur · Winamax : non proposé · réf. Pinnacle via comparateur 11:05–11:15 (1,98 / 1,92), power · p_ref 50,8 % (mult. 50,8 %) · marge Pinnacle 2,6 % · Elo 50,7 % · non admissible : aucune cote Winamax (hors offre)
+
+R27 · I1 · ITF W50 de Brévent, 2e tour, terre battue intérieure · Ricci – Arendt · jeudi 12:00 · Ricci vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,64 / 2,19 ✅ 11:10–11:20 · aucune référence indépendante → base Winamax seule, power, contrôle mult. 57,2 % · p_ref 57,9 % · ajustement : aucun · p_ret 57,9 % [54,9 ; 60,9] · états gain 56,2 % / annulé 3,0 % / perte 40,8 % · EV −4,9 % / prudente −9,8 % · cote juste 1,73 · marge Winamax 6,6 % · Elo 59,9 % (écart +2,0 pt) · Q2 · tier B
+
+R28 · I1 · ITF W50 de Brévent, 2e tour, terre battue intérieure · Ricci – Arendt · jeudi 12:00 · Arendt vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,64 / 2,19 ✅ 11:10–11:20 · aucune référence indépendante → base Winamax seule, power, contrôle mult. 42,8 % · p_ref 42,1 % · ajustement : aucun · p_ret 42,1 % [39,1 ; 45,1] · états gain 40,8 % / annulé 3,0 % / perte 56,2 % · EV −7,6 % / prudente −14,2 % · cote juste 2,38 · marge Winamax 6,6 % · Elo 40,1 % (écart −2,0 pt) · Q2 · tier D/C
+
+R29 · I3 · ITF W50 de Brévent, 2e tour, terre battue intérieure · Lomé – Stein · jeudi 15:00 (pas avant) · Lomé vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,45 / 2,66 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,51 / 2,77), power, contrôle mult. 64,7 % · p_ref 65,2 % · ajustement : aucun · p_ret 65,2 % [63,2 ; 67,2] · états gain 63,3 % / annulé 3,0 % / perte 33,7 % · EV −5,3 % / prudente −8,2 % · cote juste 1,53 · marge Winamax 6,6 % (Pinnacle 2,3 %) · Elo 65,3 % (écart +0,1 pt) · Q1 · tier A
+
+R30 · I3 · ITF W50 de Brévent, 2e tour, terre battue intérieure · Lomé – Stein · jeudi 15:00 (pas avant) · Stein vainqueur · règle : abandon → annulé (cote 1), forfait → annulé · Winamax 1,45 / 2,66 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,51 / 2,77), power, contrôle mult. 35,3 % · p_ref 34,8 % · ajustement : aucun · p_ret 34,8 % [32,8 ; 36,8] · états gain 33,7 % / annulé 3,0 % / perte 63,3 % · EV −7,3 % / prudente −12,6 % · cote juste 2,88 · marge Winamax 6,6 % (Pinnacle 2,3 %) · Elo 34,7 % (écart −0,1 pt) · Q1 · tier D
+
+
+ÉNUMÉRATION DES TICKETS (code)
+
+Champ : 48 998 tickets de 1 à 5 jambes.
+- 13 matchs admissibles, une sélection par match.
+- A2 et AD2 ne sont jamais réunis (Pavic en simple et en double).
+- Aucun bonus de combiné n'est connu, donc aucun n'est compté.
+- Cote d'un combiné = produit des cotes ; la cote affichée par Winamax est à vérifier.
+
+⭐ Zone 1,50–4,00 (378 tickets), par EV prudente :
+- Weber/Morel (R9), 1,72 : −2,87 %.
+- Rossi (R4), 2,04 : −6,60 %.
+- Weber/Morel + Mayer, 2,30 : −6,60 % (contient R9).
+- Duval, 1,87 : −8,11 % ; Holm, 1,70 : −8,65 % ; Pavic/Ito, 1,76 : −8,83 %.
+Groupe de tête : R9 seul. À ±3 points : R9 −4,59 %, Rossi −8,64 %, toujours seul en tête : choix net.
+
+🎯 Simples à 1,30 ou plus :
+- R9 −2,87 % ; Mayer (R5) −3,85 % ; Kovac −6,32 % ; Rossi −6,60 % ; Okafor −6,63 %.
+- Mayer est dans le groupe de tête, à 0,98 point. Le départage se fait ainsi : même nombre de jambes, même qualité, aucune condition, puis la meilleure EV prudente, qui revient à R9. C'est une préférence entre options de prix équivalent.
+
+🛡️ Zone 1,75–2,10 (8 tickets) : par EV prudente, avec la chance de profit.
+- Mayer + Kovac, 1,98 : −9,92 % (profit 49,3 %).
+- Mayer + Lomé, 1,94 : −11,69 % (49,3 %).
+- Kovac + Okafor, 1,92 : −12,53 % (49,3 %).
+- Pavic + Mayer, 1,85 : −13,08 % (50,8 %).
+- Lomé + Okafor, 1,885 : −14,24 % (49,3 %).
+- Pavic + Kovac, 2,04 : −15,32 % (45,2 %).
+- Pavic + Okafor, 1,79 : −15,60 % (50,8 %).
+- Pavic + Lomé, 2,00 : −16,98 % (45,2 %).
+Admis à 2 points du mieux payé : Mayer + Kovac et Mayer + Lomé, avec la même chance → Mayer + Kovac, sans aucun sacrifice. Gagner 1,5 point de chance (Pavic + Mayer, 50,8 %) coûterait 3,2 points d'EV prudente : hors limite.
+
+🎾 Combiné tennis 3–5 matchs (48 664 tickets) :
+- À 3 :
+  · Mayer + Weber/Morel + Kovac, 3,41 : −12,50 % (gain plein 25,7 %, profit 29,5 %).
+  · Même groupe de tête : Rossi à la place de Kovac (4,70 : −12,77 %) et Okafor à la place de Kovac (3,00 : −12,79 %).
+- À 4 : + Rossi, 6,96 : −18,28 %. Voisins : + Okafor au lieu de Rossi, 4,43 : −18,30 % ; Rossi + Okafor au lieu de Kovac, 6,11 : −18,55 %.
+- À 5 : les cinq, 9,05 : −23,69 %.
+Longueur retenue : 3. Le meilleur à 4 est 5,8 points en dessous ; aucune jambe n'a d'EV prudente positive.
+
+🚀 2 jambes, 2–4 (184 tickets) :
+- Weber/Morel + Mayer, 2,30 : −6,60 %.
+- Weber/Morel + Kovac, 2,55 : −9,00 %.
+- Rossi + Weber/Morel, 3,51 : −9,28 %.
+- Weber/Morel + Okafor, 2,24 : −9,30 %.
+- Rossi + Mayer, 2,73 : −10,19 %.
+
+🎉 3–5 jambes, 5–15 :
+- Rossi + Weber/Morel + Kovac, 5,19 : −15,01 %.
+- Dumas + Mayer + Weber/Morel, 6,80 : −15,45 %.
+- Rossi + Weber/Morel + Duval, 6,56 : −16,64 %.
+
+Coût des jambes ajoutées (depuis le ⭐) :
+- R9 seul : 1,72 ; gain 56,7 % ; EV +0,6 % / −2,9 %.
+- + Mayer : 2,30 ; gain 40,6 % (−16,2 points, −28,5 % en relatif) ; EV −0,6 % / −6,6 %.
+- + Kovac : 3,41 ; gain 25,7 % (−14,9 points, −36,7 %) ; EV −3,9 % / −12,5 %.
+- + Rossi : 6,96 ; gain 11,9 % (−13,8 points, −53,7 %) ; EV −6,4 % / −18,3 %.
+- + Okafor : 9,05 ; gain 8,5 % (−3,4 points, −28,5 %) ; EV −10,1 % / −23,7 %.
+
+Seuils de bascule (rejeu complet de R★ dans la zone du format, cote baissée centime par centime) :
+- ⭐ Weber/Morel : reste premier jusqu'à 1,66 ; à 1,65, Rossi 2,04 prend la place.
+- 🎯 Weber/Morel : jusqu'à 1,71 ; à 1,70, Mayer 1,34 prend la place.
+- 🎾 :
+  · Mayer ≥ 1,31 (à 1,30 → Rossi + Weber/Morel + Kovac, 5,19) ;
+  · Weber/Morel ≥ 1,66 (à 1,65 → Rossi + Mayer + Kovac, 4,05) ;
+  · Kovac ≥ 1,48 (à 1,47 → Rossi + Mayer + Weber/Morel, 4,70).
+- 🛡️ :
+  · Mayer ≥ 1,30 (à 1,29 → Kovac + Okafor, 1,92) ;
+  · Kovac ≥ 1,47 (à 1,46 → Pavic + Mayer, 1,85).
+- 🚀 :
+  · Mayer ≥ 1,31 (à 1,30 → Weber/Morel + Kovac, 2,55) ;
+  · Weber/Morel ≥ 1,66 (à 1,65 → Rossi + Mayer, 2,73).
+- 🎉 :
+  · Rossi ≥ 2,03 ;
+  · Weber/Morel ≥ 1,67 (à 1,66 → Rossi + Mayer + Duval, 5,11) ;
+  · Kovac ≥ 1,48 (à 1,47 → Dumas + Mayer + Weber/Morel, 6,80).
+
+Plans B horaires (rejeu sans les matchs déjà commencés) :
+- Après 12:00 (AD1 et I1 commencés) :
+  · ⭐ → Rossi 2,04 ;
+  · 🎯 → Mayer 1,34 ;
+  · 🛡️ inchangé ;
+  · 🎾 → Rossi + Mayer + Kovac, 4,05 (EV −6,9 % / −15,9 %), avant 12:30 ;
+  · 🚀 → Rossi + Mayer, 2,73 (−3,7 % / −10,2 %).
+- Après 12:30 (W1 aussi) :
+  · 🛡️ → Pavic + Mayer, 1,85 (profit 50,8 %, gain plein 46,7 %, EV −7,9 % / −13,1 %) ;
+  · 🎾 → Rossi + Mayer + Okafor, 3,55 (−7,5 % / −16,1 %), avant 15:00.
+
+Sensibilités (tickets retenus) :
+- Taux d'abandon 0 % ou 6 % au lieu de 3 % : mêmes tickets dans tous les formats.
+- Fourchette ±3 points au lieu de ±2 : mêmes tickets ; le ⭐ reste seul dans son groupe de tête.
+- Retrait de marge multiplicatif au lieu de power :
+  · ⭐, 🎯, 🛡️ et 🚀 inchangés ;
+  · le 🎾 prend Rossi à la place de Kovac (troisième jambe interchangeable) ;
+  · le 🎉 devient Dumas + Mayer + Weber/Morel.
+
+Seconde passe : points contrôlés
+- Horaires : AD1 à heure fixe, pas commencé à 11:30 ; W1 à 12:30 ; A4 pas avant 17:00.
+- Statuts des finalistes : aucune absence connue.
+- Règle d'abandon : vérifiée.
+- Cohérence Elo/marché : accord.
+- Dépendances : aucune entre AD1, A4 et W1.
+- Meilleures sélections écartées : C1 Ruiz (−4,9 %, mais départ 11:30) ; C5 (hors offre) ; I1 (base Winamax seule). Les exclusions tiennent.
+Aucune sélection écartée n'avait d'EV centrale positive, et aucune contradiction matérielle n'a été trouvée.

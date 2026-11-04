@@ -1,0 +1,283 @@
+## 📌 DÉCISION
+
+Préparé le **jeudi 3 décembre 2026 à 11:30** (heure de Paris).
+- Horizon : aujourd'hui, jusqu'à vendredi 6:00.
+- Sport balayé : tennis, en mode Tennis complet. Football et basket ne sont pas balayés : aucune donnée fournie, aucune recherche possible.
+- Base de prix : référence indépendante, Pinnacle via comparateur (11:05–11:15), sauf I1 (Winamax seule). Cotes Winamax observées sur tes captures (11:10–11:20).
+
+⭐ **CHOIX PRINCIPAL : Weber/Morel vainqueur (R9)**
+- Match : **Weber/Morel – Haas/Mertens**, quart de finale du double de Valbonne Indoor, **12:00** (heure fixe).
+- Cote : **1,72 ✅** (11:10–11:20).
+- Chance de gain : **56,7 %**. Ils ont 58,5 % de chances de gagner le match, mais un abandon annule le pari (hypothèse : 3 % des matchs) ; la perte est à 40,3 %.
+- EV : **+0,6 % / prudente −2,9 %** · 🟡 value fragile.
+
+**Pourquoi lui.** C'est la seule cote du programme au-dessus du prix sans marge : 1,72 pour une cote juste de 1,71. Son EV prudente (−2,9 %) devance de 3,7 points les deuxièmes de la zone 1,50–4,00 : Rossi à 2,04 (−6,6 %) et le combiné Weber/Morel + Mayer (−6,6 %), qui contient la même jambe.
+
+Le choix est net : il reste seul en tête avec une fourchette de ±3 points (−4,6 % contre −8,6 %). L'avantage, lui, est minime. Toutes les EV prudentes du jour sont négatives : c'est le ticket le moins coûteux selon la règle de décision R★ (prix prudent, puis simplicité), et le seul dont l'EV centrale est positive.
+
+**Il reste mon choix tant que :**
+- la **cote Winamax est ≥ 1,66** (seuil de bascule, rejeu complet) ;
+- le match n'a pas commencé.
+
+Entre 1,66 et 1,70, il reste premier mais perd le 🟡 (EV centrale négative). **Sinon : Rossi vainqueur (R4), Petrova – Rossi, 15:00 (pas avant), 2,04** — gain 46,3 %, EV −2,5 % / −6,6 %.
+
+**Avant de cliquer :**
+1. **Avant 12:00** : AD1 pas commencé, paires inchangées.
+2. **Weber/Morel ≥ 1,66** sur Winamax (≥ 1,71 pour garder une EV centrale positive).
+3. Si tu peux relire Pinnacle, il doit afficher toujours 1,68 / 2,34. Sinon, le calcul est à refaire.
+
+**Menu (alternatives, pas à cumuler) :**
+- 🎯 **Meilleur simple** : le même pari que le ⭐.
+  - Option de prix quasi équivalent, à 0,98 point d'EV prudente : Mayer vainqueur (R5, A4, 17:00 pas avant) à 1,34 ; gain 71,5 %, EV −1,2 % / −3,8 %.
+  - Il devient le 🎯 si Weber/Morel passe sous 1,71 ou après 12:00.
+- 🛡️ **Ticket court** : **Kovac (R13) + Mayer (R5)**, **1,98**.
+  - Chance de profit 49,3 % (gain plein 45,3 %) ; EV −4,5 % / −9,9 %.
+  - Aucun sacrifice : c'est le mieux payé de sa zone, et aucun ticket admis n'y touche plus souvent.
+  - À valider avant 12:30.
+- 🎾 **Combiné tennis** : **Weber/Morel (R9) + Kovac (R13) + Mayer (R5)**, **3,41**.
+  - Gain plein 25,7 % (profit 29,5 %) ; EV −3,9 % / −12,5 %.
+  - Avant 12:00.
+- 🎲 **Plaisir** : vide. Raison matérielle : aucune cote de marché vivant (sets, jeux, handicaps, totaux) dans tes données.
+  - Piste à relever, hors classement : Duval – Ilic « en 3 sets ».
+- 🚀 **Combiné plaisir** : **Weber/Morel (R9) + Mayer (R5)**, **2,30**.
+  - Gain plein 40,6 % (profit 44,4 %) ; EV −0,6 % / −6,6 %.
+  - Avant 12:00.
+- 🎉 **Fun** : Weber/Morel (R9) + Kovac (R13) + Rossi (R4), 5,19.
+  - Gain plein 16,6 % ; EV −5,3 % / −15,0 %.
+- 🟡 : Weber/Morel seulement. Il dépend d'un centime de cote (EV nulle à 1,71) et d'un prix Pinnacle non relu.
+- 🟢 : aucun.
+
+**Exposition commune.**
+- AD1 est dans le ⭐/🎯, le 🎾, le 🚀 et le 🎉.
+- A4 (Mayer) est dans le 🛡️, le 🎾 et le 🚀.
+- W1 (Kovac) est dans le 🛡️, le 🎾 et le 🎉.
+- A3 (Rossi) est dans le 🎉, et c'est le plan B du ⭐.
+
+Tout jouer reviendrait à miser plusieurs fois sur AD1 et A4.
+
+
+## 🔭 COUVERTURE
+
+**Tournois parcourus (jeudi 3 décembre) :**
+- Valbonne Indoor ATP 500, simple et double, dur intérieur ;
+- Lisière Ladies WTA 250, dur intérieur ;
+- Challenger de Valcorta et ses qualifications, terre battue extérieure ;
+- ITF W50 de Brévent, terre battue intérieure.
+
+**20 lignes de programme, dont 6 mises à part :**
+- A1 : commencé à 11:00.
+- C1 : prévu à 11:30, l'heure même de la préparation ; hors avant-match en pratique.
+- A6 : affiche non confirmée (« vainqueur de A5 – Rinaldi »).
+- W3 : forfait annoncé à 10:15, pas de match.
+- C3 : reporté à vendredi 11:00, hors horizon.
+- I2 : ITF hors offre Winamax, donc hors périmètre.
+
+**Recensés : 14 = 12 analysés + 2 limités + 0 en attente → couverture complète.**
+- Limités : I1 (pas de référence indépendante) et C5 (non proposé sur Winamax).
+- Admissibles pour les tickets : 13 matchs, soit 26 sélections.
+- Approfondis : AD1, A4, W1, A3, W4, A2.
+- Écartés au prix : A5, AD2, W2, C2, C4, I1 (meilleure EV centrale de chacun entre −4,4 % et −5,8 %).
+
+**Limites et conséquences.**
+- Les cotes sont figées entre 11:05 et 11:20 et ne peuvent pas être rafraîchies.
+- Je n'ai aucune donnée de forme, de service/retour ni de marché secondaire.
+- La règle Winamax de report n'est pas fournie : C2 et C4 (extérieur, pluie) passent en qualité Q2.
+- Sans données football ni basket, le ⭐ est le meilleur ticket tennis, pas un optimum multisport.
+
+**Ce que l'exploration a changé : rien.** Le premier tri par le prix désignait déjà AD1. L'Elo confirme chaque référence Pinnacle à 0,1 point près. Sur I1, il est 2 points au-dessus de la base Winamax, sans effet sur le choix.
+
+
+## 📒 REGISTRE
+
+Lignes utilisées par les tickets ; le registre complet (R1–R30) est dans le rapport joint.
+
+**Conventions communes.**
+- Retrait de marge « power » sur le marché Pinnacle complet, avec contrôle multiplicatif.
+- p_ret = p_ref (aucun ajustement) ; fourchette ±2 points.
+- États Winamax :
+  - gain = 97 % × p_ret ;
+  - annulé = 3 % : hypothèse d'abandon, d'après un repère publié d'environ 3 % des matchs en deux sets gagnants ;
+  - perte = le reste.
+- EV prudente : 2 points retirés au gain et ajoutés à la perte.
+- Avec 0 % ou 6 % d'abandons, aucun ticket ne change.
+
+**Lignes :**
+- **R9** · AD1 · Valbonne, double, quart · Weber/Morel – Haas/Mertens · 12:00 (heure fixe) · Weber/Morel vainqueur · règle : abandon ou forfait → annulé (cote 1) · Winamax 1,72 / 2,07 ✅ 11:10–11:20 · réf. Pinnacle via comparateur 11:05–11:15 (1,68 / 2,34), power (mult. 58,2 %) · p_ref 58,5 % · ajustement : aucun · p_ret 58,5 % [56,5 ; 60,5] · gain 56,7 % / annulé 3,0 % / perte 40,3 % · EV +0,6 % / prudente −2,9 % · cote juste 1,71 · marge Winamax 6,4 % (Pinnacle 2,3 %) · Elo de paire 58,5 % · Q1 · tier B · condition : jouer avant 12:00.
+- **R5** · A4 · Valbonne, 8e · Mayer – Hosszu · 17:00 (pas avant) · Mayer vainqueur · Winamax 1,34 / 3,16 ✅ · Pinnacle 1,34 / 3,61 (mult. 72,9 %) · p_ret 73,7 % [71,7 ; 75,7] · gain 71,5 / annulé 3,0 / perte 25,5 % · EV −1,2 % / −3,8 % · cote juste 1,36 · marge 6,3 % (2,3 %) · Elo 73,8 % · Q1 · tier A/S · réserve : « a joué 2 h 55 hier, fin à 23:15 » (joueur non précisé), déjà dans le prix.
+- **R13** · W1 · Lisière, 2e tour · Kovac – Brandt · 12:30 · Kovac vainqueur · Winamax 1,48 / 2,58 ✅ · Pinnacle 1,51 / 2,77 (mult. 64,7 %) · p_ret 65,2 % [63,2 ; 67,2] · gain 63,3 / 3,0 / 33,7 % · EV −3,4 % / −6,3 % · cote juste 1,53 · marge 6,3 % (2,3 %) · Elo 65,3 % · Q1 · tier A.
+- **R4** · A3 · Valbonne, 8e · Petrova – Rossi · 15:00 (pas avant) · Rossi vainqueur · Winamax 1,74 / 2,04 ✅ · Pinnacle 1,87 / 2,04 (mult. 47,8 %) · p_ret 47,7 % [45,7 ; 49,7] · gain 46,3 / 3,0 / 50,7 % · EV −2,5 % / −6,6 % · cote juste 2,09 · marge 6,5 % (2,5 %) · Elo 47,8 % · Q1 · tier C.
+- **R17** · W4 · Lisière, 2e tour · Okafor – Ibarra · 17:00 (pas avant) · Okafor vainqueur · Winamax 1,30 / 3,39 ✅ · Pinnacle 1,34 / 3,61 · p_ret 73,7 % [71,7 ; 75,7] · gain 71,5 % · EV −4,0 % / −6,6 % · marge 6,4 % · Q1 · tier A/S · réserve : « retour de blessure (cheville) il y a 3 semaines » (joueuse non précisée), déjà dans le prix.
+- **R29** · I3 · Brévent ITF W50 · Lomé – Stein · 15:00 (pas avant) · Lomé vainqueur · Winamax 1,45 ✅ · Pinnacle 1,51 / 2,77 · p_ret 65,2 % · EV −5,3 % / −8,2 % · Q1 · tier A.
+- **R1** · A2 · Pavic – Dumas · 13:30 (pas avant) · Pavic vainqueur · 1,38 ✅ · Pinnacle 1,46 / 2,92 · p_ret 67,3 % · EV −6,8 % / −9,6 % · Q1 · jamais avec AD2 (Pavic joue aussi le double).
+- **R2** · A2 · Dumas vainqueur · 2,95 ✅ (plus que Pinnacle 2,92, mais cote juste 3,06) · p_ret 32,7 % · EV −3,6 % / −9,5 % · Q1 · tier D.
+- **R27** · I1 · Brévent · Ricci – Arendt · 12:00 · Ricci vainqueur · 1,64 / 2,19 ✅ · base Winamax seule · p_ret 57,9 % [54,9 ; 60,9] · EV −4,9 % / −9,8 % : simple coût de marge, aucune value possible · Q2.
+
+Les 21 autres lignes, à EV centrale de −4,4 % à −16,5 %, ou sans cote Winamax (C5), sont dans le rapport.
+
+
+## ⚖️ COMPARAISON DES TICKETS
+
+J'ai énuméré en code 48 998 tickets de 1 à 5 jambes : une sélection par match, jamais A2 et AD2 ensemble, tous en tennis (aucun multisport possible).
+
+| Ticket | Cote | Chance · EV (centrale / prudente) | Pourquoi ce rang |
+|---|---|---|---|
+| ⭐ = 🎯 Weber/Morel (R9) | 1,72 | 56,7 % · +0,6 % / −2,9 % | 1er partout ; seule EV centrale > 0 |
+| Mayer (R5) | 1,34 | 71,5 % · −1,2 % / −3,8 % | hors zone ⭐ ; à 0,98 point dans le 🎯 |
+| Rossi (R4) | 2,04 | 46,3 % · −2,5 % / −6,6 % | meilleur de la zone sans AD1 → plan B |
+| 🚀 Weber/Morel + Mayer | 2,30 | 40,6 % (profit 44,4 %) · −0,6 % / −6,6 % | meilleur à 2 ; la jambe Mayer coûte 3,7 points |
+| 🛡️ Kovac + Mayer | 1,98 | profit 49,3 % (gain 45,3 %) · −4,5 % / −9,9 % | mieux payé et plus probable de 1,75–2,10 |
+| 🎾 Weber/Morel + Kovac + Mayer | 3,41 | 25,7 % (profit 29,5 %) · −3,9 % / −12,5 % | meilleur à 3 ; Kovac ≈ Rossi ≈ Okafor (0,3 point) |
+| 4 jambes : + Rossi | 6,96 | 11,9 % (profit 14,5 %) · −6,4 % / −18,3 % | 5,8 points sous le meilleur à 3 |
+| 5 jambes : + Okafor | 9,05 | 8,5 % (profit 10,8 %) · −10,1 % / −23,7 % | encore 5,4 points de moins |
+| 🎉 Weber/Morel + Kovac + Rossi | 5,19 | 16,6 % (profit 19,5 %) · −5,3 % / −15,0 % | meilleur de la zone 5–15 |
+
+**Weber/Morel seul plutôt que Weber/Morel + Mayer**, parce que la jambe Mayer a une EV prudente négative (−3,8 %). L'ajouter multiplie (1 + EV prudente) par 0,962 et la chance par 0,715.
+
+**Coût des jambes ajoutées (depuis le ⭐) :**
+- + Mayer : 2,30 ; gain 56,7 → 40,6 % (−16,2 points, −28,5 %) ; EV +0,6 → −0,6 % ; prudente −2,9 → −6,6 %.
+- + Kovac : 3,41 ; → 25,7 % (−14,9 points, −36,7 %) ; → −3,9 % ; → −12,5 %.
+- + Rossi : 6,96 ; → 11,9 % (−13,8 points, −53,7 %) ; → −6,4 % ; → −18,3 %.
+- + Okafor : 9,05 ; → 8,5 % (−3,4 points, −28,5 %) ; → −10,1 % ; → −23,7 %.
+
+Aucune jambe du programme n'a d'EV prudente positive, et aucun bonus de combiné n'est connu : chaque jambe ajoutée coûte de la chance et de l'espérance. Le 🎾 reste donc à **trois matchs**, puisque le meilleur à quatre est 5,8 points en dessous.
+
+**Remplacements de la jambe la plus fragile :**
+- 🎾 : AD1 a la chance la plus faible (58,5 %, double). Remplacée par Okafor, le ticket passe à 2,58, gain 32,4 %, EV −8,3 % / −15,9 % (−3,4 points).
+- 🛡️ : Kovac remplacé par Lomé (R29) donne 1,94, même chance, EV −6,4 % / −11,7 % (−1,8 point).
+  - Pour 1,5 point de chance en plus (Pavic + Mayer, 50,8 %), il faudrait payer 3,2 points d'EV prudente : hors limite.
+- 🚀 : Weber/Morel remplacé par Rossi donne 2,73, gain 33,1 %, EV −3,7 % / −10,2 %.
+
+**Assemblages à éviter :**
+- **Pavic en simple (A2) + Pavic/Ito en double (AD2)** : même joueur deux fois le même jour.
+  - Sans estimation jointe, la borne basse est 21,1 % au lieu de 36,2 % (produit naïf).
+  - Exclu de l'énumération.
+- **Okafor à 1,30 ajouté au 🎾 « pour sécuriser »** : cote 4,43 ; la chance passe de 25,7 % à 18,4 % et l'EV prudente de −12,5 % à −18,3 %.
+- **Dumas à 2,95 « au-dessus de Pinnacle »** : la cote juste est 3,06, soit une EV de −3,6 %. Ce n'est pas une value.
+
+
+## 🔬 DOSSIERS DES FINALISTES
+
+**Weber/Morel vainqueur (R9) · 1,72 · p_ret 58,5 % (Pinnacle)** — ⭐, 🎯 ; jambe du 🎾, du 🚀 et du 🎉.
+- **Données.** Pinnacle 1,68 / 2,34 (marge 2,3 %, lu à 11:05–11:15) donne une cote juste de 1,71. La cote Winamax de 1,72 est la seule du jour au-dessus de son prix sans marge.
+  - L'Elo de paire relevé lundi (1700 / 1640) donne aussi 58,5 % : il n'y a rien à expliquer.
+  - La règle d'abandon est vérifiée. Aucune information sur les quatre joueurs.
+  - Tout cela est dans le prix : l'avantage vient seulement de l'écart entre Winamax et Pinnacle.
+- **Objection la plus forte.** L'écart tient à un centime : l'EV centrale est nulle à 1,71.
+  - Un déplacement ordinaire de 2 points de la probabilité sans marge la rend négative (prudente −2,9 %).
+  - Un double, avec son super tie-break habituel au troisième set (format non précisé dans ta saisie), est plus aléatoire. C'est déjà dans le prix.
+  - Le prix n'a pas pu être relu, et il reste trente minutes avant le départ.
+- **Alternative.** Aucun autre marché de ce match n'a de cote lue. Dans la zone, Rossi (−6,6 %) ; hors zone, Mayer (−3,8 %).
+- **Bascule.**
+  - Sous 1,66 → Rossi.
+  - Sous 1,71 → plus de 🟡, et le 🎯 passe à Mayer.
+  - Match commencé, ou forfait avant le début (pari annulé) → plan B.
+
+**Mayer vainqueur (R5) · 1,34 · p_ret 73,7 %** — 🛡️, 🎾, 🚀 ; concurrent du 🎯.
+- **Données.** Winamax paie Mayer comme Pinnacle (1,34) et met toute sa marge sur Hosszu (3,16 contre 3,61). C'est le favori le moins taxé du jour : EV −1,2 % pour une cote juste de 1,36. L'Elo (1950 / 1770) donne 73,8 %.
+- **Objection la plus forte.** Ta saisie indique « a joué 2 h 55 hier, fin à 23:15 », sans dire lequel des deux joueurs.
+  - Cette information est publique depuis hier soir, donc antérieure aux cotes de ce matin : elle est déjà dans le prix.
+  - Aucune méthode ne permet d'en chiffrer l'effet, donc je ne fais aucun ajustement.
+  - Il y a au moins 17 h 45 de récupération avant 17:00.
+  - Si c'est Mayer, c'est la réserve principale de ces tickets. Un abandon de sa part annulerait la jambe, il ne la perdrait pas.
+- **Alternative.** Okafor : même probabilité, mais payée 1,30, soit −6,6 % d'EV prudente.
+- **Bascule.** Sous 1,31, Mayer sort du 🎾 et du 🚀. Sous 1,30, il sort du 🛡️ (→ Kovac + Okafor, 1,92).
+
+**Kovac vainqueur (R13) · 1,48 · p_ret 65,2 %** — 🛡️, 🎾, 🎉.
+- **Données.** Pinnacle 1,51 / 2,77 ; Elo 1800 / 1690 (65,3 %) ; aucune nouvelle. C'est la jambe la plus chère du 🎾 (EV prudente −6,3 %).
+- **Objection.** Elle est à égalité de prix avec Rossi (−6,6 %) et Okafor (−6,6 %). La troisième jambe du 🎾 est donc une préférence entre options de prix équivalent : avec le retrait de marge multiplicatif, Rossi passerait devant.
+- **Bascule.** À 1,47, Rossi la remplace dans le 🎾. À 1,46, le 🛡️ devient Pavic + Mayer (1,85).
+
+**Premier concurrent du ⭐ : Rossi vainqueur (R4) · 2,04 · p_ret 47,7 %.**
+- **Données.** C'est le match le plus serré du tableau ATP en simple : 52/48 sans marge, Elo 1820 / 1805. Winamax met sa marge sur Petrova et paie Rossi comme Pinnacle. EV −2,5 % / −6,6 %.
+- **Objection.** C'est un coût, pas une value. Il est 3,7 points derrière le ⭐ en EV prudente.
+- **Quand il prend la place.** Seulement si Weber/Morel tombe sous 1,66, ou si 12:00 est passé.
+
+**Seconde passe : ce que j'ai contrôlé.**
+- Horaires : AD1 à heure fixe, pas commencé à 11:30 ; W1 à 12:30 ; A4 pas avant 17:00.
+- Statuts : aucune absence connue chez les finalistes.
+- Règle d'abandon : vérifiée.
+- Cohérence Elo/marché : accord.
+- Dépendances : aucune entre AD1, A4 et W1.
+- Meilleures sélections écartées :
+  - C1 Ruiz (−4,9 %) part à 11:30 ;
+  - C5 est hors offre Winamax ;
+  - I1 n'a que la base Winamax.
+
+Les exclusions tiennent, et aucune contradiction matérielle n'est apparue.
+
+
+## 🎾 MODE TENNIS COMPLET
+
+**Couverture complète** : 14 rencontres recensées (12 analysées, 2 limitées, 0 en attente), plus 6 lignes mises à part.
+
+Le **rapport TXT joint, C11_R64_rapport.txt**, contient :
+- une fiche par rencontre, classée par tournoi : niveau, forme, physique et calendrier, prix, verdict ;
+- le registre complet R1–R30 ;
+- l'énumération, les seuils de bascule, les plans B horaires et les sensibilités.
+
+🎾 retenu à 3 matchs. EV prudente du meilleur à 3 : −12,5 % ; à 4 : −18,3 % ; à 5 : −23,7 %.
+
+
+## 📋 FICHE FINALE
+
+**A. Calendrier — jeudi 3 décembre, heure de Paris**
+- **Maintenant → 12:00** : contrôler AD1 (pas commencé ; Weber/Morel ≥ 1,66). Valider avant 12:00 le ⭐/🎯, le 🎾, le 🚀 et le 🎉.
+- **12:00** · AD1 Weber/Morel – Haas/Mertens (⭐ 🎯 🎾 🚀 🎉).
+- **Avant 12:30** : valider le 🛡️ (Kovac ≥ 1,47 ; Mayer ≥ 1,30).
+- **12:30** · W1 Kovac – Brandt (🛡️ 🎾 🎉).
+- **15:00 pas avant** · A3 Petrova – Rossi (plan B du ⭐ ; 🎉).
+- **17:00 pas avant** · A4 Mayer – Hosszu (🛡️ 🎾 🚀). Un abandon annulerait la jambe.
+
+Aucun statut n'est attendu à heure connue.
+
+**B. Paris**
+
+⭐ **CHOIX PRINCIPAL · 🟡 · Weber/Morel vainqueur · 1,72 · 56,7 %**
+— Tennis · Weber/Morel – Haas/Mertens · Valbonne Indoor ATP 500, double, quart · jeudi 12:00
+— Vainqueur du match · Winamax 1,72 ✅ 11:10–11:20 · référence Pinnacle 1,68 / 2,34
+— Pourquoi : la seule cote du jour au-dessus du prix sans marge (cote juste 1,71) ; EV +0,6 %, prudente −2,9 %
+— Avant de cliquer : **avant 12:00** · **cote ≥ 1,66** (≥ 1,71 pour garder l'EV positive)
+— Plan B : Rossi vainqueur (Petrova – Rossi, 15:00 pas avant) à 2,04
+
+🎯 **MEILLEUR SIMPLE · même pari que le ⭐**
+— Plan B, après 12:00 ou sous 1,71 : **Mayer vainqueur** (Mayer – Hosszu, Valbonne, 17:00 pas avant) · **1,34** · 71,5 % · EV −1,2 % / prudente −3,8 %
+
+🛡️ **TICKET COURT · sans label · 1,98 · chance de profit 49,3 % (gain plein 45,3 %)**
+— Kovac vainqueur · Kovac – Brandt · Lisière Ladies WTA 250 · 12:30 · 1,48 ✅ (R13)
+— Mayer vainqueur · Mayer – Hosszu · Valbonne Indoor ATP 500 · 17:00 pas avant · 1,34 ✅ (R5)
+— Cote totale 1,98 · EV −4,5 % / prudente −9,9 % · matchs indépendants · un abandon annule la jambe (cote 1)
+— Pourquoi : le mieux payé de la zone 1,75–2,10, et aucun ticket admis n'y touche plus souvent (aucun sacrifice) ; environ une chance sur deux, pas une sécurité
+— Avant de cliquer : **avant 12:30** · Kovac ≥ 1,47 · Mayer ≥ 1,30
+— Plan B : après 12:30, Pavic (Pavic – Dumas, 13:30 pas avant) + Mayer à 1,85 (profit 50,8 %, EV −7,9 % / −13,1 %)
+
+🎾 **COMBINÉ TENNIS · sans label · 3,41 · gain plein 25,7 % (profit 29,5 %)**
+— Weber/Morel vainqueur · Weber/Morel – Haas/Mertens · 12:00 · 1,72 ✅ (R9)
+— Kovac vainqueur · Kovac – Brandt · 12:30 · 1,48 ✅ (R13)
+— Mayer vainqueur · Mayer – Hosszu · 17:00 pas avant · 1,34 ✅ (R5)
+— Cote totale 3,41 (cote affichée par Winamax à vérifier) · EV −3,9 % / prudente −12,5 % · matchs indépendants · une jambe annulée sur abandon passe à la cote 1
+— Pourquoi : les trois jambes les moins chères du programme ; à quatre matchs, l'EV prudente perd 5,8 points
+— Avant de cliquer : **avant 12:00** · Weber/Morel ≥ 1,66 · Kovac ≥ 1,48 · Mayer ≥ 1,31
+— Plan B : après 12:00, Kovac + Rossi + Mayer à 4,05 (EV −6,9 % / −15,9 %), à valider avant 12:30
+
+🎲 **PLAISIR · vide**
+— Raison : aucune cote de marché vivant (sets, jeux, handicaps, totaux) dans tes données
+— Piste à relever, hors classement : Duval – Ilic (Lisière, 14:00 pas avant), « match en 3 sets ». C'est le match le plus équilibré joué en salle aujourd'hui (51/49 sans marge). Probabilité non estimée, pas d'EV. À jouer seulement si Winamax le propose et si la marge de ce marché reste proche des 6,4 % du vainqueur.
+
+🚀 **COMBINÉ PLAISIR · sans label · 2,30 · gain plein 40,6 % (profit 44,4 %)**
+— Weber/Morel vainqueur · 12:00 · 1,72 ✅ (R9)
+— Mayer vainqueur · 17:00 pas avant · 1,34 ✅ (R5)
+— EV −0,6 % / prudente −6,6 % · matchs indépendants · abandon = jambe à la cote 1
+— Pourquoi : le combiné à deux jambes le moins coûteux de la zone 2–4
+— Avant de cliquer : **avant 12:00** · Weber/Morel ≥ 1,66 · Mayer ≥ 1,31
+— Plan B : Rossi + Mayer à 2,73 (EV −3,7 % / −10,2 %)
+
+🎉 **FUN · sans label · 5,19 · gain plein 16,6 %**
+— Weber/Morel 1,72 ✅ (R9) · 12:00 — Kovac 1,48 ✅ (R13) · 12:30 — Rossi 2,04 ✅ (R4) · 15:00 pas avant
+— EV −5,3 % / prudente −15,0 % · avant 12:00 · Rossi ≥ 2,03, Weber/Morel ≥ 1,67, Kovac ≥ 1,48
+— Plan B : Weber/Morel + Dumas + Mayer à 6,80 (EV −4,1 % / −15,4 %)
+
+Statuts : ✅ toutes les cotes ont été observées sur Winamax (11:10–11:20) ; aucune n'est « à confirmer ».
+
+**C. Si tu ne devais jouer qu'un pari :** **Weber/Morel vainqueur à 1,72, avant 12:00**. C'est la seule cote du programme au-dessus du prix sans marge, mais l'avantage est minime (EV +0,6 %, prudente −2,9 %).
+
+**D. Rappel.** Limite principale du jour : les prix sont figés à 11:20 et ne peuvent pas être rafraîchis, et l'avantage disparaît sous 1,71. Vérifie les prix et les statuts avant de jouer. Aucune promesse de gain. 18+.

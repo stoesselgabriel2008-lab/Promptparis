@@ -1,0 +1,188 @@
+📌 DÉCISION
+
+Préparé le samedi 5 décembre 2026 à 13:00 (heure de Paris) · horizon : samedi 15:00 → dimanche 6 décembre 01:30 · sports : tennis, football, basket NBA (une rencontre chacun ; rugby et NHL absents des données) · base de prix : référence indépendante Pinnacle (comparateur qui le nomme, 12:35) pour 1X2, plus/moins 2,5, handicap asiatique, vainqueur du tennis et points de Doe ; Winamax lu dans l'application à 12:40 ; base Winamax seule pour « les deux équipes marquent » et le handicap/total du tennis ; modèle pour le buteur et le MyMatch. Aucun accès web : rien n'a pu être rafraîchi.
+
+Vous vouliez surtout des marchés plaisir : le choix principal en est un (handicap asiatique), le 🎲 bis et le 🚀 aussi.
+
+⭐ CHOIX PRINCIPAL : **R17 · Montval −0,75 (handicap asiatique)** · Montval – Saint-Brice, samedi 17:30 · **cote 1,83** ✅ (Winamax 12:40) · chance de profit 62,1 % (gain plein 38,5 % + demi-gain 23,6 %) · EV +3,8 % / prudente +0,2 % · 🟡 value fragile.
+
+Pourquoi lui : il perd exactement dans les mêmes cas que « Montval vainqueur » (nul ou défaite, 37,9 %) mais rapporte 1,83 si Montval gagne par deux buts ou plus et 1,415 s'il gagne d'un but, soit 1,67 en moyenne au lieu de 1,62. C'est la seule EV prudente positive du jour (+0,2 %), devant Durand buteur s'il est titulaire (−1,6 %, probabilité de modèle) et Montval vainqueur (−2,6 %).
+
+Il reste mon choix tant que : **Durand est titulaire à 16:30** (aucune absence majeure à Montval), la cote Winamax reste à **1,80 ou plus** (seuil de bascule issu du rejeu complet du classement) et Pinnacle ne cote pas Montval vainqueur au-dessus de 1,60 (à marge égale) ; sinon : **Durand buteur à 2,40** (s'il est titulaire et coté au moins 2,38), puis Montval vainqueur à 1,62. Si Durand est remplaçant : pas de football sans nouveau prix de référence ; il ne resterait que Doe moins de 24,5 points à 1,93 après le rapport de 19:00 (EV −4,0 %, sans label), et s'abstenir coûte moins.
+
+Robustesse : le premier concurrent est à 1,8 point d'EV prudente ; avec une fourchette de ±3 points, l'AH reste devant (−1,7 % contre −4,0 %) : choix net au sens de la règle. Réserve : l'EV prudente n'est positive qu'avec le retrait de marge « power ». En multiplicatif, elle tombe à −0,1 %, et à −1,7 % avec la grille de scores multiplicative ; dans ce dernier cas seulement, le buteur (−1,6 %, calculé sur 90 minutes, borne haute) passerait devant d'un cheveu.
+
+Avant de cliquer (entre 16:30 et 17:30) :
+1. Composition : Durand titulaire, pas d'absence majeure côté Montval.
+2. Winamax : handicap asiatique **Montval −0,75** (ni −0,5 ni −1) à **1,80 ou plus**.
+3. Si vous voyez Pinnacle : Montval vainqueur à 1,60 ou moins ; sinon, recalcul.
+
+Menu (alternatives, pas à cumuler) :
+- 🎯 Meilleur simple : le ⭐ (même ticket).
+- 🛡️ Ticket court : double chance Montval ou nul + Doe plus de 24,5 points · 2,09 · chance 42,5 % · EV −11,0 % / prudente −18,3 % · sans label. Seul ticket jouable de la zone ; le ⭐ a une meilleure chance de profit (62 %).
+- 🎾 Combiné tennis : non servi, une seule rencontre de tennis (il en faut trois, il en manque deux).
+- 🎲 Plaisir : le ⭐ (le handicap asiatique est le meilleur marché vivant).
+- 🎲 bis : N. Durand buteur · 2,40 · 44,0 % s'il est titulaire (90 minutes, borne haute) · EV +5,6 % / prudente −1,6 % · 🟡 (modèle) · seulement après la compo.
+- 🚀 Combiné plaisir : MyMatch « Montval gagne + les deux équipes marquent » · 3,60 · 28,3 % · EV +1,9 % / prudente −8,9 % · 🟡 (grille de scores).
+- 🎉 Fun : non servi (facultatif), aucun ticket à trois jambes jouable.
+- 🟡 aussi : Montval vainqueur 1,62 (EV +0,6 % / −2,6 %), dominé par le ⭐. Aucun 🟢.
+
+Exposition commune : ⭐ = 🎯 = 🎲. Le ⭐, le 🎲 bis, le 🚀 et la première jambe du 🛡️ reposent tous sur Montval – Saint-Brice et sur la même composition ; l'AH, le buteur et le MyMatch gagnent ensemble quand Montval marque beaucoup. En jouer plusieurs, c'est miser plusieurs fois sur le même scénario.
+
+
+🔭 COUVERTURE
+
+- Tennis : 1 rencontre (T1, dur intérieur, 15:00 ; tournoi et tour non précisés), 6 sélections. Vainqueur avec référence Pinnacle ; handicap −3,5 jeux et total 21,5 jeux sur Winamax seul (marge 6,7 %, aucune statistique de jeux pour fonder une lecture) : écartés. Ilic présélectionné comme brique (68,8 %), mais il faudrait 1,46 pour une EV positive, et son départ à 15:00 précède la compo du football.
+- Football : 1 rencontre (D1 de Valmorie, 17:30), 14 sélections (1X2, remboursé si nul, double chance, ±2,5 buts, les deux marquent, AH ±0,75, MyMatch, buteur). Approfondies : AH −0,75, Montval vainqueur, Durand buteur, MyMatch. Écartés : les paris sur l'outsider (nul, Saint-Brice, Saint-Brice remboursé si nul, Saint-Brice +0,75 : EV de −10 à −17 %), moins de 2,5 buts (−10,3 %), « les deux marquent » (base Winamax seule, deux côtés négatifs, confirmé par la grille).
+- Basket : NBA, 1 rencontre (dimanche 01:30) ; seul marché fourni : points de J. Doe (ni vainqueur, ni handicap, ni total). Les deux côtés sont négatifs ; le « moins » est le moins cher.
+- Rugby, NHL : aucune donnée.
+- Bilan : 3 rencontres, 22 sélections, 9 présélectionnées (R1, R7, R10, R12, R13, R17, R19, R20, R22), 4 approfondies (R17, R20, R19, R7).
+- Limites : pas d'accès web ; prix figés à 12:35 (Pinnacle) et 12:40 (Winamax), aucun rafraîchissement possible avant 16:30. Non fournis : règle d'abandon au tennis ; règle Winamax si Doe ne joue pas et prise en compte des prolongations ; période des marchés de football (temps réglementaire présumé) ; équipe de Durand (ses chiffres ne collent qu'avec Montval, voir dossier) ; temps de jeu de Durand quand il est titulaire.
+- Ce que l'exploration a changé : l'écart Winamax 1,83 / Pinnacle 1,72 sur l'AH est confirmé par le calcul par états et par la grille, mais l'EV prudente tombe à +0,2 %. Le MyMatch, qui paraîtrait à +18 % en multipliant naïvement les probabilités, vaut +1,9 %. Le buteur à 2,40 est à −12,7 % avant la compo et ne devient positif que s'il est titulaire. La moyenne de 25,9 points de Doe est déjà dans la ligne (Pinnacle ≈ 50/50).
+
+
+📒 REGISTRE
+
+Matchs
+- M1 · Tennis · T1 (tournoi et tour non précisés), dur intérieur · M. Ilic – S. Moreau · samedi 15:00 · à venir · trié (vainqueur étudié au niveau du marché).
+- M2 · Football · Ligue de Valmorie (D1), F1 · Montval – Saint-Brice · samedi 17:30 · à venir, compositions vers 16:30 · approfondi.
+- M3 · Basket · NBA, N1 · Harbor Hawks – Ridge Rams · dimanche 01:30 · à venir, rapport de blessures vers 19:00 · trié.
+
+Sélections. Winamax lu à 12:40 ✅, Pinnacle à 12:35. Retrait de marge « power », contrôle multiplicatif. Ajustement : aucun, nulle part (aucune information datée absente des prix).
+- R1 · M1 · Ilic vainqueur du match · règle d'abandon non fournie → calcul prudent : abandon d'Ilic = pari perdu (si Winamax annule en cas d'abandon, la jambe serait ramenée à 1) · Winamax 1,45 / 2,75 · Pinnacle 1,42 / 2,98 · p_ref 68,8 % (multiplicatif 67,7 %) · p_ret 68,8 % [66,8 ; 70,8] · EV −0,2 % / prudente −3,1 % · marge Winamax 5,3 % (Pinnacle 4,0 %) · Q2 (règle) · tier A/S · aucune condition · cote minimale pour EV ≥ 0 : 1,46.
+- R2 · M1 · Moreau vainqueur · 2,75 · 31,2 % [29,2 ; 33,2] · EV −14,2 % / −19,7 % · Q2 · tier D.
+- R3 / R4 · M1 · handicap de jeux Ilic −3,5 à 1,85 / Moreau +3,5 à 1,90 · aucune référence → base Winamax seule 50,7 / 49,3 % [±3] · EV −6,1 / −6,4 % ; prudentes −11,7 / −12,1 % · marge 6,7 % · Q2 · tier B/C · aucune value affichable.
+- R5 / R6 · M1 · plus / moins de 21,5 jeux à 1,85 / 1,90 · mêmes chiffres que R3 / R4 · Q2 · tier B/C.
+- R7 · M2 · Montval vainqueur (1X2, temps réglementaire présumé) · Winamax 1,62 / 4,00 / 5,40 · Pinnacle 1,58 / 4,20 / 6,00 · p_ref 62,1 % (multiplicatif 61,0 %) [60,1 ; 64,1] · EV +0,6 % (multiplicatif −1,2 %) / prudente −2,6 % · marge Winamax 5,2 % (Pinnacle 3,8 %) · Q2 (compo 16:30) · tier A · 🟡.
+- R8 · M2 · Nul · 4,00 · 22,4 % [20,4 ; 24,4] · EV −10,3 % / −18,3 % · Q2 · tier D.
+- R9 · M2 · Saint-Brice vainqueur · 5,40 · 15,5 % [13,5 ; 17,5] · EV −16,5 % / −27,3 % · Q2 · tier D.
+- R10 · M2 · Montval remboursé si nul · 1,20 · états (1X2 Pinnacle) : gain 62,1 % / remboursé 22,4 % / perte 15,5 % ; prudent 60,1 / 22,4 / 17,5 · cote d'équilibre 1,25 · EV −3,1 % / −5,5 % · Q2 · tier A (gain plein).
+- R11 · M2 · Saint-Brice remboursé si nul · 3,90 · EV −17,2 % / −25,0 % · tier D.
+- R12 · M2 · Double chance Montval ou nul · 1,12 · 84,5 % [82,5 ; 86,5] (somme du 1X2 Pinnacle) · cote minimale pour EV ≥ 0 : 1,19 · EV −5,3 % / −7,6 % · Q2 · tier S.
+- R13 · M2 · Plus de 2,5 buts · Winamax 1,75 / 2,05 · Pinnacle 1,72 / 2,18 · 56,3 % (multiplicatif 55,9 %) [54,3 ; 58,3] · EV −1,6 % / −5,1 % · marge Winamax 5,9 % (Pinnacle 4,0 %) · Q2 · tier B.
+- R14 · M2 · Moins de 2,5 buts · 2,05 · 43,7 % [41,7 ; 45,7] · EV −10,3 % / −14,4 % · tier C.
+- R15 / R16 · M2 · Les deux équipes marquent oui 1,80 / non 2,00 · pas de Pinnacle → base Winamax seule 52,9 / 47,1 % [±3] ; contrôle par la grille 52,9 % · EV −4,9 / −5,7 % ; prudentes −10,3 / −11,7 % · marge 5,6 % · Q2 · tier B/C · aucune value affichable.
+- R17 · M2 · **Montval −0,75, handicap asiatique** (temps réglementaire présumé ; réglé en demi-mises sur −0,5 et −1 : vérifié) · Winamax 1,83 / 1,97 · Pinnacle AH 1,72 / 2,26 et 1X2 ci-dessus · états retenus : gain plein (victoire par deux buts ou plus, retour 1,83) 38,5 % · demi-gain (victoire d'un but, retour 1,415) 23,6 % · perte (nul ou défaite) 37,9 % · contrôles : grille 38,7 / 23,4 / 37,9 ; multiplicatif 41,5 / 19,5 / 39,0 · prudent (2 points du gain plein vers la perte) 36,5 / 23,6 / 39,9 · EV +3,8 % (+1,9 à +3,9 % selon la méthode) / prudente +0,2 % (−1,7 à +0,3 %) · marge Winamax 5,4 % (Pinnacle 2,4 %) · Q2 (compo 16:30) · tier D/C sur le gain plein (profit 62,1 %) · conditions : Durand titulaire, cote ≥ 1,80 · 🟡.
+- R18 · M2 · Saint-Brice +0,75 · 1,97 · gain 37,9 % / demi-perte 23,6 % / perte 38,5 % · EV −13,5 % / −17,5 % · tier D.
+- R19 · M2 · **MyMatch « Montval gagne + les deux équipes marquent »** · 3,60 (ticket à part, non combinable : vérifié) · grille de scores calée exactement sur le 1X2 et le ±2,5 Pinnacle (Poisson avec correction des petits scores de Dixon-Coles : λ Montval 2,02, λ Saint-Brice 0,92, ρ −0,086) → 28,3 % (Poisson simple 28,0 % ; multiplicatif 28,0 %) ; bornes logiques 15,0–52,9 % ; produit naïf 32,9 % rejeté · [25,3 ; 31,3] · cote juste 3,53 · EV +1,9 % / prudente −8,9 % · Q2 (compo) · tier D · 🟡 (modèle).
+- R20 · M2 · **N. Durand buteur** · 2,40 (remboursé s'il n'entre pas : vérifié) · pas de référence de prix (une liste de buteurs ne se dévigue pas) → modèle : λ = 0,52 × minutes / 90 + 0,06 (penalty, s'il est titulaire) · titulaire sur 90 minutes : 44,0 % ; entrée vers la 65e (25 minutes, penalty non compté) : 13,5 % ; avant compo, mélange 75/25 des probabilités : 36,4 % (mélanger les minutes donnerait 37,6 %, à tort) · avant compo : EV −12,7 % / −19,9 % · si titulaire : p_ret 44,0 % (borne haute) [41,0 ; 47,0] · EV +5,6 % / −1,6 % · Q2 (modèle) · tier C · conditions : titulaire à 16:30, au moins 83 minutes de jeu en moyenne pour une EV positive, cote ≥ 2,28 · 🟡 (modèle).
+- R21 · M3 · J. Doe plus de 24,5 points · Winamax 1,87 / 1,93 · Pinnacle 1,90 / 1,92 · 50,3 % [47,3 ; 53,3] (NBA avant le rapport du jour : ±3) · EV −6,0 % / −11,6 % · marge Winamax 5,3 % (Pinnacle 4,7 %) · Q2 (rapport vers 19:00 ; prolongations et règle si Doe ne joue pas non vérifiées : au pire, « plus » perdu) · tier B/C.
+- R22 · M3 · Doe moins de 24,5 points · 1,93 · 49,7 % [46,7 ; 52,7] · EV −4,0 % / −9,8 % · Q2 · tier C/B.
+
+
+⚖️ COMPARAISON DES TICKETS
+
+Règle de décision R★ : prix prudent d'abord (EV prudente), groupe de tête à moins d'un point, puis le moins de jambes. Tous les tickets ont été énumérés en code (1 à 3 jambes, une sélection par match, MyMatch seul). 4 et 5 jambes : impossible avec trois rencontres.
+
+Contrainte d'horaire : un combiné se valide avant sa première jambe.
+- Tennis (15:00) + football : la compo de 16:30 serait invérifiable et son effet n'est pas chiffrable avec ces données. Ces combinés sont donc non jouables tels quels ; je les remplace par des simples.
+- Football ou tennis + NBA : le rapport de 19:00 tombe après la validation. La jambe NBA est classée avec sa fourchette d'avant rapport (±3).
+
+| Ticket | Cote | Chance · EV centrale / prudente | Pourquoi ce rang |
+|---|---|---|---|
+| 1 jambe : R17 Montval −0,75 | 1,83 | profit 62,1 % (plein 38,5 %) · +3,8 % / +0,2 % | ⭐ ; seule EV prudente positive |
+| 1 jambe : R20 Durand buteur, si titulaire | 2,40 | 44,0 % · +5,6 % / −1,6 % | 2e ; modèle sur 90 minutes (borne haute) ; plan B |
+| 1 jambe : R7 Montval vainqueur | 1,62 | 62,1 % · +0,6 % / −2,6 % | 3e ; mêmes cas de perte que R17, moins bien payé |
+| 2 jambes même match : R19 MyMatch | 3,60 | 28,3 % · +1,9 % / −8,9 % | 🚀 ; probabilité tirée de la grille |
+| 2 jambes multisport : R17 + R22 | 3,53 | plein 19,1 %, profit 30,9 % · −0,4 % / −9,7 % | meilleur multisport ; la jambe NBA coûte 9,8 points prudents |
+| 3 jambes : R1 + R17 + R22 | 5,12 | profit 21,2 % · −0,6 % / −12,5 % | non jouable tel quel (compo après 15:00) |
+| Tennis seul : R1 Ilic | 1,45 | 68,8 % · −0,2 % / −3,1 % | meilleur tennis ; sous la zone du ⭐ (1,50) |
+| NBA seule : R22 Doe moins | 1,93 | 49,7 % · −4,0 % / −9,8 % | côté le moins cher, sans lecture |
+
+R17 plutôt que R20 parce que son EV prudente est meilleure de 1,8 point (+0,2 % contre −1,6 %) et qu'elle vient de deux marchés Pinnacle cohérents, pas d'un modèle qui suppose 90 minutes de jeu.
+
+Ce que coûte une jambe de plus sur le ⭐ :
+- + Doe moins de 24,5 (R22) : cote 1,83 → 3,53 ; chance de profit 62,1 → 30,9 % (−31,2 points, −50 %) ; EV +3,8 → −0,4 % ; prudente +0,2 → −9,7 %.
+- + Ilic (R1), non jouable tel quel : cote 2,65 ; chance de profit 62,1 → 42,7 % (−19,4 points, −31 %) ; EV +3,8 → +3,6 % ; prudente +0,2 → −3,0 %.
+Aucune jambe ajoutée n'a d'EV prudente positive : le simple l'emporte.
+
+Marchés plaisir classés (simples, EV prudente) : AH −0,75 +0,2 % · Durand si titulaire −1,6 % · plus de 2,5 buts −5,1 % · MyMatch −8,9 % · Doe moins −9,8 % · les deux marquent oui −10,3 % (Winamax seule) · Doe plus −11,6 % · handicap et total du tennis −11,7 à −12,1 % (Winamax seule).
+
+🛡️ (deux matchs, zone 1,75–2,10) : un seul ticket jouable, R12 + R21 (2,09 ; 42,5 % ; −11,0 % / −18,3 %), donc aucun sacrifice d'EV à arbitrer. Hors zone, R12 + R22 (2,16 ; 42,0 % ; −9,2 % / −16,7 %) coûte moins. Ilic + Montval remboursé si nul (1,74 ; profit 58,2 % ; −3,3 % / −8,4 %) serait meilleur, mais il est hors zone et non jouable tel quel.
+
+🚀 (deux jambes, cote 2 à 4) : R19 (−8,9 %) et R17 + R22 (−9,7 %) sont à moins d'un point, avec le même nombre de jambes. R19 l'emporte : une seule condition, vérifiable avant le coup d'envoi, alors que R17 + R22 dépend aussi d'un rapport NBA invérifiable.
+
+🎾 : non servi (1 rencontre sur 3). 🎉 : non servi (le seul ticket à trois jambes n'est pas jouable).
+
+Assemblages tentants à éviter :
+- Ilic + Montval −0,75 (2,65 ; EV centrale +3,6 %) : la compo de Montval tombe après le départ du tennis, et la jambe Ilic coûte 3,1 points d'EV prudente. Jouer le ⭐ seul.
+- MyMatch calculé à la main : 62,1 % × 52,9 % = 32,9 % (EV +18 %) oublie que si Saint-Brice marque, Montval gagne moins souvent. La grille donne 28,3 %.
+- Durand buteur avant la compo : EV −12,7 %.
+
+Contrôle des meilleurs écartés : Montval vainqueur (EV +0,6 %) reste dominé par R17 ; Ilic (−0,2 %) reste sous sa cote d'équilibre et ne peut pas précéder R17 dans un combiné ; plus de 2,5 buts (−1,6 %) reste négatif. Les raisons d'exclusion tiennent.
+
+
+🔬 DOSSIERS DES FINALISTES
+
+R17 · Montval −0,75 (⭐)
+- Conclusion : Winamax paie 1,83 un pari que Pinnacle paie 1,72. États tirés de Pinnacle (1X2 + AH, power) : 38,5 % de gain plein, 23,6 % de demi-gain, 37,9 % de perte. EV +3,8 %, prudente +0,2 %.
+- Données décisives : Pinnacle à 12:35, marge 3,8 % sur le 1X2 et 2,4 % sur l'AH (le marché le plus serré du jour). Le 1X2 fixe la perte (nul + Saint-Brice = 37,9 %). Le prix Saint-Brice +0,75 (43,0 % sans marge) implique alors une victoire d'un but à 23,6 %, car 43,0 % = 37,9 % / (1 − ½ × 23,6 %). Contrôle : la grille calée sur le 1X2 et le ±2,5 donne 23,4 % et 38,7 %, soit 0,3 point d'écart. C'est un écart de prix face à une référence indépendante, pas une histoire.
+- Calcul : 0,385 × 1,83 + 0,236 × 1,415 − 1 = +3,8 %. En prudent (2 points retirés au gain plein et ajoutés à la perte) : 0,365 × 1,83 + 0,236 × 1,415 − 1 = +0,2 %.
+- Objection la plus forte : l'avantage tient à 0,2 point et dépend de la méthode (−0,1 % en multiplicatif, −1,7 % avec la grille multiplicative). Vient ensuite la compo : Durand, tireur de penalty, n'est titulaire qu'à 75 %. Son absence réduirait l'attaque de Montval d'un montant que ces données ne permettent pas de chiffrer : c'est une condition, pas un ajustement. Enfin, le prix peut bouger d'ici 17:30 (repère historique 2022-2026 : en football, la probabilité du favori a bougé de 2 points en médiane entre l'avant-match et la clôture).
+- Alternative : Montval vainqueur à 1,62, avec les mêmes cas de perte, mais 1,62 contre 1,67 en moyenne quand Montval gagne. L'AH reste meilleur tant que plus de 49 % des victoires de Montval se font par deux buts ou plus (ici 62 %).
+- Bascule : en dessous de 1,80, Durand buteur (s'il est titulaire, à 2,38 ou plus) passe devant, puis Montval vainqueur. Entre 1,80 et 1,82, l'AH reste premier mais son EV prudente devient négative ; sous 1,76, son EV centrale aussi. Côté Pinnacle (Winamax inchangé) : si Montval vainqueur monte à 1,61 ou plus (moins de 61,1 % sans marge), l'AH perd la première place ; à 1,64 ou plus, même son EV centrale est négative.
+
+R20 · Durand buteur (premier concurrent, 🎲 bis)
+- Conclusion : à 2,40, 36,4 % avant la compo (EV −12,7 %) et 44,0 % s'il est titulaire (EV +5,6 %, prudente −1,6 %). Probabilité de modèle seulement.
+- Données : 0,52 but attendu hors penalty par 90 minutes sur 1 650 minutes (saison) ; environ +0,06 but par match comme tireur de penalty quand il est titulaire ; titulaire probable à 75 % (presse locale), sinon entrée vers la 65e ; pari remboursé s'il n'entre pas. La cote de 2,40 (41,7 % marge comprise) se situe entre ses deux scénarios : le marché semble déjà intégrer l'incertitude sur la compo.
+- Équipe : non précisée dans les données. À 0,58 but attendu sur 90 minutes, il porterait 29 % des buts attendus de Montval (2,02), mais 63 % de ceux de Saint-Brice (0,92) : seul Montval est plausible, à vérifier dans l'application.
+- Objection : 90 minutes est un plafond (le temps de jeu d'un titulaire n'est pas fourni). L'EV centrale n'est positive que s'il joue en moyenne 83 minutes ou plus (à 80 minutes, −2,4 %). Sa moyenne de saison n'est pas ajustée à ce match, et Winamax peut baisser la cote une fois la compo connue.
+- Pourquoi pas lui en ⭐ : EV prudente de −1,6 % contre +0,2 %, et sur une hypothèse optimiste.
+- Bascule : cote ≥ 2,28 pour une EV centrale positive, ≥ 2,44 pour une EV prudente positive, ≥ 2,38 pour rester plan B devant Montval vainqueur.
+
+R19 · MyMatch (🚀), en bref
+- 28,3 % selon la grille (cote juste 3,53) pour 3,60 offert : EV +1,9 %, prudente −8,9 % (±3, probabilité jointe tirée d'un modèle). La valeur n'est positive qu'au centre, et la grille reproduit les prix Pinnacle par construction : c'est un contrôle de cohérence, pas une confirmation indépendante.
+
+
+📋 FICHE FINALE
+
+A. Calendrier (samedi 5 décembre, heure de Paris)
+- 15:00 · Tennis Ilic – Moreau : aucun pari du menu (Ilic à 1,45 : EV −0,2 %, sans label).
+- 16:30 · Compositions Montval – Saint-Brice : vérifier que Durand est titulaire ; relire les cotes Winamax (AH, buteur, MyMatch, double chance).
+- 16:30 → 17:30 · Fenêtre de validation du ⭐, du 🎲 bis, du 🚀 et du 🛡️ (avant le coup d'envoi, première jambe du 🛡️).
+- 17:30 · Coup d'envoi Montval – Saint-Brice.
+- vers 19:00 · Rapport de blessures NBA (après la validation du 🛡️ : invérifiable pour ce ticket).
+- Dimanche 01:30 · Harbor Hawks – Ridge Rams.
+
+B. Paris
+
+⭐ CHOIX PRINCIPAL (= 🎯 et 🎲) · 🟡 · **Montval −0,75 (handicap asiatique)** · **1,83** · profit 62,1 % (gain plein 38,5 %)
+— Football · Montval – Saint-Brice · Ligue de Valmorie (D1) · samedi 5 décembre 17:30
+— Handicap asiatique Montval −0,75 (moitié à −0,5, moitié à −1) · Winamax 1,83 ✅ 12:40 · référence Pinnacle 1,72 / 2,26
+— Pourquoi : il perd dans les mêmes cas que « Montval vainqueur » (nul ou défaite) mais paie mieux ; EV +3,8 %, prudente +0,2 %
+— Avant de cliquer : **Durand titulaire à 16:30** ; **cote ≥ 1,80**
+— Plan B : Durand buteur à 2,40 (s'il est titulaire), puis Montval vainqueur à 1,62
+
+🎯 MEILLEUR SIMPLE · voir ⭐
+
+🛡️ TICKET COURT · sans label · **Double chance Montval ou nul + Doe plus de 24,5 points** · **2,09** · 42,5 %
+— Jambe 1 : Football · Montval – Saint-Brice · samedi 17:30 · double chance Montval ou nul · 1,12 ✅ (R12)
+— Jambe 2 : Basket · Harbor Hawks – Ridge Rams · NBA · dimanche 01:30 · J. Doe plus de 24,5 points · 1,87 ✅ (R21)
+— Cote totale 2,09 (produit 2,0944, à confirmer sur le ticket) · chance 42,5 % · EV −11,0 % (prudente −18,3 %) : en moyenne, ce ticket rend 89 % de la mise · jambes indépendantes · pas de remboursement prévu ; si Doe ne joue pas, règle Winamax à vérifier (au pire, jambe perdue ; aucun problème physique signalé)
+— Pourquoi : seul ticket sur deux matchs jouable dans la zone 1,75–2,10 ; il ne promet aucune sécurité
+— Avant de cliquer : valider entre 16:30 et 17:30, compo sans surprise ; le rapport NBA tombera après
+— Plan B : double chance + Doe moins de 24,5 points à 2,16 (hors zone ; EV −9,2 %)
+
+🎾 COMBINÉ TENNIS · non servi : une seule rencontre de tennis dans les données (il en manque deux)
+
+🎲 PLAISIR · voir ⭐ (handicap asiatique)
+
+🎲 bis · 🟡 (modèle) · **N. Durand buteur** · **2,40** · 44,0 % s'il est titulaire
+— Football · Montval – Saint-Brice · samedi 17:30
+— Buteur, remboursé s'il n'entre pas · Winamax 2,40 ✅ 12:40 · pas de référence de prix
+— Pourquoi : 0,52 but attendu par 90 minutes, plus les penalties ; titulaire sur 90 minutes → EV +5,6 % (prudente −1,6 %) ; avant la compo → EV −12,7 %
+— Avant de cliquer : **titulaire à 16:30** et **cote ≥ 2,28**
+— Plan B : plus de 2,5 buts à 1,75 (EV −1,6 %)
+
+🚀 COMBINÉ PLAISIR · 🟡 (modèle) · **MyMatch « Montval gagne + les deux équipes marquent »** · **3,60** · 28,3 %
+— Football · Montval – Saint-Brice · samedi 17:30
+— MyMatch, ticket à part non combinable · Winamax 3,60 ✅ 12:40 · probabilité par une grille de scores calée sur Pinnacle
+— Pourquoi : cote juste 3,53 ; EV +1,9 % (prudente −8,9 %)
+— Avant de cliquer : compo sans surprise ; **cote ≥ 3,54**
+— Plan B : Montval −0,75 + Doe moins de 24,5 points à 3,53 (EV −0,4 % / prudente −9,7 %)
+
+🎉 FUN · non servi (facultatif) : aucun ticket à trois jambes ne peut être validé avant 15:00 avec la compo de 16:30
+
+C. Si je ne devais jouer qu'un pari : **Montval −0,75 à 1,80 ou plus, entre 16:30 et 17:30, si Durand est titulaire.**
+
+D. Rappel : données figées à 12:35–12:40, une seule rencontre par sport ; l'avantage du choix principal est mince (EV prudente +0,2 %). Vérifiez les prix et les compositions avant de jouer. Aucune promesse de gain. 18+.
