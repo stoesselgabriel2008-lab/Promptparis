@@ -209,3 +209,10 @@ Issu d'une recherche ciblée sur les pratiques documentées des parieurs sérieu
 - Référence lue tôt : à plus de 24 h du départ, l'avantage apparent ne se retrouve presque pas à la clôture ; les prix d'ouverture sont les moins efficaces. Règle : EV provisoire (🟡 au mieux), à relire le jour même ; utile surtout au mode « paris sur 3 jours ».
 - Compétitions peu liquides (Challenger, ITF, qualifications, WTA 125, divisions inférieures, basket européen) : fourchette de ±3 points au lieu de ±2.
 Contrôles : statiques OK ; calculs 38/38.
+
+Révision 6.35 — mise fixe, promotions, MyMatch (P0, 3.8)
+Issu de la même recherche documentée :
+- Mise : simulations de Buchdahl (1 000 paris à 1,909 avec 2,5 % d'avantage) : la mise de Kelly entière finit sous la cagnotte de départ 34 % des fois contre 18 % en mise fixe, et surestimer l'avantage du simple au double donne environ une chance sur deux de perdre ; Baker et McHale (2013) recommandent de réduire les mises tirées de probabilités estimées. Règle (dans P0) : si la mise est évoquée, une unité fixe décidée à froid (1 à 2 % du budget du mois), la même pour chaque pari, jamais relevée après une perte, après un gain ni pour une forte EV.
+- Promotions : expérience randomisée de l'ESRI (2025, 622 parieurs, Euro 2024) : les incitations augmentent la dépense de plus de 10 % et triplent les paris dominés ; Rockloff et al. (2019) : elles poussent vers des cotes plus longues. Règle : une promotion ne crée pas de pari en plus, elle remplace un pari du jour.
+- MyMatch et créateurs de paris : marges mesurées très élevées sur ces produits (43,7 % sur 1 406 paris « request-a-bet » au Royaume-Uni, Newall et al. 2021 ; rétention de 19,5 à 24,8 % sur les combinés au New Jersey en 2025). Règle : sans probabilité jointe documentée, un MyMatch reste récréatif à coût présumé élevé, et le marché principal qui atteint la même cote est montré à côté. Utile puisque l'utilisateur cherche des cotes de 2 à 3, que ces produits atteignent facilement.
+Contrôles : statiques OK ; calculs 38/38.
