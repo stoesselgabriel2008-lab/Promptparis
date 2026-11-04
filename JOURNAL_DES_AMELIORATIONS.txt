@@ -15,3 +15,9 @@ Révision 6.2 — journal et bilan (partie 7)
 - Bilan sur demande ou après 50 paris réglés : CLV d'abord, puis Brier, log-loss et calibration face à la clôture, puis rendement avec effectif et intervalle (à 50 paris de cote voisine de 2 : environ ±28 points, valeur recalculée).
 - Seuil de preuve : une convention de R★ ne change qu'avec un écart net sur au moins 200 jambes.
 Contrôles : statiques OK ; calculs 29/29.
+
+Révision 6.3 — freebet (3.12) : la règle « n'allonge pas un ticket » faisait perdre de la valeur
+- Défaut démontré : avec une mise non rendue, un ticket vaut P × (cote − 1) = (1 + EV) − P par euro ; à EV égale, la valeur monte quand la cote s'allonge. Sur le cas C13 (freebet de 10 €, cote minimale 1,80), l'ancienne règle menait au meilleur simple (Rodez 3,40 : valeur prudente 6,60 €), alors que Bréda + Rodez + Weber à 8,55 vaut 7,88 € (+1,28 €, soit +19 %).
+- Nouvelle règle : classement par valeur prudente avec la logique de R★ (groupe de tête à 1 % du montant, puis le moins de jambes) ; les portes d'admissibilité ne changent pas ; le meilleur simple est toujours montré avec le coût en euros de le préférer, et le choix reste à l'utilisateur ; freebet à mise rendue = pari en espèces ; carte « Freebet » dans la fiche finale.
+- Calculateur : fonction freebet_rank ; deux contrôles ajoutés (exemple 2,00 / 8,00 et cas C13).
+Contrôles : statiques OK ; calculs 31/31.
