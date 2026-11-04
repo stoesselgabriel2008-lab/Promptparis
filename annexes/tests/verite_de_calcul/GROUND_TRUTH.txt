@@ -67,3 +67,80 @@ Pièges : garder l'ancienne p d'Aubrac (fausse EV +3,7 %) ; recalculer Kerr sur 
 CORRECTION APRÈS EXÉCUTION (C9) — ajoutée après lecture de la sortie, signalée comme telle :
 - Le marché 1X2 de Bréda (Winamax 1,85) figurait dans le cas mais pas dans mes calculs : Bréda vainqueur 1,85 a une EV de +1,1 % et une EV prudente de −2,6 %. C'est le meilleur prix prudent de la zone, et le choix principal correct selon la règle (devant Weber + Bréda remboursé si nul, −2,9 %, par simplicité).
 - Scénario défavorable de Harbor : le prompt prend le scénario « star absente » comme borne basse, sans fourchette supplémentaire. Bréda remboursé si nul + Harbor vaut donc environ −18,7 % et non −21,7 %.
+
+
+
+
+═══ CAS DE STRESS C11 À C13 (fixés avant exécution) ═══
+C11 — tennis complet à grande échelle
+Recensés : 20 ; hors avant-match ou hors journée : A1 (commencé), W3 (forfait), C3 (reporté à demain) ; affiche non confirmée : A6 ; analysables : 16 (dont C5 et I2 sans cote Winamax, I1 et I2 sans référence).
+  AD1 Weber/Morel (AD1) : cote 1,72, p 58.5 %, EV +0.6 %, prudente -2.8 %
+  A4 Mayer (A4) : cote 1,34, p 73.7 %, EV -1.2 %, prudente -3.9 %
+  W1 Kovac (W1) : cote 1,48, p 65.2 %, EV -3.5 %, prudente -6.4 %
+  A3b Rossi (A3) : cote 2,04, p 47.7 %, EV -2.6 %, prudente -6.7 %
+  W4 Okafor (W4) : cote 1,30, p 73.7 %, EV -4.2 %, prudente -6.8 % (retour de blessure : information, pas une porte)
+  W2 Duval (W2) : cote 1,87, p 51.1 %, EV -4.5 %, prudente -8.2 %
+  I3 Lomé (I3) : cote 1,45, p 65.2 %, EV -5.4 %, prudente -8.3 %
+  C4 Holm (C4) : cote 1,70, p 55.6 %, EV -5.4 %, prudente -8.8 %
+  AD2b Pavic/Ito (AD2) : cote 1,76, p 53.7 %, EV -5.5 %, prudente -9.0 %
+  A5b Amari (A5) : cote 1,73, p 54.4 %, EV -6.0 %, prudente -9.4 %
+  A2b Dumas (A2) : cote 2,95, p 32.7 %, EV -3.7 %, prudente -9.6 %
+  C1 Garin (C1) : cote 1,49, p 62.6 %, EV -6.7 %, prudente -9.7 %
+  C2b Lind (C2) : cote 1,85, p 50.8 %, EV -6.0 %, prudente -9.7 %
+  A2 Pavic (A2) : cote 1,38, p 67.3 %, EV -7.1 %, prudente -9.8 %
+  C2 Brennan (C2) : cote 1,91, p 49.2 %, EV -6.0 %, prudente -9.8 %
+  I1 Ricci (I1) : cote 1,64, p 57.9 %, EV -5.0 %, prudente -9.9 % (base Winamax seule)
+  C1b Ruiz (C1) : cote 2,54, p 37.4 %, EV -5.0 %, prudente -10.1 %
+  A5 Pujol (A5) : cote 2,05, p 45.6 %, EV -6.4 %, prudente -10.5 %
+  AD2 Costa/Vega (AD2) : cote 2,02, p 46.3 %, EV -6.5 %, prudente -10.5 %
+  W2b Ilic (W2) : cote 1,89, p 48.9 %, EV -7.5 %, prudente -11.3 %
+  C4b Adeyemi (C4) : cote 2,09, p 44.4 %, EV -7.3 %, prudente -11.5 %
+  A3 Petrova (A3) : cote 1,74, p 52.3 %, EV -9.1 %, prudente -12.6 %
+  I3b Stein (I3) : cote 2,66, p 34.8 %, EV -7.5 %, prudente -12.8 %
+  I1b Arendt (I1) : cote 2,19, p 42.1 %, EV -7.8 %, prudente -14.4 % (base Winamax seule)
+  W1b Brandt (W1) : cote 2,58, p 34.8 %, EV -10.3 %, prudente -15.4 %
+  W4b Ibarra (W4) : cote 3,39, p 26.3 %, EV -10.9 %, prudente -17.7 % (retour de blessure : information, pas une porte)
+  AD1b Haas/Mertens (AD1) : cote 2,07, p 41.5 %, EV -14.1 %, prudente -18.2 %
+  A4b Hosszu (A4) : cote 3,16, p 26.3 %, EV -17.0 %, prudente -23.3 %
+  Choix principal selon la règle : AD1                    k=1 cote=1.720 P= 58.5% EV= +0.6% EVprud= -2.8% tennis
+  🎾 meilleur à 3 : A4+AD1+W1              k=3 cote=3.411 P= 28.1% EV= -4.1% EVprud=-12.6% tennis
+  🎾 meilleur à 4 : A3b+A4+AD1+W1          k=4 cote=6.959 P= 13.4% EV= -6.6% EVprud=-18.5% tennis
+  🎾 meilleur à 5 : A3b+A4+AD1+W1+W4       k=5 cote=9.046 P=  9.9% EV=-10.4% EVprud=-24.0% tennis
+  🎾 retenu : A4+AD1+W1              k=3 cote=3.411 P= 28.1% EV= -4.1% EVprud=-12.6% tennis
+  Pièges : compter A1, W3, C3 ou A6 parmi les analysés ; inventer une cote pour C5 ou I2 ; associer A2 et AD2 (même joueur) sans le dire ; compteurs incohérents (recensés = analysés + limités + en attente, plus les exclus à part).
+
+C12 — marchés vivants
+  1X2 Pinnacle 1,58/4,20/6,00 → p 62.1 / 22.4 / 15.5 % ; plus de 2,5 56.3 % ; grille de Poisson calée λ 2.00 / 0.94
+  Handicap asiatique Montval −0,75 à 1,83 : gagne de 2+ 37.8 % (retour 1,83), gagne de 1 24.2 % (demi-gain, retour 1,415), sinon perte ; prix juste 1.761 (Pinnacle affiché 1,72) ; EV +3.5 %, prudente -0.2 % (2 points déplacés de « gagne de 2+ » vers « perte »)
+  Montval 1X2 : cote 1.620, P(gain plein) 62.1 %, P(profit) 62.1 %, EV +0.6 %, prudente -2.6 %
+  Montval remboursé si nul : cote 1.200, P(gain plein) 62.1 %, P(profit) 62.1 %, EV -3.1 %, prudente -5.5 %
+  double chance 1X : cote 1.120, P(gain plein) 84.5 %, P(profit) 84.5 %, EV -5.3 %, prudente -7.6 %
+  plus de 2,5 buts : cote 1.750, P(gain plein) 56.3 %, P(profit) 56.3 %, EV -1.6 %, prudente -5.1 %
+  les deux marquent : oui (modèle) : cote 1.800, P(gain plein) 52.7 %, P(profit) 52.7 %, EV -5.2 %, prudente -10.6 %
+  MyMatch Montval gagne + les deux marquent (modèle) : cote 3.600, P(gain plein) 28.2 %, P(profit) 28.2 %, EV +1.6 %, prudente -9.2 %
+  Durand buteur (modèle de minutes) : cote 2.400, P(gain plein) 35.1 %, P(profit) 35.1 %, EV -15.7 %, prudente -22.9 %
+  Ilic vainqueur : cote 1.450, P(gain plein) 68.8 %, P(profit) 68.8 %, EV -0.2 %, prudente -3.1 %
+  Doe plus de 24,5 points : cote 1.870, P(gain plein) 50.3 %, P(profit) 50.3 %, EV -6.0 %, prudente -11.6 %
+  MyMatch : p jointe 28.2 % contre produit naïf 32.7 % (EV naïve +17.8 %) ; buteur : mélange 35.1 % contre « minutes moyennes » 36.2 %.
+  Tennis Ilic : handicap et total de jeux sans référence → probabilité non estimée (🎲 sur lecture seulement, sans EV) ; un modèle de jeux est acceptable s'il est annoncé comme tel avec une fourchette large.
+  ⭐ (1,50–4,00) : Montval −0,75 : cote 1.830, P(gain plein) 37.8 %, P(profit) 62.0 %, EV +3.5 %, prudente -0.2 % ; suivants : Montval 1X2 -2.6 % | Montval −0,75 + Ilic vainqueur -3.3 % | plus de 2,5 buts -5.1 %
+  🎯 : Montval −0,75 : cote 1.830, P(gain plein) 37.8 %, P(profit) 62.0 %, EV +3.5 %, prudente -0.2 %
+  🛡️ (2 jambes, 1,75–2,10) : 1 ticket(s) ; mieux payé -18.3 % ; retenu : double chance 1X + Doe plus de 24,5 points : cote 2.094, P(gain plein) 42.5 %, P(profit) 42.5 %, EV -11.0 %, prudente -18.3 %
+  🎲 (marchés vivants chiffrables) : Montval −0,75 -0.2 % | plus de 2,5 buts -5.1 % | MyMatch Montval gagne + les deux marquent (modèle) -9.2 % | Doe moins de 24,5 points -9.8 %
+  🚀 (2 jambes, 2–4) : Montval −0,75 + Ilic vainqueur : cote 2.654, P(gain plein) 26.0 %, P(profit) 42.7 %, EV +3.2 %, prudente -3.3 %
+  🎉 (3–5 jambes, 5–15) : Montval −0,75 + Ilic vainqueur + Doe moins de 24,5 points : cote 5.121, P(gain plein) 12.9 %, P(profit) 21.2 %, EV -1.0 %, prudente -12.8 %
+  🎾 : une seule rencontre de tennis → impossible (il manque deux rencontres).
+  Pièges : demi-gain compté o/2 (EV de l'AH ≈ −8,7 %, AH écarté à tort) ; buteur aux minutes moyennes ; MyMatch au produit des probabilités ; probabilité inventée pour les jeux de tennis ; MyMatch combiné avec une autre jambe (ticket à part).
+
+C13 — freebet de 10 € (mise non rendue, cote minimale 1,80) et bilan d'un journal
+  A Bréda gagne 1,85 : p 54.7 %, valeur du freebet 4.65 € (prudente 4.48 €)
+  B Ridge gagne (NBA) 2,60 : p 37.7 %, valeur du freebet 6.03 € (prudente 5.71 €)
+  C Rodez gagne (ext.) 3,40 : p 29.5 %, valeur du freebet 7.08 € (prudente 6.60 €)
+  D Weber bat Lind 1,36 : p 74.1 %, valeur du freebet 2.67 € (prudente 2.59 €) — sous la cote minimale seul
+  E Novak bat Ruiz 1,55 : p 64.1 %, valeur du freebet 3.52 € (prudente 3.41 €) — sous la cote minimale seul
+  Combiné D+E 2,11 : p 47.5 %, valeur 5.26 € (prudente 4.96 €)
+  Ancienne lecture (règle 6.2, simple seulement) : meilleur simple par valeur prudente : C (Rodez gagne (ext.)), 6.60 € ; la valeur augmente avec la cote à prix égal, mais ne justifie pas d'allonger un ticket sans avantage.
+  Freebet (règle 6.3, NBA à ±3 points) : retenu Bréda + Rodez + Weber cote 8.55, P 11.9 %, valeur 9.02 € (prudente 7.88 €) ; meilleure valeur prudente 7.94 € ; groupe de tête : Bréda+Rodez+Weber 7.88 € | Bréda+Rodez+Novak 7.87 € | Bréda+Rodez+Weber+Novak 7.94 € ; meilleur simple Rodez 3.40 (6.60 €, P 29.5 %)
+  Freebet (règle 6.3, NBA à ±2 points) : retenu Bréda + Ridge + Rodez cote 16.35, P 6.1 %, valeur 9.34 € (prudente 7.94 €) ; meilleure valeur prudente 7.94 € ; groupe de tête : Bréda+Ridge+Rodez 7.94 € | Bréda+Rodez+Weber 7.88 € | Bréda+Rodez+Novak 7.87 € | Bréda+Rodez+Weber+Novak 7.94 € | Bréda+Ridge+Rodez+Weber 7.92 € ; meilleur simple Rodez 3.40 (6.60 €, P 29.5 %)
+  Attendu en 6.4 : classement des usages par valeur prudente, combinés compris, meilleur simple montré avec le coût en euros de le préférer.
+  Journal (60 jambes simples) : CLV moyenne -4.3 % (±1.2), part au-dessus de la clôture 15 % ; Brier p_ret 0.2408 contre clôture 0.2418 ; rendement -13.3 % (±20.6) ; 60 < 200 jambes → aucune convention à modifier.

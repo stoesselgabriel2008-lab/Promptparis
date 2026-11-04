@@ -1,0 +1,39 @@
+CAS DE CONTRÔLE FICTIF C11 — noms, compétitions et chiffres inventés ; données figées à l'heure indiquée.
+
+Demande de l'utilisateur : « Tennis : tout le programme d'aujourd'hui. »
+Préparation : jeudi 3 décembre 2026, 11:30 (heure de Paris).
+Accès : aucune recherche possible au-delà de ces données. Programme recensé en croisant l'offre Winamax (captures 11:10–11:20) et les sites des tournois ; référence Pinnacle via un comparateur qui le nomme (11:05–11:15) quand elle existe. Classements Elo de surface (déjà mélangés surface/global) relevés lundi.
+Règlement Winamax (vérifié) : abandon après le début → pari annulé, cote ramenée à 1 dans un combiné ; forfait avant le début → pari annulé.
+Si un rapport TXT séparé est utile, écris-le dans le fichier indiqué par la consigne du test.
+
+PROGRAMME
+Valbonne Indoor (ATP 500, dur intérieur), 8es de finale
+A1 · 11:00 · Kerr – Saric · Winamax 1,40 / 2,85 · Pinnacle 1,45 / 2,98 · Elo 1890 / 1760 · statut : commencé à 11:00
+A2 · 13:30 (pas avant) · Pavic – Dumas · Winamax 1,38 / 2,95 · Pinnacle 1,46 / 2,92 · Elo 1915 / 1790
+A3 · 15:00 (pas avant) · Petrova – Rossi · Winamax 1,74 / 2,04 · Pinnacle 1,87 / 2,04 · Elo 1820 / 1805
+A4 · 17:00 (pas avant) · Mayer – Hosszu · Winamax 1,34 / 3,16 · Pinnacle 1,34 / 3,61 · Elo 1950 / 1770 · a joué 2 h 55 hier, fin à 23:15
+A5 · 19:00 · Pujol – Amari · Winamax 2,05 / 1,73 · Pinnacle 2,13 / 1,80 · Elo 1840 / 1870
+A6 · 20:30 (pas avant) · vainqueur de A5 – Rinaldi · Winamax : non proposé · Pinnacle : non disponible · Elo Rinaldi 1905 · statut : affiche non confirmée · adversaire = vainqueur de A5
+Valbonne Indoor (ATP 500, dur intérieur), 8es de finale — double, quarts
+AD1 · 12:00 · Weber/Morel – Haas/Mertens · Winamax 1,72 / 2,07 · Pinnacle 1,68 / 2,34 · Elo 1700 / 1640
+AD2 · 16:00 (pas avant) · Costa/Vega – Pavic/Ito · Winamax 2,02 / 1,76 · Pinnacle 2,10 / 1,82 · Elo 1660 / 1685 · Pavic (paire favorite) joue aussi A2 en simple (13:30)
+Lisière Ladies (WTA 250, dur intérieur), 2e tour
+W1 · 12:30 · Kovac – Brandt · Winamax 1,48 / 2,58 · Pinnacle 1,51 / 2,77 · Elo 1800 / 1690
+W2 · 14:00 (pas avant) · Duval – Ilic · Winamax 1,87 / 1,89 · Pinnacle 1,91 / 1,99 · Elo 1755 / 1748
+W3 · 15:30 (pas avant) · Kaspar – Varga · Winamax : non proposé · Pinnacle : non disponible · Elo 1780 / 1700 · statut : forfait annoncé à 10:15 (poignet) : l'adversaire passe sans jouer
+W4 · 17:00 (pas avant) · Okafor – Ibarra · Winamax 1,30 / 3,39 · Pinnacle 1,34 / 3,61 · Elo 1835 / 1655 · retour de blessure (cheville) il y a 3 semaines, 2e tournoi
+Challenger de Valcorta (terre battue extérieure), 2e tour
+C1 · 11:30 · Garin – Ruiz · Winamax 1,49 / 2,54 · Pinnacle 1,57 / 2,58 · Elo 1680 / 1590
+C2 · 13:00 (pas avant) · Brennan – Lind · Winamax 1,91 / 1,85 · Pinnacle 1,98 / 1,92 · Elo 1620 / 1625
+C3 · reporté à demain 11:00 (pluie) · Laine – Faure · Winamax 1,51 / 2,49 · Pinnacle 1,58 / 2,54 · Elo 1655 / 1570 · statut : reporté
+Challenger de Valcorta (terre battue extérieure), qualifications, dernier tour
+C4 · 10:00 → 14:30 (pas avant), retard pluie · Holm – Adeyemi · Winamax 1,70 / 2,09 · Pinnacle 1,76 / 2,19 · Elo 1560 / 1520
+C5 · 16:00 (pas avant) · Olsen – Valente · Winamax : non proposé · Pinnacle 1,98 / 1,92 · Elo 1540 / 1545
+ITF W50 de Brévent (terre battue intérieure), 2e tour
+I1 · 12:00 · Ricci – Arendt · Winamax 1,64 / 2,19 · Pinnacle : non disponible · Elo 1500 / 1430
+I2 · 13:30 (pas avant) · Marchetti – Novak · Winamax : non proposé · Pinnacle : non disponible · Elo 1470 / 1465
+I3 · 15:00 (pas avant) · Lomé – Stein · Winamax 1,45 / 2,66 · Pinnacle 1,51 / 2,77 · Elo 1520 / 1410
+
+INFORMATIONS
+- Aucune autre information que celles indiquées par match.
+- Les joueurs non mentionnés n'ont ni blessure ni fatigue notable connue.

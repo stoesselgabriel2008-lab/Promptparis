@@ -1,0 +1,76 @@
+CAS DE CONTRÔLE FICTIF C13 — noms, compétitions et chiffres inventés ; données figées à l'heure indiquée.
+
+Demande de l'utilisateur : « J'ai un freebet de 10 € à utiliser ce soir. Dis-moi où le placer. Et fais le bilan de mon journal ci-dessous. »
+Préparation : mardi 8 décembre 2026, 16:00 (heure de Paris).
+Conditions du freebet (vérifiées dans l'application) : mise non rendue (seul le gain net est versé), cote minimale 1,80 (sur le ticket), simple ou combiné, avant-match, expire ce soir à 23:59.
+Accès : aucune recherche possible au-delà de ces données. Cotes Winamax (15:40) et Pinnacle via un comparateur qui le nomme (15:35). Aucun statut incertain.
+
+PROGRAMME ET COTES
+A · 20:45 · football · Bréda – Hautval · Winamax 1,85 / 3,60 / 4,40 · Pinnacle 1,80 / 3,80 / 4,80
+B · mercredi 01:00 · NBA · Ridge Rams – Harbor Hawks · Winamax 2,60 / 1,50 · Pinnacle 2,50 / 1,56
+C · 21:00 · football · Laval – Rodez (Rodez à l'extérieur) · Winamax 2,15 / 3,40 / 3,40 · Pinnacle 2,25 / 3,50 / 3,25 · (la sélection étudiée est Rodez gagne à 3,40)
+D · 18:00 · tennis · Weber – Lind · Winamax 1,36 / 3,05 · Pinnacle 1,33 / 3,60
+E · 19:30 · tennis · Novak – Ruiz · Winamax 1,55 / 2,45 · Pinnacle 1,52 / 2,62
+
+JOURNAL FOURNI (60 jambes simples déjà réglées, une par ticket ; colonnes séparées par « ; »)
+date;ticket;R-id;cote prise;p_ret;cote de clôture;p de clôture;résultat
+J01;T01;R1;1,38;0,722;1,40;0,737;0
+J02;T02;R1;2,04;0,499;2,02;0,511;0
+J03;T03;R1;1,34;0,760;1,34;0,771;1
+J04;T04;R1;2,00;0,508;2,16;0,479;0
+J05;T05;R1;1,29;0,768;1,40;0,737;1
+J06;T06;R1;2,12;0,486;2,02;0,513;0
+J07;T07;R1;1,84;0,527;1,99;0,520;1
+J08;T08;R1;1,46;0,664;1,62;0,638;1
+J09;T09;R1;1,48;0,671;1,53;0,676;1
+J10;T10;R1;1,85;0,520;1,93;0,537;0
+J11;T11;R1;1,87;0,533;1,90;0,544;0
+J12;T12;R1;1,45;0,645;1,54;0,671;0
+J13;T13;R1;1,34;0,695;1,49;0,696;1
+J14;T14;R1;1,63;0,588;1,75;0,590;1
+J15;T15;R1;2,11;0,454;2,16;0,479;1
+J16;T16;R1;1,35;0,751;1,37;0,757;1
+J17;T17;R1;2,01;0,484;2,15;0,482;1
+J18;T18;R1;1,31;0,717;1,35;0,768;0
+J19;T19;R1;1,75;0,552;1,82;0,569;1
+J20;T20;R1;1,39;0,710;1,53;0,678;1
+J21;T21;R1;2,13;0,452;2,27;0,455;1
+J22;T22;R1;1,85;0,518;1,96;0,527;1
+J23;T23;R1;1,51;0,677;1,41;0,735;1
+J24;T24;R1;1,36;0,719;1,46;0,708;1
+J25;T25;R1;1,61;0,631;1,62;0,637;1
+J26;T26;R1;1,82;0,520;1,91;0,542;0
+J27;T27;R1;1,75;0,536;1,90;0,544;0
+J28;T28;R1;1,32;0,720;1,43;0,724;0
+J29;T29;R1;1,42;0,673;1,41;0,734;1
+J30;T30;R1;1,35;0,749;1,41;0,735;1
+J31;T31;R1;1,94;0,512;1,91;0,543;0
+J32;T32;R1;1,66;0,608;1,59;0,649;1
+J33;T33;R1;1,92;0,537;1,98;0,522;0
+J34;T34;R1;1,31;0,715;1,50;0,692;0
+J35;T35;R1;1,86;0,537;2,09;0,496;0
+J36;T36;R1;1,21;0,800;1,27;0,815;0
+J37;T37;R1;1,47;0,658;1,59;0,652;1
+J38;T38;R1;2,06;0,462;2,33;0,444;0
+J39;T39;R1;1,18;0,791;1,32;0,784;1
+J40;T40;R1;1,24;0,756;1,38;0,749;0
+J41;T41;R1;1,64;0,601;1,59;0,652;1
+J42;T42;R1;1,47;0,688;1,49;0,694;1
+J43;T43;R1;1,33;0,712;1,48;0,697;1
+J44;T44;R1;1,26;0,796;1,28;0,807;0
+J45;T45;R1;1,53;0,655;1,55;0,666;1
+J46;T46;R1;2,05;0,475;2,23;0,463;1
+J47;T47;R1;1,33;0,757;1,33;0,777;1
+J48;T48;R1;1,86;0,507;2,16;0,480;0
+J49;T49;R1;1,55;0,666;1,55;0,666;1
+J50;T50;R1;1,27;0,747;1,32;0,786;1
+J51;T51;R1;1,74;0,583;1,82;0,570;1
+J52;T52;R1;1,30;0,777;1,37;0,755;0
+J53;T53;R1;1,75;0,543;1,92;0,538;0
+J54;T54;R1;2,23;0,458;2,14;0,483;0
+J55;T55;R1;1,97;0,496;2,03;0,510;0
+J56;T56;R1;2,09;0,482;2,15;0,481;1
+J57;T57;R1;1,50;0,651;1,60;0,648;0
+J58;T58;R1;2,01;0,500;2,02;0,513;0
+J59;T59;R1;1,79;0,575;1,72;0,602;0
+J60;T60;R1;1,47;0,650;1,64;0,632;1
