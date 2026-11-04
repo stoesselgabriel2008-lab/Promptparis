@@ -129,6 +129,16 @@ check("SOL6 r6.3 cas C13 : freebet de 10 € → Bréda + Rodez + Weber (8,55 ; 
       fb[0]["rids"] == ["Bréda", "Rodez", "Weber"] and round(fb[0]["value_low"], 2) == 7.88 and single["rids"] == ["Rodez"] and round(single["value_low"], 2) == 6.60,
       f"{fb[0]['rids']} {fb[0]['odds']:.2f} {fb[0]['value_low']:.2f} € ; simple {single['rids']} {single['value_low']:.2f} €")
 
+# ---------- 6.9 : raccourci du seuil de bascule ----------
+_X = Leg("X", "mX", "foot", 1.80, 0.59, 0.02, quality="B"); _Y = Leg("Y", "mY", "foot", 2.00, 0.525, 0.02, quality="A")
+_ch = lambda L: (rstar(enumerate_tickets(L, kmax=1, lo=1.30, hi=4.00)) or [None])[0]
+_thr, _who = replay_threshold([_X, _Y], "X", chooser=_ch)
+_cu = lambda v: math.ceil(v * 100 - 1e-9) / 100
+check("SOL6 r6.9 3.10 : X simple Q2 (P_basse 0,57) face à Y simple Q1 (EV prudente +1,0 %) : rejeu 1,79 = raccourci avec t = +1 point (t = 0 donnait 1,78)",
+      _thr == 1.79 and _cu((1 + _Y.ev_low() + 0.01) / _X.p_low) == 1.79 and _cu((1 + _Y.ev_low()) / _X.p_low) == 1.78, f"rejeu {_thr} → {_who}")
+check("SOL6 r6.9 3.10 : jambe remboursé si nul (états prudents 52,67 / 25,37 / 21,96 %) : plancher par états 1,37, pas 1,86",
+      _cu((0.975 - 0.2537) / 0.5267) == 1.37 and _cu(0.975 / 0.5267) == 1.86 and 1.37 * 0.5267 + 0.2537 - 1 >= -0.025 > 1.36 * 0.5267 + 0.2537 - 1)
+
 w = max(len(n) for n, _, _ in results)
 ok = sum(1 for _, c, _ in results if c)
 for n, c, d in results:

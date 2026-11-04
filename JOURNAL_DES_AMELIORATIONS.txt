@@ -47,3 +47,12 @@ Révision 6.8 — ajustements de probabilité (3.4, 3.5) : deux failles qui cré
 - Défaut 1 (relecture « logique », chiffres refaits) : après un ajustement favorable, la borne basse p_ret − 2 points pouvait dépasser p_ref. Exemple : p_ref 52 %, Winamax 1,85 (EV −3,8 %, prudente −7,5 %) ; un ajustement de +5 points donne p_ret 57 % et une EV prudente de +1,75 %. La jambe pouvait alors gagner R★ et recevoir un 🟢 sans aucun écart de prix. Règle : la borne basse ne dépasse jamais p_ref ; l'ajustement compte dans l'EV centrale, jamais dans l'EV prudente (ici −3,8 %), donc ni dans le classement ni dans un 🟢.
 - Défaut 2 : « prix inchangé depuis » servait de preuve qu'une annonce n'était pas dans le prix. C'est l'inverse : une référence liquide qui ne bouge pas après une annonce officielle l'avait déjà intégrée, ou la juge sans effet. Exemple : absence officialisée à 10:00, Pinnacle immobile à 11:00, ajustement de +4 points : l'EV prudente passait de −7,5 % à −0,1 %. Règle : seule une information postérieure au prix de référence lu peut justifier un ajustement, et il faut d'abord relire la référence.
 Contrôles : statiques OK ; calculs 31/31.
+
+Révision 6.9 — raccourci du seuil de bascule (3.10, contrôle 12)
+- Défaut (relecture « logique », vérifié en code) : le raccourci (1 + EV prudente de Y + t) / P_basse(X) se trompait dans trois cas.
+  (a) t ne tenait compte que du nombre de jambes, pas de la qualité ni des conditions. X simple Q2 (P_basse 0,57) contre Y simple Q1 (EV prudente +1,0 %) : le raccourci donnait 1,78, mais à 1,78 Y gagne sur la qualité ; le rejeu complet donne 1,79.
+  (b) Une jambe avec remboursement n'était pas exclue : remboursé si nul à 1,40, raccourci 1,86 (au-dessus de la cote actuelle !) contre 1,37 calculé par états.
+  (c) Pour un X à plusieurs jambes, la formule donnait la cote totale du ticket, pas le plancher de la jambe.
+- Règle : raccourci réservé aux jambes gagné/perdu sans bonus ; plancher de la jambe = (1 + EV prudente de Y + t) / (P_basse(X) × produit des cotes des autres jambes) ; t = −1 point si X gagne le départage de R★ (jambes, puis qualité, puis conditions), +1 s'il le perd, 0 à égalité complète ; avec remboursement, résolution par états. Le contrôle final accepte le raccourci dans ces seules conditions.
+- Deux contrôles automatiques ajoutés (rejeu 1,79 ; plancher par états 1,37).
+Contrôles : statiques OK ; calculs 33/33.
