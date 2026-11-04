@@ -27,5 +27,7 @@ OK  SOL6 v7 3.5 : scénario prudent du remboursé si nul (54,67 / 25,37 / 19,96 
 OK  SOL6 v7 3.10 : le raccourci contre un concurrent qui partage la jambe donne 1,74 ; le rejeu complet 1,71 (Aubrac prend la place)  — raccourci 1.74 rejeu 1.71 ['R3']
 OK  SOL6 v7 2.2 : factorisation (1+EVp) exacte sans bonus, fausse avec bonus (+15 %)  — sans -0.0840 = -0.0840 ; avec +0.0362
 OK  SOL6 v7 2.3 : ticket court = Ilic + Costa 1,78 (55,8 %), sacrifice 1,3 point d'EV prudente pour +6,7 points de chance face au mieux payé (Montval + Novak, 49,1 %)  — ['R2', 'R3'] P 0.5583 sacrifice 1.29
+OK  SOL6 r6.3 3.12 : deux tickets d'EV nulle à 2,00 et 8,00 valent 0,50 et 0,875 par euro de freebet
+OK  SOL6 r6.3 cas C13 : freebet de 10 € → Bréda + Rodez + Weber (8,55 ; valeur prudente 7,88 €) devant le meilleur simple Rodez 3,40 (6,60 €)  — ['Bréda', 'Rodez', 'Weber'] 8.55 7.88 € ; simple ['Rodez'] 6.60 €
 
-29/29 contrôles réussis
+31/31 contrôles réussis

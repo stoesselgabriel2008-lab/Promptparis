@@ -109,6 +109,26 @@ check("SOL6 v7 2.3 : ticket court = Ilic + Costa 1,78 (55,8 %), sacrifice 1,3 po
       sh["rids"] == ["R2", "R3"] and round((best - sh["ev_low"]) * 100, 1) == 1.3 and round((sh["P"] - 0.4913) * 100, 1) in (6.7, 6.6, 6.8),
       f"{sh['rids']} P {sh['P']:.4f} sacrifice {(best-sh['ev_low'])*100:.2f}")
 
+# ---------- 6.3 : freebet ----------
+check("SOL6 r6.3 3.12 : deux tickets d'EV nulle à 2,00 et 8,00 valent 0,50 et 0,875 par euro de freebet",
+      abs(0.5 * (2.0 - 1) - 0.50) < 1e-12 and abs(0.125 * (8.0 - 1) - 0.875) < 1e-12)
+def _fb_legs():
+    mk = {"A": ([1.85, 3.60, 4.40], [1.80, 3.80, 4.80], ["Bréda", "nul A", "Hautval"], "foot", 0.02),
+          "B": ([2.60, 1.50], [2.50, 1.56], ["Ridge", "Harbor"], "basket", 0.03),
+          "C": ([2.15, 3.40, 3.40], [2.25, 3.50, 3.25], ["Laval", "nul C", "Rodez"], "foot", 0.02),
+          "D": ([1.36, 3.05], [1.33, 3.60], ["Weber", "Lind"], "tennis", 0.02),
+          "E": ([1.55, 2.45], [1.52, 2.62], ["Novak", "Ruiz"], "tennis", 0.02)}
+    L = []
+    for m, (w, pin, names, sp, band) in mk.items():
+        for o, p, n in zip(w, devig_power(pin), names):
+            L.append(Leg(n, m, sp, o, p, band))
+    return L
+fb = freebet_rank(_fb_legs(), 10.0, 1.80)
+single = [t for t in fb if t["n"] == 1][0]
+check("SOL6 r6.3 cas C13 : freebet de 10 € → Bréda + Rodez + Weber (8,55 ; valeur prudente 7,88 €) devant le meilleur simple Rodez 3,40 (6,60 €)",
+      fb[0]["rids"] == ["Bréda", "Rodez", "Weber"] and round(fb[0]["value_low"], 2) == 7.88 and single["rids"] == ["Rodez"] and round(single["value_low"], 2) == 6.60,
+      f"{fb[0]['rids']} {fb[0]['odds']:.2f} {fb[0]['value_low']:.2f} € ; simple {single['rids']} {single['value_low']:.2f} €")
+
 w = max(len(n) for n, _, _ in results)
 ok = sum(1 for _, c, _ in results if c)
 for n, c, d in results:

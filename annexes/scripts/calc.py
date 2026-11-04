@@ -178,3 +178,25 @@ def ticket_states(mlegs, prudent=False, boost=0.0):
 
 def binary(rid, match, o, p, band=0.02, label=""):
     return MLeg(rid, match, [("gain", p, o), ("perte", 1 - p, 0.0)], band, label)
+
+
+# ---------------- 6.3 : freebet (stake not returned) ----------------
+def freebet_rank(legs, amount=10.0, min_odds=1.0, kmax=5, tol=0.01):
+    """Value of a stake-not-returned freebet ticket = amount * P * (odds - 1); prudent value uses P_low.
+    R-star logic: head group within tol*amount of the best prudent value, then fewer legs, worse-quality last, more value."""
+    out = []
+    for k in range(1, kmax + 1):
+        for combo in itertools.combinations(legs, k):
+            if not admissible(combo):
+                continue
+            t = ticket_stats(combo)
+            if t["odds"] < min_odds - 1e-9:
+                continue
+            t["value"] = amount * t["P"] * (t["odds"] - 1)
+            t["value_low"] = amount * t["P_low"] * (t["odds"] - 1)
+            out.append(t)
+    if not out:
+        return []
+    b = max(t["value_low"] for t in out)
+    head = sorted([t for t in out if t["value_low"] >= b - tol * amount - 1e-12], key=lambda t: (t["n"], t["qual"], t["conds"], -t["value_low"]))
+    return head + sorted([t for t in out if t not in head], key=lambda t: -t["value_low"])
