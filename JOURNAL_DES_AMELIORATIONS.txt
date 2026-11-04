@@ -26,3 +26,8 @@ Révision 6.4 — horizon du jour (É1)
 - Ambiguïté corrigée : « aujourd'hui » ne disait pas si les matchs de la nuit (NBA, NHL vers 01:00–04:00 à Paris, tennis en Asie ou en Océanie) en faisaient partie. Ils étaient inclus dans les cas de test, mais un agent pouvait les exclure en lisant la date de Paris.
 - Règle : l'horizon du jour va jusqu'à 6:00 le lendemain (heure de Paris) ; pour un match de nuit, la fiche écrit la date réelle (« dimanche 01:30 »).
 Contrôles : statiques OK ; calculs 31/31.
+
+Révision 6.5 — journal (partie 7) : une consigne impossible à suivre
+- Défaut (relecture « exécution ») : la 6.2 demandait d'écrire chaque ligne « au moment du choix », colonnes de clôture et de résultat comprises, puis interdisait de la réécrire après le résultat. Ces colonnes n'existent pas encore au moment du choix, et le modèle ne sait pas quels tickets du menu sont réellement joués : soit il journalise des paris jamais placés, soit il laisse des colonnes qu'il n'a plus le droit de compléter. Le bilan (CLV, Brier) devenait impossible ou faussé.
+- Règle : en fin de réponse, lignes des paris que l'utilisateur dit jouer (sinon du seul ⭐), remplies jusqu'à « qualité » ; colonnes d'avant-match jamais réécrites ; clôture, résultat et gain complétés après le match ; gain net d'un ticket sur la seule ligne de sa première jambe.
+Contrôles : statiques OK ; calculs 31/31.
