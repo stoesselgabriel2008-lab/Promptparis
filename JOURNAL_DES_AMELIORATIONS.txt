@@ -149,3 +149,9 @@ Révision 6.25 — trois corrections ciblées de mes révisions récentes (6.1.4
 - Coupe de la présélection (6.13) : elle utilisait l'EV centrale, qui favorise les cotes longues, alors que R★ classe par EV prudente. Elle se fait maintenant par EV prudente ; sans cote Winamax lue, on garde les marchés principaux des compétitions les plus suivies, en le disant.
 - Seuil de bascule : le raccourci pouvait donner un plancher sous la zone du format (1,47 pour un ⭐ dont la zone commence à 1,50). Le plancher ne descend plus sous la sortie de zone ; la fiche accepte « rejeu complet ou raccourci permis ».
 Contrôles : statiques OK ; calculs 35/35.
+
+Révision 6.26 — ticket court 🛡️ : la règle de 6.16 est complétée (2.3, 5.5)
+- Défaut (relecture du texte ajouté, simulation de 500 journées fictives) : depuis 6.16, le ticket de référence du plafond de 2 points peut être un simple. Or une paire paie deux marges et deux fourchettes : souvent, aucune ne tient dans la limite (277 journées sur 500), et la règle ne disait pas quoi faire. Deux lectures donnaient des 🛡️ différents dans 118 journées sur 500.
+- Règle : si aucun ticket de deux jambes ne tient dans la limite, retenir le plus probable des tickets de la zone qui y tiennent, simple compris. Exemple vérifié en code : un simple à 2,08 (47 %, EV prudente −6,4 %) remplace une paire à 1,76 (54 %, −10,3 %) qui sacrifiait 3,9 points. Les cas validés (C8, C12) ne changent pas. 5.5 est mis en cohérence (le 🛡️ n'est plus toujours un format à deux jambes).
+- Calculateur : fonction shield_v3 ; un contrôle ajouté.
+Contrôles : statiques OK ; calculs 36/36.

@@ -214,3 +214,21 @@ def shield_with_single(legs, lo=1.75, hi=2.10, cap=0.02):
     if dom:
         return max(dom, key=lambda t: (t["P"], t["ev_low"])), "simple dominant"
     return pick, "deux jambes"
+
+
+# ---------------- 6.26 : 🛡️ full rule ----------------
+def shield_v3(legs, lo=1.75, hi=2.10, cap=0.02):
+    """🛡️ ticket court (6.26): reference = best EV prudente among zone tickets of 1 or 2 legs; allowed = within `cap`;
+    pick the most probable allowed two-leg ticket; a single in the zone replaces it if it dominates it (P and EVp at least equal);
+    if no two-leg ticket is allowed, pick the most probable allowed ticket (single included)."""
+    z = [t for t in enumerate_tickets(legs, kmin=1, kmax=2, lo=lo, hi=hi)]
+    if not z:
+        return None, "aucun ticket dans la zone"
+    best = max(t["ev_low"] for t in z)
+    allowed = [t for t in z if t["ev_low"] >= best - cap - 1e-12]
+    doubles = [t for t in allowed if t["n"] == 2]
+    if doubles:
+        pick = max(doubles, key=lambda t: (t["P"], t["ev_low"]))
+        dom = [t for t in allowed if t["n"] == 1 and t["P"] >= pick["P"] - 1e-12 and t["ev_low"] >= pick["ev_low"] - 1e-12]
+        return (max(dom, key=lambda t: (t["P"], t["ev_low"])), "simple dominant") if dom else (pick, "deux jambes")
+    return max(allowed, key=lambda t: (t["P"], t["ev_low"])), "simple (aucune paire dans la limite)"

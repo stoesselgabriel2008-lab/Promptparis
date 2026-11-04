@@ -155,6 +155,16 @@ _new = _o * (min(_pr + 0.02, _pr) - _dl) - 1
 check("SOL6 r6.23 3.5 : ajustement de +2 points sur p_ref 50 % à 2,04 : la formule 6.8 donnait +2,0 % (au lieu de −2,1 %) ; min(p_ret ; p_ref) − demi-largeur rend −2,1 %",
       round(_ev0 * 100, 1) == -2.1 and round(_old * 100, 1) == 2.0 and abs(_new - _ev0) < 1e-12, f"sans {_ev0:+.4f} ; 6.8 {_old:+.4f} ; 6.23 {_new:+.4f}")
 
+# ---------- 6.26 : 🛡️ règle complète ----------
+_a8, _k8b = shield_v3(v7.C8)
+_a12, _k12b = shield_v3(_L)
+_S = [Leg("S1", "m1", "foot", 2.08, 0.47, 0.02), Leg("A", "m2", "foot", 1.32, 0.72, 0.02), Leg("B", "m3", "foot", 1.33, 0.75, 0.02)]
+_old, _kold = shield_with_single(_S)
+_new, _knew = shield_v3(_S)
+check("SOL6 r6.26 2.3 : 🛡️ — C8 et l'exemple 6.16 inchangés ; sans paire à 2 points du mieux classé, le plus probable des tickets admis (ici le simple 2,08) remplace la paire à 1,76",
+      _a8["rids"] == ["R2", "R3"] and _a12["rids"] == ["AH"] and _old["rids"] == ["A", "B"] and _new["rids"] == ["S1"],
+      f"C8 {_a8['rids']} ; 6.16 {_a12['rids']} ; avant {_old['rids']} ({_old['ev_low']*100:+.1f} %, P {_old['P']*100:.1f}) ; après {_new['rids']} ({_new['ev_low']*100:+.1f} %, P {_new['P']*100:.1f}) {_knew}")
+
 w = max(len(n) for n, _, _ in results)
 ok = sum(1 for _, c, _ in results if c)
 for n, c, d in results:
