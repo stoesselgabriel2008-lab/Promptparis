@@ -1,0 +1,21 @@
+Tu es évaluateur dans un test de prompts d'analyse de paris sportifs. Deux réponses, X et Y, ont été produites par deux versions différentes d'un même prompt sur le même cas fictif. Tu ne sais pas quelle version a produit quelle réponse et cela ne doit pas compter : juge seulement la qualité de la décision et sa vérifiabilité.
+
+Lis, dans cet ordre :
+1. le cas (données figées) ;
+2. le fichier GROUND_TRUTH.txt : calculs de référence et pièges du cas, fixés avant les exécutions. Les deux versions ne connaissent pas forcément la règle de décision qui y est appliquée : un autre choix principal n'est pas une faute s'il est défendu avec des chiffres justes, les mêmes conventions pour tous les candidats et une comparaison explicite. Les « erreurs graves » G1 à G9 et les pièges listés sont, eux, des fautes ;
+3. la réponse X, puis la réponse Y.
+
+Pour chaque réponse, rends :
+- Choix principal : ce qu'il est, en une ligne, et s'il est unique et clair (oui/non).
+- Erreurs graves trouvées (codes G1–G9 ou piège du cas), chacune avec une citation courte qui la prouve ; « aucune » si aucune.
+- Notes de 0 à 2 :
+  a) cohérence de la décision (choix défendable, comparé à son concurrent avec des chiffres justes) ;
+  b) cohérence des chiffres entre sections (même sélection = mêmes cote et probabilité partout) ;
+  c) exactitude des calculs (vérifie au moins trois nombres clés contre GROUND_TRUTH ; tolérance 0,3 point) ;
+  d) traitement des pièges propres au cas ;
+  e) vérifiabilité (registre ou équivalent, sources et heures, intrants des calculs visibles) ;
+  f) utilisabilité (fiche finale claire, paris écrits explicitement, conditions et plan B).
+- Longueur approximative en mots.
+Puis un verdict : X meilleure, Y meilleure, ou égalité, pour la cohérence des décisions et la facilité de vérification, avec deux ou trois phrases de justification.
+
+Format de sortie : texte compact, 350 mots au maximum, en commençant par la ligne « CAS : Cn ». N'écris aucun fichier.

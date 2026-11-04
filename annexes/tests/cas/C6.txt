@@ -1,0 +1,21 @@
+CAS DE CONTRÔLE FICTIF C6 — noms, compétitions et chiffres inventés ; données figées aux heures indiquées.
+
+Demande de l'utilisateur : « Analyse du jour. »
+Accès : aucune recherche possible au-delà de ces données. Cotes Winamax lues dans l'application ; référence Pinnacle via comparateur. Règle Winamax en cas d'abandon au tennis : non vérifiée ; basket : vainqueur prolongations incluses.
+
+PARTIE A — données disponibles dimanche 15 novembre 2026 à 11:00 (Paris)
+Tennis — Open de Brisach (ATP 250, terre battue intérieure), quarts de finale
+T1 · 14:00 · M. Kerr – A. Lopez · Winamax 11:00 : 1,32 / 3,40 · Pinnacle 10:55 : 1,30 / 3,80
+T2 · 15:30 (pas avant) · K. Adeyemi – C. Ruud · Winamax 11:00 : 1,62 / 2,30 · Pinnacle 10:55 : 1,52 / 2,66
+T3 · 17:00 (pas avant) · H. Stein – J. Pavic · Winamax 11:00 : 1,26 / 3,85 · Pinnacle 10:55 : 1,25 / 4,30
+Football — Ligue de Valmorie (D1)
+F1 · 18:00 · Aubrac – Sévérac · Winamax 11:00 : 1,62 / 4,00 / 5,20 · Pinnacle 10:55 : 1,60 / 4,20 / 5,80
+Basket — NBA, nuit de dimanche à lundi
+B1 · lundi 16/11 01:30 · Harbor Hawks – Gulf Giants · Winamax 1,55 / 2,50 · Pinnacle 1,53 / 2,62 · la star de Harbor (27 pts/match) est Questionable (genou) sur le rapport de la veille ; rapport du jour attendu vers 19:00 (Paris).
+
+PARTIE B — mises à jour reçues à 13:20
+- 12:40 (site du tournoi) : Ruud déclare forfait (maladie). Remplacé par le lucky loser T. Moss. Nouvelle affiche T2 : Adeyemi – Moss, 15:30 (pas avant). Winamax 13:05 : 1,20 / 4,40 ; Pinnacle 13:00 : 1,17 / 5,30. Les paris sur Adeyemi – Ruud sont annulés.
+- 12:50 (attaché de presse du tournoi) : Kerr a reçu des soins à l'épaule hier ; IRM normale ; « il jouera ». Winamax 13:10 : 1,45 / 2,80 ; Pinnacle 13:05 : 1,42 / 3,00.
+- Rien de nouveau pour T3, F1 et B1.
+
+Consigne du cas : rends la réponse telle qu'elle doit être livrée à 13:20 (rien n'a encore été joué). Si ta décision de 11:00 aurait été différente, indique-le brièvement.

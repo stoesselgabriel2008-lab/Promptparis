@@ -1,0 +1,115 @@
+# Analyse du jour, dimanche 15/11/2026, 13:20 (Paris)
+
+Version rapide, avant tout match ; horizon : aujourd'hui et NBA lundi 01:30. **Hors ligne** : données du cas seulement (W = Winamax, appli ; P = Pinnacle, comparateur ; communiqués du tournoi). Sans statistiques, toutes les probabilités sont des p_marche : P dévigué en power (fixé d'avance), contrôle multiplicatif, sommes égales à 1, paires notées power/mult. Aucun ajustement : blessure, forfait et statut incertain sont déjà dans les prix.
+
+## 📌 L'essentiel
+
+- **⭐ Choix principal, tous sports et toutes longueurs : R3 Adeyemi en simple**, 1,20 ✅, 84,1% (81,9%), 🟡 EV +0,9%/−1,7%. Il bat les meilleurs 2 et 3 jambes (🏆).
+- **🎾 R1+R3+R4** (Kerr, Adeyemi, Stein) : 2,19, 45,7% (43,1%). Risque : épaule de Kerr, règle d'abandon inconnue. 4–5 matchs impossibles.
+- **🛡️ R1+R3** : 1,74 ✅, 57,9%.
+- **🎲 R7**, Lopez gagne au moins un set : à relever, 60,5% (modèle). **🎲 bis R9**, Giants, si la star de Harbor est absente (rapport de 19:00).
+- **🚀 R4+R5** : 2,04 ⚠️, 48,4%. Ni 🎉 ni 🟢.
+- **À confirmer :** règle d'abandon (avant 14:00), prix ⚠️, compositions F1, rapport NBA. **Doublons :** R3 (⭐🛡️🎾), R1 (🛡️🎾), R4 (🎾🚀).
+
+## 📒 Registre unique (lignes reprises à l'identique)
+
+✅ = prix relevé après les nouvelles ; ⚠️ = prix de 11:00, à relire.
+
+- **R1** Kerr–Lopez (Brisach T1, dim. 14:00), Kerr vainqueur du match, 1,45 W 13:10 ✅, règle d'abandon non vérifiée, p 68,9% (P 13:05 1,42/3,00, power).
+- **R2** Kerr–Lopez (Brisach T1, dim. 14:00), Lopez vainqueur du match, 2,80 W 13:10 ✅, règle d'abandon non vérifiée, p 31,1% (P 13:05 1,42/3,00, power).
+- **R3** Adeyemi–Moss (Brisach T2, dim. 15:30 pas avant), Adeyemi vainqueur du match, 1,20 W 13:05 ✅, règle d'abandon non vérifiée, p 84,1% (P 13:00 1,17/5,30, power).
+- **R4** Stein–Pavic (Brisach T3, dim. 17:00 pas avant), Stein vainqueur du match, 1,26 W 11:00 ⚠️, règle d'abandon non vérifiée, p 78,8% (P 10:55 1,25/4,30, power).
+- **R5** Aubrac–Sévérac (Valmorie D1 F1, dim. 18:00), Aubrac 1N2 temps réglementaire, 1,62 W 11:00 ⚠️, p 61,4% (P 10:55 1,60/4,20/5,80, power).
+- **R6** Aubrac–Sévérac (Valmorie D1 F1, dim. 18:00), Aubrac remboursé si nul, à relever, gain 61,4%/remboursement 22,5%/perte 16,1% (base R5), équilibre 1,27/1,28.
+- **R7** Kerr–Lopez (Brisach T1, dim. 14:00), Lopez +1,5 set, à relever (offre non confirmée), règle d'abandon non vérifiée, p 60,5% (modèle sets i.i.d. calé sur R1).
+- **R8** Harbor–Giants (NBA B1, lun. 16/11 01:30), Harbor vainqueur prolongations incluses, 1,55 W ≤11:00 ⚠️, p 63,8% (P 1,53/2,62, power, avant rapport 19:00).
+- **R9** Harbor–Giants (NBA B1, lun. 16/11 01:30), Giants vainqueur prolongations incluses, 2,50 W ≤11:00 ⚠️, p 36,2% (P 1,53/2,62, power, avant rapport 19:00).
+
+## 🔭 Couverture
+
+- **Tennis, Open de Brisach** (ATP 250, terre battue intérieure, quarts) : 3 rencontres à venir = 0 complète + 3 limitées (prix et nouvelles) + 0 en attente. Adeyemi–Ruud annulé (forfait 12:40), remplacé par T2, compté une fois. Quatrième quart absent des données, invérifiable.
+- **Football** (Valmorie D1) : F1, limité. **NBA** : B1 (lundi), limité, en attente du rapport. **Rugby, NHL** : aucune donnée.
+
+## 🎾 Fiches tennis (dossiers des finalistes inclus)
+
+**T1 Kerr/Lopez, Brisach QF, terre indoor, 2 sets gagnants, 14:00.** Soins à l'épaule hier, IRM normale, « il jouera » (attaché de presse, 12:50). P passe de 1,30 à 1,42 et W de 1,32 à 1,45 : Kerr tombe de 75,7% à 68,9%. Nouvelle officielle déjà intégrée par les deux books : ni malus épaule, ni bonus IRM. Risque concret : un abandon en cours de match, au règlement W inconnu (jambe annulée ou perdue) ; un forfait avant match annule, comme en T2. R1 : EV −0,1%/−1,6%, équilibre 1,46. R2 : −12,9%/−10,0% (W 2,80, P 3,00). Sets non cotés : R7 à relever. **Verdict :** brique A, jambe la plus discutable du 🛡️ et du 🎾.
+
+**T2 Adeyemi/Moss, Brisach QF, 15:30 pas avant.** Ruud forfait (maladie, site du tournoi, 12:40), remplacé par le lucky loser T. Moss ; paris Adeyemi–Ruud annulés. Nouveau marché, ouvert après 12:40 : W 13:05 1,20/4,40, P 13:00 1,17/5,30, marge P 4,3% (la plus haute du jour). Le changement d'adversaire est décisif : Adeyemi passe de 64,3% à 84,1%. Le statut de lucky loser est déjà dans le prix, pas un malus ; rien sur Moss ni sur la préparation d'Adeyemi. **Trace 🟡 :** W 1,20 ; P en power (k = 1,103) : 84,1%, EV +0,9% ; contrôle multiplicatif : 81,9%, −1,7%. L'avantage ne résiste pas au contrôle. Équilibre 1,19/1,23. Moss à 4,40 : 15,9%, EV −30,0%/−20,4%. **Verdict :** ⭐.
+
+**T3 Stein/Pavic, Brisach QF, 17:00 pas avant.** Rien de nouveau ; prix de 11:00 (W 1,26/3,85, P 1,25/4,30). Favori net, rien à opposer faute de données ; W rogne surtout l'outsider (3,85 contre 4,30). R4 : EV −0,7%/−2,4%, équilibre 1,27. Pavic : 21,2%, EV −18,6%/−13,3%. **Verdict :** brique S du 🎾 et du 🚀, prix de 2 h 20 à relire.
+
+## Football et basket
+
+**F1 Aubrac/Sévérac, Valmorie D1, 18:00.** 1N2 : 61,4/22,5/16,1% (mult. 60,4/23,0/16,7). R5 : EV −0,6%/−2,2%. Sans effectifs ni données de buts, BTTS et totaux ne sont pas estimables (cotes non fournies). R6 : value dès 1,28. Double chance 1X : 83,9%, équilibre 1,20, cote à relever. Pas de nul sec. Compositions vers H-1.
+
+**B1 Harbor/Giants, NBA, lundi 01:30** (prolongations incluses, règle fournie). Le prix mélange deux scénarios : la star de Harbor (27 pts/match) est Questionable (genou). Pas d'ajustement, aucun scénario estimable à part. Décision après le rapport de 19:00, prix relus et dévig refait. EV actuelles : R8 −1,1%/−2,1%, R9 −9,6%/−7,8%. Aucun combiné : tous seraient validés avant le rapport.
+
+## 🏆 Comparaisons (power/mult.)
+
+**⭐ de 1 à 3 jambes :**
+- R3 seul : 1,20, 84,1%/81,9%, EV +0,9%/−1,7%.
+- R1+R3 : 1,74, 57,9%/55,6%, EV +0,8%/−3,3%.
+- R1+R3+R4 : 2,19, 45,7%/43,1%, EV +0,2%/−5,6%. Multisport R3+R4+R5, moins bon : 2,45, 40,7%, −0,3%/−6,2%.
+
+**Je retiens le simple R3 parce que** les jambes ajoutées n'ont aucun avantage de prix (EV ≤ 0 dans les deux méthodes) et ajoutent un risque : épaule et règle d'abandon pour R1, prix de 11:00 pour R4. Compromis : un paiement faible.
+
+**🎾 3/4/5 :** une jambe par match impose les trois quarts ; parmi les 8 combinaisons de côtés, celle des trois favoris domine dans les deux méthodes. Seule variante crédible : R2 à la place de R1 (4,23, 20,6%, EV −12,7%). Paiement ×1,9, chances ÷2,2, sans fait qui la justifie. Il manque 1 jambe pour 4 matchs et 2 pour 5 (demi-finales de demain inconnues). Quarts distincts : résultats à peu près indépendants, mais erreur d'estimation commune (même référence), d'où le contrôle à 43,1%.
+
+**🛡️ (cible 1,90) :** R1+R3 à 1,74 (57,9%, EV +0,8/−3,3) bat R3+R5 à 1,94 (51,6%, +0,3/−3,9 ; R5 validé avant compositions, prix de 11:00) et R1+R4 à 1,83 (54,3%, −0,8/−3,9). Compromis : cote un peu sous 1,75.
+
+**🚀 :** R4+R5 à 2,04 (48,4%, −1,2/−4,5), sans match commun avec ⭐ et 🛡️, se valide vers 16:50 avec des prix relus ; R1+R5 à 2,35 (42,3%, −0,7/−3,8) paie plus mais se valide avant 14:00 et répète Kerr.
+
+**À 11:00, ma décision aurait été différente :** ⭐ Adeyemi 1,62 contre Ruud, en 🟢 (64,3%/63,6%, EV +4,2%/+3,1%), et 🎾 à 2,69 (Kerr 1,32, Adeyemi 1,62, Stein 1,26 ; 38,4%). Ce pari est annulé, donc remboursé, pas perdu.
+
+## 📋 FICHE FINALE
+
+**A. Calendrier (Paris)**
+- Avant 14:00 : valider le 🛡️ et le 🎾 ; vérifier la règle d'abandon, les nouvelles de Kerr et le prix de R4.
+- 14:00 T1 ; 15:30 au plus tôt, T2 (limite du ⭐) ; 17:00 au plus tôt, T3 (limite du 🚀, relire R4 et R5) ; 18:00 F1 (compositions vers H-1) ; 19:00 rapport NBA (🎲 bis) ; lundi 01:30 B1.
+
+**B. Mes paris**
+
+**⭐ Choix principal 🟡 : R3, 1,20, 84,1%**
+- R3 Adeyemi–Moss (Brisach T2, dim. 15:30 pas avant), Adeyemi vainqueur du match, 1,20 W 13:05 ✅, règle d'abandon non vérifiée, p 84,1% (P 13:00 1,17/5,30, power).
+- Pourquoi : meilleure probabilité du jour, seul EV central positif, prix frais.
+- Avant de cliquer : cote ≥ 1,20 (équilibre 1,19). Plan B : R4 en simple.
+
+**🎾 MON COMBINÉ TENNIS PRINCIPAL : 3 MATCHS, 2,19, 45,7%**
+- R1 Kerr–Lopez (Brisach T1, dim. 14:00), Kerr vainqueur du match, 1,45 W 13:10 ✅, règle d'abandon non vérifiée, p 68,9% (P 13:05 1,42/3,00, power). Favori malgré l'épaule, nouvelle déjà payée.
+- R3, ligne ci-dessus : son adversaire est devenu un lucky loser.
+- R4 Stein–Pavic (Brisach T3, dim. 17:00 pas avant), Stein vainqueur du match, 1,26 W 11:00 ⚠️, règle d'abandon non vérifiée, p 78,8% (P 10:55 1,25/4,30, power). Favori net, sans nouvelle.
+- Produit théorique, cote W du combiné à confirmer ; jambes à peu près indépendantes (43,1% en multiplicatif). Jambe la plus discutable : R1 (règle d'abandon et nouvelles à vérifier avant 14:00).
+- Remplacement : R2 (4,23, 20,6%), déconseillé. 3 matchs faute de 4e et 5e rencontre ; si Kerr devient douteux, repli R3+R4 (1,51, 66,3%), qui n'est plus un 🎾.
+
+**🛡️ R1+R3, 1,74, 57,9%** (lignes ci-dessus). Pourquoi : meilleure paire en probabilité et en prix. Avant 14:00 : règle d'abandon. Plan B : R3+R4.
+
+**🎲 R7, à relever, 60,5%**
+- R7 Kerr–Lopez (Brisach T1, dim. 14:00), Lopez +1,5 set, à relever (offre non confirmée), règle d'abandon non vérifiée, p 60,5% (modèle sets i.i.d. calé sur R1).
+- Pourquoi : traduit le doute physique sans parier contre Kerr, et gagne aussi si Kerr l'emporte en trois sets. Si les sets sont corrélés, ce chiffre est trop haut.
+- Repère, pas un seuil : équilibre 1,66 selon le modèle. Si le marché manque : R2 à 2,80, opposé à R1, à ne pas cumuler.
+
+**🎲 bis conditionnel : R9, 2,50, 36,2% avant rapport**
+- R9 Harbor–Giants (NBA B1, lun. 16/11 01:30), Giants vainqueur prolongations incluses, 2,50 W ≤11:00 ⚠️, p 36,2% (P 1,53/2,62, power, avant rapport 19:00).
+- Seulement si la star est déclarée absente : relire le prix et recalculer après 19:00. Sinon, rien sur B1.
+
+**🚀 R4+R5, 2,04, 48,4%**
+- R4 (ligne ci-dessus) et R5 Aubrac–Sévérac (Valmorie D1 F1, dim. 18:00), Aubrac 1N2 temps réglementaire, 1,62 W 11:00 ⚠️, p 61,4% (P 10:55 1,60/4,20/5,80, power).
+- Pourquoi : aucun match commun avec ⭐ et 🛡️, validable tard. Relire les deux prix ; compositions F1 sans doute inconnues à la validation. Plan B : R1+R5.
+
+**Un simple et un ticket : ⭐ R3 et 🚀 R4+R5, sans match commun.** 🛡️ et 🎾 contiennent R3 : ils remplacent le ⭐ au lieu de s'y ajouter.
+
+**C. Tier list** (probabilité de gain ; base P power ; dossiers N2, marché seul avec limites nommées, sauf mention)
+- Tennis. S : R3 1,20 ✅ 84,1% (⭐🛡️🎾) ; R4 1,26 ⚠️ 78,8% (🎾🚀). A : R1 1,45 ✅ 68,9% (🛡️🎾) ; R7 à relever 60,5% (N3, modèle, 🎲). D : R2 2,80 ✅ 31,1% (kit).
+- Football. A : R5 1,62 ⚠️ 61,4% (🚀) ; R6 à relever, gain 61,4/remboursement 22,5/perte 16,1.
+- Basket. A : R8 1,55 ⚠️ 63,8% ; D : R9 2,50 ⚠️ 36,2% (🎲 bis), deux valeurs d'avant rapport.
+
+**D. Kit**
+1. 🚀 + R3 : 2,45, 40,7% (−7,7 points, −15,9% en relatif), doublon avec le ⭐.
+2. ⭐ + R4 : 1,51, 66,3% (−17,8 points).
+3. 🛡️ sans match commun : R4+R5, identique au 🚀.
+4. 🎲 de rechange : R2, 2,80, 31,1%.
+5. 🎉 : pas d'alternative utile (une cote de 5 exige R2, contraire à R1).
+6. À éviter : B1 dans un combiné validé avant 19:00 (prix figé avant le rapport) ; R2 avec un ticket contenant R1 (paris opposés).
+7. 🎾 : R2 à la place de R1 (4,23, 20,6%) ; 4 ou 5 matchs, impossible ; 🎾+R5 : 3,55, 28,0%, mais ce n'est plus un 🎾.
+
+**E.** Limites : probabilités de marché seules, prix de 11:00 à relire, règle d'abandon inconnue. Vérifie prix et compositions avant de jouer. Aucune promesse ; 18+.

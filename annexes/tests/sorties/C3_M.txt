@@ -1,0 +1,106 @@
+# 🎾 Tennis, mardi 10 novembre 2026 (SOL 5.17)
+
+Préparé à 13:30 (Paris), horizon : aujourd'hui, tennis seul, comme demandé ; version rapide (fiches des finalistes = dossiers approfondis).
+
+**Limite : hors ligne.** Seules servent les données du cas : programme croisé entre Winamax et les sites des trois tournois, Winamax 12:50–13:00, Pinnacle via comparateur 12:45–12:55, Elo et notes fournis. Ni statistiques service/retour, ni forme détaillée, ni confrontations. Règle Winamax d'abandon non vérifiée. Horaires supposés à l'heure de Paris, calculs en Python.
+
+## 📌 L'essentiel
+
+- **⭐ Choix principal et meilleur simple : Morel bat Kaspar (A1, 14:00), 1,33**, 75,7%, 🟡 value fragile, le plus probable des dossiers sans signal ; meilleur que les tickets à 2 et 3 jambes.
+- **🎾 3 matchs : Morel + Novak + Haas, 2,309**, 43,9% (Elo 34,3%), risque : physique de Haas, règle d'abandon inconnue.
+- **🛡️ Ticket du jour : Morel + Novak, 1,862** (produit théorique, Winamax ✅), 54,3%.
+- **🎲 Laine (A2) 1,85**, 53,3%. **🚀 Laine + Bianchi 2,683**, 37,2%. 🎉 non servi, 🟢 vide.
+- À confirmer avant 14:00 : prix, règle d'abandon, pluie à Valcorta. Doublons : Morel, Novak, Laine.
+
+## 🔭 Couverture (13:30)
+
+Douze rencontres, trois tournois, toutes au 2e tour ; ni doublon, ni autre jour, ni ITF ou double dans l'offre recensée. Hors avant-match : A4 (affiche non confirmée, Ferrand–Lukic en cours, non coté) et A5 (live depuis 13:10). **Admissibles : 10 = 0 complet + 10 analyses limitées + 0 en attente** (W2 : contradiction physique en plus).
+
+- Metzval Open (ATP 250, dur intérieur) : A1 14:00 ⭐🛡️🎾, A2 ≥15:30 🎲🚀, A3 ≥18:00 🎾, A4 ≥20:00 et A5 hors.
+- Hanna Cup (WTA 500, dur intérieur) : W1 14:00 🛡️🎾, W2 ≥16:00 écartée, W3 ≥17:30 et W4 19:00 kit.
+- Challenger de Valcorta (terre extérieure) : C1 ≥15:00 (pluie) 🚀, C2 ≥15:00 non coté, C3 ≥16:30 remplaçant.
+
+(≥ = pas avant.) Pistes abandonnées : Sato (physique), Marchetti (écart Elo, pluie).
+
+## Méthode
+
+p_retenue = p_marche : Pinnacle dévigué en power, contrôle multiplicatif. Fatigue, blessures et forme étaient publiques avant les relevés : aucun ajustement (correction 6). Elo de contrôle, 1/(1+10^(−Δ/400)) sur hElo (dur) ou cElo (terre), colonnes présumées déjà combinées : borne basse. Notation : Elo et Pin = probabilité du favori (multiplicatif entre parenthèses), EV Winamax en power/multiplicatif/Elo, éq. = cote d'équilibre. Seul le marché vainqueur est coté : sets, jeux et handicaps restent à relever, non estimés.
+
+Constats : Winamax paie mieux que Pinnacle huit favoris sur neuf et reporte sa marge (5,0–6,0% contre 2,7–4,3%) sur l'autre côté (EV −9 à −28%, en W3 sur Amari). L'Elo est sous le marché pour neuf favoris sur dix (jusqu'à 13 points) : risque d'erreur commune, testé sur les combinés (calculés en indépendance approximative : matchs sans lien documenté).
+
+## 🎾 Fiches
+
+### Metzval Open (ATP 250, dur intérieur, 2e tour)
+
+**A1 Morel–Kaspar, 14:00 (finaliste).** Aucune note. Elo 69,7%, Pin 1,30/3,80 : 75,7% (74,5%). Winamax 1,33, au-dessus de Pinnacle : EV +0,7/−0,9/−7,3%, éq. 1,321. Favori net, le plus probable des dossiers sans signal physique ni météo. Objection : 6 points sous l'Elo, inexplicables sans données de service. Verdict : ⭐, 🛡️, 🎾.
+
+**A2 Laine–Pujol, ≥15:30.** Aucune note. Elo 52,6%, Pin 1,83/2,08 : 53,3% (53,2%). Winamax Laine 1,85 : EV −1,35/−1,6/−2,7%, Pujol 1,95 : −9,0%. Duel équilibré, qu'un marché de sets exprimerait mieux s'il était coté. Verdict : 🎲 et 🚀, trop incertain pour un ticket sûr.
+
+**A3 Haas–Ndiaye, ≥18:00 (finaliste).** Haas a gagné hier en 3 h 05, fin à 23:40 : au moins 18 h 20 de repos. Elo 73,9%, Pin 1,22/4,70 : 80,9% (79,4%). Winamax 1,24 : EV +0,3/−1,55/−8,3%. Fatigue connue avant les relevés, donc cotée, mais risque de règlement (abandon, règle non vérifiée). Verdict : 3e jambe du 🎾, la plus discutable, préférée à Marchetti (en salle, écart Elo de 7 points contre 13).
+
+### Hanna Cup (WTA 500, dur intérieur, 2e tour)
+
+**W1 Novak–Ruiz, 14:00 (finaliste).** Novak : 9 victoires sur 11, adversaires inconnus ; Ruiz, lucky loser : contexte, pas malus. Elo 66,6%, Pin 1,37/3,30 : 71,7% (70,7%). Winamax 1,40 : EV +0,4/−1,1/−6,7%, éq. 1,395. Objection : 5 points sous l'Elo, série non qualifiée. Verdict : sélection féminine du 🛡️ et du 🎾, challenger du ⭐.
+
+**W2 Sato–Brennan, ≥16:00.** Abandon la semaine dernière (abdominaux). Site du tournoi, lundi 18:00 : entraînement normal ; journaliste local sur X, ce matin 09:40 : séance écourtée, bandage. Séances différentes, la plus récente rapportée par une source unique, non officielle. Cote 1,22 hier soir, 1,28 à 12:50 : intégration plausible, non prouvée. Elo 71,9%, Pin 1,25/4,30 : 78,9% (77,5%), retenue sans ajustement. Abandon possible, règle inconnue : N3, écartée.
+
+**W3 Keller–Amari, ≥17:30.** Keller : deux défaites de suite au 1er tour ; Amari finaliste la semaine dernière (fatigue non documentée). Elo Amari 55,9%, Pin 2,05/1,82 : Amari 53,1%. Winamax Amari 1,72 : EV −8,6%, Keller 2,10 : −1,6/−1,2/−7,3%. L'Elo penche pour Amari, mais seul Keller est payé presque au juste. Verdict : hors ticket, Keller en 🎲 de rechange.
+
+**W4 Dumas–Petrova, 19:00.** Aucune note. Elo 57,4%, Pin 1,55/2,55 : 62,9% (62,2%). Winamax 1,57 : EV −1,3/−2,35/−9,8%. Favori modéré, sous 65%, au-dessus de la plage du 🛡️. Verdict : kit.
+
+### Challenger de Valcorta (terre battue extérieure, 2e tour)
+
+**C1 Bianchi–Rossi, ≥15:00 (prévu 12:30, pluie).** Bianchi : quatre victoires de suite sur terre ; Rossi : deuxième tournoi après une blessure au poignet. Elo 61,3%, Pin 1,40/3,05 : 69,7% (68,5%), écart peut-être lié au retour de Rossi, que l'Elo ignore (hypothèse). Winamax 1,45 : EV +1,1/−0,6/−11,1%, meilleur écart du jour. Risques : retard ou report, abandon, règles non vérifiées. Verdict : 🚀, 🛡️ bis.
+
+**C2 Garin–Lopez, ≥15:00.** Aucune note. Elo 52,2%, Pin 1,62/2,35 : 59,8% (59,2%). Non proposé par Winamax à 13:00 : à relever, hors tickets, value dès 1,68 (Lopez 2,49).
+
+**C3 Marchetti–Kovac, ≥16:30 (challenger).** Kovac, qualifié après trois matchs (deux en trois sets), joue son premier tableau principal de l'année. Elo 71,5%, Pin 1,17/5,60 : 84,4% (82,7%), plus grand écart du jour : fatigue de Kovac cotée, Elo peut-être en retard. Winamax 1,19 : EV +0,5/−1,6/−14,9%. Plus forte probabilité, estimation la moins robuste, pluie possible. Verdict : remplaçant de Haas.
+
+## 🏆 Comparaisons (EV power/multiplicatif/Elo)
+
+**⭐ selon la longueur.** Morel seul 1,33 : 75,7%, EV +0,7/−0,9/−7,3%. Avec Novak, 1,862 : 54,3%, +1,1/−2,0/−13,5%. Avec Novak et Haas, 2,309 : 43,9%, +1,35/−3,5/−20,7%. Je retiens le simple : chaque jambe ajoutée gagne 0,3 à 0,4 point d'EV centrale, moins que l'écart entre méthodes de dévig (1,4 à 1,8 point par jambe), et en perd 6 à 7 sous l'Elo ; le simple garde trois chances sur quatre. Bianchi, Haas et Marchetti cèdent comme simples sur la pluie, la fatigue ou l'écart Elo ; Novak est le challenger.
+
+**🎾 3/4/5** (pool A1, A3, W1, W4, C1, C3 : 20, 15 et 6 combinaisons ; W2, C2 et jambes à 50% exclues) :
+- 3 : Morel + Novak + Haas, 2,309, 43,9% (Elo 34,3%).
+- 3 bis : Morel + Novak + Marchetti, 2,216, 45,8% (Elo 33,2%) ; Morel + Haas + Marchetti, 1,963, 51,7% (Elo 36,9%), cote de 🛡️.
+- 4 : avec Marchetti, 2,748, 37,1% (Elo 24,6%).
+- 5 : avec Marchetti et Bianchi, 3,984, 25,8% (Elo 15,1%).
+
+**Choix : 3 matchs**, tous en salle : à cote voisine, il paie plus que le 3 bis et résiste mieux à l'Elo. La 4e jambe paie ×1,19 pour −15,6% de chance relative (−28,5% sous Elo) et ajoute la pluie ; la 5e paie ×1,45 pour −30,3%. Les EV centrales croissantes (+1,35, +1,8, +2,9%) n'additionnent que l'écart de dévig.
+
+**🛡️** (28 paires, 10 entre 1,70 et 2,20) : Morel + Novak (1,862 ; 54,3% ; Elo 46,5%) devant Haas + Bianchi (1,798 ; 56,4% ; Elo 45,3%), plus probable mais moins payée et plus fragile, et Morel + Bianchi (1,929 ; 52,8% ; Elo 42,8%).
+
+**🎲 et 🚀 :** Laine (Elo concordant) plutôt que Keller (contre l'Elo) ou Amari (−8,6%). Laine + Bianchi (2,683 ; 37,2% ; Elo 32,2%) plutôt que Laine + Haas (2,294 ; 43,1%, doublon du 🎾).
+
+**🟢** vide. **🟡** R1 à R5 et R9 : EV power de +0,3 à +1,1%, négative en multiplicatif (répartition de marge) ; la plus nette, Bianchi (+1,1/−0,6%). Confirmation : seconde référence indépendante, impossible hors ligne.
+
+## 📋 Fiche finale
+
+**A. Calendrier (Paris, mardi 10/11).** 13:45 : prix et débuts, puis 🎾, 🛡️, ⭐ avant 14:00 (A1, W1). Avant 15:00 : C1 (pluie), puis 🚀. Suite : A2 ≥15:30, A3 ≥18:00 (physique inconnu au moment du 🎾), A4 ≥20:00 à revoir.
+
+**B. Mes paris** (lignes du registre C, identiques partout)
+
+- **🎾 Combiné tennis, 3 matchs : 2,309 théorique (cote acceptée à vérifier), 43,9% = 75,7% × 71,7% × 80,9%** (indépendance, Elo 34,3%).
+  - R1 Morel–Kaspar, Metzval, 14:00 annoncée : favori sans signal.
+  - R2 Novak–Ruiz, Hanna Cup, 14:00 annoncée : en forme, payée au-dessus de Pinnacle.
+  - R3 Haas–Ndiaye, Metzval, pas avant 18:00 : plus forte probabilité en salle, fatigue cotée.
+  - Jambe la plus discutable et risque principal : Haas. Avant 14:00 : cote ≥ 2,28, règle d'abandon. Remplaçant : R4 Marchetti (2,216 ; 45,8%). Au-delà de 3, la robustesse coûte plus que le gain de cote.
+- **🛡️ R1 + R2 (14:00), 1,862, 54,3% = 75,7% × 71,7%.** Cote ≥ 1,85. Plan B : 🛡️ bis R3 + R5 (1,798 ; 56,4%), sans match commun.
+- **⭐ Choix principal, meilleur simple : R1 Morel 1,33, 75,7%** (🟡 value fragile). Morel–Kaspar, Metzval ATP 250, mardi 14:00, vainqueur du match, Winamax ✅ 12:50–13:00. Pourquoi : la plus forte probabilité sans signal, prix au-dessus de Pinnacle. Avant : match non commencé, cote ≥ 1,33, règle d'abandon. Plan B : R2 Novak seul.
+- Autres values : 🟢 aucune ; 🟡 R2 à R5, de même nature.
+- **🎲 R7 Laine 1,85, 53,3%** : prix le plus juste d'un duel équilibré, value dès 1,88. Plan B : R8.
+- **🚀 R7 (≥15:30) + R5 (≥15:00), 2,683, 37,2%** : avant le début de C1, pluie et règle de report contrôlées, value dès 2,69. Plan B : R7 + R3 (2,294 ; 43,1%).
+- 🎉 non servi.
+
+Un simple et un ticket seulement : R1 et le 🎾, Morel figurant dans les deux.
+
+**C. Registre unique et tier list.** Champs communs : vainqueur du match sans handicap, Winamax ✅ 12:50–13:00, abandon : règle non vérifiée, p_retenue Pinnacle 12:45–12:55 en power [plage Elo–power], N2 sauf mention ; 🟡 = EV power positive, négative en multiplicatif.
+
+- S : R4 Marchetti (C3, ≥16:30) 1,19, 84,4% [71,5–84,4], remplaçant 🎾🟡. R3 Haas (A3, ≥18:00) 1,24, 80,9% [73,9–80,9], 🎾🟡. R9 Sato (W2, ≥16:00) 1,28, 78,9% [71,9–78,9], N3, écartée 🟡. R1 Morel (A1, 14:00) 1,33, 75,7% [69,7–75,7], S/A, ⭐🛡️🎾🟡. R2 Novak (W1, 14:00) 1,40, 71,7% [66,6–71,7], S/A, 🛡️🎾🟡.
+- A : R5 Bianchi (C1, ≥15:00) 1,45, 69,7% [61,3–69,7], 🚀🟡. R6 Dumas (W4, 19:00) 1,57, 62,9% [57,4–62,9], A/B, kit.
+- B : R10 Garin (C2, ≥15:00) à relever (Pinnacle 1,62), 59,8% [52,2–59,8], N3. R7 Laine (A2, ≥15:30) 1,85, 53,3% [52,6–53,3], 🎲🚀.
+- C : R8 Keller (W3, ≥17:30) 2,10, 46,9% [44,1–46,9], kit. D : outsiders cotés, non proposés.
+
+**D. Kit.** 1) 🚀 + R6 : 4,21, 23,4% (−13,8 points, −37% relatif). 2) Simple + R5 : 1,929, 52,8% (−22,9 points), chevauche ⭐ et 🚀. 3) 🛡️ bis R3 + R5. 4) 🎲 R8 Keller 2,10, 46,9%. 5) 🎉 : pas d'alternative utile. 6) À éviter : Sato en combiné (abandon possible, règle inconnue) ; outsiders combinés (Kovac 4,60 + Ndiaye 4,00 : EV −28% et −23%). 7) 🎾 : R4 pour R3 (2,216 ; 45,8%), à 4 avec R4 (2,748 ; 37,1%), à 5 avec R4 et R5 (3,984 ; 25,8%).
+
+**E.** Hors ligne, données figées : l'Elo, plus bas, rappelle que ces probabilités peuvent être trop hautes ensemble. Relevez prix et règle d'abandon avant de jouer. Aucune garantie, 18+.

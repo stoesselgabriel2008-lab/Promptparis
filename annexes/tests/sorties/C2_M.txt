@@ -1,0 +1,153 @@
+🎯 SOL 5.17, analyse du jour (version rapide), samedi 14 novembre 2026, 10:30 (Paris)
+
+Hors ligne : aucune recherche web, seules les données figées du cas. Prix : captures Winamax (10:10–10:20) ; Pinnacle via un comparateur qui le nomme (10:05–10:15). Calculs Python : dévig power, multiplicatif en contrôle (entre parenthèses). Horizon : aujourd'hui, plus la NBA de la nuit (dimanche 15/11, 02:00).
+
+📌 L'ESSENTIEL
+
+⭐ Choix principal (unique, tous formats) : simple Real Castel vainqueur (M5, 21:00) @1,55, 🟢 : 68,6 % (67,6), EV +6,3 % (+4,7). Après l'annonce du retour du meneur, Pinnacle est passé de 1,52 à 1,44 ; Winamax n'a pas bougé. Condition : cote ≥ 1,51.
+
+🎾 Combiné tennis principal, 3 matchs : Rinaldi (12:00) + Varga (13:00) + Ito (15:00 pas avant) @2,69, 38,6 % (36,9), à placer avant 12:00. Risque : règle d'abandon non vérifiée.
+
+🛡️ Ticket du jour : Rinaldi + Varga @1,79, 59,3 % (57,4).
+
+🎲 Plus de 2,5 buts Castel–Molinar @1,78, 57,0 % (56,6), sans value revendiquée. Pas de 🎲 bis : aucun second angle distinct.
+
+🚀 Castel + Varga @2,17, 52,1 % (50,7). 🎉 non servi.
+
+À confirmer : règle d'abandon Winamax, composition de Castel, titulaire incertain de Ridge. Doublons : Varga dans 🛡️, 🎾 et 🚀 ; Castel dans ⭐ et 🚀. Menu, pas cumul.
+
+🔭 COUVERTURE
+
+Périmètre 5.17 : tennis (sans priorité automatique), football, rugby, NBA, NHL ; aucun rugby ni NHL dans les données, rien inventé.
+
+Tennis : Coupe de Sorrèze WTA 500 (dur intérieur), 2 quarts de simple et 1 de double ; Challenger de Valcorta (terre extérieure), 1 demie. Le cas ne liste que 2 quarts sur 4 et 1 demie sur 2 : d'autres matchs peuvent exister, invérifiables hors ligne. 4 recensés = 0 analyse complète + 4 analyses limitées (prix et faits du cas, sans statistiques ni Elo) + 0 en attente ; aucun commencé. Football : 3 étudiés, M5 approfondi. NBA : 1 étudié.
+
+Écartés : outsiders tennis (EV −11 % à −28 %), moins de 2,5 (EV −13,2 %), nuls (calculés, jamais proposés). Aucun ajustement pour la fatigue de Varga, le retour du meneur, la suspension du gardien de Molinar ou le titulaire incertain de Ridge : déjà dans les prix.
+
+REGISTRE UNIQUE
+Règles : tennis, vainqueur du match, abandon et forfait non vérifiés ; football, 90 minutes ; NBA, prolongations incluses en général, à vérifier. Format : cote Winamax (P = Pinnacle) ; p_retenue = Pinnacle power (multiplicatif) ; EV à la cote Winamax.
+
+- R3 Rinaldi–Mertens, Valcorta DF, 12:00 : Rinaldi 1,28 (P 1,26/4,10) ; 78,0 % (76,5) ; −0,1 %.
+- R1 Varga–Holm, Sorrèze QF, 13:00 : Varga 1,40 (P 1,30/3,90) ; 76,0 % (75,0) ; +6,4 %.
+- R2 Ito–Duval, Sorrèze QF, 15:00 pas avant : Ito 1,50 (P 1,50/2,70) ; 65,1 % (64,3) ; −2,4 %.
+- R4 Varga/Holt–Berg/Moreno, double QF, 19:00 pas avant, après M1 : Varga/Holt 1,45 (P 1,36/3,35) ; 72,2 % (71,1) ; +4,7 %.
+- R8 Bréda–Hautval, 15:00 : 1X2 Bréda 1,70 (P 1,68/4,00/5,40) ; 58,5 % (57,8) ; −0,5 %.
+- R9 Lorient–Pradel, 17:30 : 1X2 Lorient 1,62 (P 1,60/4,10/6,00) ; 61,4 % (60,4) ; −0,6 %.
+- R5 Castel–Molinar, 21:00 : 1X2 Castel 1,55 (P 1,44/4,80/8,00) ; 68,6 % (67,6) ; +6,3 %.
+- R6 même match : plus de 2,5 buts 1,78 (P 1,70/2,22) ; 57,0 % (56,6) ; +1,5 %.
+- R7 même match : MyMatch « Castel gagne + plus de 2,5 » 2,05, ticket à part non combinable (vérifié) ; 45,4 % (44,5), Poisson calé sur Pinnacle ; −6,9 %.
+- R10 Harbor–Ridge, NBA, dimanche 02:00 : Harbor 1,36 (P 1,35/3,45) ; 72,9 % (71,9) ; −0,9 %.
+
+🎾 RENCONTRES TENNIS (fiches limitées)
+
+M3 Rinaldi–Mertens. Pinnacle (marge 3,8 %) donne 78,0 % ; Winamax (5,9 %) paie au prix juste. Sans forme ni météo : lecture de marché. Plus forte probabilité du jour, première jambe du 🛡️ et du 🎾. Objection : interruption possible en extérieur.
+
+M1 Varga–Holm : voir dossier Varga ; Holm @3,00 écarté.
+
+M2 Ito–Duval. Même cote sur Ito chez les deux books ; duel le plus ouvert (Duval @2,55, EV −11,0 %). Troisième jambe du 🎾, la plus discutable.
+
+M4 Varga/Holt–Berg/Moreno. Marché seul (aucune donnée de paire, aucun Elo additionné) ; début lié au simple de Varga : 🟡 à décider après M1, hors 🎾 principal.
+
+⚽🏀 AUTRES MATCHS
+
+Bréda, Lorient : rien de notable, prix justes ; briques de réserve. Double chance et DNB absents des données. Harbor : le titulaire Questionable de Ridge est dans le prix ; statut attendu peu avant 02:00, après tout ticket du jour.
+
+🔬 DOSSIERS
+
+Real Castel – CD Molinar, Ligue de Valmorie J15, samedi 21:00
+
+Conclusion : ⭐ 1X2 Castel @1,55 (✅ Winamax), 68,6 %, 🟢.
+
+Faits : retour du meneur annoncé vendredi 18:00 ; Pinnacle passé de 1,52 à 1,44 vendredi soir ; Winamax à 1,55 depuis jeudi. Gardien de Molinar suspendu, annoncé mardi, avant les deux prix. Castel : 2,2 buts par match à domicile (7 matchs).
+
+Calcul : marge Pinnacle 2,8 % ; power 68,6/19,8/11,6 (somme 100 ; multiplicatif 67,6/20,3/12,2). EV +6,3 % (+4,7), +3,2 % à −2 points. Cote juste 1,46 ; minimum à la borne basse : 1,51.
+
+Lecture : l'écart est observable ; « Winamax n'a pas intégré l'annonce » reste une hypothèse. Avec l'ancienne référence 1,52 (environ 64 %, vecteur non fourni), l'EV serait −0,8 % : la value repose sur ce retour. Les 2,2 buts (n = 7) restent descriptifs, cohérents avec λ Castel 2,16 d'un Poisson calé sur Pinnacle (Molinar 0,80).
+
+Marchés : plus de 2,5 (+1,5 %, négatif à −2 points) ; MyMatch (−6,9 %, cote juste 2,20, bornes 25,6–57,0 % ; le produit 2,76 n'est pas jouable). Je retiens le 1X2 : l'écart daté porte sur lui et résiste à la sensibilité.
+
+Risque : meneur absent, correction Winamax, nul ou défaite (31,4 %). La référence intègre l'incertitude de composition : jouable maintenant ; à H-1, exiger 1,51 et le meneur.
+
+Varga, simple (M1) et double (M4)
+
+Faits : 2 h 20 de jeu hier ; simple puis double aujourd'hui. Winamax est plus prudent que Pinnacle sur les deux marchés (69,5 % et 66,5 % contre 76,0 % et 72,2 %).
+
+Lecture : charge publique, donc intégrée : p_retenue = Pinnacle sans retouche ; cause de l'écart inconnue. Jouer Holm « contre la fatigue » la compterait deux fois (EV −27,9 %). L'abandon devient plausible et sa règle n'est pas vérifiée : 🟡 (+3,6 % à −2 points ; minimum 1,36).
+
+Lien M1–M4 : même joueuse, horaire lié, forfait possible, règlement inconnu ; dépendance de signe incertain, produit R1 × R4 non fiable.
+
+🏆 COMPARAISON DES TICKETS
+
+⭐ 1, 2 ou 3 jambes :
+- Castel @1,55 : 68,6 %, EV +6,3 %. Seul 🟢, règle usuelle, contrôle H-1 possible.
+- Castel + Varga @2,17 : 52,1 %, EV +13,1 % (+10,0), placé avant 13:00 sans contrôle de composition.
+- Castel + Varga + Rinaldi @2,78 : 40,7 %, EV +12,9 % (+7,7), deux jambes sous règle d'abandon inconnue.
+Le simple l'emporte : les combinés multiplient les mêmes écarts pour 16 à 28 points de chance en moins.
+
+🎾 3, 4 ou 5 matchs (énumération des 4 rencontres) :
+- Rinaldi + Varga + Ito @2,69 : 38,6 % (36,9), EV +3,7 % (−0,9). Principal.
+- Rinaldi + Varga + Varga/Holt @2,60 : 42,8 % sous indépendance, EV +11,2 %, Varga deux fois.
+- 4 matchs @3,90 : 27,9 % ; paiement ×1,45 pour −10,7 points (−27,8 % relatif), Varga deux fois.
+- 5 matchs : impossible, une rencontre manque.
+Je cède 4,2 points chiffrés pour éviter le doublon de joueuse : M4 se joue mieux après avoir vu M1.
+
+🛡️ (paires 1,75–2,10 énumérées) : Rinaldi + Varga @1,79 (59,3 %) devance Varga + Harbor @1,90 (55,4 %, jambe de nuit) et Rinaldi + Castel @1,98 (53,5 %, sans contrôle H-1).
+
+🚀 : Castel + Varga @2,17 (52,1 %) devance plus de 2,5 + Varga @2,49 (43,3 %).
+
+🟢🟡 Traces : registre et dossiers. 🟢 R5 (minimum 1,51) ; 🟡 R1 (1,36), R4 (1,43) ; plus de 2,5 sans value.
+
+📋 FICHE FINALE
+
+A. Calendrier (samedi 14/11 sauf mention)
+- Avant 12:00 : placer 🛡️ et 🎾 ; vérifier règle d'abandon, cotes, matchs non commencés.
+- 12:00 M3 ; 13:00 M1 (limite du 🚀) ; 15:00 pas avant M2 ; 15:00 M6 et 17:30 M7, hors tickets.
+- Après M1 : décider R4 (19:00 pas avant) si Varga sans alerte et cote ≥ 1,43.
+- 20:00 (H-1) : composition de Castel si publiée, cote ≥ 1,51 ; 21:00 M5.
+- Dimanche 02:00 M8 : statut Ridge peu avant, règle de prolongation.
+
+B. Mes paris (✅ Winamax observé, 10:10–10:20)
+
+🎾 MON COMBINÉ TENNIS PRINCIPAL : 3 MATCHS, 2,69, 38,6 %
+- Rinaldi bat Mertens, Challenger de Valcorta DF, terre extérieure, sam. 12:00 : 1,28, 78,0 % (marché Pinnacle), plus forte probabilité du jour.
+- Varga bat Holm, Coupe de Sorrèze WTA 500 QF, dur intérieur, 13:00 : 1,40, 76,0 %, 🟡, fatigue déjà dans le prix.
+- Ito bat Duval, Sorrèze QF, 15:00 pas avant : 1,50, 65,1 %, jambe la plus discutable.
+- Total : produit 2,69 (cote acceptée à relever) ; 38,6 % sous indépendance approchée ; EV +3,7 % (−0,9) : plaisir. Risque : abandon, règle non vérifiée. Contrôle avant 12:00.
+- Remplacement : Ito → Varga/Holt (2,60 ; 42,8 %), écarté pour double exposition Varga, comme la version 4 matchs.
+
+🛡️ Ticket du jour : Rinaldi + Varga, 1,79, 59,3 %
+- R3 12:00 @1,28 et R1 13:00 @1,40 ; indépendance approchée ; EV +6,2 % (+2,8).
+- Avant 12:00 : règle d'abandon. Plan B sans tennis : Castel + Harbor @2,11 (50,0 %).
+
+⭐ Choix principal, meilleur simple : Castel vainqueur, 1,55, 68,6 %, 🟢
+- Football, Real Castel – CD Molinar, Ligue de Valmorie, sam. 21:00.
+- 1X2, 90 minutes, ✅ Winamax.
+- Pourquoi : Pinnacle a bougé après le retour annoncé du meneur, Winamax non.
+- Avant de cliquer : cote ≥ 1,51 ; à H-1, meneur sur la feuille.
+- Plan B : sous 1,51 ou meneur absent, plus de 🟢 ; garder le 🎲.
+
+🟡 Option : Varga/Holt @1,45 (72,2 %), simple séparé décidé après M1.
+
+🎲 Plus de 2,5 buts Castel–Molinar, 1,78, 57,0 %, 90 minutes : plaisir.
+
+🚀 Castel + Varga, 2,17, 52,1 %, à placer avant 13:00.
+
+Si je ne gardais qu'un simple et un ticket : Castel @1,55 et le 🛡️ Rinaldi + Varga.
+
+C. Tier list (vainqueur sauf mention ; cotes ✅ ; p_retenue marché Pinnacle sauf R7)
+- Tennis, S : R3 Rinaldi 12:00, 78,0 % (1,28, N2, 🛡️🎾) ; R1 Varga 13:00, 76,0 % (1,40, N2, 🛡️🎾🚀) ; R4 Varga/Holt 19:00+, 72,2 % (1,45, N2, option). A : R2 Ito 15:00+, 65,1 % (1,50, N2, 🎾).
+- Football, A : R5 Castel 21:00, 68,6 % (1,55, N1, ⭐🚀) ; R9 Lorient 17:30, 61,4 % (1,62, N2). B : R8 Bréda 15:00, 58,5 % (1,70, N2) ; R6 plus de 2,5 21:00, 57,0 % (1,78, N2, 🎲). C : R7 MyMatch 21:00, 45,4 % (2,05, modèle, kit).
+- Basket, S : R10 Harbor dim. 02:00, 72,9 % (1,36, N2, kit).
+
+D. Kit
+1. 🚀 + 1 : + Rinaldi, 2,78, 40,7 % (−11,5 points).
+2. Simple + 1 : Castel + Rinaldi, 1,98, 53,5 % (−15,1 points).
+3. 🛡️ sans match commun : Castel + Harbor, 2,11, 50,0 %.
+4. 🎲 vivant : MyMatch R7 @2,05, 45,4 %, ticket à part.
+5. 🎉 : pas d'alternative utile.
+6. À éviter : Varga simple + double dans un ticket ; Holm « contre la fatigue ».
+7. 🎾 : 4 matchs avec Varga/Holt, 3,90, 27,9 %.
+Chaque extension réutilise Castel, Varga ou Rinaldi.
+
+E. Données figées hors ligne, programme tennis peut-être incomplet : revérifie cotes, règle d'abandon et compositions avant de jouer.
+Aucune promesse de gain ; 18+.

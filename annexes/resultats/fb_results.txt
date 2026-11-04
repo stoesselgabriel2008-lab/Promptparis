@@ -1,0 +1,77 @@
+  x["League"], x["Season"] = lg, se
+  df["Date"] = pd.to_datetime(df["Date"], dayfirst=True, errors="coerce")
+  df["y"] = df["FTR"].map({"H": 0, "D": 1, "A": 2})
+  df["elo_diff"] = elo_diff
+matches 36423 | test 13108 | train 10110
+ordered-logit theta [ 0.555 -0.931  0.264] | train base rates H/D/A [0.443 0.252 0.305]
+
+=== 1X2, test seasons 2022/23-2025/26 (out-of-sample) ===
+forecast                                    n   Brier     RPS  LogLoss     BSS    RPSS    LLSS
+Climatology (train H/D/A freq)          11429  0.6486  0.2297   1.0722   0.000   0.000   0.000
+Elo + ordered logit (a priori K)        11429  0.5933  0.2028   0.9936   0.085   0.117   0.073
+Bet365 pre-match [power]                11429  0.5817  0.1974   0.9765   0.103   0.140   0.089
+Pinnacle pre-match [power]              11429  0.5814  0.1974   0.9758   0.104   0.141   0.090
+Bet365 closing [power]                  11429  0.5793  0.1963   0.9729   0.107   0.145   0.093
+Pinnacle closing [mult]                 11429  0.5792  0.1964   0.9727   0.107   0.145   0.093
+Pinnacle closing [power]                11429  0.5789  0.1962   0.9722   0.107   0.146   0.093
+Pinnacle closing [shin]                 11429  0.5790  0.1963   0.9723   0.107   0.145   0.093
+Market avg closing [power]              11429  0.5791  0.1963   0.9724   0.107   0.145   0.093
+logloss diff Elo - PinnacleClose    +0.0214  95%CI [+0.0180,+0.0247]
+logloss diff Pinn mult - power      +0.0006  95%CI [+0.0002,+0.0009]
+logloss diff Pinn shin - power      +0.0001  95%CI [-0.0000,+0.0002]
+logloss diff B365 pre - PinnClose   +0.0044  95%CI [+0.0031,+0.0059]
+
+=== Average overround (sum 1/odds - 1), test seasons ===
+1X2 Bet365 closing           6.06%  (n=13107)
+1X2 Pinnacle closing         3.07%  (n=11450)
+1X2 market avg closing       5.41%  (n=13108)
+1X2 market MAX closing       0.61%  (n=13108)
+O/U2.5 Bet365 closing        5.18%  (n=13108)
+O/U2.5 Pinnacle closing      3.25%  (n=11389)
+O/U2.5 avg closing           5.59%  (n=13108)
+AH Bet365 closing            3.28%  (n=13108)
+AH Pinnacle closing          2.36%  (n=11450)
+
+=== Calibration, Pinnacle closing power de-vig, test seasons (favourite side H or A) ===
+fav p in [0.3,0.4): n= 2129 mean_p=0.374 observed=0.384 (+/-0.021)
+fav p in [0.4,0.5): n= 3811 mean_p=0.446 observed=0.452 (+/-0.016)
+fav p in [0.5,0.6): n= 2575 mean_p=0.547 observed=0.552 (+/-0.019)
+fav p in [0.6,0.7): n= 1468 mean_p=0.645 observed=0.639 (+/-0.025)
+fav p in [0.7,0.8): n=  937 mean_p=0.746 observed=0.776 (+/-0.027)
+fav p in [0.8,0.9): n=  472 mean_p=0.841 observed=0.854 (+/-0.032)
+fav p in [0.9,1.0): n=   58 mean_p=0.919 observed=0.897 (+/-0.078)
+draw p in [0.00,0.22): n= 2576 mean_p=0.166 observed=0.169
+draw p in [0.22,0.26): n= 2597 mean_p=0.243 observed=0.240
+draw p in [0.26,0.30): n= 4428 mean_p=0.280 observed=0.290
+draw p in [0.30,1.00): n= 1849 mean_p=0.315 observed=0.303
+
+=== Flat-stake ROI by odds bucket, all 1X2 outcomes, test seasons ===
+Bet365 closing: [1,1.5) n=2313 ROI=-1.1%±2.3 | [1.5,2) n=4634 ROI=-4.4%±2.5 | [2,3) n=8607 ROI=-5.4%±2.5 | [3,5) n=17910 ROI=-6.6%±2.3 | [5,10) n=4913 ROI=-16.3%±6.0 | [10,inf) n=944 ROI=-44.4%±16.9
+Pinnacle closing: [1,1.5) n=1970 ROI=+0.8%±2.5 | [1.5,2) n=3784 ROI=-1.7%±2.8 | [2,3) n=7381 ROI=-1.7%±2.8 | [3,5) n=15772 ROI=-4.3%±2.5 | [5,10) n=4394 ROI=-12.5%±6.5 | [10,inf) n=1049 ROI=-33.6%±17.9
+
+=== Does a price above the de-vigged sharp reference pay? (test seasons, flat stakes) ===
+Bet365 closing vs Pinnacle closing fair, EV>0%                 bets=   960 (8.4% of matches) ROI=-4.19% (95% ±8.82) mean est. EV=+1.93%
+Bet365 pre-match vs Pinnacle pre-match fair, EV>0%             bets=   778 (6.8% of matches) ROI=+11.49% (95% ±12.83) mean est. EV=+1.62%
+Best price closing vs Pinnacle closing fair, EV>0%             bets= 13174 (115.1% of matches) ROI=+1.22% (95% ±2.58) mean est. EV=+2.66%
+Bet365 closing vs Pinnacle closing fair, EV>3%                 bets=   177 (1.5% of matches) ROI=-11.17% (95% ±23.03) mean est. EV=+6.11%
+Bet365 pre-match vs Pinnacle pre-match fair, EV>3%             bets=   130 (1.1% of matches) ROI=+27.34% (95% ±39.24) mean est. EV=+5.04%
+Best price closing vs Pinnacle closing fair, EV>3%             bets=  3925 (34.3% of matches) ROI=+1.16% (95% ±5.37) mean est. EV=+6.06%
+Bet365 closing vs Elo model, EV>3%                             bets= 11299 (86.2% of matches) ROI=-13.25% (95% ±3.08) mean est. EV=+18.61%
+Bet365 closing vs Elo model, EV>8%                             bets=  8143 (62.1% of matches) ROI=-14.24% (95% ±3.76) mean est. EV=+23.77%
+
+=== Over/Under 2.5 and Asian handicap (half lines), test seasons ===
+O/U 2.5 Pinnacle closing: n=11389 base over rate(train)=0.510 test over rate=0.518 Brier=0.2391 vs base 0.2497 BSS=0.043 LLSS=0.032
+   p_over in [0.0,0.4): n=1399 mean_p=0.361 observed=0.374
+   p_over in [0.4,0.5): n=4205 mean_p=0.451 observed=0.445
+   p_over in [0.5,0.6): n=3586 mean_p=0.545 observed=0.567
+   p_over in [0.6,0.7): n=1701 mean_p=0.641 observed=0.651
+   p_over in [0.7,1.0): n=498 mean_p=0.736 observed=0.731
+AH half-lines Pinnacle closing: n=2769 home-cover rate=0.487 Brier=0.2495 vs coin 0.2500 BSS=0.002
+
+=== Combos of favourites (Bet365 closing, odds<=2.0, distinct matches same day), test seasons ===
+k=1: combos=  4197 realized ROI=-1.9% (±2.4, legs reused) | expected vs Pinnacle fair=-3.5% | hit rate=0.623
+k=2: combos=  4617 realized ROI=-3.7% (±3.7, legs reused) | expected vs Pinnacle fair=-6.7% | hit rate=0.386
+k=3: combos=  4242 realized ROI=-10.3% (±5.2, legs reused) | expected vs Pinnacle fair=-9.9% | hit rate=0.231
+k=4: combos=  3736 realized ROI=-14.1% (±7.3, legs reused) | expected vs Pinnacle fair=-12.9% | hit rate=0.142
+k=5: combos=  3368 realized ROI=-22.1% (±9.8, legs reused) | expected vs Pinnacle fair=-15.9% | hit rate=0.080
+done

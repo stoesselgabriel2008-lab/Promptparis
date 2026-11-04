@@ -1,0 +1,146 @@
+# Analyse du jour SOL 5.17, tennis et football
+
+Préparée le lundi 16 novembre 2026, 15:00 Europe/Paris (UTC+1). Horizon : lundi 16 puis mardi 17. Périmètre : tennis et football (rugby, NBA, NHL exclus). Version rapide (≤ 2 000 mots) : fiches condensées.
+
+**Limites.** Hors ligne : ni statistiques, ni Elo, ni confrontations, ni nouvelles hors des trois notes fournies. Winamax inaccessible et sans capture : offre, cotes et règles non lues. Prix du comparateur, Pinnacle 14:40 et Betclic 14:45 ; toutes les cotes sont ⚠️ Winamax à confirmer (proxy Betclic). Seuls vainqueurs et 1N2 sont relevés. Règle Winamax d'abandon au tennis non vérifiée.
+
+**Conventions fixées avant calcul.** p_retenue = Pinnacle dévigué en power (marges 3,5–4,2% contre 5,8–7,6% chez Betclic, et indépendant du proxy), contrôle multiplicatif, borne basse par dévig Betclic. EV proxy = cote Betclic × p − 1, pas une EV Winamax. Fatigue de Weber, absences de Rodez et série de Laval, publiques avant le relevé, sont déjà dans les prix : aucun ajustement.
+
+## 📌 L'essentiel
+
+⭐ **Choix principal : Faure vainqueur (T3, mardi 12:00), simple, 1,30 proxy, 77,4%.** Meilleure chance, prix à l'équilibre (EV proxy +0,6% power, −1,3% multiplicatif), décision mardi à H-1.
+
+🎾 **Faure + Weber + Ilic, 3 matchs, 2,845 (produit théorique), 35,1%.** Sur deux jours, à placer avant lundi 17:00. Risque principal : Weber (charge, règle d'abandon inconnue).
+
+🛡️ **Weber + Faure, 1,872, 54,0%**, à placer avant lundi 17:00.
+
+🎲 **Laval remboursé si nul, prix à relever** (gain 50,9%, remboursement 27,0%, perte 22,1%, équilibre 1,44). Pas de bis.
+
+🚀 **Costa + Laval, 3,315, 29,8%.** 🎉 non servi, value vide.
+
+À confirmer : cotes et règle d'abandon Winamax. Doublons : Faure (⭐🛡️🎾), Weber (🛡️🎾), Laval (🎲🚀). Pour parier dès aujourd'hui, Weber simple.
+
+## 🔭 Couverture
+
+Tennis : 5 rencontres à venir recensées (2 lundi, 3 mardi), 0 analyse complète, 5 limitées (marché et note, sans web), 0 en attente, soit 5 = 0 + 5 + 0. Aucune rencontre commencée, annulée ou indéterminée. T3–T5, hors journée, entrent via l'horizon et le 🎾 sur programme réduit. Football : F1 seul, étudié et retenu. Recensement complet au regard du seul relevé fourni (ni offre Winamax ni calendrier officiel recoupés). Registre des sélections R1–R7 en fiche finale, bloc B.
+
+|Rencontre, heure Paris|Tournoi, surface|Traitement|Verdict|
+|---|---|---|---|
+|T1 Weber–Lind, lun. 17:00 fixe|Brévent WTA 250, dur intérieur, 1er tour|limitée|R1, 🛡️🎾|
+|T2 Costa–Mayer, lun. 19:30 pas avant|idem|limitée|R2, 🚀, remplaçante 🎾|
+|T3 Faure–Olsen, mar. 12:00 fixe|Brévent, tour non précisé|limitée|R5, ⭐🛡️🎾|
+|T4 Ilic–Moreau, mar. 13:30 pas avant|non précisé|limitée|R6, 🎾|
+|T5 Ricci–Vega, mar. 15:00 pas avant|non précisé|limitée|R7, 🎾 à 5 seulement|
+|F1 Laval–Rodez, lun. 20:45|Ligue 2 de Valmorie, décalé|limitée|R3 🚀, R4 🎲|
+
+Pistes abandonnées : Lind (fatigue déjà payée, prix proxy faible) et T5 (pile ou face). La règle d'abandon inconnue a fait préférer Faure à Weber pour le ⭐.
+
+## 🎾 Fiches tennis et 🔬 dossiers finalistes
+
+**[T1] Weber / Lind, dossier finaliste.** Pinnacle 1,40/3,05 (marge 4,2%) donne Weber 69,7% en power, 68,5% en multiplicatif ; Betclic 1,44/2,62 (7,6%), 66,3%. Weber sort d'une finale (5 matchs en 6 jours) : niveau récent élevé, charge réelle. Lind, qualifiée (3 matchs), a probablement le rythme du site, sans malus automatique. L'écart entre books porte surtout sur Lind (2,62 contre 3,05), plutôt marge Betclic sur l'outsider qu'information visible. Weber 1,44 : EV proxy +0,4% power, −1,3% multiplicatif, −7,1% à la borne basse ; Lind 2,62, −20,7%. Objection : un abandon en cours de match, plausible après cette semaine, serait perdu ou annulé selon une règle inconnue. Je retiens Weber plutôt que Lind, car la fatigue est déjà payée et Betclic paie Lind 14% sous Pinnacle. Bascule sur retrait ou nouvelle physique : Costa remplace Weber dans le 🎾, Ilic dans le 🛡️.
+
+**[T2] Costa / Mayer.** Pinnacle 1,66/2,30 (3,7%) donne Costa 58,5% (58,1% multiplicatif), Betclic 1,70/2,05 55,2%. Sans information : lecture de marché, favorite modérée. Costa 1,70 (EV proxy −0,5%) contre Mayer 2,05 (−15,0%). Verdict : jambe du 🚀, remplaçante du 🎾.
+
+**[T3] Faure / Olsen, dossier finaliste.** Pinnacle 1,27/4,00 (3,7%) donne Faure 77,4% en power, 75,9% en multiplicatif ; Betclic 1,30/3,40 (6,3%), 74,6% et 72,3%. Sans nouvelle, ce qui ne prouve pas une forme parfaite, l'estimation reste de marché, en tier S sur toute la fourchette 72,3–77,4%. Faure 1,30 : EV proxy +0,6% power, −1,3% multiplicatif ; Olsen 3,40, −23,1%. Objection : protection chère et dossier pauvre, une surprise suffit. Atout décisif : décision mardi 11:00 avec la cote Winamax et les nouvelles. Bascule sur forfait : Ilic en simple.
+
+**[T4] Ilic / Moreau.** Pinnacle 1,50/2,70 (3,7%) donne Ilic 65,1% (64,3%), Betclic 1,52/2,45 62,9%. Tournoi et surface non précisés. Ilic 1,52 (−1,1%) contre Moreau 2,45 (−14,5%). Verdict : troisième jambe du 🎾, la moins probable, et variante 🛡️ avec Faure.
+
+**[T5] Ricci / Vega.** Pinnacle 1,90/1,95 (3,9%) donne Ricci 50,7% et Vega 49,3% (50,6/49,4 multiplicatif), Betclic 1,88/1,90 50,3%. Pile ou face sans information ; prix proxy les plus éloignés de Pinnacle (Ricci −4,7%, Vega −6,3%). Verdict : seule cinquième jambe possible du 🎾.
+
+## ⚽ Football
+
+**[F1] Laval-sur-Orne / Rodez-les-Monts, lundi 20:45.** Pinnacle 1,92/3,55/4,30 (3,5%) donne 50,9/27,0/22,1% en power (50,3/27,2/22,5% en multiplicatif, somme 100%) ; Betclic 1,95/3,30/3,90 (7,2%), 48,9/27,8/23,3%. Laval reste sur trois victoires contre des adversaires inconnus. Les deux défenseurs titulaires absents de Rodez, annoncés vendredi, sont intégrés ; remplaçants inconnus. Lecture : favori à domicile à 51%, nul (27%) comme principal risque. Laval vainqueur 1,95 (EV proxy −0,7%) ; remboursé si nul, équilibre 1,44 (1,45 multiplicatif), prix à relever ; double chance 1N 77,9%, équilibre 1,29, à relever. Je retiens le remboursé si nul pour le 🎲, car il neutralise le nul sans toucher aux 50,9% de victoire ; la victoire sèche sert le 🚀. Rodez 3,90 (−13,8%) écarté.
+
+## 🏆 Comparaison des tickets
+
+**⭐ à 1, 2 ou 3 jambes** (chances power, multiplicatif entre parenthèses)
+
+|Candidat|Cote|Chances|Pourquoi ce rang|
+|---|---|---|---|
+|R5 Faure|1,30|77,4% (75,9)|⭐, meilleure chance, contrôle H-1|
+|R1 Weber, lundi|1,44|69,7% (68,5)|EV voisine, −7,7 points, abandon|
+|R1+R5|1,872|54,0% (52,0)|−23,4 points, EV +1,0/−2,6%|
+|R5+R1+R6|2,845|35,1% (33,4)|marges cumulées, EV −0,1/−4,8%|
+|R3 Laval|1,95|50,9% (50,3)|nul à 27%, EV −0,7/−1,9%|
+
+Je retiens le simple Faure : les jambes ajoutées retirent 23 à 42 points de chance sans prix plus robuste (signe de l'EV selon la méthode), et seul le simple attend la vraie cote Winamax.
+
+**🎾 à 3, 4 ou 5 matchs** (192 constructions énumérées, un marché par match)
+
+|Ticket|Cote|Chances|Compromis|
+|---|---|---|---|
+|3, R5+R1+R6|2,845|35,1% (33,4)|principal, chance la plus haute|
+|3, R5+R1+R2|3,182|31,6% (30,2)|EV +0,5/−3,8%, écart sans portée|
+|3, R5+R6+R2|3,359|29,5% (28,3)|sans Weber, remplacement|
+|4, +R2|4,837|20,6% (19,4)|−14,6 points (−41%) pour ×1,70|
+|5, +R2+R7|9,094|10,4% (9,8)|encore −10,1 points (−49%) pour ×1,88|
+
+Je retiens trois matchs : les jambes 4 et 5 n'ajoutent que du paiement, la cinquième étant un pile ou face au pire prix proxy. Variante tout mardi R5+R6+R7 (3,715 ; 25,5%), contrôlable à H-1 mais à −9,6 points.
+
+**🛡️** R1+R5 (1,872 ; 54,0% ; EV +1,0/−2,6%) bat, à prix comparable, R5+R6 (1,976 ; 50,4% ; −0,5/−3,6%, tout mardi, sans Weber) et R1+R6 (2,189 ; 45,4%). Aucune paire sans match commun entre 1,75 et 2,10, donc pas de bis.
+
+**🚀** R2+R3 (3,315 ; 29,8%) face à R1+R3 (2,808 ; 35,5%) et R1+R2 (2,448 ; 40,8%) : écarts d'EV proxy ≤ 1,1 point, sans portée. Je retiens Costa + Laval, seul assemblage 2–4 sans Weber ni Faure : une vraie alternative du menu.
+
+Hypothèses : matchs quasi indépendants (même tournoi, sans corrélation chiffrée), erreur commune possible puisque toutes les p viennent de Pinnacle.
+
+## 🟢 Value et relevé
+
+Aucune value : prix Winamax non lu, écarts positifs au proxy (Weber +0,4%, Faure +0,6%) effacés en multiplicatif. Pistes sur Winamax : Weber ≥ 1,46, Faure ≥ 1,32 (équilibre sous les deux méthodes), même alors 🟡 fragile, négative à la borne basse.
+
+## 📋 Fiche finale
+
+**A. Calendrier**
+
+- Lun. 16:00–16:55 : Winamax rétabli ? Cotes R1/R5/R6, règle d'abandon, Weber au programme ; placer 🛡️ et 🎾 avant 17:00.
+- Lun. 17:00 T1 ; 🚀 avant 19:30, donc avant les compositions de F1 (compromis assumé) ; vers 19:45, compositions pour le 🎲 ; 20:45 F1.
+- Mar. 11:00 : ⭐ Faure, cote et statut ; 12:00 T3 ; 13:30 pas avant T4 ; 15:00 pas avant T5.
+
+**B. Registre unique et paris**
+
+R1 Weber vainqueur, Weber–Lind (Brévent WTA 250, lun. 16/11 17:00 fixe), 1,44 Betclic 14:45 ⚠️, abandon non vérifié, 69,7% Pinnacle power
+
+R2 Costa vainqueur, Costa–Mayer (Brévent, lun. 16/11 19:30 pas avant), 1,70 Betclic 14:45 ⚠️, abandon non vérifié, 58,5% Pinnacle power
+
+R3 Laval vainqueur, 1N2 temps réglementaire, Laval–Rodez (Ligue 2 de Valmorie, lun. 16/11 20:45), 1,95 Betclic 14:45 ⚠️, 50,9% Pinnacle power
+
+R4 Laval remboursé si nul, temps réglementaire, Laval–Rodez (lun. 16/11 20:45), prix à relever, gain 50,9%/remb. 27,0%/perte 22,1% Pinnacle power
+
+R5 Faure vainqueur, Faure–Olsen (Brévent, mar. 17/11 12:00 fixe), 1,30 Betclic 14:45 ⚠️, abandon non vérifié, 77,4% Pinnacle power
+
+R6 Ilic vainqueur, Ilic–Moreau (tournoi non précisé, mar. 17/11 13:30 pas avant), 1,52 Betclic 14:45 ⚠️, abandon non vérifié, 65,1% Pinnacle power
+
+R7 Ricci vainqueur, Ricci–Vega (tournoi non précisé, mar. 17/11 15:00 pas avant), 1,88 Betclic 14:45 ⚠️, abandon non vérifié, 50,7% Pinnacle power
+
+🎾 **MON COMBINÉ TENNIS PRINCIPAL : 3 MATCHS, R5 + R1 + R6, 2,845, 35,1%** (récréatif, ⚠️ à confirmer)
+
+Pourquoi : Faure, favorite la plus nette ; Weber, finaliste, charge déjà payée ; Ilic, favorite nette, tournoi à préciser.
+
+Produit théorique (la cote Winamax acceptée prime), indépendance supposée, équilibre 2,85 (3,00 multiplicatif). Jambe la plus discutable : Weber, dont l'abandon perdrait le ticket ou le ramènerait à 1,976 si annulé. Avant 17:00, lire les règles d'abandon et de forfait. Remplacement : Costa pour Weber (3,359 ; 29,5%). Trois matchs, car les jambes suivantes n'ajoutent aucune lecture.
+
+🛡️ **R1 + R5, Weber + Faure, 1,872, 54,0%** (récréatif). Pourquoi : les deux jambes les plus probables, au plus près de 1,90. Avant 17:00, cote ≥ 1,86 pour l'équilibre (1,93 multiplicatif). Plan B : Faure + Ilic (1,976 ; 50,4%).
+
+⭐ **Choix principal : R5 Faure vainqueur, 1,30, 77,4%** (piste de value à confirmer). Pourquoi : meilleure chance, prix à l'équilibre. Mardi 11:00, vérifier Faure et la cote Winamax, value seulement ≥ 1,32. Plan B : R6 Ilic en simple.
+
+🎲 **R4 Laval remboursé si nul, prix à relever** (plaisir). Pourquoi : il neutralise le nul (27%). EV = 0,509 × (cote − 1) − 0,221, équilibre 1,44. Avant : compositions. Plan B : R3 si le marché manque.
+
+🚀 **R2 + R3, Costa + Laval, 3,315, 29,8%** (plaisir). Pourquoi : soirée de lundi sans Weber ni Faure. Équilibre 3,36 (3,43 multiplicatif). Plan B : Weber + Laval (2,808 ; 35,5%).
+
+Un simple et un ticket seulement : ⭐ Faure et 🚀 Costa + Laval, sans match commun.
+
+**C. Tier list** (p_retenue et fourchette ; qualité N2 partout, marché seul, limites nommées)
+
+Tennis : S, R5 Faure 77,4% (72,3–77,4), ⭐🛡️🎾 ; A, R1 Weber 69,7% (64,5–69,7), 🛡️🎾 ; A, R6 Ilic 65,1% (61,7–65,1), 🎾 ; B, R2 Costa 58,5% (54,7–58,5), 🚀 ; B, R7 Ricci 50,7% (50,3–50,7), 🎾 à 5 ; D, Lind 30,3%, écartée.
+
+Football : B/C, R3 Laval 50,9% (47,8–50,9), 🚀 ; B/C, R4 remboursé si nul, gain 50,9%, remboursement 27,0%, perte 22,1%, 🎲 ; D, Rodez 22,1%, écarté.
+
+**D. Kit**
+
+1. 🚀 + 1 : ajouter Faure, 4,31 pour 23,1% (−6,7 points, −23%).
+2. Simple + 1 : Faure + Weber, soit le 🛡️.
+3. 🛡️ plus simple : Faure + Ilic, tout mardi (1,976 ; 50,4%).
+4. 🎲 alternative : Laval vainqueur, R3.
+5. 🎉 : pas d'alternative utile, la cote 5–15 exigeant T5 ou des outsiders à −14 à −23% au proxy.
+6. À éviter : Lind + Laval (5,109 ; EV proxy −21%), deux histoires déjà payées ; 🛡️ + Ricci (3,519 ; 27,4%), un pile ou face pour gonfler la cote.
+7. 🎾 : Costa pour Weber (3,359 ; 29,5%), ou variante 4 matchs avec Costa (4,837 ; 20,6%).
+
+**E.** Limite du jour : hors ligne et Winamax inaccessible, cotes et règle d'abandon à confirmer avant de jouer. Aucune promesse de gain ; 18+.

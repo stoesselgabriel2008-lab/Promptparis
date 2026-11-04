@@ -1,0 +1,112 @@
+1. 📌 DÉCISION
+Préparé le jeudi 12 novembre 2026 à 11:30 (Paris), horizon jeudi et nuit NBA, sports : tennis, football, NBA. Base : référence indépendante (Pinnacle via un comparateur qui le nomme), cotes Winamax ✅ 11:10–11:15, hors ligne.
+
+⭐ CHOIX PRINCIPAL : **Columbus Comets vainqueur** (R5, NBA, Comets – Arrows, vendredi 13/11 01:00, prolongations incluses), **1,62 ✅ 11:12**, chance 64,3 %, EV +4,2 % (prudente +1,0 %), 🟢 Value estimée **à valider seulement après le rapport NBA du jour**.
+Pourquoi lui : seule EV prudente positive du jour (1,62 contre 1,55 sans marge chez Pinnacle, et encore au-dessus avec 2 points de marge d'erreur). Le deuxième ticket, Brandt + Comets, tombe à −2,2 % d'EV prudente (Brandt coûte 3,2 points) ; le meilleur sans M5, Varenne seul, est à −3,5 %.
+Il reste mon choix tant que le rapport n'apporte rien de défavorable aux Comets et que la cote reste ≥ 1,55 (Pinnacle ≤ 1,52), le 🟢 exigeant 1,61 ; sinon Varenne vainqueur (R7, 1,75) après les compositions.
+Avant de cliquer : 1) rapport du jour (17–19 h) sans absence chez les Comets ni retour chez les Arrows ; 2) Winamax ≥ 1,61 pour le 🟢 ; 3) Pinnacle Comets ≤ 1,52, sinon plancher à marge constante 1,63 (Pinnacle 1,54) ou 1,65 (1,56).
+
+Menu (alternatives, pas à cumuler) :
+🎯 = ⭐.
+🛡️ Brandt + Comets, 2,03, 51,1 %, EV +3,5 % (−2,2 %), 🟡, après le rapport NBA et avant 18:59.
+🎾 Arendt + Saric + Brandt, 2,36, 42,4 %, EV −0,2 % (−7,9 %), sans label, avant 12:59.
+🎲 Plus de 2,5 buts Varenne – Lisle, 1,85, 53,2 %, EV −1,6 % (−5,3 %), sans label, 19:45–20:44.
+🚀 = 🛡️ ; bis si le rapport tarde : Comets + Varenne, 2,84.
+🎉 non servi (facultatif) : les jambes défendables plafonnent à 4,02.
+🟡 Arendt seul, 1,30 : +0,8 % (−1,9 %), négatif en multiplicatif. Valente, 1,22 : +1,1 % (−1,4 %), qualité C, déconseillé.
+Exposition : M5 dans ⭐/🎯 et 🛡️/🚀, M4 dans 🛡️ et 🎾, M7 dans 🎲 et le plan B.
+
+2. 🔭 COUVERTURE
+Matchs (à venir, offre Winamax) : M1–M4 Open de Lisière (ATP 250, dur intérieur), 8es, jeudi ; M5–M6 NBA, vendredi 01:00 et 01:30 ; M7 Ligue de Valmorie D1, 14e journée, jeudi 20:45.
+Tennis : 4 recensés, présélectionnés (favoris, p_ref ≥ 68 %) et approfondis ; Valente exclu des tickets principaux (qualité C) ; outsiders écartés (EV −16 % à −28 %).
+NBA : M5 retenu sur le prix, M6 conditionnel (titulaire des Lynx Questionable), Arrows et Pines écartés (−18 % et −15 %).
+Football : Varenne à l'équilibre, plus de 2,5 buts en 🎲, nul, Lisle et moins de 2,5 écartés (−9 %, −16 %, −9 %).
+Rugby, NHL, basket européen : aucune rencontre dans les données.
+Limites : prix figés, une seule référence (dispersion non mesurable), règle d'abandon tennis et règlement football non vérifiés, aucun handicap, total tennis ou NBA, statistique joueur ni MyMatch (🎲 limité au total de M7).
+Effet de l'exploration : aucun favori tennis n'a d'EV prudente positive ; le seul écart est un prix NBA.
+
+3. 📒 REGISTRE
+Conventions : cotes Winamax ✅ (tennis 11:10, NBA 11:12, football 11:15) ; référence Pinnacle (11:05, 11:06, 11:08) ; méthode power, contrôle multiplicatif (écart ≤ 1,8 point) ; fourchette ∓2 points ; aucun ajustement (p_ret = p_ref) ; hElo : Tennis Abstract, lundi, contrôle seulement. Règles : tennis, abandon non vérifié, abandon de mon joueur compté perdu (autre cas : cote ramenée à 1) ; basket, prolongations incluses (vérifié) ; football, temps réglementaire présumé (non vérifié).
+Ordre : match, sélection, cote, Pinnacle, p_ret [fourchette], EV c/p, marge Winamax, qualité, tier.
+R1 M1 13:00 fixe, Arendt, 1,30, 1,27/4,05, 77,5 % [75,5–79,5], +0,8/−1,9 %, 5,9 %, B, tier S, hElo 72,8 %, 🟡.
+R2 M2 14:30 pas avant, Saric, 1,45, 1,42/2,98, 68,8 % [66,8–70,8], −0,2/−3,1 %, 6,0 %, B, tier A/S, hElo 57,8 % : écart 11 points inexpliqué.
+R3 M3 16:00 pas avant, Valente, 1,22, 1,19/5,10, 82,8 % [80,8–84,8], +1,1/−1,4 %, 5,8 %, C, tier S, hElo 75,8 %.
+R4 M4 19:00 fixe, Brandt, 1,25, 1,24/4,40, 79,5 % [77,5–81,5], −0,7/−3,2 %, 5,6 %, B, tier S, hElo 73,8 %.
+R5 M5 ven. 01:00, Comets, 1,62, 1,52/2,66, 64,3 % [62,3–66,3], +4,2/+1,0 %, 5,2 %, A après le rapport (B avant), tier A, condition : rapport et cote ≥ 1,61.
+R6 M6 ven. 01:30, Lynx, 1,34, 1,33/3,55, 73,9 % [71,9–75,9], −1,0/−3,6 %, 5,4 %, B, tier S, condition : titulaire déclaré apte puis prix recalculé.
+R7 M7 20:45, Varenne (1X2), 1,75, 1,72/3,90/5,20, 57,2 % [55,2–59,2], +0,0/−3,5 %, 5,9 %, B, tier B, condition : compositions de 19:45.
+R8 M7 20:45, plus de 2,5 buts, 1,85, 1,83/2,07, 53,2 % [51,2–55,2], −1,6/−5,3 %, 5,3 %, B, tier B, même condition. Cohérence Poisson (λ 1,82/0,98) : nul 22,8 % contre 24,6 %.
+
+4. ⚖️ COMPARAISON DES TICKETS
+Même convention pour tous : jambe NBA après le rapport du jour, jambe football après les compositions, combiné validé avant sa première jambe. Énumération complète, une sélection par match.
+Ticket | Cote | Chance, EV c/p | Pourquoi ce rang
+1 jambe, Comets | 1,62 | 64,3 %, +4,2/+1,0 | ⭐, seule EV prudente positive
+2, Brandt + Comets | 2,03 | 51,1 %, +3,5/−2,2 | 🛡️/🚀, chance −13,2 points (−20,5 %)
+3, + Lynx | 2,71 | 37,8 %, +2,5/−5,8 | conditionnel, chance −13,3 points (−26 %)
+4–5 jambes | – | – | aucun admissible : M5/M6 avant leur rapport, M7 avant les compositions, ou Valente
+🎾 3, Arendt + Saric + Brandt | 2,36 | 42,4 %, −0,2/−7,9 | seule longueur admissible
+🎾 4, + Valente | 2,87 | 35,1 %, +0,9/−9,2 | qualité C, chance −17 %
+🎾 5 | – | – | impossible, 4 matchs au programme
+Arendt + Comets | 2,11 | 49,9 %, +5,0/−0,9 | avant 13:00, donc sans rapport NBA : écarté
+Mono-sport : tennis Arendt seul (1,30, +0,8/−1,9), NBA Comets, football Varenne (1,75, +0,0/−3,5) ; multisport Brandt + Comets. Groupe de tête du 🚀 (à moins d'un point) : Brandt + Comets −2,2, Comets + Varenne −2,5, Comets + Lynx −2,7 ; à qualité égale (B), Brandt + Comets l'emporte par le moins de conditions (une).
+
+5. 🔬 DOSSIERS DES FINALISTES
+R5 Comets (⭐), 1,62, p_ret 64,3 % (Pinnacle). Base : écart de prix de +4,2 %. L'absence du meilleur marqueur des Arrows (24,1 points, Out au rapport officiel d'hier) et leur back-to-back (calendrier) précèdent les deux cotes : déjà dans le prix (ils expliquent le 1,52), aucun ajustement. Objection la plus forte : une seule référence ; en multiplicatif, EV prudente −0,1 % ; l'écart peut se refermer ; le rapport peut ajouter une absence ; après 23:30, plus de contrôle. Valider maintenant figerait 1,62 sans le rapport (qualité B) : déconseillé. Alternative : Arrows 2,30 (−18 %). Bascule : 1,61 et 1,55 (voir décision).
+R7 Varenne (premier concurrent hors M5), 1,75, 57,2 %. Classement (2e contre 15e) et série (8 victoires en 13) : déjà dans le prix ; Winamax égale le prix sans marge (1,75). Objection : compositions inconnues avant 19:45, règle non vérifiée. Alternative : plus de 2,5 buts. Bascule : ⭐ si Comets sous 1,55 ou défavorisés par le rapport.
+R1 Arendt (🎾), 1,30, 77,5 %, hElo 72,8 % (écart 4,7, toléré). Objection : abandon (repère ≈ 3 % des matchs). En combiné : chance × 0,775, (1 + EV prudente) × 0,98.
+R2 Saric (🎾, jambe la plus fragile), 1,45, 68,8 %. hElo 57,8 % : écart de 11 points, au-delà du seuil de 8–10, que ces données n'expliquent pas : réserve, pas un pari sur Okafor (2,70 contre 3,20 sans marge, −15,8 %). Remplacement : aucun admissible ; sans Saric, pas de 🎾.
+R4 Brandt (🎾, 🛡️), 1,25, 79,5 %, hElo 73,8 % (écart 5,7) ; aucune nouvelle physique, ce qui n'est pas un certificat de forme.
+R3 Valente (écarté) : abandon il y a 6 jours (dos), temps mort médical avant-hier, aucune déclaration, cote peu bougée. Aucune méthode ne chiffre l'effet : pas d'ajustement, mais une porte (qualité C, règle d'abandon décisive non vérifiée).
+Seconde passe : aucun facteur déjà dans le prix compté comme avantage ; chiffres = registre ; aucune jambe de remplissage (Brandt n'entre que parce que le 🛡️ exige deux jambes) ; duel non serré (3,2 points au moins) ; 🟢 mince (une référence, méthode power).
+Contrôle final fait (données, chiffres, calculs, conventions, labels, règles, dépendances, formats) : rien à corriger ; doubles non vérifiés.
+
+7. 📋 FICHE FINALE
+A. Calendrier (Paris)
+Avant 12:59 : 🎾 (M1 à 13:00).
+13:00 M1, 14:30 pas avant M2, 16:00 pas avant M3.
+17:00–19:00 : rapport NBA du jour (Comets, titulaire Questionable des Lynx).
+Avant 18:59 : 🛡️/🚀, si le rapport est sorti.
+19:00 M4.
+19:45 : compositions M7 ; 🎲 ou 🚀 bis jusqu'à 20:44.
+20:45 M7.
+Jusqu'à 23:30 : ⭐.
+Vendredi 01:00 M5, 01:30 M6.
+
+B. Paris
+⭐ = 🎯, 🟢 Value estimée sous condition : **Comets vainqueur, 1,62, 64 %**
+— NBA, Columbus Comets – Austin Arrows, vendredi 13/11 01:00
+— Vainqueur prolongations incluses, Winamax 1,62 ✅ (11:12), R5
+— Pourquoi : seule EV prudente positive du jour (1,62 contre 1,55 sans marge chez Pinnacle).
+— Avant de cliquer : **rapport du jour sans rien de défavorable aux Comets, cote ≥ 1,61** (1,63 si Pinnacle passe à 1,54, 1,65 à 1,56) ; de 1,55 à 1,60, pari sans value prudente.
+— Plan B : sous 1,55 ou rapport défavorable, Varenne vainqueur à 1,75 après 19:45.
+
+🛡️ = 🚀, 🟡 Value fragile : **Brandt + Comets, 2,03, 51 %**
+— Tennis, Open de Lisière, E. Brandt – N. Ibarra, jeudi 19:00, Brandt vainqueur, 1,25 ✅, R4
+— NBA, Comets – Arrows, vendredi 01:00, Comets vainqueur prolongations incluses, 1,62 ✅, R5
+— Cote 2,03 (celle affichée par Winamax prime), P 51,1 %, EV +3,5 % (−2,2 %), indépendance supposée, abandon de Brandt compté perdu.
+— Pourquoi : meilleur ticket à deux jambes validable après le rapport NBA.
+— Avant de cliquer : **rapport sorti, rien de défavorable aux Comets, avant 18:59 ; Comets ≥ 1,61**.
+— Plan B : rapport absent à 18:55, pas de 🛡️ ; 🚀 bis Comets + Varenne, 2,84, 36,8 %, EV +4,2 % (−2,5 %), entre 19:45 et 20:44.
+
+🎾, sans label : **Arendt + Saric + Brandt, 2,36, 42 %**
+— Tennis, Open de Lisière (ATP 250, dur intérieur), 8es, jeudi 12/11
+— 13:00, Arendt vainqueur, 1,30 ✅, R1
+— 14:30 pas avant, Saric vainqueur, 1,45 ✅, R2
+— 19:00, Brandt vainqueur, 1,25 ✅, R4
+— Cote 2,36, P 42,4 %, EV −0,2 % (−7,9 %), indépendance supposée ; environ 9 % de risque d'un abandon (compté perdu pour mon joueur).
+— Pourquoi : seuls trois matchs de tennis admissibles.
+— Avant de cliquer : **avant 12:59, lire la règle d'abandon** ; équilibre à 2,37.
+— Plan B : aucun remplaçant admissible ; sans Saric, pas de 🎾.
+
+🎲, sans label : **Plus de 2,5 buts, 1,85, 53 %**
+— Football, FC Varenne – Olympique Lisle, Ligue de Valmorie D1, 14e journée, jeudi 20:45
+— Total de buts, temps réglementaire présumé, Winamax 1,85 ✅ (11:15), R8
+— Pourquoi : marché vivant le moins coûteux (moins de 2,5 : −8,8 %) ; sans donnée de buts, lecture limitée au prix ; ce prix rend en moyenne 98,4 % de la mise.
+— Avant de cliquer : **compositions de 19:45 sans absence offensive majeure** ; prix sans marge 1,88.
+— Plan B : aucun autre marché vivant lisible, ne rien jouer.
+
+🎉 non servi (facultatif).
+
+C. Si je ne devais jouer qu'un pari : Comets vainqueur, après le rapport NBA du jour, seulement à 1,61 ou plus.
+
+D. Rappel : value mince, adossée à un seul prix de référence qui peut bouger d'ici ce soir ; vérifier prix, rapport NBA et compositions avant de jouer ; aucune promesse de gain ; 18+.

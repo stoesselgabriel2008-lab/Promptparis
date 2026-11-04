@@ -1,0 +1,27 @@
+OK  SOL6 3.9 exemple jambe 1,30 : EV prudente −1,85 %  — -1.850%
+OK  SOL6 3.9 exemple jambe 1,30 : perte relative de chance 22,5 %
+OK  SOL6 3.7 cote minimale 1/0,62 arrondie au centième supérieur = 1,62  — 1.6129
+OK  SOL6 6.2.4 mélange des minutes 19,7 % vs 22,1 %  — 0.1967 0.2212
+OK  SOL6 2.2 base Winamax seule : EV identique pour toutes les issues (multiplicative)  — [-0.05940594059405924, -0.05940594059405946]
+OK  Méthode power : le favori garde une EV moins négative que l'outsider (biais favori-outsider)  — [-0.0278, -0.1554]
+OK  SOL6 6.1.4 abandons : 1-(0,97)^5 ≈ une chance sur sept  — 0.1413
+OK  SOL6 3.9 bonus sur gain net : retour = 1 + (cote-1)(1+b)
+OK  R★ : ajouter une jambe d'EV prudente < 0 fait toujours baisser l'EV prudente du ticket (et > 0 la fait monter)  — violations=0 / 20000
+OK  R★ : deux jambes d'EV prudente > 0 de sports différents forment un double meilleur que chaque simple  — 0.0695 vs 0.0360,0.0323
+OK  R★ : la chance de toucher ne départage pas deux cotes différentes à prix égal (ordre inchangé dans les deux sens)  — EVp -0.0400 / -0.0400, P 0.66 / 0.34
+OK  R★ : deux jambes d'un même groupe de dépendance ne sont jamais combinées comme indépendantes
+OK  Seuil de bascule (3.10) : à la cote plancher, l'EV prudente de X rejoint celle de Y (C1 : 1,60)  — plancher=1.6 EVp(X à plancher)=-0.0027 EVp(Y)=-0.0090
+OK  SOL5.16 ex. A : 0,75×1,25−1 = −6,25 % ; 0,55×1,90−1 = +4,5 %
+OK  SOL5.16 ex. B : 0,7×0,7=49 % ; ×0,75 = 36,75 %
+OK  SOL5.16 ex. C (DNB dans un ticket) : EV = +0,80 %, profit 54 %, gain plein 36 %
+OK  SOL5.16 ex. D : 60 min 28,35 % ; 90 min 39,35 %
+OK  SOL5.16 ex. E : médianes 80 % ; moyennes 100 %
+OK  SOL5.16 ex. G : demi-gain 1,40 ; ×1,50 = 2,10 ; demi-perte ×1,50 = 0,75
+OK  SOL5.16 ex. H : 1,40×1,35 = 1,89 ; 50,4 % ; EV −4,744 % ; 3,42 ; 26 % ; −11,08 %
+OK  SOL5.16 9.6 : 80 %^3/^4/^5 = 51,2 / 40,96 / 32,768 %
+OK  Formule Poisson P(plus de 2,5) conforme à la somme de la grille  — 0.481570
+OK  SOL6 fiche : exemple de registre (p_ref 71,0 % ; EV +0,8 % ; prudente −2,0 % ; marge Winamax 6,8 %)  — 0.7099 +0.0080 -0.0204 0.0679
+OK  SOL6 3.10 exemple : (1 − 0,025 − 0,01) / 0,613 = 1,574 → plancher 1,58
+OK  SOL6 carte d'exemple : Comets EV +4,2 %, prudente −0,6 % (±3 avant rapport), plancher 1,58 avec t = −1 point exact au centime  — EVp -0.00648 Y -0.02487 plancher 1.58
+
+25/25 contrôles réussis

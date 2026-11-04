@@ -1,0 +1,132 @@
+# Analyse du jour (SOL 5.17, version rapide)
+
+Préparée mercredi 18 novembre 2026 à 16:00 (Paris), horizon ce soir et nuit NBA (jeudi 19/11). Seules données : captures Winamax de 15:40 et notes du dossier, sans comparateur ni recherche. Classements et formes annoncés mais non fournis : non utilisés. Dévig power, contrôle multiplicatif, calculs Python. Codes S : registre unique (fiche finale, C), repris à l'identique partout.
+
+## 📌 L'essentiel
+
+- **⭐ Choix principal : Ferro vainqueur (S1), simple à 1,25, 77,8%, ✅ Winamax, sans value.** Il bat la meilleure paire (Harbor + Montval, 2,015, 46,8%) et le meilleur triple (Ferro + Harbor + Montval, 2,519, 36,4%), qui empilent les marges.
+- **🎾 3 matchs : Ferro 1,25 + Ryan 1,62 + Pires 1,72 = 3,483, 24,9% (base marché).** Risque principal : Pires, match le plus serré. 4 ou 5 matchs impossibles (3 au programme).
+- **🛡️ Ticket du jour : Harbor 1,30 + Montval 1,55 = 2,015, 46,8%, ✅ Winamax.**
+- **🎲 Doe plus de 25,5 points, 1,85, 51,4%. 🎲 bis Montval gagne et les deux équipes marquent, 3,40, non estimée.**
+- **🚀 Doe plus de 25,5 + Bolts, 3,33, 27,3%.** 🎉 en kit.
+- 🟢/🟡 vides : EV toutes négatives (base Winamax seule), formats récréatifs maintenus.
+- À confirmer : ordre de passage, abandon, XI de Montval, statut de Ridge, minutes de Doe. Doublons : Ferro (⭐, 🎾), Montval (🛡️, 🎲 bis), match B1 (🛡️, 🎲, 🚀).
+
+## 🔭 Couverture
+
+Tennis, Duncastle Indoor (ATP 500, dur intérieur, meilleur des trois sets à vérifier) : 3 rencontres à venir, 0 analyse complète, 3 limitées (cotes seules), 0 en attente, aucune commencée (3 = 0 + 3 + 0). Registre : T1 Ferro/Nagy 17:00 (⭐, 🎾), T2 Ryan/Coste 18:30 (🎾), T3 Gallo/Pires 20:00 (🎾, jambe fragile). Autres circuits absents des données, offre Winamax non vérifiée hors captures.
+
+Football (Coupe de Valmorie, 8es) et NBA (périmètre 5.17) : deux matchs chacun, étudiés sur le marché. Rugby, NHL : rien. Aucune absence majeure, rapport NBA de la veille. Pistes écartées : outsiders plus margés, prix isolés, F2.
+
+## 🎾 Fiches tennis
+
+**[T1] Ferro/Nagy, ATP 500, tour non précisé, 17:00, à venir.** Aucune donnée de service, de forme ou de physique : lecture par le prix. Seul marché proposé, 1,25/3,80 (marge 6,3%) : Ferro 77,8% en power, 75,2% en multiplicatif ; Nagy coûte −15,5% d'EV, Ferro −2,8%. Objection : Ferro perd environ une fois sur cinq, et l'abandon n'est pas chiffré. Verdict : ⭐ et jambe 🎾.
+
+**[T2] Ryan/Coste, 18:30 (horaire à vérifier).** Ryan 58,4% (1,62), Coste 41,6% (2,20), marge 7,2%, la plus forte du jour. « Ryan gagne 2-0 » à 2,55 est un prix isolé : son point mort (39,2%) exige 67% de victoires de Ryan en deux sets, contre 53% avec des sets indépendants (soit 31,0%). La dépendance entre sets relèverait ce chiffre : non estimée, plafonnée à 58,4%. Je retiens Ryan vainqueur, plus probable et calculable. Verdict : jambe 🎾, 2-0 en kit.
+
+**[T3] Gallo/Pires, 20:00 (horaire à vérifier).** Duel le plus équilibré : Pires 54,8% (1,72), Gallo 45,2% (2,05), marge 6,9%. Sans total ni handicap, l'angle « serré » n'a pas de marché. Pires coûte moins (−5,7% d'EV contre −7,4%), sans fait sportif lisible. Verdict : jambe fragile du 🎾, Gallo en remplacement mieux payé.
+
+## 🔬 Autres dossiers
+
+**[F1] Montval/Saint-Brice, 19:00, 1X2 en temps réglementaire (hors prolongation).** Power 62,4/21,9/15,7% (multiplicatif 60,4/22,8/16,7). Rotation de coupe possible, non documentée ; XI vers 18:00. « Montval gagne et les deux équipes marquent » (3,40, point mort 29,4%) : un Poisson calé sur ce 1X2 (λ 1,87 et 0,81) donne 24,8%, mais déplacer 3 points entre nul et Saint-Brice le fait varier de 16,5 à 35,8%. Sans marché de buts : non estimée (plafond 62,4%). Verdict : Montval au 🛡️, MyMatch en 🎲 bis.
+
+**[F2] Arcy/Vesoul, 21:00.** 41,3/28,1/30,6%. Nul sec exclu, « Arcy remboursé si nul » à relever (équilibre 1,75). Hors tickets.
+
+**[B1] Harbor/Ridge, jeudi 01:00, vainqueur prolongation incluse (à vérifier).** Harbor 75,0% (multiplicatif 73,2%), marge 5,1%. Le statut « Questionable » d'un titulaire de Ridge, publié la veille, ne justifie aucun ajustement (correction 6) ; à relire avant 01:00. « Harbor gagne et plus de 220,5 » (2,40) : sans marché des totaux, non estimable (au plus 75,0%). Doe : marché complet 1,85/1,95, plus de 25,5 à 51,4%, les deux côtés coûtant presque autant (−4,9% contre −5,3%). Ses 26,8 points sur 10 matchs (34,5 minutes) sont une forme déjà intégrée ; cette moyenne ne situe pas sa médiane. Objection : un écart au score couperait ses minutes.
+
+**[B2] Bolts/Mesa, jeudi 02:30.** Bolts 53,1%, Mesa 46,9%, marge 5,1%. Pur marché, validable avec Doe.
+
+## 🏆 Comparaisons
+
+**⭐ par longueur** (EV power ; multiplicatif)
+
+| Candidat | Cote | Chances, EV | Rang |
+|---|---|---|---|
+| Ferro (S1) | 1,25 | 77,8%, −2,8% (−5,9%) | ⭐ |
+| Harbor (S6) | 1,30 | 75,0%, −2,5% (−4,8%) | Challenger |
+| Harbor + Montval | 2,015 | 46,8%, −5,6% (−10,9%) | Meilleure paire |
+| Ferro + Harbor + Montval | 2,519 | 36,4%, −8,3% (−16,2%) | Meilleur triple |
+| 🎾 Ferro + Ryan + Pires | 3,483 | 24,9%, −13,2% (−17,9%) | Paiement max |
+
+Le simple l'emporte : paires et triples empilent des marges qu'aucune référence ne compense. Ferro plutôt que Harbor : prix équivalents (0,3 point d'écart en power, 1,1 en multiplicatif), mais 2,7 points de chance en plus et une décision immédiate, sans statut adverse en suspens ni capture vieille de neuf heures. Bascule : nouvelle physique ou cote changée sur Ferro avant 17:00 ; Harbor devient alors le choix.
+
+**🎾 3/4/5.** Ferro + Ryan + Pires domine les huit combinaisons de vainqueurs en chance et en EV, devant Ferro + Ryan + Gallo (4,151 ; 20,5% ; −14,8%) et Ferro + Coste + Pires (4,73 ; 17,7% ; −16,1%). 4 matchs : une rencontre manque ; 5 : deux ; demain n'est pas fourni.
+
+**🛡️ (1,75–2,10).** Harbor + Montval (2,015 ; 46,8% ; −5,6%), Ferro + Montval (1,9375 ; 48,5% ; −6,0%), Ferro + Ryan (2,025 ; 45,4% ; −8,0%). Je retiens Harbor + Montval : prix un peu meilleur, validation après le XI de Montval, aucun match commun avec le ⭐. Compromis : Harbor figé avant le statut final de Ridge.
+
+**🚀 (2–4).** Doe + Bolts (3,33 ; 27,3% ; −9,1%), Ferro + Doe (2,3125 ; 40,0% ; −7,5%), Harbor + Bolts (2,34 ; 39,8% ; −6,8%). Je retiens Doe + Bolts, validés ensemble après les statuts NBA. Ferro + Doe touche plus mais fige Doe dès 17:00. Harbor + Bolts ferait un second 🛡️ sans angle vivant.
+
+## 🟢 Value et preuves
+
+Aucune value : pas de référence indépendante de Winamax. Relevé : captures Winamax du 18/11 à 15:40 ; prix isolés (S5, S11, S12) non dévigués. Contrôles : marchés sommant à 100%, inclusions respectées (S5 ≤ S4, S11 ≤ S2, S12 ≤ S6), aucun tier ne bascule entre méthodes, aucun nul sec.
+
+## 📋 Fiche finale
+
+**A. Calendrier (Paris)**
+- Avant 17:00 : ⭐ et 🎾 (ordre de passage, forfaits, cote combinée affichée).
+- Vers 18:00 : XI de Montval, puis 🛡️ et 🎲 bis avant 19:00.
+- 18:30 T2, 19:00 F1, 20:00 T3, 21:00 F2.
+- Jeudi avant 01:00 : statuts NBA (Ridge, Doe), puis 🎲 et 🚀. B2 à 02:30.
+
+**B. Mes paris**
+
+**🎾 MON COMBINÉ TENNIS PRINCIPAL : 3 MATCHS · 3,483 · 24,9%**
+- S1 Ferro vainqueur contre Nagy, mercredi 17:00 (fournie), 1,25, 77,8% : net favori du prix.
+- S2 Ryan vainqueur contre Coste, 18:30 (fournie, peut glisser), 1,62, 58,4% : plus sûr que son 2-0.
+- S3 Pires vainqueur contre Gallo, 20:00 (fournie, peut glisser), 1,72, 54,8% : favori du match le plus serré.
+- ATP 500 Duncastle, ✅ Winamax 15:40, abandon à vérifier. Produit théorique (cote affichée prioritaire), indépendance approximative, EV −13,2%. Risque principal et jambe discutable : Pires (match le plus serré). Avant 17:00 : trois matchs maintenus. Remplacement : Gallo pour Pires (4,151 ; 20,5%). Trois matchs : seule longueur possible.
+
+**🛡️ Harbor + Montval · 2,015 · 46,8%**
+- S4 Montval (contre Saint-Brice) 1X2 temps réglementaire, mercredi 19:00, 1,55, 62,4%.
+- S6 Harbor vainqueur contre Ridge, prolongation incluse à vérifier, jeudi 01:00, 1,30, 75,0%.
+- Pourquoi : meilleure paire de la plage. Avant de cliquer : XI de Montval. Plan B : Ferro + Montval (1,9375 ; 48,5%).
+
+**⭐ Ferro vainqueur (S1) · 1,25 · 77,8% · choix principal**
+- Tennis, T1 Ferro/Nagy, ATP 500, mercredi 17:00, ✅ Winamax 15:40, abandon à vérifier.
+- Pourquoi : plus forte chance du jour, décidable sans attente.
+- Avant de cliquer : match non commencé, cote 1,25 (équilibre 1,29 : sans value). Plan B : Harbor (S6, 1,30 ; 75,0%) avant 01:00.
+
+**🎲 Doe plus de 25,5 points (S7) · 1,85 · 51,4%**
+- NBA, Harbor/Ridge, jeudi 01:00, ✅ Winamax 15:40, prolongation et non-participation à vérifier.
+- Pourquoi : angle vivant au marché complet, le moins margé. Avant : Doe actif. Plan B : s'abstenir si ses minutes sont menacées.
+
+**🎲 bis Montval gagne et les deux équipes marquent (S5) · 3,40 · non estimée**
+- Montval/Saint-Brice, mercredi 19:00, temps réglementaire, ✅ Winamax 15:40. Pourquoi : prolonge la lecture Montval, pur plaisir ; même match que le 🛡️. Avant : XI. Plan B : s'abstenir.
+
+**🚀 Doe plus de 25,5 (S7) + Bolts (S8) · 3,33 · 27,3%**
+- Doe 1,85 (51,4%), Harbor/Ridge jeudi 01:00 ; Bolts 1,80 (53,1%), Bolts/Mesa jeudi 02:30, prolongation incluse à vérifier.
+- Pourquoi : validation commune après les statuts NBA. Plan B : Ferro + Doe (2,3125 ; 40,0%).
+
+Si je ne retenais qu'un simple et un ticket : ⭐ Ferro et 🛡️ Harbor + Montval, sans match commun.
+
+**C. Registre unique et tier list** (captures Winamax 18/11 15:40 ; p_retenue = marché Winamax power ; N2 marché complet, N3 prix isolé)
+
+Tennis
+- [S] S1 T1 Ferro/Nagy, mer. 17:00, Ferro vainqueur, 1,25, abandon à vérifier, 77,8%, N2, ⭐ et 🎾.
+- [B] S2 T2 Ryan/Coste, mer. 18:30, Ryan vainqueur, 1,62, abandon à vérifier, 58,4%, N2, 🎾.
+- [B] S3 T3 Gallo/Pires, mer. 20:00, Pires vainqueur, 1,72, abandon à vérifier, 54,8%, N2, 🎾.
+- [C] S10 T3, Gallo vainqueur, 2,05, abandon à vérifier, 45,2%, N2, remplaçant.
+- [C] S9 T2, Coste vainqueur, 2,20, abandon à vérifier, 41,6%, N2, alternative.
+- [non classé] S11 T2, Ryan gagne 2-0, 2,55, abandon à vérifier, non estimée (sets indépendants 31,0%), N3, kit.
+
+Football
+- [A] S4 F1 Montval/Saint-Brice, mer. 19:00, Montval 1X2, 1,55, temps réglementaire, 62,4%, N2, 🛡️.
+- [non classé] S5 F1, Montval gagne et les deux équipes marquent, 3,40, temps réglementaire, non estimée (Poisson 24,8%, 16,5–35,8%), N3, 🎲 bis.
+
+Basket
+- [S] S6 B1 Harbor/Ridge, jeu. 01:00, Harbor vainqueur, 1,30, prolongation incluse à vérifier, 75,0%, N2, 🛡️.
+- [B] S8 B2 Bolts/Mesa, jeu. 02:30, Bolts vainqueur, 1,80, prolongation incluse à vérifier, 53,1%, N2, 🚀.
+- [B] S7 B1, Doe plus de 25,5 points, 1,85, prolongation et absence à vérifier, 51,4%, N2, 🎲 et 🚀.
+- [non classé] S12 B1, Harbor gagne et plus de 220,5 points, 2,40, prolongation à vérifier, non estimable, N3, kit.
+
+**D. Kit**
+1. 🚀 + Ferro : 4,1625, 21,2% (−6,1 points, −22% relatifs), validation avancée à 17:00.
+2. ⭐ + Harbor : 1,625, 58,4% (−19,4 points, −25% relatifs).
+3. 🛡️ sans match commun : Ferro + Ryan (2,025 ; 45,4%), avant 17:00.
+4. 🎲 vivant : Ryan 2-0 (2,55) ou Harbor et plus de 220,5 (2,40), non estimés.
+5. 🎉 : 🎾 + Montval, 5,399, 15,6%, EV −16,0% (−9,4 points).
+6. À éviter : Doe avec Harbor (S6 ou S12) sur un ticket, dépendance non modélisée ; Ryan 2-0 dans le 🎾 (5,48), jambe non estimable et lourdement margée.
+7. 🎾 : Gallo pour Pires (4,151 ; 20,5%) ou Coste pour Ryan (4,73 ; 17,7%) ; ni 4 ni 5 matchs.
+
+**E. Contexte**
+Limite : base Winamax seule, sans données sportives. Relire prix, ordre de passage, XI et statuts NBA avant de jouer. Aucune promesse ; 18+.

@@ -1,0 +1,26 @@
+CAS DE CONTRÔLE FICTIF C1 — noms, compétitions et chiffres inventés ; données figées à l'heure indiquée.
+
+Demande de l'utilisateur : « Analyse du jour. »
+Préparation : jeudi 12 novembre 2026, 11:30 (heure de Paris).
+Accès : aucune recherche possible au-delà de ces données. Cotes Winamax lues dans l'application (captures datées). Référence : Pinnacle, relayé par un comparateur qui le nomme.
+Règlement Winamax : basket — vainqueur prolongations incluses (vérifié dans l'application) ; tennis — règle en cas d'abandon non vérifiée.
+L'utilisateur peut valider ses paris jusqu'à 23:30 ce soir (il dort ensuite).
+
+PROGRAMME ET COTES (vainqueur, sauf mention)
+Tennis — Open de Lisière (ATP 250, dur intérieur), 8es de finale
+M1 · 13:00 (heure fixe) · K. Arendt – P. Lomé · Winamax 11:10 : 1,30 / 3,45 · Pinnacle 11:05 : 1,27 / 4,05
+M2 · 14:30 (pas avant) · D. Saric – J. Okafor · Winamax 11:10 : 1,45 / 2,70 · Pinnacle 11:05 : 1,42 / 2,98
+M3 · 16:00 (pas avant) · T. Valente – R. Hosszu · Winamax 11:10 : 1,22 / 4,20 · Pinnacle 11:05 : 1,19 / 5,10
+M4 · 19:00 (heure fixe) · E. Brandt – N. Ibarra · Winamax 11:10 : 1,25 / 3,90 · Pinnacle 11:05 : 1,24 / 4,40
+Basket — NBA, nuit de jeudi à vendredi
+M5 · vendredi 13/11 01:00 · Columbus Comets – Austin Arrows · Winamax 11:12 : 1,62 / 2,30 · Pinnacle 11:06 : 1,52 / 2,66
+M6 · vendredi 13/11 01:30 · Lakeshore Lynx – Portland Pines · Winamax 11:12 : 1,34 / 3,25 · Pinnacle 11:06 : 1,33 / 3,55
+Football — Ligue de Valmorie (D1), 14e journée
+M7 · 20:45 · FC Varenne – Olympique Lisle · Winamax 1X2 11:15 : 1,75 / 3,70 / 4,60 · Pinnacle 11:08 : 1,72 / 3,90 / 5,20 ; plus/moins de 2,5 buts : Winamax 1,85 / 1,95 · Pinnacle 1,83 / 2,07
+
+INFORMATIONS
+- Valente (M3) a abandonné il y a 6 jours en quart du tournoi précédent (bas du dos). Il a gagné son 1er tour ici avant-hier (6-4 7-6, 1 h 41) avec un temps mort médical pour le dos au 2e set (résumé officiel du tournoi). Aucune déclaration depuis. Sa cote a peu bougé.
+- hElo (Tennis Abstract, lundi) : Arendt 1902, Lomé 1731 ; Saric 1845, Okafor 1790 ; Valente 1910, Hosszu 1712 ; Brandt 1880, Ibarra 1700.
+- NBA, rapport officiel publié hier (veille, 17 h heure locale) : Comets — aucun joueur important listé ; Arrows — meilleur marqueur (24,1 pts/match) Out depuis 3 jours (entorse) ; Lynx — un titulaire Questionable (cheville) ; Pines — rien de notable. Le rapport du jour de match sortira entre 17 h et 19 h (Paris).
+- Les Arrows jouent le 2e soir d'un back-to-back (match hier à Denver), connu depuis la publication du calendrier.
+- Varenne : 2e du championnat, 8 victoires en 13 matchs ; Lisle : 15e. Compositions publiées vers 19:45.

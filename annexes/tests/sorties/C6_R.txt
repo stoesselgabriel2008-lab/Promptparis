@@ -1,0 +1,123 @@
+SOL 6.0, version rapide
+
+1. 📌 DÉCISION
+Préparé le dimanche 15/11/2026 à 13:20 (Paris) avec les données de 11:00 et de 13:20 ; horizon : aujourd'hui et nuit NBA ; tennis, football, basket ; base : référence indépendante (Pinnacle via comparateur), Winamax lu dans l'application ; hors ligne, rien rafraîchi.
+
+Aucune value démontrée : toutes les EV prudentes sont négatives. Le ⭐ est donc le ticket le moins coûteux selon R★ dans la zone 1,50–4,00.
+
+⭐ CHOIX PRINCIPAL : **Aubrac vainqueur (1N2, temps réglementaire)**, R7, Aubrac–Sévérac, 18:00 · **1,62** ⚠️ (Winamax 11:00, à relire) · chance 61,4% · EV −0,6% / prudente −3,8% · sans label (ce prix rend en moyenne 99,4% de la mise).
+Pourquoi lui : meilleure EV prudente de la zone, en une jambe. Harbor (−4,2%, provisoire) et Kerr × Adeyemi (−4,7%) sont à moins d'un point, mais l'un attend un statut critique (19:00), l'autre ajoute une jambe : duel serré, tranché par la simplicité.
+Il reste mon choix tant que : cote ≥ **1,62** (bascule face à Harbor ; à 1,60–1,61, devant par simplicité seulement) et composition sans absence décisive. Sinon : Harbor en simple après le rapport NBA s'il passe son seuil, ou abstention.
+Avant de cliquer (entre 17:00 et 18:00, pas maintenant) : 1) composition officielle d'Aubrac (gardien, axe, meneur, buteur habituels) ; 2) cote relue ≥ 1,62, p_ref recalculée si Pinnacle a bougé.
+
+Menu (alternatives, pas à cumuler) :
+🎯 Kerr 1,45 (R1) : 68,9%, EV −0,1/−3,0% ; meilleur simple à 1,30 ou plus, hors zone du ⭐.
+🛡️ Kerr × Stein 1,83 : 54,3%, EV −0,8/−6,1%.
+🎾 Kerr × Adeyemi × Stein 2,19 : 45,7%, EV +0,2/−7,7% ; 🟡 au sens strict (−5,6% en multiplicative), pas un avantage.
+🎲 Non servi : aucun marché vivant coté.
+🚀 Stein × Aubrac 2,04 : 48,4%, EV −1,2/−6,9% ; après la compo d'Aubrac, avant Stein–Pavic.
+🎉 Non servi (facultatif).
+🟡 Adeyemi 1,20 (R3) : +0,9% en power, −1,7% en multiplicative et en prudente (meilleure du jour), sous la zone et sous 1,30.
+Exposition : Kerr dans 🎯, 🛡️ et 🎾 (son épaule pèserait trois fois) ; Stein dans 🛡️, 🎾 et 🚀 ; Aubrac dans ⭐ et 🚀.
+
+À 11:00, la décision aurait été différente : ⭐ et 🎯 = Adeyemi 1,62 contre Ruud (p 64,3%, EV +4,2/+1,0%, 🟡, règle d'abandon non vérifiée), marché annulé par le forfait de Ruud. Avant → après : Adeyemi 1,62 → Aubrac 1,62.
+
+2. 🔭 COUVERTURE
+Tennis : Open de Brisach (ATP 250, terre battue intérieure), 3 quarts recensés et approfondis (Adeyemi–Moss : marché neuf). Football : 1 match (Valmorie D1), 1N2 seul coté. Basket : 1 match NBA, conditionnel. Rien d'autre dans les données, ni pour demain. Écartés : outsiders et nul (EV centrale de −9,6% à −30,1%).
+Limites : ni compositions, ni statistiques, ni marchés secondaires (DNB, totaux, handicaps) ; cotes de T3, F1 et B1 non rafraîchies depuis 11:00 ; règle d'abandon Winamax non vérifiée. Conséquences : aucune ligne A, 🎲 vide, 🎾 limité à 3 jambes. Mise à jour de 13:20 : ⭐ changé (voir 11:00).
+
+3. 📒 REGISTRE
+Matchs (à venir) : M1 tennis QF Kerr–Lopez, 14:00 fixe ; M2 QF Adeyemi–Moss, 15:30 pas avant (Adeyemi–Ruud annulé 12:40) ; M3 QF Stein–Pavic, 17:00 pas avant ; M4 football D1 Aubrac–Sévérac, 18:00 ; M5 NBA Harbor Hawks–Gulf Giants, lundi 16/11 01:30 (conditionnel).
+Conventions : retrait power, contrôle multiplicatif, fourchette ∓ max(2 pts ; écart des méthodes), aucun ajustement ; outsiders et nul : marché, heure et référence du favori.
+
+R1 M1 Kerr vainqueur, 1,45 ✅ 13:10, Pinnacle 13:05 (1,42/3,00), p_ref 68,9%, ajustement aucun (nouvelle de 12:50 antérieure aux deux prix), p_ret 68,9% [66,9 ; 70,9], EV −0,1/−3,0%, marge 4,7%, B (abandon non vérifié), tier A/S.
+R2 M1 Lopez 2,80, p 31,1%, EV −12,9/−18,5%, D, écarté.
+R3 M2 Adeyemi vainqueur, 1,20 ✅ 13:05, Pinnacle 13:00 (1,17/5,30), p_ref 84,1% (mult. 81,9), aucun, [81,9 ; 86,3] (écart des méthodes 2,2 pts), EV +0,9/−1,7%, marge 6,1%, B, tier S, 🟡.
+R4 M2 Moss 4,40, p 15,9%, EV −30,1/−39,7%, D, écarté.
+R5 M3 Stein vainqueur, 1,26 ⚠️ (Winamax 11:00, non relue), Pinnacle 10:55 (1,25/4,30), p_ref 78,8%, aucun, [76,8 ; 80,8], EV −0,7/−3,2%, marge 5,3%, B, tier S.
+R6 M3 Pavic 3,85, p 21,2%, EV −18,6/−26,3%, D, écarté.
+R7 M4 Aubrac 1N2 temps réglementaire (règle usuelle, non relue), 1,62 ⚠️ (Winamax 11:00, non relue), Pinnacle 10:55 (1,60/4,20/5,80), p_ref 61,4%, aucun, [59,4 ; 63,4], EV −0,6/−3,8%, marge 6,0%, B si validé après la compo (C avant), tier A/B.
+R8 M4 Nul 4,00, p 22,5%, EV −9,9/−17,9%, D, écarté.
+R9 M4 Sévérac 5,20, p 16,1%, EV −16,2/−26,6%, D, écarté.
+R10 M5 Harbor vainqueur, prolongations incluses (vérifié), 1,55 ⚠️ (Winamax, heure non indiquée, ≤ 11:00), Pinnacle 1,53/2,62, p_ref provisoire 63,8%, aucun, [61,8 ; 65,8], EV −1,1/−4,2%, marge 4,5%, B conditionnel (star Questionable), tier A.
+R11 M5 Giants 2,50, p 36,2%, EV −9,6/−14,6%, D, écarté.
+
+4. ⚖️ COMPARAISON DES TICKETS
+B1 hors combinés : son statut tombe après le départ des autres jambes. Une jambe Aubrac validée avant sa compo passe en C.
+1 jambe : Adeyemi 1,20 (84,1%, +0,9/−1,7%), hors zone et sous 1,30 ; dans la zone, Aubrac (−3,8%) puis Harbor (−4,2%, conditionnel).
+2 jambes : Kerr × Adeyemi 1,74 (57,9%, +0,8/−4,7%), une jambe de plus qu'Aubrac et sous 1,75 pour le 🛡️. 🛡️ : Kerr × Stein (−6,1%) devant Adeyemi × Aubrac (1,94 ; −5,5%), en C. 🚀 : Stein × Aubrac (−6,9%) devant Kerr × Aubrac (2,35 ; −6,7%), qui ne peut pas attendre la compo.
+3 jambes : le 🎾, 2,19, 45,7%, +0,2/−7,7%. 4 jambes : 🎾 + Aubrac, 3,55, 28,0%, −0,4/−11,2%, Aubrac en C. 5 jambes : impossible (le cinquième match est B1).
+Mono-sport : tennis Adeyemi, football Aubrac, basket Harbor ; multisport : Adeyemi × Aubrac.
+Coût d'une jambe : Aubrac + Adeyemi = 1,94, chance 61,4 → 51,6% (−9,8 pts, −15,9% relatif), EV prudente −3,8 → −5,5% ; Aubrac + Kerr = 2,35, 42,3% (−19,1 pts, −31,1%), −6,7%.
+🎾 : à 3, Kerr × Adeyemi × Stein ; à 4 et 5, impossible (il manque 1 et 2 rencontres de tennis). Jambe la plus fragile : Kerr, sans remplacement (Lopez −12,9%).
+
+5. 🔬 DOSSIERS DES FINALISTES
+Aubrac (R7, ⭐) : 1,62, p_ret 61,4% (Pinnacle 10:55). Données : marché seul, aucune composition ni absence fournie : rien hors du prix. Objection : compo inconnue jusque vers 17:00, cote de 11:00 qui a pu baisser, nul à 22,5%. Alternative : DNB et double chance non cotés, donc non comparables. Bascule : cote sous 1,62 ou titulaire clé absent.
+
+Harbor (R10, premier concurrent) : 1,55, p_ref provisoire 63,8%. La star (27 pts/match) est Questionable (genou) au rapport de la veille ; le prix mélange les deux scénarios, que rien ne permet de chiffrer : jambe conditionnelle. Bascule : après le rapport, p_ref recalculée sur le nouveau Pinnacle ; jouer seulement si l'EV prudente atteint −3,8% (1,56 aux prix actuels).
+
+Kerr (R1, 🎯 🛡️ 🎾) : 1,45, p_ret 68,9% (Pinnacle 13:05). Soins à l'épaule la veille, IRM normale, « il jouera » (attaché de presse, 12:50) ; les deux cotes ont bougé ensuite (Pinnacle 1,30 → 1,42, Winamax 1,32 → 1,45) : nouvelle dans le prix, aucun ajustement. Piège écarté : la p_ref de 11:00 (75,7%) appliquée à 1,45 donnerait une fausse value de +9,8%. Objection : risque d'abandon au-dessus du repère (environ 3% des matchs), règle non vérifiée ; prudence : abandon de Kerr = perdu (si Winamax annule, jambe à 1). Bascule 🎯 : sous 1,44 (Aubrac devant au prix) ou nouvelle physique avant 14:00.
+
+Adeyemi (R3, 🎾) : 1,20, p_ret 84,1% (Pinnacle 13:00). Forfait de Ruud (maladie, site du tournoi, 12:40), lucky loser Moss : marché neuf, postérieur à la nouvelle, rien de reporté de l'affiche Ruud ; aucune donnée sur Moss. Objection : l'EV centrale positive tient au seul retrait power.
+
+Stein (R5, 🎾) : 1,26, p_ret 78,8% (Pinnacle 10:55). Aucune nouvelle ; objection : cote non relue depuis 11:00.
+
+Seconde passe, contrôlé : p_ref de T1 et T2 recalculées après les nouvelles ; chiffres identiques au registre ; aucune jambe ajoutée pour la cote ; B1 hors combinés ; compos F1 non attendables en combiné ; au moins un abandon dans le 🎾 ≈ 8,7% au repère (plus avec l'épaule de Kerr). Rien d'autre de matériel.
+
+7. 📋 FICHE FINALE
+A. Calendrier (dimanche 15/11, Paris)
+Avant 14:00 : limite de validation de 🎯, 🛡️ et 🎾 (tous contiennent Kerr).
+14:00 Kerr–Lopez ; 15:30 au plus tôt Adeyemi–Moss ; 17:00 au plus tôt Stein–Pavic.
+Vers 17:00 : compositions d'Aubrac–Sévérac, puis ⭐ avant 18:00 ; 🚀 seulement si Stein–Pavic n'a pas commencé.
+18:00 Aubrac–Sévérac.
+Vers 19:00 : rapport NBA, puis décision sur Harbor avant lundi 01:30.
+
+B. Paris (✅ cote Winamax observée ; ⚠️ cote de 11:00 à relire)
+⭐ [sans label] **Aubrac vainqueur · 1,62 · 61%**
+Football, Aubrac–Sévérac, Ligue de Valmorie D1, dimanche 18:00
+1N2 temps réglementaire, Winamax 1,62 ⚠️ lue à 11:00, à relire
+Pourquoi : le ticket le moins cher de la zone 1,50–4,00, en une seule jambe.
+Avant de cliquer : **seulement si la compo officielle est sans absence clé et la cote ≥ 1,62**.
+Plan B : **Harbor Hawks vainqueur 1,55** (NBA contre Gulf Giants, lundi 01:30, prolongations incluses), seulement si le rapport de 19:00 a tranché le statut de la star et si la cote atteint le plancher recalculé (1,56 aujourd'hui) ; sinon rien.
+
+🎯 [sans label] **Kerr vainqueur · 1,45 · 69%**
+Tennis, Kerr–Lopez, Open de Brisach (quart), 14:00
+Vainqueur du match, Winamax 1,45 ✅ 13:10
+Pourquoi : cote presque égale au prix sans marge (1,45), épaule déjà intégrée.
+Avant de cliquer : **Kerr sur le court ; cote ≥ 1,44 ; règle d'abandon lue**.
+Plan B : Aubrac (⭐).
+
+🛡️ [sans label] **Kerr × Stein · 1,83 · 54%**
+Tennis, Open de Brisach, quarts, vainqueur du match :
+Kerr bat Lopez, 14:00, 1,45 ✅ 13:10 (R1)
+Stein bat Pavic, 17:00 au plus tôt, 1,26 ⚠️ 11:00, à relire (R5)
+EV −0,8% (prudente −6,1%) ; matchs indépendants ; abandon : règle non vérifiée.
+Pourquoi : le meilleur double de 1,75 à 2,10 dont les statuts sont connus avant 14:00.
+Avant de cliquer : **avant 14:00, Stein à 1,26 ou plus**.
+Plan B : Stein × Aubrac (🚀).
+
+🎾 [🟡 fragile] **Kerr × Adeyemi × Stein · 2,19 · 46%**
+Tennis, Open de Brisach, quarts, vainqueur du match :
+Kerr bat Lopez, 14:00, 1,45 ✅ 13:10 (R1)
+Adeyemi bat Moss, 15:30 au plus tôt, 1,20 ✅ 13:05 (R3)
+Stein bat Pavic, 17:00 au plus tôt, 1,26 ⚠️ 11:00, à relire (R5)
+EV +0,2% (multiplicative −5,6%, prudente −7,7%) ; indépendance supposée ; une jambe annulée sur abandon vaudrait 1.
+Pourquoi : seule longueur possible, portée par le seul prix positif en power (Adeyemi).
+Avant de cliquer : **avant 14:00, aucune cote en baisse**.
+Plan B : Adeyemi × Stein (1,51).
+
+🎲 Non servi : aucune cote de marché vivant ; à relever après 19:00, handicap ou total de Harbor–Giants si la ligne Winamax n'a pas suivi Pinnacle.
+
+🚀 [sans label] **Stein × Aubrac · 2,04 · 48%**
+Stein bat Pavic (tennis, Brisach), 17:00 au plus tôt, 1,26 ⚠️ (R5)
+Aubrac vainqueur 1N2 (football, Valmorie D1), 18:00, 1,62 ⚠️ (R7)
+Deux cotes de 11:00 à relire ; EV −1,2% (prudente −6,9%) ; matchs indépendants.
+Pourquoi : le seul double de 2 à 4 qui peut attendre la compo d'Aubrac.
+Avant de cliquer : **après la compo d'Aubrac, avant le premier point de Stein–Pavic**.
+Plan B : ne pas le jouer.
+
+🎉 Non servi : sans B1, les quatre favoris donnent 3,55 ; atteindre 5 exige un outsider indéfendable.
+
+C. Un seul pari : Aubrac à 1,62 ou plus, après la compo de 17:00.
+
+D. Rappel : aucune value démontrée ; cotes de 11:00 et règle d'abandon à vérifier ; relis prix et compositions avant de jouer ; aucune promesse de gain ; 18+.

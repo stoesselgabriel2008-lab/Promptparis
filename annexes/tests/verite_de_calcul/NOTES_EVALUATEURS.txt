@@ -1,0 +1,55 @@
+RÉCAPITULATIF DES SIX NOTATIONS EN AVEUGLE (test A/B du 4 novembre 2026)
+
+Correspondance X/Y tirée avant les exécutions (mapping.json) :
+- C1 : X = M, Y = R
+- C2 : X = R, Y = M
+- C3 : X = M, Y = R
+- C4 : X = R, Y = M
+- C5 : X = R, Y = M
+- C6 : X = M, Y = R
+R = refonte SOL 6.0 (v1) ; M = correction minimale (SOL 5.16 + correctif 5.17).
+
+Critères notés de 0 à 2 :
+a) cohérence de la décision ;
+b) cohérence des chiffres ;
+c) exactitude ;
+d) pièges du cas ;
+e) vérifiabilité ;
+f) utilisabilité.
+
+| Cas | R (a b c d e f = total) | M (a b c d e f = total) | Verdict |
+|---|---|---|---|
+| C1 | 2 2 2 2 2 1,5 = 11,5 | 2 2 1,5 1 1,5 1,5 = 9,5 | R |
+| C2 | 2 2 1,5 2 2 2 = 11,5 | 1 2 2 2 1,5 1,5 = 10 | R |
+| C3 | 2 2 2 2 2 1,5 = 11,5 | 1 2 2 2 2 1 = 10 | R |
+| C4 | 2 2 2 2 2 2 = 12 | 1 2 2 1 1 1 = 8 | R |
+| C5 | 2 2 2 2 2 1,5 = 11,5 | 1 2 2 1,5 1 1 = 8,5 | R |
+| C6 | 2 2 2 2 2 2 = 12 | 1,5 2 1,5 2 2 1,5 = 10,5 | R |
+| Total | 70/72 | 56,5/72 | R dans 6 cas sur 6 |
+
+Erreurs graves strictes (G1–G9) : aucune pour R, aucune pour M.
+
+Remarques des évaluateurs, par cas (abrégées) :
+- C1 :
+  - M : garde Valente (dos) comme jambe du 🎾 principal ; pas d'EV prudente.
+  - R : écarte Valente (qualité faible), coût de chaque jambe chiffré ; 🟢 sur une value mince (corrigé ensuite par la fourchette ±3 en NBA).
+- C2 :
+  - R : retient le double multisport avec comparaison chiffrée face à Castel seul ; EV prudente +4,4 % au lieu de +6,9 % parce que la composition de Castel est traitée en scénario (choix défendable).
+  - M : retient Castel seul sans calculer l'EV prudente du combiné ; plusieurs étiquettes « principal ».
+- C3 :
+  - R : retient Dumas avec bascule explicite ; défauts mineurs (numéros de section cités, affiche non confirmée comptée « en attente »).
+  - M : retient Morel 1,33 sans le comparer à l'EV prudente des alternatives.
+- C4 :
+  - R : retient Costa (⚠️ conditionnel), comparé à Ilic, seuil Winamax 1,71.
+  - M : retient Faure (match du lendemain), justifié par la « meilleure chance », label « piste de value » contradictoire.
+- C5 :
+  - R : retient Montval, duel chiffré, sensibilité à la méthode signalée, aucun label de value.
+  - M : retient Ferro 1,25 sur des écarts d'EV centrale de 0,3 point ; 🎾 placé avant le ⭐.
+- C6 :
+  - R : retient Aubrac, « avant → après » explicite, piège de la fausse value (+9,8 %) cité et écarté.
+  - M : retient Adeyemi–Moss 1,20 sur une EV centrale de +0,9 % non robuste ; ajoute un marché de sets fondé sur un modèle spéculatif.
+
+Limites :
+- six cas, une exécution chacun ;
+- masquage partiel (le vocabulaire de R reste reconnaissable) ;
+- la vérité de calcul applique la règle de R, ce qui avantage R sur le critère « conformité du choix ».

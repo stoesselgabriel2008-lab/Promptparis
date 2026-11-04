@@ -1,0 +1,121 @@
+ANALYSE DU JOUR (version rapide)
+
+1. 📌 DÉCISION
+Préparé le samedi 14 novembre 2026 à 10:30 (Paris). Horizon : samedi 14 et nuit NBA. Sports balayés : tennis, football, basket. Base de prix : référence indépendante (Pinnacle via comparateur, 10:05–10:15), Winamax lu dans l'application (10:10–10:20), aucun accès web, données figées.
+
+⭐ CHOIX PRINCIPAL : R1 Varga gagne contre Holm (13:00) + R5 Real Castel gagne contre Molinar (21:00, temps réglementaire), cote **2,17** ✅, chance 52,1%, EV +13,1%, prudente +4,4%, 🟡 value fragile (règle d'abandon non lue, composition de Castel inconnue au moment de valider).
+Pourquoi lui : Varga ajoute sa propre EV prudente positive (+3,6%). Même avec la borne « meneur absent » pour Castel, le combiné fait +4,4% contre +3,2% pour Castel seul joué après la composition. L'écart (1,2 pt) ne dépasse le seuil d'un point de R★ que de 0,2 pt : duel serré.
+Il reste mon choix tant que : cote totale 2,17 et Pinnacle inchangé (Varga 1,30, Castel ≤1,44). Au moindre recul (2,16, ou Pinnacle Varga 1,31), Castel seul entre dans le groupe de tête et gagne par simplicité. Plancher au prix : 2,15.
+Sinon : R5 Castel seul après la composition (≈20:00), meneur titulaire, cote ≥1,51 (🟢 si tout est confirmé).
+Avant de cliquer (avant 13:00) : 1) Winamax 1,40 et 1,55, 2) Pinnacle inchangé et aucune nouvelle physique sur Varga, 3) règle d'abandon tennis lue dans l'application.
+
+Menu (alternatives, pas à cumuler) :
+🎯 R1 Varga 1,40, 76,0%, EV +6,4%/+3,6%, 🟡.
+🛡️ R3 Rinaldi + R1 Varga 1,79, 59,3% (environ 3 fois sur 5), EV +6,2%/+0,8%, 🟡, avant 12:00.
+🎾 R3 Rinaldi + R1 Varga + R2 Ito 2,69, 38,6%, EV +3,7%/−4,7%, 🟡 (la value tient à Varga seule), avant 12:00.
+🎲 R6 plus de 2,5 buts Castel–Molinar 1,78, 57,0%, EV +1,5%/−2,1%, 🟡, après la composition.
+🚀 Même ticket que le ⭐.
+🎉 Non servi (facultatif).
+🟡 Hors menu : R4 double Varga/Holt 1,45 (EV +4,7%/+1,8% au prix du matin), seulement après le simple, sur prix rafraîchi, jamais avec R1.
+Exposition : Varga (M1) dans ⭐, 🎯, 🛡️ et 🎾, plus le double. Castel–Molinar (M5) dans ⭐ et 🎲.
+
+2. 🔭 COUVERTURE
+Tennis : Coupe de Sorrèze (WTA 500, dur intérieur), quarts M1, M2 et double M4, Challenger de Valcorta (terre extérieure), demi M3. Quatre recensés et présélectionnés (prix M1, M4, brique M2, M3), M1–M3 approfondis, M4 conditionnel.
+Football : Ligue de Valmorie, 15e journée, M5–M7 présélectionnés (M5 prix, information et lecture, M6 et M7 briques), M5 approfondi.
+Basket : NBA, M8, statut en attente. Rugby, hockey, basket européen : aucune rencontre fournie.
+Outsiders et nuls : EV centrale de −9% à −30%, écartés.
+Limites : une seule référence (aucune dispersion mesurable), aucun Elo disponible (aucun inventé), règle d'abandon non lue, compositions et rapport NBA non publiés.
+Changé par l'exploration : aucun ajustement pour Castel (nouvelle déjà dans Pinnacle), double de Varga hors combinés.
+
+3. 📒 REGISTRE
+Conventions : cotes Winamax observées ✅ 10:10–10:20, Pinnacle 10:05–10:15, dévig power avec contrôle multiplicatif, fourchette ∓2 pts (écart des méthodes ≤1,5 pt) sauf mention, EV centrale/prudente, marge Winamax.
+R1, M1, tennis Sorrèze quart, Varga–Holm, 13:00 fixe, Varga vainqueur, abandon non vérifié (calcul au plus défavorable, son abandon perdu), 1,40, Pinnacle 1,30/3,90, p_ref 76,0% (multiplicatif 75,0%), ajustement aucun (2 h 20 hier, public, déjà dans le prix), p_ret 76,0% [74,0;78,0], EV +6,4%/+3,6%, marge 4,8% (Pinnacle 2,6%), qualité B, tier S, condition Pinnacle Varga ≤1,34.
+R2, M2, tennis Sorrèze quart, Ito–Duval, 15:00 pas avant, Ito, 1,50, Pinnacle 1,50/2,70, p 65,1% [63,1;67,1], EV −2,4%/−5,4%, marge 5,9%, B, tier A.
+R3, M3, Challenger Valcorta demi, Rinaldi–Mertens, 12:00, Rinaldi, 1,28, Pinnacle 1,26/4,10, p 78,0% (multiplicatif 76,5%) [76,0;80,0], EV −0,1%/−2,7%, marge 5,9%, B (prix Challenger moins fiable), tier S.
+R4, M4, double Sorrèze quart, Varga/Holt–Berg/Moreno, 19:00 pas avant (après le simple), Varga/Holt, 1,45, Pinnacle 1,36/3,35, p 72,2% [70,2;74,2], EV +4,7%/+1,8%, marge 6,0%, B, tier S, conditionnelle (état de Varga après le simple, prix à relever), dépendante de R1 (P(R1 et R4) ≥48,2% seulement).
+R5, M5, football Valmorie, Real Castel–CD Molinar, 21:00, 1X2 temps réglementaire Castel, 1,55 (inchangée depuis jeudi), Pinnacle 1,44/4,80/8,00, p_ref 68,6% (multiplicatif 67,6%), ajustement aucun (meneur et gardien suspendu déjà dans le prix), p_ret 68,6%, avant composition [65,0 (meneur absent, mouvement de la référence −3,6 pts);70,6], après composition confirmée [66,6;70,6], EV +6,3%, prudente +0,8% avant et +3,2% après, marge 5,0% (Pinnacle 2,8%), B puis A après composition, tier A/S.
+R6, M5, plus de 2,5 buts, 1,78, Pinnacle 1,70/2,22, p 57,0% [55,0;59,0], EV +1,5%/−2,1%, marge 5,7%, B (composition), tier B.
+R7, M5, MyMatch « Castel gagne + plus de 2,5 », 2,05, ticket à part (vérifié), grille de Poisson calée sur Pinnacle (λ 2,16/0,80, écarts ≤1 pt), P(joint) 45,4% [42,4;48,4], bornes 25,6–57,0%, cote juste 2,20, EV −6,9%/−13,1%, B, tier C.
+R8, M6, Union Bréda–SC Hautval, 15:00, Bréda, 1,70, Pinnacle 1,68/4,00/5,40, p 58,5% [56,5;60,5], EV −0,5%/−3,9%, marge 5,6%, A (rien de notable, composition 14:00), tier B/A.
+R9, M7, Lorient-sur-Mer–AS Pradel, 17:30, Lorient, 1,62, Pinnacle 1,60/4,10/6,00, p 61,4% [59,4;63,4], EV −0,6%/−3,8%, marge 5,9%, A, tier A/B.
+R10, M8, NBA Harbor Hawks–Ridge Rams, dimanche 02:00, Harbor (deux issues, prolongations incluses à confirmer), 1,36, Pinnacle 1,35/3,45, p 72,9% [70,9;74,9], EV −0,9%/−3,6%, marge 4,8%, B, tier S, conditionnelle (titulaire de Ridge Questionable, rapport ≈17:00–19:00).
+
+4. ⚖️ COMPARAISON DES TICKETS
+Placement avant la première jambe, une sélection par match, R4 et R10 hors des combinés du matin.
+Ticket | Cote | Chance, EV centrale/prudente | Pourquoi ce rang
+1 jambe, R1 | 1,40 | 76,0%, +6,4/+3,6% | hors zone ⭐, donc 🎯
+2 jambes, R1+R5 | 2,17 | 52,1%, +13,1/+4,4% | ⭐
+Concurrent, R5 après composition | 1,55 | 68,6%, +6,3/+3,2% | 1,2 pt derrière
+3 jambes, +R3 | 2,78 | 40,7%, +12,9/+1,6% | Rinaldi coûte
+4 jambes, +R9 | 4,50 | 24,9%, +12,3/−2,3% | idem
+5 jambes, +R8 | 7,65 | 14,6%, +11,7/−6,1% | idem
+Mono-sport : tennis R1, football R5 après composition, basket R10 (conditionnel). Multisport : R1+R5.
+Coût d'une jambe (R3 ajoutée au ⭐) : cote 2,17→2,78, chance 52,1→40,7% (−11,4 pts, −22%), EV prudente +4,4→+1,6%.
+Jambe la plus fragile du ⭐ (Castel) : remplacée par Rinaldi, 1,79, 59,3%, EV prudente +0,8% (c'est le 🛡️).
+🎾 : à 3, seul R3+R1+R2. À 4, seulement avec R4 (Varga deux fois, statut suspendu au simple), non admissible. À 5, impossible (quatre matchs de tennis). Jambe la plus fragile : Ito, sans remplacement admissible.
+🛡️ : R3+R1 (+0,8%) devant Rinaldi+Castel 1,98 (−1,9%) et Varga+Ito 2,10 (−2,0%). Varga+Harbor exclu (rapport NBA après 13:00).
+🎲 : R6 (−2,1%) devant R7 (−13,1%).
+Dépendances : R1 et R4 jamais ensemble. La composition de Castel tombe après la première jambe du ⭐ : le combiné ne peut pas l'attendre, d'où sa borne « meneur absent ».
+
+5. 🔬 DOSSIERS DES FINALISTES
+R1 Varga 1,40, p_ret 76,0% (Pinnacle). Base : Pinnacle 1,30 contre Winamax 1,40 (69,5% sans marge Winamax), aux mêmes heures. Fatigue (2 h 20 hier, fin inconnue) publique avant les prix, donc déjà dans le prix. Le double du soir n'agit pas sur le simple (aucune motivation supposée). Objection : ses deux marchés sont environ 6 points plus longs chez Winamax. Fatigue pesée par Winamax ou information absente des données ? Hors ligne, on suit la référence indépendante, relue avant 13:00. Si la règle annule les abandons, un abandon de Holm ramène la jambe à 1. Alternative : le double, seul, plus tard. Bascule : à 1,31 chez Pinnacle, Castel seul passe devant ; à 1,35, value prudente perdue.
+
+R5 Castel 1,55, p_ret 68,6% (Pinnacle après la nouvelle). Le retour du meneur (club, vendredi 18:00) a fait passer Pinnacle de 1,52 à 1,44, Winamax est resté à 1,55 : l'écart (+6,3%) est un retard de cote, et compter ce retour une seconde fois serait un double comptage. Gardien de Molinar suspendu depuis mardi : dans les deux prix. 2,2 buts par match à domicile (n = 7) : échantillon court, cohérent avec le λ 2,16 de la grille du marché, simple contexte. Objection : meneur absent, retour au prix d'avant la nouvelle (65,0%, EV +0,8%), borne optimiste si le marché anticipait son retour. Winamax peut corriger sa cote à tout moment. Alternatives : R6 ou R7, plus chers.
+
+Concurrent (R5 seul après composition) : sans risque de composition (+3,2%), mais exposé à une correction de Winamax.
+
+Seconde passe : chiffres repris du registre, dépendances traitées, aucune jambe ajoutée pour la cote. Avec le contrôle multiplicatif, le combiné tombe à +1,4% et Castel seul (+1,6%) gagne : l'ordre tient à la méthode par défaut, d'où « duel serré ». 🎾 : Rinaldi en Challenger (biais favori-outsider plus marqué), environ 9% de risque qu'un des trois matchs finisse sur abandon (repère ≈3% par match).
+
+7. 📋 FICHE FINALE
+A. Calendrier (samedi 14/11, heure de Paris)
+- 11:45 contrôles, 🛡️ ou 🎾 avant 12:00 (Rinaldi–Mertens).
+- 12:45 contrôles, ⭐ ou 🎯 avant 13:00 (Varga–Holm).
+- 14:00 composition Bréda, 15:00 Bréda–Hautval et Ito–Duval (pas avant).
+- 16:30 composition Lorient, 17:30 Lorient–Pradel.
+- 17:00–19:00 rapport NBA (Ridge).
+- Fin du simple de Varga : double seulement sur prix neuf, 19:00 (pas avant).
+- ≈20:00 composition Castel : 🎲 et plan B, 21:00 Castel–Molinar.
+- Dimanche 02:00 Harbor–Ridge (non joué).
+
+B. Paris
+⭐ [🟡 value fragile] **Varga + Castel, 2,17, 52%**
+— R1, tennis, Coupe de Sorrèze (WTA 500, quart), Varga–Holm, samedi 13:00, vainqueur Varga, 1,40 ✅ 10:10–10:20
+— R5, football, Ligue de Valmorie (15e journée), Real Castel–CD Molinar, samedi 21:00, 1X2 temps réglementaire Castel, 1,55 ✅ 10:10–10:20
+— Cote 2,17, P 52,1%, EV +13,1% (prudente +4,4%), indépendance supposée (sports différents). Si la règle annule un abandon de Holm, le ticket tombe à 1,55.
+— Pourquoi : deux cotes au-dessus du prix juste de Pinnacle (1,32 et 1,46) ; sans le meneur, Castel reste au prix juste.
+— Avant de cliquer : **cote totale 2,17**, Pinnacle Varga 1,30 et Castel ≤1,44, règle d'abandon lue.
+— Plan B : **Castel seul après la composition**, meneur titulaire, cote ≥1,51.
+
+🎯 [🟡] **Varga, 1,40, 76%**
+— Tennis, Sorrèze quart, Varga–Holm, samedi 13:00, vainqueur, 1,40 ✅ 10:10–10:20
+— Pourquoi : prix juste 1,32, EV +6,4% (prudente +3,6%).
+— Avant de cliquer : **cote ≥1,36**, Pinnacle Varga ≤1,34.
+— Plan B : Castel seul après la composition.
+
+🛡️ [🟡] **Rinaldi + Varga, 1,79, 59%**
+— R3, tennis, Challenger de Valcorta (terre, demi), Rinaldi–Mertens, samedi 12:00, vainqueur Rinaldi, 1,28 ✅
+— R1, Varga–Holm, 13:00, vainqueur Varga, 1,40 ✅
+— Cote 1,79, P 59,3%, EV +6,2% (prudente +0,8%), matchs distincts, deux règles d'abandon à lire.
+— Pourquoi : Rinaldi, quasi au prix juste, amène Varga dans la zone.
+— Avant de cliquer (avant 12:00) : Rinaldi ≥1,28, contrôles Varga.
+— Plan B : sans Varga, aucun 🛡️ à EV prudente positive, s'abstenir.
+
+🎾 [🟡] **Rinaldi + Varga + Ito, 2,69, 39%**
+— R3, Rinaldi–Mertens, 12:00, vainqueur Rinaldi, 1,28 ✅
+— R1, Varga–Holm, 13:00, vainqueur Varga, 1,40 ✅
+— R2, tennis, Sorrèze quart, Ito–Duval, 15:00 (pas avant), vainqueur Ito, 1,50 ✅
+— Cote 2,69, P 38,6%, EV +3,7% (prudente −4,7%), matchs distincts.
+— Pourquoi : seule longueur admissible, la value tient à Varga et Ito la dilue.
+— Avant de cliquer (avant 12:00) : trois cotes inchangées.
+— Plan B : aucun remplacement (le double dépend de Varga).
+
+🎲 [🟡] **Plus de 2,5 buts, 1,78, 57%**
+— Football, Valmorie, Real Castel–CD Molinar, samedi 21:00, total de buts temps réglementaire, 1,78 ✅
+— Pourquoi : gardien titulaire de Molinar suspendu et meneur de Castel de retour, déjà dans le prix, Winamax un peu au-dessus du prix juste (1,75).
+— Avant de cliquer : après la composition, **cote ≥1,76**.
+— Plan B : pas le MyMatch 2,05 (EV −6,9%).
+
+🚀 = ⭐.
+
+C. Un seul pari : Varga + Castel à 2,17 avant 13:00 si rien n'a bougé, sinon Castel seul après la composition.
+D. Limite du jour : une seule référence, données figées, règle d'abandon non lue, composition de Castel inconnue avant 20:00. Vérifiez prix et compositions avant de jouer, aucune promesse de gain, 18+.

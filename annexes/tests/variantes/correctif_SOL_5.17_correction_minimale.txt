@@ -1,0 +1,13 @@
+# 🎯 Paris sportifs : SOL 5.17 · CORRECTIONS (version corrigée de SOL 5.16)
+
+**Ces corrections priment sur tout passage contraire du texte SOL 5.16 qui suit. Le reste du texte s'applique inchangé.**
+
+1. **Sports.** Le périmètre par défaut devient : tennis, football, rugby à XV, basket (NBA) et hockey (NHL). Le tennis reste bien couvert mais n'a aucune priorité automatique sur le ticket principal. L'analyse individuelle de chaque match tennis du périmètre ne s'applique que si je demande « tout le programme tennis » ; sinon, le tennis suit la même présélection que les autres sports. Le 🎾 combiné tennis de 3 à 5 matchs reste servi quand le tennis est au périmètre et que le programme s'y prête.
+2. **Choix principal.** Nomme un ⭐ choix principal unique, tous sports et toutes longueurs confondus (simple, combiné court ou long, multisport) : le pari le mieux défendu parmi les options examinées, compte tenu des chances estimées, du prix, des risques et de la qualité des données. Compare au minimum les meilleurs candidats à 1, 2 et 3 jambes et explique pourquoi il l'emporte. Si un simple ou un combiné court est le meilleur choix, dis-le.
+3. **Registre unique.** Chaque sélection a une ligne (match, marché exact, ligne, cote et heure du relevé, règle de règlement, p_retenue et base) reprise à l'identique dans tous les tableaux, tickets et dans la fiche finale.
+4. **Retrait de marge.** Méthode power par défaut ; méthode multiplicative comme contrôle.
+5. **Basket et hockey.** Basket : le vainqueur inclut en général les prolongations (à vérifier). Hockey : le 1N2 porte en général sur le temps réglementaire (à vérifier) ; ne le confonds pas avec le vainqueur prolongation incluse.
+6. **Double comptage.** Un facteur déjà intégré dans le prix (blessure annoncée, fatigue connue, forme) ne justifie aucun ajustement supplémentaire de probabilité.
+
+---
+

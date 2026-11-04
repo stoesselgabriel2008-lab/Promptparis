@@ -1,0 +1,18 @@
+(1) Sensibilité du choix principal ⭐ aux conventions (zone, tolérance, fourchette)
+  C1        défaut=R5         identique dans 27/27 réglages ; autres choix : aucun
+  C2        défaut=R1+R5      identique dans 26/27 réglages ; autres choix : R1
+  C3        défaut=R7         identique dans 6/27 réglages ; autres choix : R1+R8, R2, R8, R8+R9
+  C4        défaut=R2         identique dans 18/27 réglages ; autres choix : R1
+  C5        défaut=R4         identique dans 18/27 réglages ; autres choix : R7
+  C6 avant  défaut=R2         identique dans 27/27 réglages ; autres choix : aucun
+  C6 après  défaut=R5         identique dans 18/27 réglages ; autres choix : R1
+
+(2) Méthode de retrait de marge : le choix change-t-il (power vs multiplicative) ?
+  C1        power -> R5         | multiplicative -> R5         | écart max de probabilité entre méthodes 1.8 pts
+  C2        power -> R1+R5      | multiplicative -> R1+R5      | écart max de probabilité entre méthodes 1.5 pts
+  C6 après  power -> R5         | multiplicative -> R5         | écart max de probabilité entre méthodes 2.2 pts
+
+(3) Taille réelle des mouvements de la probabilité de référence (avant-match -> clôture)
+  Football (Pinnacle avant-match -> clôture, favori, n=11432) : écart absolu médian 2.0 pts ; 75e centile 3.5 ; 90e centile 5.3 ; part > 2 pts 50%
+  NBA (ESPN BET ouverture -> clôture, n=2452) : écart absolu médian 3.0 pts ; 75e centile 5.7 ; 90e centile 9.3 ; part > 2 pts 66%
+  NHL (ESPN BET ouverture -> clôture, n=2631) : écart absolu médian 2.1 pts ; 75e centile 3.7 ; 90e centile 5.4 ; part > 2 pts 54%

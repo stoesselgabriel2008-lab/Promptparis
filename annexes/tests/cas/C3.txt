@@ -1,0 +1,30 @@
+CAS DE CONTRÔLE FICTIF C3 — noms, compétitions et chiffres inventés ; données figées à l'heure indiquée.
+
+Demande de l'utilisateur : « Tennis : tout le programme d'aujourd'hui. »
+Préparation : mardi 10 novembre 2026, 13:30 (heure de Paris).
+Accès : aucune recherche possible au-delà de ces données. Le programme ci-dessous a été recensé en croisant l'offre Winamax et les sites des trois tournois actifs. Cotes Winamax 12:50–13:00 ; Pinnacle via comparateur 12:45–12:55. Règle Winamax en cas d'abandon au tennis : non vérifiée.
+
+Metzval Open (ATP 250, dur intérieur), 2e tour
+A1 · 14:00 · L. Morel – D. Kaspar · Winamax 1,33 / 3,35 · Pinnacle 1,30 / 3,80 · hElo 1880 / 1735
+A2 · 15:30 (pas avant) · M. Laine – O. Pujol · Winamax 1,85 / 1,95 · Pinnacle 1,83 / 2,08 · hElo 1790 / 1772
+A3 · 18:00 (pas avant) · F. Haas – S. Ndiaye · Winamax 1,24 / 4,00 · Pinnacle 1,22 / 4,70 · hElo 1925 / 1744
+A4 · 20:00 (pas avant) · vainqueur de T. Ferrand / B. Lukic – C. Becker · Ferrand–Lukic en cours · Winamax : non affiché
+A5 · J. Ortiz – P. Valk · commencé à 13:10 · Winamax : en direct uniquement
+Hanna Cup (WTA 500, dur intérieur), 2e tour
+W1 · 14:00 · E. Novak – M. Ruiz · Winamax 1,40 / 2,95 · Pinnacle 1,37 / 3,30 · hElo 1840 / 1720
+W2 · 16:00 (pas avant) · Y. Sato – L. Brennan · Winamax 1,28 / 3,70 · Pinnacle 1,25 / 4,30 · hElo 1905 / 1742
+W3 · 17:30 (pas avant) · R. Keller – A. Amari · Winamax 2,10 / 1,72 · Pinnacle 2,05 / 1,82 · hElo 1760 / 1801
+W4 · 19:00 · C. Dumas – V. Petrova · Winamax 1,57 / 2,40 · Pinnacle 1,55 / 2,55 · hElo 1812 / 1760
+Challenger de Valcorta (terre battue extérieure), 2e tour
+C1 · 15:00 (pas avant ; prévu 12:30, retardé par la pluie) · G. Bianchi – E. Rossi · Winamax 1,45 / 2,70 · Pinnacle 1,40 / 3,05 · cElo 1690 / 1610
+C2 · 15:00 (pas avant) · N. Garin – R. Lopez · Winamax : match non proposé à 13:00 · Pinnacle 1,62 / 2,35 · cElo 1655 / 1640
+C3 · 16:30 (pas avant) · D. Marchetti – I. Kovac (qualifié) · Winamax 1,19 / 4,60 · Pinnacle 1,17 / 5,60 · cElo 1720 / 1560
+
+INFORMATIONS
+- Haas (A3) a gagné hier un match de 3 h 05 terminé à 23:40 ; aujourd'hui pas avant 18:00.
+- Sato (W2) a abandonné la semaine dernière en quart (abdominaux). Site du tournoi (lundi 18:00) : « Sato s'est entraînée normalement ». Journaliste local sur X (aujourd'hui 09:40) : « Sato a écourté son entraînement, bandage abdominal visible ». Cote Winamax de Sato : 1,22 hier soir, 1,28 à 12:50.
+- Kovac (C3) sort de 3 matchs de qualification (dont 2 en 3 sets) ; premier tableau principal de l'année.
+- Keller : 2 défaites de suite au 1er tour ; Amari : finaliste la semaine dernière.
+- Bianchi : 4 victoires de suite sur terre ; Rossi : retour de blessure (poignet), 2e tournoi depuis.
+- Novak : 9 victoires sur ses 11 derniers matchs ; Ruiz : lucky loser.
+- Morel, Laine, Dumas, Petrova, Pujol, Kaspar, Ndiaye, Brennan, Garin, Lopez, Marchetti : rien de notable.

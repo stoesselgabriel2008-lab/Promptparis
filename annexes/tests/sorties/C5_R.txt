@@ -1,0 +1,130 @@
+SOL 6.0, analyse du jour (version rapide)
+
+1. 📌 DÉCISION
+Préparé le mercredi 18 novembre 2026 à 16:00 (Paris). Horizon : aujourd'hui et nuit NBA (jeudi 19, 01:00 et 02:30). Sports balayés : tennis, football, NBA. Base de prix : Winamax seule (captures 15:40, non rafraîchies ; comparateurs, Pinnacle et autres bookmakers inaccessibles).
+Aucune value affichable : toutes les EV sont négatives et le ⭐ est le ticket le moins coûteux selon R★.
+
+⭐ CHOIX PRINCIPAL : R8, Montval gagne (1X2, temps réglementaire), Montval – Saint-Brice, 19:00, cote 1,55 ✅ 15:40, chance 62,4 %, EV −3,3 % (prudente −7,9 %), sans label.
+Pourquoi lui : EV prudente −7,9 % contre −10,2 % pour Ryan 1,62, deuxième selon R★ (Bay City 1,80, −9,8 %, est à moins d'un point de Ryan, qui n'attend aucune annonce). Ces 2,3 points traduisent une marge plus légère et l'inclinaison de la méthode power vers les favoris, pas un avantage : au contrôle multiplicatif, Bay City passe devant (−10,2 % contre −11,0 %). Duel serré.
+Il reste mon choix tant que la cote est ≥ 1,53 (à 1,52, Ryan l'emporte : écart sous un point) et que la composition est sans rotation (gardien, axe, meneur, buteur). Sinon Ryan 1,62 avant 18:30, puis Bay City 1,80 après le rapport NBA.
+Avant de cliquer : 1) composition officielle vers 18:00 ; 2) ligne 1X2 relue en entier, p_ref recalculée si elle a bougé ; 3) règlement en temps réglementaire sur le ticket.
+
+Menu (alternatives, pas à cumuler) :
+🎯 R15 Harbor gagne, 1,30, 75,0 %, EV −2,5/−6,4 %, après le rapport NBA.
+🛡️ = 🚀 Montval × Harbor, 2,015, 46,8 %, −5,6/−13,8 %, à valider entre 18:00 et 19:00.
+🎾 Ferro × Ryan × Pires, 3,48, 24,9 %, −13,2/−25,2 %, avant 17:00.
+🎲 R18 J. Doe plus de 25,5 points, 1,85, 51,4 %, −4,9/−10,4 %.
+🎉 Non servi (facultatif). 🟢/🟡 : aucun.
+Exposition : Montval (⭐, 🛡️/🚀), Harbor (🎯, 🛡️/🚀) et son match (🎲), Ryan (🎾, plan B du ⭐).
+
+2. 🔭 COUVERTURE
+Tennis (Duncastle Indoor ATP 500) : 3 matchs, tous approfondis. Football (Coupe de Valmorie, 8es) : 2, M4 approfondi, M5 écarté (aucune issue ≥ 55 %, meilleure EV prudente −12,0 %). NBA : 2, approfondis. Rugby, NHL, basket européen : aucune rencontre fournie.
+Limites : programme réduit aux captures. Compositions (≈ 1 h avant), rapport NBA du jour (17–19 h) et règles Winamax (abandon, report, joueur non partant, prolongations NBA) non lus. Ni Elo ni statistiques hors données.
+Apport de l'exploration : le calendrier exclut les combinés ouverts par Ferro (17:00) avec une jambe foot ou NBA, dont Ferro × Harbor, meilleur deux jambes au prix ; le contrôle multiplicatif rend le duel du ⭐ serré.
+
+3. 📒 REGISTRE
+Conventions : cotes Winamax ✅ 15:40, référence = marché Winamax complet (power, contrôle multiplicatif), aucun ajustement (p_ret = p_ref), fourchette ∓3 points, qualité B sauf mention, matchs à venir, heures du programme (fixe ou « pas avant » non précisé), tier D non présélectionné. Format : cote, p_ret % [p_basse–p_haute], EV centrale/prudente %, tier.
+
+M1 Tennis, ATP 500 Duncastle (dur indoor), Ferro – Nagy, 17:00, marge 6,3 %. Abandon : règle non lue, abandon de mon joueur compté perdu (sinon annulé, cote 1). Aucune nouvelle physique.
+R1 Ferro 1,25, 77,8 [74,8–80,8], −2,8/−6,5, S.
+R2 Nagy 3,80, 22,2, −15,5/−26,9, D.
+M2 idem, Ryan – Coste, 18:30, marge 7,2 % (la plus lourde).
+R3 Ryan 1,62, 58,4 [55,4–61,4], −5,3/−10,2, B/A.
+R4 Coste 2,20, 41,6, −8,6/−15,2, C/D.
+R5 « Ryan gagne 2-0 » 2,55, non estimable (seule issue lue du marché des sets, P ≤ 58,4), C, non classé.
+M3 idem, Gallo – Pires, 20:00, marge 6,9 %.
+R6 Pires 1,72, 54,8 [51,8–57,8], −5,7/−10,8, B.
+R7 Gallo 2,05, 45,2, −7,4/−13,6, C.
+M4 Football, Coupe de Valmorie 8e, Montval – Saint-Brice, 19:00, 1X2 temps réglementaire, marge 6,8 %. Condition : composition vers 18:00 (coupe, rotation possible).
+R8 Montval 1,55, 62,4 [59,4–65,4], −3,3/−7,9, A/B.
+R9 Nul 4,10, 21,9, −10,1/−22,4, D.
+R10 Saint-Brice 5,60, 15,7, −12,2/−29,0, D.
+R11 « Montval gagne et les deux équipes marquent » 3,40, non estimable (BTTS non coté, P ≤ 62,4), C, non classé.
+M5 idem, Arcy – Vesoul, 21:00, marge 6,6 %, composition vers 20:00.
+R12 Arcy 2,30, 41,3, −5,0/−12,0, C/D.
+R13 Nul 3,30, 28,1, −7,2/−17,1, D.
+R14 Vesoul 3,05, 30,6, −6,7/−15,9, D.
+M6 NBA, Harbor Hawks – Ridge Rams, jeudi 01:00, marge 5,1 %. Deux issues, donc prolongations incluses (à confirmer). Rapport de la veille : rien pour Harbor ; un titulaire de Ridge Questionable, publié avant 15:40, en partie dans la cote, effet non chiffrable. Condition : rapport du jour.
+R15 Harbor 1,30, 75,0 [72,0–78,0], −2,5/−6,4, S.
+R16 Ridge 3,55, 25,0, −11,4/−22,0, D.
+R17 « Harbor gagne et plus de 220,5 points » 2,40, non estimable (total non coté, P ≤ 75,0), C, non classé.
+R18 J. Doe plus de 25,5 points 1,85, 51,4 [48,4–54,4], −4,9/−10,4, B/C, marge 5,3 %. Non-partant : règle non lue, traité comme perdu. 26,8 points sur 10 matchs (34,5 min) : public et antérieur à la cote, aucun ajustement.
+R19 J. Doe moins de 25,5 points 1,95, 48,6, −5,3/−11,1, C/B.
+M7 NBA, Bay City Bolts – Mesa Monarchs, jeudi 02:30, marge 5,1 %. Statuts non documentés dans les données : rapport du jour obligatoire.
+R20 Bay City 1,80, 53,1 [50,1–56,1], −4,4/−9,8, B.
+R21 Mesa 2,02, 46,9, −5,3/−11,3, C.
+Cohérence : 1/cote de R5, R11 et R17 inférieur à la probabilité du vainqueur concerné ; probabilités jointes non estimables sans grille de scores.
+
+4. ⚖️ COMPARAISON DES TICKETS
+Énumération complète (4 223 tickets de 1 à 5 jambes, une sélection par match). Combiné admissible seulement si ses annonces décisives précèdent sa première jambe.
+Ticket | Cote | Chance, EV c/p | Pourquoi ce rang
+1 jambe : Ferro | 1,25 | 77,8 %, −2,8/−6,5 | à 0,2 point de Harbor, sans annonce attendue, hors zones ⭐ et 🎯
+2 : Montval × Harbor | 2,015 | 46,8 %, −5,6/−13,8 | meilleur validable (Ferro × Harbor −12,5 et Ferro × Montval −13,9 ne le sont pas)
+3 : Ryan × Montval × Harbor | 3,26 | 27,4 %, −10,7/−22,6 | moins de conditions que Montval × Harbor × Bay City (−22,2)
+4 : idem + Pires | 5,62 | 15,0 %, −15,7/−31,0 | même logique
+5 : idem + Bay City | 10,11 | 8,0 %, −19,5/−37,7 | chaque jambe coûte 6 à 9 points
+Zone ⭐ : Montval −7,9, Bay City −9,8, Ryan −10,2 (deuxième selon R★). 🛡️ : Montval × Harbor devant Ferro × Ryan (−16,1). 🎾 : Ferro × Ryan × Pires devant l'option Gallo (4,15, −27,5) ; 4 et 5 jambes impossibles (il manque 1 et 2 matchs). Mono-sport : tennis Ferro, football Montval, NBA Harbor. Multisport : Montval × Harbor.
+Coût d'une jambe : ⭐ + Harbor, chance 62,4 → 46,8 % (−15,6 points, −25 %), EV −3,3 → −5,6, prudente −7,9 → −13,8 ; 🎾, Pires ajouté à Ferro × Ryan, chance 45,4 → 24,9 %, prudente −16,1 → −25,2.
+
+5. 🔬 DOSSIERS DES FINALISTES
+R8 Montval (⭐) : 1,55, p 62,4 %. Données : 1X2 complet, classements et formes déjà dans le prix, aucune absence signalée, donc aucun ajustement. Objection la plus forte : 8e de coupe, rotation possible et inconnue avant 18:00 ; un nul à 90 minutes perd (21,9 %). Alternative : Ryan, 2,3 points plus cher ; « Montval et BTTS » non estimable. Bascule : voir ⭐.
+R3 Ryan (🎾, premier concurrent) : 1,62, p 58,4 %, aucun statut en attente, marché le plus margé du jour.
+R1 Ferro (🎾) : 1,25, p 77,8 %. Aucune nouvelle physique (pas un certificat de forme), pas d'Elo fourni. Objection : 22 % de défaite, abandon ≈ 3 % par match (≈ 9 % sur les trois).
+R6 Pires (🎾, jambe la plus fragile) : 1,72, p 54,8 %, presque pile ou face. Seul remplacement : Gallo, qui dégrade.
+Seconde passe : chiffres du registre, matchs distincts, aucun joueur en double, aucune jambe ajoutée pour une cote, mêmes conventions pour Ryan et Bay City ; seule contradiction matérielle, la méthode de retrait (duel serré).
+
+7. 📋 FICHE FINALE
+
+A. Calendrier (heure de Paris)
+Mercredi 18/11, avant 17:00 : valider le 🎾.
+17:00 Ferro – Nagy.
+17:00–19:00 : rapport NBA du jour.
+Vers 18:00 : composition de Montval ; valider le ⭐ avant 19:00, le 🛡️ aussi si le rapport NBA est publié.
+18:30 Ryan – Coste (plan B du ⭐ à valider avant).
+19:00 Montval – Saint-Brice. 20:00 Gallo – Pires. 21:00 Arcy – Vesoul.
+Jeudi 19/11 : 01:00 Harbor – Ridge (🎯 et 🎲 à valider avant), 02:30 Bay City – Mesa.
+
+B. Paris
+
+⭐ CHOIX PRINCIPAL, sans label (le moins coûteux) : **Montval gagne, 1,55, 62 %**
+Football, Montval – Saint-Brice, Coupe de Valmorie (8e de finale), mercredi 18/11 à 19:00.
+1X2 temps réglementaire (prolongation et tirs au but exclus), 1,55 Winamax ✅ 15:40.
+Pourquoi : coût estimé le plus faible de la zone 1,50–4,00 (méthode power). EV −3,3 % : en moyenne, ce prix rend 96,7 % de la mise.
+Avant de cliquer : **composition sans rotation des titulaires clés, cote ≥ 1,53**.
+Plan B : Ryan gagne 1,62 (avant 18:30), sinon Bay City gagne 1,80 après le rapport NBA.
+
+🎯 MEILLEUR SIMPLE, sans label : **Harbor Hawks gagne, 1,30, 75 %**
+Basket NBA, Harbor Hawks – Ridge Rams, jeudi 19/11 à 01:00.
+Vainqueur, prolongations incluses (à confirmer), 1,30 Winamax ✅ 15:40.
+Pourquoi : le simple à 1,30 ou plus le moins coûteux (EV −2,5 %, prudente −6,4 %).
+Avant de cliquer : **rapport du jour sans absence côté Harbor, cote ≥ 1,30**, cote relue après le statut du titulaire de Ridge.
+Plan B : Montval (⭐) avant 19:00, sinon Bay City 1,80.
+
+🛡️ TICKET COURT = 🚀 COMBINÉ PLAISIR, sans label : **Montval × Harbor, 2,015, 47 %**
+Jambe 1 : Montval gagne contre Saint-Brice, 1X2 temps réglementaire, mercredi 19:00, 1,55 (R8).
+Jambe 2 : Harbor gagne contre Ridge, prolongations incluses, jeudi 01:00, 1,30 (R15).
+Cote 2,015 (l'affichage Winamax prime), chance 46,8 % (moins d'une sur deux), EV −5,6 % (prudente −13,8 %), matchs indépendants, sans remboursement.
+Avant de cliquer : **entre 18:00 et 19:00, composition de Montval vue et rapport NBA publié**.
+Plan B : aucun ticket court valable après 17:00 ; faute de ce créneau, Ferro × Ryan 2,025 avant 17:00 (45,4 %, −8,0/−16,1 %).
+
+🎾 COMBINÉ TENNIS, sans label : **Ferro × Ryan × Pires, 3,48, 25 %**
+Tennis, Duncastle Indoor ATP 500 (dur intérieur), mercredi 18/11, vainqueur du match, cotes Winamax ✅ 15:40.
+Jambe 1 : Ferro gagne contre Nagy, 17:00, 1,25 (R1).
+Jambe 2 : Ryan gagne contre Coste, 18:30, 1,62 (R3).
+Jambe 3 : Pires gagne contre Gallo, 20:00, 1,72 (R6).
+Chance 24,9 %, EV −13,2 % (prudente −25,2 %), matchs indépendants. Abandon : règle à lire, calcul prudent (abandon de mon joueur = perdu).
+Pourquoi : les trois favoris, seule longueur possible (trois matchs).
+Avant de cliquer : **avant 17:00, cote totale ≥ 3,38**.
+Plan B : Gallo à la place de Pires (4,15, 20,5 %, prudente −27,5 %).
+
+🎲 PLAISIR, sans label : **J. Doe plus de 25,5 points, 1,85, 51 %**
+Basket NBA, Harbor – Ridge, jeudi 01:00, points du joueur, ligne 25,5, 1,85 Winamax ✅ 15:40.
+Pourquoi : 26,8 points sur ses 10 derniers matchs (34,5 min), déjà dans la cote. EV −4,9 % (prudente −10,4 %).
+Avant de cliquer : **Doe absent du rapport du jour, règle « joueur non partant » lue, cote ≥ 1,84**.
+Plan B : aucun autre marché vivant chiffrable.
+
+🎉 Non servi (facultatif).
+
+C. Si je ne devais jouer qu'un pari : Montval gagne à 1,55, après la composition de 18:00. Le moins coûteux de la zone, sans avantage démontré.
+
+D. Rappel : base Winamax seule, donc aucune value et toutes les EV négatives. Relire prix, compositions et rapport NBA avant de jouer. Aucune promesse de gain. 18+.

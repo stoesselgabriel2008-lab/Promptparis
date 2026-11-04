@@ -1,0 +1,47 @@
+VÉRITÉ DE CALCUL ET GRILLE — fixée avant toute exécution des prompts testés.
+Calculs : retrait de marge « power » sur Pinnacle (ou Winamax seul en C5), fourchette ±2 points (±3 sur base Winamax seule), EV prudente = cote × Π p_basse − 1, jambes de matchs différents supposées indépendantes sauf mention.
+Ces repères servent à vérifier les chiffres et la cohérence. Une variante qui ne connaît pas la règle R★ n'est pas pénalisée pour un autre choix principal s'il est défendu avec des chiffres justes, des conventions identiques et une comparaison explicite ; elle l'est pour une erreur grave.
+
+ERREURS GRAVES (valables pour tous les cas)
+G1 donnée inventée (cote, statistique, affiche, règle, source) ; G2 même sélection avec des cotes ou probabilités différentes selon les sections ; G3 erreur de calcul qui change une décision (cote ou probabilité de combiné fausse de plus de 0,5 point, EV de signe faux) ; G4 dépendance traitée comme indépendance sans le dire ; G5 vieille probabilité appliquée à une nouvelle cote ; G6 value ou EV positive affichée sans référence indépendante ; G7 cote d'un autre book présentée comme cote Winamax observée ; G8 match non confirmé ou déjà commencé utilisé comme jambe d'avant-match ; G9 choix principal absent ou ambigu.
+
+C1 — calculs
+Comets (M5) 1,62 : p_ref 64,3 %, EV +4,2 %, EV prudente +1,0 % (Pinnacle sans marge ≈ 1,555 ; seul vrai écart de prix du jour).
+Arendt 1,30 : 77,5 %, EV +0,7 %, prudente −1,9 %. Saric 1,45 : 68,8 %, −0,2 %, −3,1 %. Valente 1,22 : 82,8 %, +1,1 %, −1,4 % (dos : à conditionner). Brandt 1,25 : 79,5 %, −0,7 %, −3,2 %. Lynx 1,34 : 73,9 %, −1,0 %, −3,6 % (titulaire Questionable). Varenne 1,75 : 57,2 %, 0,0 %, −3,5 %.
+Choix principal attendu : Comets simple 1,62 (premier concurrent : Arendt + Comets 2,11, P 49,9 %, EV +5,0 %, EV prudente −0,9 % ; ajouter une jambe fait baisser l'EV prudente et la chance de 64,3 % à 49,9 %). Cote plancher ≈ 1,60.
+🎾 : 3 jambes admissibles sans Valente : Arendt + Saric + Brandt 2,36, P 42,4 %, EV −0,2 % ; 4 ou 5 jambes impossibles sans Valente (conditionnel) ; pas de 5e match à inventer.
+Pièges : Valente comme jambe ferme sans réserve ; back-to-back des Arrows recompté comme avantage ; jambe ajoutée au choix principal sans montrer son coût ; validation NBA avant 23:30 après le rapport du jour (17–19 h).
+
+C2 — calculs
+Varga simple (M1) 1,40 : 76,0 %, EV +6,4 %, prudente +3,6 %. Castel (M5) 1,55 : 68,6 %, +6,3 %, +3,2 % (Winamax resté à 1,55 après l'annonce du retour du meneur ; Pinnacle 1,44). Varga/Holt double (M4) 1,45 : 72,2 %, +4,7 %, +1,8 %. Rinaldi 1,28 : 78,0 %, −0,1 %, −2,7 %. Ito 1,50 : 65,1 %, −2,4 %. Bréda 1,70 : 58,5 %, −0,5 %. Lorient 1,62 : 61,4 %, −0,6 %. Harbor 1,36 : ≈ −2 %.
+Choix principal attendu : Varga + Castel (multisport) 2,17, P 52,1 %, EV +13,1 %, EV prudente +6,9 %. Concurrents : Varga/Holt + Castel 2,25 (EV prudente +5,1 %) ; meilleur tennis seul Varga + Rinaldi 1,79 (+0,8 %) ; meilleur football seul : aucun double positif sans Castel.
+Pièges : triple Varga simple + Varga double + Castel 3,15 (EV prudente +8,8 % si on suppose l'indépendance) — même joueuse le même jour, dépendance à signaler, ne pas le retenir comme indépendant. MyMatch Castel + plus de 2,5 à 2,05 : probabilité jointe ≈ 45,6 % (grille de Poisson calée sur les deux marchés), pas 39,1 % (produit) ; EV ≈ −6,6 %. Suspension du gardien de Molinar connue depuis mardi : déjà dans le prix.
+🎾 (4 matchs dont M1 et M4 dépendants) : à 3 jambes sans associer M1 et M4, ex. Varga + Ito + Rinaldi 2,69 (EV prudente −4,6 %).
+
+C3 — calculs
+12 rencontres recensées ; A4 (affiche non confirmée) et A5 (commencé) hors avant-match ; C2 analysable mais non proposé sur Winamax (aucune cote Winamax à inventer) ; 9 sélections chiffrables.
+Morel 1,33 : 75,7 %, +0,7 %, −2,0 %. Laine 1,85 : 53,3 %, −1,3 %. Haas 1,24 : 80,9 %, +0,3 %, −2,2 % (3 h 05 hier, fini 23:40 : déjà dans les cotes du jour). Novak 1,40 : 71,7 %, +0,4 %. Sato 1,28 : 78,8 %, +0,9 % (sources contradictoires sur les abdominaux : conditionnel). Amari 1,72 : 53,1 %, EV −8,6 % (Winamax très en dessous du prix sans marge ≈ 1,88). Dumas 1,57 : 62,9 %, −1,3 %, −4,4 %. Bianchi 1,45 : 69,7 %, +1,1 %, −1,8 %. Marchetti 1,19 : 84,4 %, +0,5 %, −1,9 %.
+Choix principal selon la règle de la refonte : Dumas simple 1,57 (EV prudente −4,4 %) ; doubles du même groupe (Morel + Bianchi 1,93, EV +1,8 %, prudente −3,7 %) acceptables s'ils sont justifiés. 🎾 : Morel + Bianchi + Marchetti 2,30, P 44,6 %, EV +2,3 %, prudente −5,6 % ; à 4 jambes 36 % de chances, à 5 jambes 26 % pour peu d'EV en plus.
+Pièges : jouer A4 ou A5 ; inventer une cote Winamax pour C2 ; Sato comme jambe ferme ; compteurs de couverture incohérents ; règle d'abandon non vérifiée ignorée.
+
+C4 — calculs (cotes Betclic = prix provisoire, Winamax à relever)
+Weber 1,44 : 69,7 % ; Costa 1,70 : 58,5 %, EV −0,5 %, prudente −3,9 % ; Laval 1,95 : 50,9 % ; Faure (demain) 1,30 : 77,4 % ; Ilic (demain) 1,52 : 65,1 %.
+Choix principal selon la règle : Costa simple, conditionnel (cote Winamax plancher ≈ 1,71 pour une EV nulle, ou ≈ 1,70 pour garder son rang). 🎾 : seulement 2 matchs aujourd'hui → compléter avec des matchs de demain datés (ex. Weber + Costa + Faure 3,18) ou annoncer l'impossibilité.
+Pièges : statut ✅ ou « cote Winamax » attribué à une cote Betclic ; 🎾 fabriqué avec un match inventé ; dates mélangées.
+
+C5 — calculs (base Winamax seule, power, ±3 points)
+Marges : Ferro–Nagy 6,3 % ; Ryan–Coste 7,2 % ; Montval 1X2 6,8 % ; Harbor–Ridge 5,1 %. Avec la méthode multiplicative, toutes les issues d'un marché ont la même EV (ex. Ferro et Nagy : −5,9 %).
+Ferro 1,25 : 77,8 %, EV −2,8 % ; Harbor 1,30 : 75,0 %, −2,5 % ; Montval 1,55 : 62,4 %, −3,3 %, prudente −7,9 % ; Ryan 1,62 : 58,4 %, −5,3 % ; Pires 1,72 : 54,8 %, −5,7 %.
+Choix principal selon la règle : Montval simple 1,55 (le moins coûteux de la zone). 🎾 : Ferro + Ryan + Pires 3,48, P ≈ 25 %, EV ≈ −13 %.
+Pièges : tout label de value ou EV positive (G6) ; probabilités inventées pour les marchés « 2-0 », MyMatch ou points de J. Doe sans méthode ; suppression des formats récréatifs à cause des EV négatives.
+
+C6 — calculs
+Avant (11:00) : Adeyemi 1,62 : 64,3 %, EV +4,2 %, prudente +1,0 % → choix principal attendu à 11:00 : Adeyemi simple.
+Après (13:20) : Adeyemi – Moss 1,20 : 84,1 %, EV +0,9 %, prudente −1,7 % (hors zone 1,50–4,00 en simple). Kerr 1,45 avec le nouveau Pinnacle (1,42 / 3,00) : 68,9 %, EV −0,1 %, prudente −3,0 %. Piège : garder 75,7 % avec 1,45 donne une fausse EV de +9,8 % (et un faux double Kerr + Aubrac à +9,2 %). Stein 1,26 : 78,8 %, −0,7 %. Aubrac 1,62 : 61,4 %, −0,6 %, prudente −3,8 %. Harbor : star Questionable, rapport vers 19:00 → conditionnel.
+Choix principal attendu à 13:20 selon la règle : Aubrac simple 1,62 ; Adeyemi + Stein 1,51 (prudente −4,8 %) ou un double avec Adeyemi acceptable s'il est justifié. Attendus : « avant → après » explicite, paris Adeyemi – Ruud annulés notés, aucune donnée périmée dans la fiche finale.
+
+C7 — calculs (cas de validation de la version finale, hockey et bonus combiné)
+Knights prolongation incluse : p_ref 62,4 % (Pinnacle 1,56 / 2,52) ; Winamax 1,60 → EV −0,1 %. Piège : appliquer 62,4 % au 1N2 à 1,95 donne une fausse EV de +21,7 %. Repère de conversion (2024-2026) : un favori à 60–70 % prolongation incluse gagne environ 51/62,5 de cette probabilité en 60 minutes → p(60 min) ≈ 50,9 %, EV ≈ −0,7 % à 1,95 ; le 1N2 Winamax seul donne 49,3 % (marge 6,0 %). Gardien non confirmé → conditionnel.
+Monarchs 1,48 : p 68,8 %, EV +1,8 % ; fourchette ±3 avant le rapport du jour → EV prudente −2,6 % (±2 → −1,1 %).
+Ilic 1,30 : 76,9 %, −0,1 %, prudente −2,7 % ; Moreau (T2) 1,44 : 68,9 %, −0,8 % ; Ricci 1,62 : 61,0 %, −1,2 % ; Bréda 1,70 : 59,4 %, +1,0 %, prudente −2,4 %.
+Choix principal selon la règle : Bréda simple 1,70 (🟡 au mieux, EV centrale +1,0 % mais prudente −2,4 %). Piège du bonus : le triple Ilic + Bréda + Monarchs 3,27 a une EV centrale de +6,4 % avec le bonus de 5 %, mais une EV prudente de −4,2 % : il ne bat pas le simple. Bonus : à 5 jambes, EV prudente −3,7 % au lieu de −14,8 % sans bonus (🎉 possible en 🟡, jamais présenté comme sûr). 🎾 Ilic + Moreau + Ricci 3,03 : EV +1,3 % avec bonus, prudente −7,4 %.

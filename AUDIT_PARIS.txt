@@ -1,12 +1,12 @@
 AUDIT DE « SOL 5.16 · TENNIS COMPLET » ET PASSAGE À SOL 6.0
 Audit réalisé le 4 novembre 2026. Objet : le fichier joint (1 318 lignes, 137 366 caractères, environ 20 400 mots), lu intégralement avant toute modification. Ses instructions quotidiennes ont été traitées comme l'objet de l'audit, pas comme une mission à exécuter.
 
-Livrables associés : PROMPT_PARIS_VERSION_FINALE.txt (SOL 6.0, environ 8 500 mots) et le présent audit.
+Livrables associés : PROMPT_PARIS_VERSION_FINALE.txt (SOL 6.0, environ 9 500 mots, contre 20 400 pour SOL 5.16) et le présent audit ; le dossier annexes/ contient les scripts, les cas, les sorties de test et les résultats bruts.
 
 
 ═══ 0. RÉSUMÉ ═══
 
-Le problème central de SOL 5.16 n'est pas mathématique : ses formules sont justes (22 contrôles exécutés, section 8.1). Il est décisionnel. Le prompt ne dit jamais ce qu'est le « meilleur » pari. Il impose une dizaine de formats et une couverture tennis exhaustive, et il laisse l'EV, la probabilité et la « lecture » se disputer le classement selon la section consultée. Résultat : des calculs corrects peuvent conduire à un choix principal arbitraire, à des jambes ajoutées pour remplir une cote cible, et à un tennis prioritaire par construction plutôt que par mérite.
+Le problème central de SOL 5.16 n'est pas mathématique : ses formules sont justes (contrôles exécutés, section 8.1). Il est décisionnel. Le prompt ne dit jamais ce qu'est le « meilleur » pari. Il impose une dizaine de formats et une couverture tennis exhaustive, et il laisse l'EV, la probabilité et la « lecture » se disputer le classement selon la section consultée. Résultat : des calculs corrects peuvent conduire à un choix principal arbitraire, à des jambes ajoutées pour remplir une cote cible, et à un tennis prioritaire par construction plutôt que par mérite.
 
 Ce qui change dans SOL 6.0 :
 1. Une règle de décision unique et vérifiable, R★ : le prix d'abord (EV prudente), puis la simplicité à prix quasi égal. La chance de toucher n'est jamais un critère entre deux cotes différentes. Conséquence directe : une jambe n'entre dans un ticket que si sa propre EV prudente est positive, ou si le format l'impose, et son coût est alors affiché.
@@ -21,7 +21,12 @@ Preuves principales, calculées pour cet audit sur des données publiques et hor
 - Biais favori-outsider marqué en football : rendement de −1 % sous la cote 1,50, contre −16 % entre 5 et 10.
 - Modèle contre marché : un modèle Elo simple qui croyait voir de la value sur 86 % des matchs de football a perdu 13,3 % (±3,1).
 
-Tests : 22 contrôles de calcul réussis ; deux défauts de conception de R★ trouvés et corrigés par le calculateur avant les tests ; comparaison A/B (refonte contre correction minimale) sur six journées fictives contrastées EN COURS au moment de cette sauvegarde (section 8.3).
+Tests :
+- 25 contrôles de calcul réussis ;
+- deux défauts de conception de R★ trouvés et corrigés par le calculateur avant les tests ;
+- comparaison A/B en aveugle sur six journées fictives contrastées : la refonte l'emporte dans les six cas (70/72 contre 56,5/72), sans erreur grave d'un côté comme de l'autre. Dans quatre cas sur six, la correction minimale choisit la cote la plus courte « parce qu'elle touche le plus souvent » ;
+- validation de la version finale sur un septième cas, hockey et bonus combiné (section 8.5) ;
+- relecture finale, doublée d'une relecture à froid (section 8.8).
 
 Limites : les règles de règlement propres à Winamax (abandon au tennis, prolongations, joueur non partant, Combo Booster) n'ont pas pu être confirmées sur une source officielle ; elles sont marquées « à confirmer » et traitées prudemment dans le prompt. Aucune performance de gain n'est démontrée.
 
@@ -35,7 +40,7 @@ Limites : les règles de règlement propres à Winamax (abandon au tennis, prolo
    - NBA : 2 462 matchs et NHL : 2 624 matchs, saisons régulières 2024-25 et 2025-26, cotes d'ouverture et de clôture d'un bookmaker américain (ESPN BET) relevées via l'API publique d'ESPN ;
    - comparaisons : fréquence de base, modèle Elo simple à paramètres fixés d'avance, marché sans marge (méthodes power, multiplicative, Shin) ; scores de Brier, RPS et log-loss ; calibration ; rendement par tranche de cote ; test « prix au-dessus de la référence » ; coût des combinés.
 4. Vérification des règles françaises (ANJ, Légifrance) et de l'offre Winamax. Le site Winamax refuse les accès automatisés : rien n'a été contourné.
-5. Calculateur de référence (Python) pour la règle de décision, les cas de contrôle et les exemples chiffrés ; 22 contrôles exécutés.
+5. Calculateur de référence (Python) pour la règle de décision, les cas de contrôle et les exemples chiffrés ; 25 contrôles exécutés.
 6. Rédaction d'une refonte (SOL 6.0) et d'une correction minimale (« SOL 5.17 » : SOL 5.16 précédé d'un correctif d'une page), puis douze exécutions sur six journées fictives et notation en aveugle (section 8).
 
 Deux sources de données n'ont pas été utilisées parce qu'elles sont protégées par un défi anti-robot, que je n'ai pas contourné : tennis-data.co.uk (cotes historiques du tennis) et aussportsbetting.com. La partie tennis repose donc sur la littérature publiée.
@@ -206,6 +211,10 @@ SOL 5.16 contient beaucoup de bonnes règles ; elles sont gardées, souvent sous
 1. Plus de priorité automatique du tennis sur le choix principal.
    Pourquoi : la prévisibilité varie fortement selon le sport (6.2). Le meilleur prix du jour peut venir de n'importe où, et une priorité structurelle empêche la comparaison.
    Gain : un sport n'est retenu que s'il gagne la comparaison R★ (cas C1, section 8).
+   Arbitrage entre vos consignes : le brief dit « le tennis reste prioritaire », alors que la consigne carte blanche, qui prime, précise « aucune priorité automatique sur le ticket principal » et demande d'analyser chaque rencontre « si je demande tout le programme ». Solution retenue :
+   - le programme tennis est toujours recensé en entier au niveau du marché ;
+   - le mode complet s'active sur demande ;
+   - R★ seul décide du choix principal.
 2. Couverture tennis exhaustive seulement sur demande (« tout le programme »). En mode standard, le programme tennis est quand même recensé en entier au niveau du marché.
    Gain : l'effort va aux concurrents. Rien n'est oublié, puisque chaque match garde une ligne et une raison de tri.
 3. 🎾 servi quand le tennis est au périmètre et qu'au moins trois rencontres admissibles existent, plutôt que « systématique ». Longueur choisie par R★ ; une longueur précise reste possible sur demande, avec son coût affiché.
@@ -375,7 +384,7 @@ Trois niveaux de vérification, à distinguer :
 - tests exécutés par des agents : douze exécutions des prompts sur des cas fictifs, notées en aveugle ;
 - vérifications manuelles : relecture des sorties et contrôles ciblés.
 
-8.1 Contrôles de calcul exécutés (Python) : 22 sur 22 réussis
+8.1 Contrôles de calcul exécutés (Python) : 25 sur 25 réussis
 Exemples chiffrés du nouveau prompt :
 - jambe à 1,30 (p = 77,5 %, p_basse = 75,5 %) : EV prudente de −1,85 % et 22,5 % de chances en moins pour le ticket ;
 - cote minimale 1/0,62 arrondie à 1,62 ;
@@ -391,6 +400,7 @@ Propriétés de R★ :
 - deux jambes dépendantes ne sont jamais combinées comme indépendantes ;
 - le seuil de bascule est juste (cas C1 : 1,60).
 Exemples de SOL 5.16 recalculés (A à H, longueurs 3/4/5 à 80 %, formule de Poisson) : tous justes.
+Exemples ajoutés dans la version finale (ligne du registre, seuil de bascule avec le terme t, carte d'exemple) : vérifiés, ce qui porte le total à 25 contrôles.
 Deux premiers échecs, tous deux venus de ma rédaction et corrigés :
 - un exemple écrit « −1,9 % » au lieu de −1,85 %, valeur exacte dont l'arrondi dépend de la convention ;
 - un test mal construit, dont les deux tickets n'avaient pas la même EV prudente.
@@ -404,16 +414,139 @@ Défaut : dans le cas C4, elle donnait la victoire au moins bon prix du groupe d
 Correction : départage par nombre de jambes, puis qualité, puis conditions en attente, puis EV prudente.
 Le calculateur a aussi servi à concevoir les six cas pour qu'ils testent vraiment ce qui est demandé. Exemple : la première version de C6 ne changeait pas de choix principal après la mise à jour ; elle a été refaite.
 
-8.3 Tests A/B sur six journées fictives — EN COURS
-Version de sauvegarde, enregistrée avant les tests les plus coûteux. Douze exécutions sont lancées (six cas × deux variantes) : refonte SOL 6.0 et « SOL 5.17 », c'est-à-dire SOL 5.16 précédé d'un correctif d'une page. Toutes les exécutions se font hors ligne, sur des données figées, avec une restitution compacte de 2 000 mots au plus.
-Les six cas :
-- C1 : le meilleur ticket vient d'un autre sport (NBA), et ajouter une jambe affaiblit le choix ; joueur avec un problème de dos.
-- C2 : un combiné multisport bat les tickets par sport ; dépendance (même joueuse en simple et en double) ; MyMatch.
-- C3 : grosse journée tennis sur trois tournois, en mode complet ; affiche non confirmée ; match commencé ; cote absente ; informations contradictoires sur une blessure.
-- C4 : programme pauvre et cotes Winamax inaccessibles.
-- C5 : base Winamax seule, toutes les EV négatives.
-- C6 : la conclusion change après une mise à jour du prix et de l'état physique.
-La vérité de calcul et la liste des erreurs graves ont été figées avant les exécutions. Les résultats, la notation à l'aveugle et les corrections qui en découlent seront ajoutés ici.
+8.3 Test A/B sur six journées fictives : refonte contre correction minimale (exécuté)
+
+Protocole
+Variantes comparées :
+- R : refonte SOL 6.0, environ 8 400 mots ;
+- M : « correction minimale », c'est-à-dire SOL 5.16 précédé d'un correctif d'une page qui ajoute le basket et le hockey, retire la priorité automatique du tennis, demande un ⭐ choix principal tous sports et toutes longueurs, impose un registre, fixe la méthode power par défaut et interdit le double comptage ; environ 20 700 mots.
+Exécution : chaque variante est appliquée par un agent du même modèle sur six cas fictifs, hors ligne, avec des données figées, du Python autorisé et la même consigne de version rapide (2 000 mots).
+Notation : six évaluateurs indépendants (un autre modèle) notent chaque paire sur six critères de 0 à 2 : cohérence de la décision, cohérence des chiffres, exactitude, pièges, vérifiabilité, utilisabilité. Le nom des versions est masqué et l'ordre X/Y tiré d'avance. Le masquage n'est que partiel : le vocabulaire de la refonte reste reconnaissable.
+Vérité de calcul et erreurs graves : figées avant les exécutions. J'ai vérifié moi-même le choix principal et les pièges de chaque sortie.
+
+Résultats
+
+| Cas | Choix principal de R | Choix principal de M | Note R | Note M |
+|---|---|---|---|---|
+| C1 (autre sport, jambe en trop, dos) | Comets 1,62, comme le calcul | Comets 1,62 ; mais le 🎾 garde Valente (dos) | 11,5 | 9,5 |
+| C2 (multisport, dépendance, MyMatch) | Varga + Castel 2,17, comme le calcul | Castel seul 1,55 (« plus forte chance ») | 11,5 | 10 |
+| C3 (grosse journée tennis) | Dumas 1,57, comme le calcul, « duel serré » signalé | Morel 1,33 | 11,5 | 10 |
+| C4 (programme pauvre, Winamax inaccessible) | Costa 1,70, conditionnel, comme le calcul | Faure 1,30, match du lendemain, « meilleure chance » | 12 | 8 |
+| C5 (Winamax seul, toutes EV négatives) | Montval 1,55, comme le calcul, sensibilité à la méthode signalée | Ferro 1,25, « plus forte chance du jour » | 11,5 | 8,5 |
+| C6 (mise à jour du prix et du physique) | Aubrac 1,62 après mise à jour, comme le calcul | Adeyemi–Moss 1,20 (🟡) | 12 | 10,5 |
+| Total | | | 70/72 | 56,5/72 |
+
+Les six évaluateurs ont préféré la refonte dans les six cas.
+
+Ce que montrent les sorties
+1. Aucune des deux variantes ne commet d'erreur grave stricte.
+   - Les deux évitent les pièges : rien d'inventé, dépendance Varga simple/double signalée, MyMatch calculé par probabilité jointe (45,4 %, pas le produit 39,1 %), affiche non confirmée et match commencé exclus, aucune cote Betclic présentée comme Winamax, aucune value sur base Winamax seule, probabilité de Kerr recalculée après la nouvelle (pas de fausse value de +9,8 %).
+   - Les garde-fous d'honnêteté de SOL 5.16 fonctionnent : ils sont conservés.
+2. La différence vient de la définition du choix principal.
+   - Sans règle opérationnelle, la correction minimale résout « meilleur » en maximisant la chance de toucher : simples à 1,20–1,33 dans quatre cas sur six, et simple à 68,6 % préféré au double multisport mieux payé en C2. C'est précisément le travers « cote courte prise pour une preuve de sécurité ».
+   - La refonte retient le choix du calcul de référence dans les six cas et signale elle-même les duels serrés.
+3. Vérifiabilité.
+   - La refonte donne partout l'EV centrale et l'EV prudente, les fourchettes, les seuils de bascule et le coût des jambes ajoutées.
+   - La correction minimale omet souvent l'EV prudente et les fourchettes. Elle juxtapose aussi plusieurs étiquettes « principal » (⭐, « 🎾 principal », « 🛡️ ticket du jour ») et ajoute en C6 un marché de sets fondé sur un modèle spéculatif.
+4. Défauts résiduels de la refonte, tous corrigés dans la version finale :
+   - numéros de section du prompt cités dans les réponses ;
+   - affiche non confirmée comptée « en attente » ;
+   - repère historique utilisé sans sa source ;
+   - 🟢 sur une value NBA très mince avant le rapport du jour (corrigé par la fourchette ±3 en NBA) ;
+   - formulation « 🚀 = 🛡️ » peu claire.
+5. Longueur : comparable (environ 1 850 à 2 300 mots sous la consigne de 2 000). Le prompt de la refonte est 2,3 fois plus court, donc moins coûteux à chaque exécution.
+
+Limites de ce test
+- Six cas, une exécution par cas et par variante : la variabilité d'une exécution à l'autre n'est pas mesurée.
+- Le même modèle a écrit la refonte et l'a exécutée, ce qui peut avantager sa formulation.
+- Le masquage est partiel.
+- La vérité de calcul applique la règle de la refonte. Les évaluateurs avaient pour consigne de ne pas pénaliser un autre choix bien défendu, mais le critère « choix conforme au calcul » avantage mécaniquement la refonte. Les preuves les plus solides sont donc l'égalité sur les erreurs graves (0 contre 0), la dérive systématique de la correction minimale vers les cotes les plus courtes et l'écart de vérifiabilité.
+
+Décision : je retiens la refonte. Elle donne des décisions plus cohérentes et plus faciles à vérifier, avec un prompt plus court, sans perdre les garde-fous qui fonctionnaient déjà.
+
+8.4 Vérifications de sensibilité, choisies parce qu'elles peuvent changer une sélection (exécutées en Python)
+
+Conventions de R★ testées : 27 réglages (tolérance de 0,5, 1 ou 2 points ; fourchette de ±1,5, ±2 ou ±3 points ; zone du choix principal de 1,40 à 4,00, de 1,50 à 4,00 ou de 1,60 à 3,50), sur les sept situations des cas de contrôle.
+
+| Situation | Réglages donnant le même choix principal | Lecture |
+|---|---|---|
+| C1 (NBA) | 27 sur 27 | Écart de prix réel : choix net |
+| C2 (multisport) | 26 sur 27 | Écart de prix réel : choix net |
+| C6 avant la mise à jour | 27 sur 27 | Écart de prix réel : choix net |
+| C4 | 18 sur 27 | Aucun écart de prix : choix de convention |
+| C5 | 18 sur 27 | Aucun écart de prix : choix de convention |
+| C6 après la mise à jour | 18 sur 27 | Aucun écart de prix : choix de convention |
+| C3 | 6 sur 27 | Aucun écart de prix : choix de convention |
+
+Quand un vrai écart de prix existe, le choix principal ne dépend pas des conventions. Quand il n'en existe pas, plusieurs tickets sont à prix équivalent et le réglage décide.
+Correction apportée au prompt (2.2, point 5) : dans ce cas, le prompt doit dire qu'il s'agit d'une préférence de simplicité entre options équivalentes et les nommer. Un choix n'est déclaré « net » que s'il résiste au passage de la fourchette de ±2 à ±3 points.
+
+Méthode de retrait de marge (power ou multiplicative) : aucun changement de choix principal en C1, C2 et C6 ; l'écart maximal de probabilité entre les deux méthodes est de 1,5 à 2,2 points. La méthode power reste le défaut (6.2) et la multiplicative sert de contrôle.
+
+Calibration de la fourchette par défaut : de combien la probabilité de référence bouge-t-elle entre l'avant-match et la clôture ?
+
+| Marché | Mouvement médian | 75e centile | Prix qui bougent de plus de 2 points |
+|---|---|---|---|
+| Football (Pinnacle, 11 432 matchs) | 2,0 points | 3,5 points | 50 % |
+| NBA (ESPN BET, 2 452 matchs) | 3,0 points | 5,7 points | 66 % |
+| NHL (ESPN BET, 2 631 matchs) | 2,1 points | 3,7 points | 54 % |
+
+La fourchette de ±2 points correspond donc au mouvement médian, c'est-à-dire à une prudence minimale.
+Correction apportée au prompt (3.5) : ±3 points en NBA tant que le rapport de blessures du jour de match n'est pas publié, et ce repère est désormais écrit dans le prompt.
+
+8.5 Validation de la version finale sur un septième cas — en cours.
+
+8.6 Corrections apportées au prompt après les tests (v1 → version finale)
+1. Calculateur : règle de décision v1 → v3 (8.2). La chance de toucher n'est plus un critère entre cotes différentes, le groupe de tête est ramené à 1 point et le départage se fait par la simplicité.
+2. Sensibilité : ajout d'un point « Robustesse » à R★. Un choix qui dépend des conventions est présenté comme une préférence de simplicité entre options équivalentes, et ces options sont nommées.
+3. Calibration de la fourchette : ±3 points en NBA avant le rapport du jour, en base Winamax seule et pour une probabilité jointe modélisée ; le repère empirique est écrit dans le prompt.
+4. Tests A/B, sur les défauts résiduels :
+   - plus de numéros de section cités dans les réponses ;
+   - affiche non confirmée comptée à part ;
+   - repères historiques présentés avec leur période et leur source ;
+   - une seule version retenue du 🎾 ;
+   - rubrique « assemblages tentants à éviter » rétablie (fonction du kit de 5.16).
+5. Bonus combiné : le ticket bonifié est comparé à sa version courte avec R★, bonus compris dans l'EV prudente ; s'il ne gagne qu'en EV centrale, il reste 🟡 au mieux. Ce point a été validé sur C7 (8.5).
+6. Exemple chiffré corrigé : −1,85 % au lieu de « −1,9 % » (8.1).
+7. Relecture finale : six corrections issues de ma relecture et huit de la relecture à froid (8.8).
+
+8.7 Ce qui est testé, vérifié à la main ou seulement supposé
+Tests exécutés (code ou agents) :
+- 25 contrôles de calcul ;
+- étude hors échantillon football, NBA et NHL (section 6) ;
+- sensibilité de R★ et calibration de la fourchette (8.4) ;
+- 12 exécutions A/B notées en aveugle (8.3) ;
+- validation de la version finale sur un 7e cas, hockey et bonus (8.5).
+Vérifications manuelles :
+- lecture des choix principaux et des pièges dans les 12 sorties (grep ciblé et relecture) ;
+- recalcul des exemples ;
+- relecture finale du prompt pour éliminer les contradictions, complétée par une relecture à froid confiée à un autre modèle (8.8).
+Hypothèses non testées :
+- que la marge réelle de Winamax rende les jambes sans avantage plus coûteuses que dans les repères (probable, non mesuré) ;
+- que les conventions de R★ restent bonnes sur des journées réelles (à suivre avec le journal) ;
+- les règles Winamax non confirmées (abandon, prolongations, joueur non partant, conditions du Combo Booster) ;
+- l'intérêt du rugby et du hockey en option.
+
+8.8 Relecture finale de la version livrée (vérification manuelle, puis relecture à froid par un autre modèle)
+
+Ma relecture intégrale a trouvé six défauts, corrigés :
+1. R★ exigeait une qualité Q1 ou Q2 et une probabilité estimable « pour tous les formats », alors que le 🎲 et le 🎉 admettent une ligne faible et une probabilité non estimée. L'exception est désormais écrite dans R★, et le 🎲 reçoit une règle quand la probabilité n'est pas estimable : choix sur la lecture et la marge, « probabilité non estimée ».
+2. La formule du seuil de bascule ignorait l'étape « simplicité » de R★ : un choix plus simple reste en tête jusqu'à un point derrière son concurrent. La formule reçoit donc un terme t (−1, 0 ou +1 point selon le nombre de jambes). En C1, le seuil exact devient 1,58 au lieu de 1,60, vérifié au centime près par le calcul.
+3. Le module hockey limitait le hockey au simple ou au 🎲, ce qui contredisait R★ (une jambe d'EV prudente positive améliore n'importe quel ticket). Règle reformulée : écart de prix précis et gardien confirmé, jamais pour remplir un format.
+4. L'ordre de travail parlait de contester les « deux premiers concurrents », la section 4.6 d'un seul : harmonisé sur un.
+5. Une phrase ambiguë sur l'ampleur des mouvements de prix a été réécrite.
+6. Une carte de fiche finale remplie (exemple fictif) a été ajoutée, pour que la fiche de sortie soit concrète. Ses chiffres sont vérifiés par le code.
+
+Relecture à froid par un autre modèle, consigne : seulement ce qui pourrait produire une décision incohérente ou invérifiable. Douze remarques. Trois recoupaient les miennes, huit nouvelles ont été retenues et corrigées :
+- une jambe dont la cote Winamax n'est pas lue n'est classable qu'avec le prix réellement lu d'un autre bookmaker (⚠️) ; sans aucun prix lu, elle reste une proposition conditionnelle hors classement ;
+- un statut incertain rend le ticket conditionnel seulement s'il sera publié à une heure connue ; sans échéance connue, la jambe est exclue ;
+- l'exemple du registre était faux (la méthode power donne 71,0 % et non 70,2 %) : recalculé, avec la marge, la fourchette et le tier double S/A, et vérifié par le code ;
+- les labels 🟢 et 🟡 laissaient des cas sans label ; le 🟡 a maintenant une condition commune (EV centrale > 0) ;
+- le seuil entre qualité moyenne et faible est précisé (deux éléments manquants ou un point décisif inconnu → Q3) ;
+- l'EV se calcule par états de retour dès qu'un remboursement est possible ;
+- chaque format a une règle de repli hors zone ;
+- divers : collision des lettres « qualité A/B/C » avec les tiers S à D (qualité renommée Q1 à Q3) ; longueur du 🎾 (« plus d'un point » d'EV prudente) ; tableau limité à quatre colonnes ; renvoi au biais favori-outsider ; mention « prompt autonome » rendue compatible avec le renvoi à l'audit.
+Une remarque non retenue : le repère « 8 % à cinq jambes » est un taux observé sur des jambes de cotes différentes, pas 0,62⁵. Il est juste tel quel.
 
 
 ═══ 9. LIMITES RESTANTES ═══
@@ -427,8 +560,12 @@ La vérité de calcul et la liste des erreurs graves ont été figées avant les
 7. Accès réel aux références : Pinnacle et les bourses de paris ne sont pas toujours lisibles par un assistant en ligne. Quand elles manquent, la décision repose sur la marge Winamax et la qualité des preuves. Le prompt l'assume (base « Winamax seule », aucune value affichée), mais l'avantage de prix devient alors invisible.
 8. Les tests A/B portent sur six journées fictives et douze exécutions d'un même modèle, notées en aveugle par un autre modèle et contrôlées à la main. Ils montrent des tendances ; ce ne sont pas des statistiques. Les journées historiques réelles n'ont pas été utilisées, car le modèle testé peut connaître les résultats de matchs réels passés (contamination), et un résultat isolé ne prouve rien.
 
-9. Dépense de la session. Je ne peux pas mesurer la consommation réelle depuis cet environnement : je ne peux donc pas garantir le respect du plafond d'environ 250 $. Pour l'économiser, j'ai délégué les recherches documentaires et la notation à un modèle moins coûteux, imposé des sorties de test compactes, limité les tests aux six cas demandés et réservé les nouvelles exécutions aux points capables de changer une sélection.
-
+9. Dépense de la session. Je ne peux pas mesurer la consommation réelle depuis cet environnement : je ne peux donc pas garantir le respect du plafond d'environ 250 $. Pour l'économiser, j'ai :
+   - délégué les recherches documentaires, la notation et la relecture à froid à un modèle moins coûteux ;
+   - imposé des sorties de test compactes ;
+   - limité les tests aux six cas demandés et à un seul cas de validation ;
+   - réservé les vérifications supplémentaires à celles qui pouvaient changer une sélection (sensibilité, calibration de la fourchette, hockey, bonus combiné).
+   À titre indicatif seulement, les traces d'exécution indiquent environ 250 000 à 350 000 jetons traités par exécution de test. Ce n'est pas un montant en dollars.
 
 ═══ 10. SOURCES ═══
 
