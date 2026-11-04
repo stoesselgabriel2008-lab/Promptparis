@@ -1,0 +1,99 @@
+📌 DÉCISION
+Préparé le jeudi 19 novembre 2026 à 15:00 (Paris). Horizon : jeudi et nuit suivante. Sports : tennis, football, NBA, NHL (demandé). Base : référence indépendante (Pinnacle via comparateur, 14:35), Winamax lu dans l'application (14:40), sans rafraîchissement possible.
+
+⭐ CHOIX PRINCIPAL : **Union Bréda vainqueur** (R4, 1X2 temps réglementaire), Bréda–Hautval, jeudi 20:45, **1,70 ✅**, chance 59,4 %, EV +1,1 % / prudente −2,4 %, 🟡. **Seulement si** la composition de 19:45 ne montre aucune absence décisive à Bréda et si la cote reste **≥ 1,67**.
+Pourquoi lui : aucune value démontrée (toutes les EV prudentes sont négatives) ; c'est le ticket le moins coûteux selon la règle de décision R★ (prix prudent, puis simplicité) dans la zone 1,50–4,00, avec 2,0 points d'avance sur Ricci 1,62 (−4,4 %). Monarchs 1,48 (−2,6 %) et Ilic 1,30 (−2,7 %) coûtent autant mais sont sous la zone. Choix net : à ±3 points, Bréda −4,1 %, Ricci −6,0 %.
+Il reste mon choix tant que : cote ≥ 1,67 à référence inchangée (≥ 1,69 pour une EV centrale positive) et composition complète ; sinon Ricci 1,62, avant 20:30. Absence décisive annoncée : attendre le nouveau prix de référence.
+Avant de cliquer (19:45–20:45) : composition de Bréda (gardien, axe, meneur, buteur) ; cote ≥ 1,67 ; match maintenu (match en retard).
+
+Menu (alternatives, pas à cumuler) :
+🎯 **Ilic vainqueur 1,30** (16:00) : 76,9 %, EV −0,1 % / −2,7 %, sans label. Préférence de simplicité entre trois simples à moins d'un point (Bréda, Monarchs, Ilic) : le seul sans annonce attendue. Pas net : à ±3, Monarchs passerait devant.
+🛡️ **Ilic + C. Moreau, 1,87** : 53,0 %, EV −0,9 % / −6,3 %.
+🎾 **Ilic + C. Moreau + Ricci, 3,03** (3,13 avec Combo Booster +5 %) : 32,3 %, EV +1,3 % / −7,4 %, 🟡 grâce au seul bonus (−2,0 % sans).
+🎲 Vide : aucun prix de marché vivant lu.
+🚀 **Bréda + Monarchs, 2,52** : 40,9 %, EV +2,9 % / −4,9 %, 🟡, à valider 19:45–20:45.
+🎉 Non servi : aucune version admissible.
+🟡 aussi : Monarchs 1,48 en simple (+1,8 % / −2,6 %) après le rapport NBA. Aucun 🟢.
+Exposition : Bréda (⭐, 🚀) ; Ilic et C. Moreau (🎯, 🛡️, 🎾) ; Ricci (🎾, plan B du ⭐).
+
+🔭 COUVERTURE
+Tennis (Finales de Brévent, WTA, dur intérieur, groupes) : 3 matchs, 3 favoris approfondis, outsiders écartés (EV −10 à −19 %), aucune autre affiche connue. Football : Bréda retenu ; nul (−8,4 %) et Hautval (−18,1 %) écartés. NBA : Monarchs retenus ; Bolts écartés (−14,2 %). NHL : 2 marchés étudiés puis écartés (R6, R7). Rugby, basket européen : aucune donnée. Non vérifiés : groupes, règle d'abandon, conditions complètes du Combo Booster. Apport de l'exploration : les heures d'annonce (NBA ~19:00, compositions ~19:45) excluent tout combiné ouvert par le tennis de 16:00 ou 18:00 avec Bréda ou les Monarchs ; le bonus ne change aucun rang.
+
+📒 REGISTRE
+Matchs, à venir selon les captures : M1 Ilic–S. Moreau 16:00 heure fixe, M2 C. Moreau–Varga 18:00 pas avant, M3 Ricci–Vega 20:30 (Finales de Brévent, groupes) ; M4 Bréda–Hautval 20:45 (Valmorie, match en retard) ; M5 Monarchs–Bolts vendredi 01:30 (NBA) ; M6 Knights–Rapids vendredi 01:00 (NHL).
+Conventions : Winamax ✅ 14:40, Pinnacle 14:35, méthode power (multiplicatif entre parenthèses), aucun ajustement donc p_ret = p_ref, fourchette ±2 points sauf mention, EV centrale/prudente, marge Winamax (Pinnacle).
+R1, M1, Ilic vainqueur, 1,30, réf. 1,28/3,95, 76,9 % (75,5) [74,9–78,9], EV −0,1/−2,7 %, marge 5,5 % (3,4), qualité B, tier S ; abandon : règle non vérifiée, calcul « abandon de sa joueuse = perdu » (R1 à R3).
+R2, M2, C. Moreau vainqueur (distincte de S. Moreau), 1,44, réf. 1,42/3,00, 68,9 % (67,9) [66,9–70,9], −0,8/−3,7 %, 5,2 % (3,8), B, tier A/S.
+R3, M3, Ricci vainqueur, 1,62, réf. 1,60/2,45, 61,0 % (60,5) [59,0–63,0], −1,2/−4,4 %, 5,2 % (3,3), B, tier A/B ; 2 h 50 joués hier.
+R4, M4, Bréda 1X2 temps réglementaire, 1,70, réf. 1,66/4,10/5,60, 59,4 % (58,8) [57,4–61,4], +1,1/−2,4 %, 5,3 % (2,5), B, tier B/A ; condition : compositions ~19:45.
+R5, M5, Monarchs vainqueur prolongations incluses (vérifié), 1,48, réf. 1,42/2,98, 68,8 % (67,7) [65,8–71,8] (±3 avant le rapport du jour), +1,8/−2,6 %, 3,9 % (4,0), B, tier A/S ; condition : rapport ~19:00, meilleur joueur « Probable » (cheville).
+R6, M6, Knights vainqueur prolongation et tirs au but inclus, 1,60, réf. 1,56/2,52, 62,4 % (61,8) [60,4–64,4], −0,1/−3,3 %, 5,1 % (3,8), B, tier A ; gardien non confirmé (~17:00) ; écarté : cote juste, aucun écart de prix (simple seulement à 1,66 ou plus, gardien confirmé).
+R7, M6, Knights 1N2 temps réglementaire, 1,95 (nul 4,10, Rapids 3,30), base Winamax seule ±3, 49,3 % (48,4) [46,3–52,3], −3,9/−9,7 %, marge 6,0 %, C, tier C/B ; aucune value affichable ; autre événement que le 1,60 (nul à 60 minutes 22,5 %, repère NHL 21–25 %, 2024-2026).
+
+⚖️ COMPARAISON DES TICKETS
+Ticket | Cote | Chance ; EV centrale/prudente | Pourquoi ce rang
+Bréda (R4) | 1,70 | 59,4 % ; +1,1/−2,4 | meilleure EV prudente : ⭐
+Monarchs (R5), Ilic (R1) | 1,48 ; 1,30 | prudentes −2,6 et −2,7 | même prix, sous la zone ; Ilic = 🎯
+Ricci (R3) | 1,62 | 61,0 % ; −1,2/−4,4 | premier concurrent, 2,0 points derrière
+Bréda + Monarchs | 2,52 | 40,9 % ; +2,9/−4,9 | meilleur à 2 jambes et multisport : 🚀
+Ricci + Bréda + Monarchs (+5 %) | 4,08 (4,23) | 25,0 % ; +5,5/−5,7 | meilleur à 3 ; le bonus ne paie pas Ricci
+Meilleur mono-sport : Ilic (tennis), Bréda (football), Monarchs (basket), aucun (hockey).
+Coût des jambes : Monarchs ajoutés à Bréda retirent 18,5 points de chance (−31 %), EV prudente −2,4 → −4,9 % ; Ricci en plus, avec bonus : 25,0 % (−39 %), −5,7 %. 🎾 à 3 (3,03 ; 3,13 avec bonus), seule longueur possible : depuis le 🛡️, chance 53,0 → 32,3 %, EV prudente −6,3 → −7,4 % (−10,4 % sans bonus) ; à 4 ou 5, il manque 1 et 2 rencontres de tennis.
+4 et 5 jambes : aucun ticket admissible. À éviter : le Combo Booster à 5 jambes (Ilic, C. Moreau, Bréda, Monarchs, Knights : 7,54, soit 8,52 avec +15 %) : EV +15,1 % / −2,6 %, chance 13,5 %, mais validé avant 16:00 sans rapport NBA, composition ni gardien, avec un hockey de remplissage : inadmissible. Même admis, il perdrait contre Bréda (même prix prudent, quatre jambes de plus ; −8,5 % à ±3).
+
+🔬 DOSSIERS DES FINALISTES
+⭐ Bréda (R4) : 1,70, p_ret 59,4 %, Pinnacle sans marge. Données : 1X2 Pinnacle de 14:35 (marge 2,5 %, cote d'équilibre 1,68), Winamax paie plus (1,70 contre 1,66). Classement 3e contre 12e : connu avant le prix, déjà dedans, aucun ajustement. Objection : l'avance centrale n'existe qu'en méthode power (−0,1 % en multiplicatif), c'est un prix juste ; le nul (23,5 %) perd ; composition inconnue avant 19:45. Alternative : double chance ou remboursé si nul, non lus (à relever). Bascule : sous 1,67, Ricci.
+Ricci (R3), premier concurrent : 1,62, p_ret 61,0 %. 2 h 50 de jeu hier, heure de fin inconnue : antérieur au prix, présumé dedans, fatigue non chiffrable ; c'est son objection (risque physique, abandon). Vega 2,30 : −10,3 %. Condition : aucune nouvelle physique avant 20:30.
+Bréda + Monarchs, deuxième concurrent : reste derrière à ±3 (−6,6 %).
+🎾. Ilic : 4 victoires en 5 matchs cette semaine (adversaires inconnus), petit échantillon déjà dans le prix ; à 1,30, elle perd encore environ une fois sur quatre. C. Moreau : rien de notable. Ricci : jambe la plus fragile (61,0 %, fatigue), sans remplacement possible ; contrôle raté : 🛡️. Groupes non fournis : si un match peut décider de la qualification d'une joueuse d'un match suivant, ne pas combiner (borne basse pour Ilic + C. Moreau : 41,8 %, EV prudente −21,8 %). Abandons : repère d'environ 3 % des matchs en deux sets gagnants (PLOS ONE 2024), soit 8,7 % d'au moins un abandon sur trois ; si Winamax annule la jambe (cote 1), le ticket tombe à deux sélections et peut perdre le bonus.
+Seconde passe, contrôlé : chiffres repris du registre ; dépendances « même joueuse » absentes (deux Moreau distinctes) ; aucune jambe ajoutée pour une cote ou un bonus ; classements, séries (Knights, Rapids) et fatigue non comptés comme avantage ; aucune conversion entre 1N2 et vainqueur au hockey.
+
+📋 FICHE FINALE
+A. Calendrier (jeudi 19/11, Paris)
+- Avant 16:00 : valider 🎯, 🛡️ ou 🎾.
+- 16:00 Ilic–S. Moreau ; 18:00 (pas avant) C. Moreau–Varga.
+- ~19:00 rapport NBA ; ~19:45 compositions : valider ⭐ ou 🚀 avant 20:45 (plan B Ricci avant 20:30).
+- 20:30 Ricci–Vega ; 20:45 Bréda–Hautval ; vendredi 01:30 Monarchs–Bolts. Knights–Rapids (01:00) hors menu.
+
+B. Paris
+⭐ 🟡 **Union Bréda vainqueur · 1,70 · 59 %**
+— Football, Union Bréda – SC Hautval, Ligue de Valmorie (match en retard), jeudi 19/11 à 20:45
+— 1X2 temps réglementaire, Winamax 1,70 ✅ (14:40)
+— Pourquoi : pari le moins cher de la zone de cote, à prix juste.
+— Avant de cliquer : composition sans absence décisive ; **cote ≥ 1,67**.
+— Plan B : Ricci vainqueur 1,62, avant 20:30.
+
+🎯 **Ilic vainqueur · 1,30 · 77 %**
+— Tennis, M. Ilic – S. Moreau, Finales de Brévent (WTA, groupes), jeudi 16:00
+— Vainqueur du match, Winamax 1,30 ✅ (14:40), règle d'abandon à lire
+— Pourquoi : même prix prudent que Bréda, sans annonce à attendre ; perd environ une fois sur quatre.
+— Avant de cliquer : aucune nouvelle physique ; **cote ≥ 1,30**.
+— Plan B : le ⭐ ce soir.
+
+🛡️ **Ilic + C. Moreau · 1,87 · 53 %**
+— R1 Ilic vainqueur (16:00), 1,30 ✅ ; R2 C. Moreau vainqueur (C. Moreau–Varga, 18:00 pas avant), 1,44 ✅
+— EV −0,9 % / −6,3 % ; indépendance supposée ; abandon : jambe perdue ou annulée selon la règle Winamax.
+— Pourquoi : seul ticket court admissible (Ilic + Monarchs se validerait avant le rapport NBA).
+— Avant de cliquer (avant 16:00) : **Ilic–S. Moreau ne doit pas décider de la qualification de C. Moreau ou de Varga** ; cotes inchangées.
+— Plan B : 🎯 seul.
+
+🎾 🟡 **Ilic + C. Moreau + Ricci · 3,03 (3,13 avec bonus) · 32 %**
+— R1 (16:00) 1,30 ; R2 (18:00 pas avant) 1,44 ; R3 Ricci vainqueur (Ricci–Vega, 20:30) 1,62 ; tous ✅
+— EV +1,3 % / −7,4 % bonus compris (−2,0 % / −10,4 % sans) ; mêmes réserves d'abandon et de groupe.
+— Pourquoi : seule longueur possible ; le bonus ne rentabilise pas la troisième jambe.
+— Avant de cliquer (avant 16:00) : **Combo Booster affiché sur le ticket** ; aucune nouvelle physique de Ricci.
+— Plan B : 🛡️.
+
+🎲 Vide. Manque : cotes Winamax et de référence d'un marché vivant (total, handicap, sets) ; le 1N2 hockey n'a ni référence ni gardien confirmé.
+
+🚀 🟡 **Bréda + Monarchs · 2,52 · 41 %**
+— R4 Bréda 1X2 (20:45) 1,70 ✅ ; R5 Monarchs vainqueur prolongations incluses (vendredi 01:30) 1,48 ✅
+— EV +2,9 % / −4,9 % ; matchs indépendants ; aucun remboursement.
+— Pourquoi : meilleur multisport ; ses deux annonces précèdent la validation.
+— Avant de cliquer (19:45–20:45) : **meilleur joueur des Monarchs non déclassé** ; composition de Bréda ; Bréda ≥ 1,69 et Monarchs ≥ 1,46.
+— Plan B : ⭐ seul.
+
+🎉 Non servi : toute version à 5–15 se validerait avant 16:00 sans les annonces, ou exigerait un hockey de remplissage le soir.
+
+C. Un seul pari : Bréda vainqueur à 1,67 ou plus, après la composition de 19:45.
+D. Rappel : aucune value démontrée ; prix de 14:40 et compositions à vérifier avant chaque clic ; aucune promesse de gain ; 18+.

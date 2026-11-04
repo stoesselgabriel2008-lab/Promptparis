@@ -24,8 +24,8 @@ Preuves principales, calculées pour cet audit sur des données publiques et hor
 Tests :
 - 25 contrôles de calcul réussis ;
 - deux défauts de conception de R★ trouvés et corrigés par le calculateur avant les tests ;
-- comparaison A/B en aveugle sur six journées fictives contrastées : la refonte l'emporte dans les six cas (70/72 contre 56,5/72), sans erreur grave d'un côté comme de l'autre. Dans quatre cas sur six, la correction minimale choisit la cote la plus courte « parce qu'elle touche le plus souvent » ;
-- validation de la version finale sur un septième cas, hockey et bonus combiné (section 8.5) ;
+- comparaison A/B en aveugle sur six journées fictives contrastées : la refonte l'emporte dans les six cas (70/72 contre 56,5/72), sans erreur grave d'un côté comme de l'autre. Dans quatre cas sur six, la correction minimale retient un simple à 1,20–1,33, justifié surtout par sa forte chance de toucher ;
+- deux validations des règles ajoutées, toutes conformes : cas C7 (hockey et bonus combiné) et cas C4 rejoué sur la version finale (section 8.5) ;
 - relecture finale, doublée d'une relecture à froid (section 8.8).
 
 Limites : les règles de règlement propres à Winamax (abandon au tennis, prolongations, joueur non partant, Combo Booster) n'ont pas pu être confirmées sur une source officielle ; elles sont marquées « à confirmer » et traitées prudemment dans le prompt. Aucune performance de gain n'est démontrée.
@@ -344,7 +344,7 @@ Disponibilité sur Winamax et règles françaises :
 |---|---|---|---|---|---|
 | Basket NBA, vainqueur | Oui, la plus forte mesurée (0,215 ; favori 70 %) | Oui | Oui : rapport de blessures officiel à heures fixes ; l'information de dernière heure compte (clôture meilleure que l'ouverture) | Aucune règle simple ; seulement un écart face à une référence | Défaut. Coût de recherche faible (une source officielle). Matchs entre minuit et 4 h 30 à Paris : statuts fixés ou jambe conditionnelle |
 | Basket NBA, handicap et total | Non, pile ou face par construction | Oui | Comme ci-dessus | Seulement un écart de ligne ou de prix face à la référence | Défaut, mais jamais choisi « par probabilité » |
-| Basket européen | Non mesuré | Prix efficients sur l'avantage du terrain à huis clos (De Angelis et Reade 2023) | Moins accessibles | Aucune | Balayage léger, qualité B au mieux |
+| Basket européen | Non mesuré | Prix efficients sur l'avantage du terrain à huis clos (De Angelis et Reade 2023) | Moins accessibles | Aucune | Balayage léger, qualité Q2 au mieux |
 | Football, 1X2, DNB, double chance | Modérée (0,107) | Oui | Oui : compositions environ une heure avant | Biais favori-outsider ; pas d'avantage démontré face à la référence | Défaut |
 | Football, totaux, handicap asiatique, BTTS | Faible (0,043) ou nulle (0,002) | Oui | Comme ci-dessus | Seulement un écart de prix ou une information précise | Défaut, sans choix « par probabilité » |
 | Tennis, vainqueur | Élevée (environ 70 % de favoris), plus faible plus bas dans la hiérarchie | Oui ; biais favori-outsider documenté | Variable : physique peu documenté, abandons environ 3 % | Les favoris sont mieux payés (littérature) | Défaut ; mode complet sur demande |
@@ -494,7 +494,35 @@ Calibration de la fourchette par défaut : de combien la probabilité de référ
 La fourchette de ±2 points correspond donc au mouvement médian, c'est-à-dire à une prudence minimale.
 Correction apportée au prompt (3.5) : ±3 points en NBA tant que le rapport de blessures du jour de match n'est pas publié, et ce repère est désormais écrit dans le prompt.
 
-8.5 Validation de la version finale sur un septième cas — en cours.
+8.5 Validation de la version finale sur des règles qui peuvent changer une sélection (exécutée)
+
+Ces exécutions ne comparent plus deux variantes : elles vérifient que les règles ajoutées après le test A/B produisent la bonne décision. Les attendus ont été figés avant les exécutions (annexes/tests/verite_de_calcul/GROUND_TRUTH.txt).
+
+Cas C7 (nouveau), exécuté sur la v4 : NHL avec un marché 1N2 en temps réglementaire et un marché « prolongation incluse », NBA avant le rapport de blessures du jour, et bonus combiné affiché (+5 % des gains nets à 3 sélections, +10 % à 4, +15 % à 5).
+
+| Point contrôlé | Attendu (calcul de référence) | Obtenu |
+|---|---|---|
+| Choix principal | Bréda simple 1,70, 🟡 (EV +1,0 %, prudente −2,4 %) | Bréda 1,70, 🟡, EV +1,1 % (arrondi) et prudente −2,4 %, « choix net » vérifié à ±3 points, plancher 1,67 juste |
+| Piège hockey | Ne pas appliquer les 62,4 % « prolongation incluse » au 1N2 à 1,95 (fausse EV +21,7 %) | 1N2 traité comme un autre événement : base Winamax 49,3 %, nul à 60 minutes 22,5 % avec le repère 21–25 % cité, aucune value, aucune conversion |
+| Gardien non confirmé | Jambe conditionnelle ou écartée | Écartée : prix juste, gardien inconnu |
+| Fourchette NBA avant le rapport | ±3 points : Monarchs EV prudente −2,6 % | −2,6 % |
+| Bonus combiné | Calculé sur le gain net ; le triple bonifié (EV +6,4 %, prudente −4,2 %) ne bat pas le simple | Bonus bien calculé (3,03 → 3,13) ; 🎾 « 🟡 grâce au seul bonus » ; combiné de 5 jambes bonifié classé « à éviter » (jambes non validées, hockey de remplissage) ; choix principal inchangé |
+
+Les cinq points sont conformes. Seul écart : un arrondi de 0,1 point.
+
+Cas C4 rejoué sur la version finale v6. Objet : vérifier de bout en bout les règles réécrites à la relecture (admissibilité d'une jambe sans cote Winamax, qualité Q2/Q3, seuil de bascule avec le terme t, robustesse, absence de jargon), sur le cas qui y est le plus exposé (Winamax inaccessible, règle d'abandon non vérifiée).
+
+| Point contrôlé | Attendu | Obtenu |
+|---|---|---|
+| Choix principal | Costa simple 1,70, conditionnel (⚠️), EV prudente −3,9 % | Costa 1,70 ⚠️, EV −0,5 % / prudente −3,9 %, sans label, « le moins coûteux, pas un avantage » |
+| Robustesse | Groupe de tête signalé (Ilic −4,1 %, Laval, Weber + Faure) | « Préférence entre options de prix équivalent, qu'un autre réglage pourrait inverser » |
+| Seuil de bascule | (1 − 0,041) / 0,565 = 1,70 (t = 0, deux simples) | « Winamax ≥ 1,70 », sinon Ilic |
+| Qualité | Q2 pour les manques bornés ; Q3 pour un marché sans aucun prix | Jambes en Q2 ; total d'équipe sans prix lu en Q3 « non classé » |
+| Statuts de prix | Aucun ✅ | 0 ✅, 21 ⚠️ |
+| 🎾 | Compléter avec des matchs de demain datés | Weber + Costa + Faure 3,18 ⚠️, matchs du mardi datés |
+| Restitution | Pas de numéros de section | Aucun |
+
+Tous les points sont conformes. Les deux sorties de validation se trouvent dans annexes/tests/sorties/ (C7_R4.txt, C4_R6.txt).
 
 8.6 Corrections apportées au prompt après les tests (v1 → version finale)
 1. Calculateur : règle de décision v1 → v3 (8.2). La chance de toucher n'est plus un critère entre cotes différentes, le groupe de tête est ramené à 1 point et le départage se fait par la simplicité.
@@ -516,7 +544,7 @@ Tests exécutés (code ou agents) :
 - étude hors échantillon football, NBA et NHL (section 6) ;
 - sensibilité de R★ et calibration de la fourchette (8.4) ;
 - 12 exécutions A/B notées en aveugle (8.3) ;
-- validation de la version finale sur un 7e cas, hockey et bonus (8.5).
+- deux validations des règles ajoutées : cas C7 (hockey et bonus) sur la v4, et cas C4 rejoué sur la version finale v6 ; tous les points sont conformes (8.5).
 Vérifications manuelles :
 - lecture des choix principaux et des pièges dans les 12 sorties (grep ciblé et relecture) ;
 - recalcul des exemples ;
