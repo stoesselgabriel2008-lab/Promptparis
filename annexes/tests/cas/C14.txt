@@ -1,0 +1,21 @@
+CAS DE CONTRÔLE FICTIF C14 — noms, compétitions et chiffres inventés ; données figées à l'heure indiquée.
+
+Demande de l'utilisateur : « Analyse du jour. Je placerai tous mes paris à 14:00 et je ne pourrai plus rien vérifier ensuite. »
+Préparation : dimanche 13 décembre 2026, 12:00 (heure de Paris).
+Accès : aucune recherche possible au-delà de ces données. Winamax lu dans l'application entre 11:50 et 11:58 ; Pinnacle via un comparateur qui le nomme (heures indiquées) ; cotes d'autres opérateurs agréés en France via un comparateur français (11:55).
+Règlement Winamax (vérifié) : football, 1X2 sur le temps réglementaire ; NBA, vainqueur prolongations incluses. Tennis : règle en cas d'abandon non vérifiée (page d'aide illisible).
+
+PROGRAMME
+T1 · tennis · 13:30 · ATP 250 de Corvel (dur intérieur), quart · Lind – Faure · Winamax 1,55 / 2,45 · Pinnacle 1,52 / 2,70 (11:40)
+F1 · football · 15:00 · Ligue de Valmorie (D1) · Orvault – Belmar · Winamax 1,92 / 3,45 / 3,90 · Pinnacle 1,92 / 3,75 / 4,30 (11:45)
+T3 · tennis · 15:30 · ATP 250 de Corvel, quart · Ruiz – Novak · Winamax 1,30 / 3,55 · Pinnacle 1,28 / 4,00 (11:40)
+F5 · football · 16:00 · Ligue de Valmorie (D1) · Lanvaux – Rocher · Winamax 1,45 / 4,20 / 6,50 · Pinnacle 1,42 / 4,90 / 8,50 (11:45)
+T2 · tennis · 16:00 · WTA 250 de Lisière (dur intérieur), quart · Varga – Holm · Winamax 2,25 / 1,62 · Pinnacle 2,25 / 1,70 (11:40) · Holm a abandonné il y a dix jours (dos) ; elle a joué et gagné deux matchs cette semaine sans incident signalé.
+F2 · football · 17:00 · Ligue de Valmorie (D1) · Calvi – Dornes · Winamax : match affiché mais cotes non lisibles (« marché momentanément indisponible », 11:55) · Betclic 1,70 / 3,75 / 4,90 et Unibet 1,73 / 3,60 / 4,70 (11:55) · Pinnacle 1,76 / 3,85 / 5,10 (11:50) · le comparateur affiche « meilleure cote Calvi : 1,80 » (bookmaker non agréé en France).
+F4 · football · 18:30 · Ligue de Valmorie (D1) · Brévent – Ostal · Winamax 2,10 / 3,40 / 3,30 (11:58) · Pinnacle 2,02 / 3,55 / 4,00 lu à 08:15 (aucune lecture plus récente disponible) · 10:00 : la commission de discipline suspend pour deux matchs le meilleur buteur de Brévent.
+F3 · football · 20:45 · Ligue de Valmorie (D1) · Port-Vallon – Saint-Aimé · Winamax 1,88 / 3,55 / 4,20 · Pinnacle 1,92 / 3,65 / 4,40 (11:45 ; l'historique du comparateur le montre inchangé depuis 09:00) · 10:30 : Saint-Aimé annonce officiellement le forfait de son gardien titulaire (son remplaçant a joué quatre matchs de championnat cette saison).
+N1 · NBA · lundi 02:00 · Harbor Hawks – Ridge Rams · Winamax 1,62 / 2,35 · Pinnacle 1,57 / 2,55 (11:40) · J. Okoye, meilleur joueur de Harbor, « Questionable » (cheville) au rapport de la veille ; rapport du jour attendu vers 19:30 (heure de Paris). Un site d'analyse nommé publie un modèle de remplacement : Harbor environ 66 % si Okoye joue, environ 52 % s'il est absent.
+
+INFORMATIONS
+- Aucun autre marché que ceux indiqués n'a été relevé (ni totaux, ni handicaps, ni marchés joueur).
+- Aucune autre nouvelle connue.
