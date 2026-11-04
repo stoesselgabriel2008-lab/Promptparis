@@ -186,3 +186,8 @@ Révision 6.31 — « le plus sûr » (2.3) : ma règle de 6.29 était mal posé
 - Règle : retenir le simple le plus probable de cote ≥ 1,30, sauf si un simple presque aussi probable (au plus 3 points de chance en dessous) a une EV prudente meilleure de plus de 2 points ; la comparaison reste locale, entre paris de sûreté voisine. Dans l'exemple : Harbor (76,4 %, mais statut publié après l'heure de décision, prudente −18,2 %) cède sa place à Kovac (75,7 %, −2,0 %).
 - Calculateur : fonction safest_single ; un contrôle ajouté.
 Contrôles : statiques OK ; calculs 37/37.
+
+Révision 6.32 — zones de cote réglées sur le goût de l'utilisateur (2.3)
+- Demande de l'utilisateur : « J'aime bien les cotes aux alentours de 2, qui soient plutôt safe… voire des cotes à 3 si on est un peu foufou. » Le prompt exprime le goût du risque par la zone de cote de chaque format (2.2, point 4) : c'est donc là qu'il s'inscrit.
+- Règle : ⭐ choix principal de 1,60 à 2,60 par défaut (au lieu de 1,50 à 4,00), présenté comme « des cotes autour de 2, plutôt sûres » ; 🚀 combiné plaisir de 2,50 à 3,50 (« autour de 3 »), au lieu de 2 à 4. Les zones restent modifiables dans la demande du jour ; le 🛡️ (1,75 à 2,10) et le 🎯 (simple ≥ 1,30) ne changent pas. Contrôle : le cas validé C8 garde le même ⭐ (Ridge 2,18).
+Contrôles : statiques OK ; calculs 37/37.
