@@ -83,3 +83,8 @@ Révision 6.14 — mode Tennis complet : déclenchement, ordre de travail, sorti
 - Défaut 3 : la phrase de lancement « tennis » ne citait que le ⭐, le 🎯 et le 🎾, alors que le contrat récréatif impose tout le menu. Elle demande désormais aussi le reste du menu.
 - Constat du test C11 (20 matchs, révision 6.4) : conforme. ⭐ Weber/Morel 1,72 (EV prudente −2,9 %), 🎾 à trois matchs 3,41, compteurs de couverture cohérents (14 recensés = 12 analysés + 2 limités ; 6 mis à part), dépendance Pavic simple/double signalée, règle d'annulation sur abandon appliquée.
 Contrôles : statiques OK ; calculs 33/33.
+
+Révision 6.15 — calcul sans code (3.13)
+- Défaut (relecture « exécution ») : sans outil de calcul, l'énumération était limitée aux « 6 à 8 meilleures lignes », sans définir « meilleures ». Classées par EV prudente, elles pouvaient ne contenir ni trois matchs de tennis ni un marché vivant : le 🎾 et le 🎲 devenaient impossibles, alors qu'une limite de calcul n'est pas une « raison matérielle » au sens du contrat récréatif. Le balayage demandait aussi de résoudre à la main l'équation de la méthode power pour des dizaines de marchés.
+- Règle : au balayage, retrait de marge multiplicatif (power pour les seules lignes du registre) ; 6 à 8 lignes d'EV prudente la plus haute pour le ⭐ et le 🎯, plus les seules lignes qu'exige chaque autre format.
+Contrôles : statiques OK ; calculs 33/33.
