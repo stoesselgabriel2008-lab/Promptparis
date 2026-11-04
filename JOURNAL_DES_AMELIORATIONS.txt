@@ -9,3 +9,9 @@ Révision 6.1 — utilisation au quotidien
 - Saisie manuelle : modèle d'une ligne par match pour coller les cotes Winamax et de référence sans accès web ; une capture sans heure visible = prix « à confirmer ».
 - Calcul sans code (3.13) : énumération restreinte aux 6 à 8 meilleures lignes, calcul à la main montré, seuils testés par pas de 0,02 et signalés comme approchés ; un calcul non refait n'est jamais présenté comme vérifié.
 Contrôles : statiques OK ; calculs 29/29.
+
+Révision 6.2 — journal et bilan (partie 7)
+- Format de journal prêt à coller dans un tableur : une ligne par jambe, écrite au moment du choix et jamais réécrite après le résultat.
+- Bilan sur demande ou après 50 paris réglés : CLV d'abord, puis Brier, log-loss et calibration face à la clôture, puis rendement avec effectif et intervalle (à 50 paris de cote voisine de 2 : environ ±28 points, valeur recalculée).
+- Seuil de preuve : une convention de R★ ne change qu'avec un écart net sur au moins 200 jambes.
+Contrôles : statiques OK ; calculs 29/29.
