@@ -1,0 +1,215 @@
+## 📌 DÉCISION
+
+Préparé le dimanche 13 décembre 2026 à 12:00 (Paris) · horizon : aujourd'hui jusqu'à lundi 06:00 · tes paris : tous à 14:00, sans vérification ensuite · sports balayés : tennis, football, basket (NBA) · base de prix : référence indépendante (Pinnacle via comparateur), sauf Brévent – Ostal (Winamax seule) et Calvi – Dornes (Winamax illisible, prix provisoire Betclic) · aucune recherche web : je travaille uniquement sur tes données.
+
+⭐ **CHOIX PRINCIPAL : Orvault vainqueur** (R1, 1X2 temps réglementaire) · Orvault – Belmar, Ligue de Valmorie (D1), dimanche 15:00 · **cote 1,92 ✅** · chance 51,4 % · EV −1,3 % / prudente −5,1 % · sans label.
+Aucune sélection n'a d'EV prudente positive aujourd'hui : c'est un choix de moindre coût dans ta zone de cote (1,50 à 4,00), pas un avantage. EV −1,3 % : en moyenne, ce prix rend 98,7 % de la mise.
+
+**Pourquoi lui :** son seul concurrent sérieux dans la zone, Lanvaux + Ruiz, n'a que 0,7 point d'EV prudente d'avance (−4,4 % contre −5,1 %), sous le seuil d'un point. La règle de décision R★ (prix prudent, puis simplicité) retient alors le ticket le plus simple : une jambe aux preuves complètes, plutôt que deux jambes dont une dépend d'une règle d'abandon non vérifiée. C'est donc une préférence de simplicité entre deux options de prix équivalent (Orvault ; Lanvaux + Ruiz) : un autre réglage raisonnable pourrait les inverser. Avec des fourchettes élargies d'un point, Orvault garde la tête (−7,0 % contre −7,1 %).
+
+**Il reste mon choix tant que :** **Orvault ≥ 1,92** sur Winamax à 14:00 (c'est son prix actuel : à 1,91, le double passe devant) et qu'aucune absence décisive n'est annoncée chez Orvault. **Sinon : Lanvaux + Ruiz (1,885).** Si plusieurs de ces cotes ont bougé, garde Orvault tant que sa cote dépasse d'au moins 0,03 celle du ticket Lanvaux + Ruiz (règle vérifiée en code, exacte à un centime près). Exception : si Winamax rouvre Calvi – Dornes avec **Calvi ≥ 1,78**, Calvi seul prend la tête (EV −0,3 % / −3,8 % à 1,78).
+
+**Avant de cliquer (à 14:00) :**
+1. Cote d'Orvault ≥ 1,92 : Orvault ; sinon le plan B Lanvaux + Ruiz.
+2. Si la composition d'Orvault est publiée (en général environ une heure avant le match) : gardien titulaire et buteur principal présents ; sinon le plan B.
+3. Calvi – Dornes : marché Winamax rouvert et Calvi ≥ 1,78 ? Sinon, ignore ce match.
+
+**Menu (des alternatives, pas des paris à cumuler) :**
+- 🎯 **Lanvaux vainqueur · 1,45 ✅** · 69,6 % · EV +1,0 % / −1,9 % · 🟡 : meilleur prix du jour, mais sous la zone du ⭐.
+- 🛡️ **Lanvaux + Ruiz · 1,885** · 53,6 % · EV +1,0 % / −4,4 % · 🟡 : aucun sacrifice (meilleure EV prudente et meilleure chance de sa zone) ; c'est aussi le plan B du ⭐.
+- 🎾 Non servi : deux matchs de tennis seulement sont jouables (Ruiz – Novak, Varga – Holm) ; il en manque un.
+- 🎲 Non servi : aucun marché vivant relevé (ni total, ni handicap, ni marché joueur).
+- 🚀 **Orvault + Lanvaux · 2,78** · 35,8 % · EV −0,3 % / −7,0 % · sans label.
+- 🎉 **Orvault + Lanvaux + Port-Vallon · 5,23** · 18,4 % · EV −3,8 % / −13,7 % · sans label.
+- Autres 🟡 : Ruiz seul à 1,30 (+0,1 % / −2,5 %) ; Harbor à 1,62 (+1,1 %, mais −15,8 % prudente : le statut d'Okoye ne sera connu qu'à 19:30, donc à écarter avec tes horaires). Aucun 🟢.
+
+**Exposition :** Lanvaux figure dans 🎯, 🛡️, 🚀 et 🎉 ; Orvault dans ⭐, 🚀 et 🎉 ; Ruiz dans 🛡️. Jouer plusieurs cartes concentre le risque sur ces deux matchs de football.
+
+---
+
+## 🔭 COUVERTURE
+
+**Accès :** aucune recherche possible. Tout repose sur tes données : Winamax lu dans l'application entre 11:50 et 11:58, Pinnacle via un comparateur qui le nomme, Betclic et Unibet via un comparateur français (11:55).
+
+**Balayage** (une ligne par match ; EV au prix Winamax contre la référence sans marge, méthode power) :
+- T1 · Lind – Faure · ATP 250 de Corvel, quart · 13:30 · **écarté : le match commence avant ton heure de pari** (il sera en cours à 14:00). Pour mémoire, Lind à 1,55 donne EV +0,1 % / −3,0 % : si tu pouvais parier avant 13:30, il prendrait la tête du ⭐ et rendrait un 🎾 possible.
+- F1 · Orvault – Belmar · 15:00 · marge Winamax 6,7 % · Orvault 51,4 % · Orvault −1,3 %, nul −10,4 %, Belmar −11,9 % → R1.
+- T3 · Ruiz – Novak · ATP 250 de Corvel, quart · 15:30 · marge 5,1 % · Ruiz 77,0 % · Ruiz +0,1 %, Novak −18,3 % → R2.
+- F5 · Lanvaux – Rocher · 16:00 · marge 8,2 % · Lanvaux 69,6 % · Lanvaux +1,0 %, nul −18,6 %, Rocher −28,6 % (cote ≥ 5 sans écart de prix : écartée) → R3.
+- T2 · Varga – Holm · WTA 250 de Lisière, quart · 16:00 · marge 6,2 % · Holm 57,3 % · Varga −3,9 %, Holm −7,2 % → R4, R5.
+- F2 · Calvi – Dornes · 17:00 · Winamax illisible (« marché momentanément indisponible », 11:55, cause inconnue) · Calvi 56,0 % · au prix provisoire (cote agréée la plus basse lue à 11:55) : Calvi −4,7 %, nul −9,5 %, Dornes −11,5 % → R6, conditionnel.
+- F4 · Brévent – Ostal · 18:30 · Winamax seule, marge 7,3 % · Brévent 45,2 % · issues entre −5,1 % et −8,3 % : on ne mesure ici qu'un coût de marge (en multiplicatif, les trois issues sont toutes à −6,8 %) → R7.
+- F3 · Port-Vallon – Saint-Aimé · 20:45 · marge 5,2 % · Port-Vallon 51,4 % · Port-Vallon −3,5 %, nul −5,4 %, Saint-Aimé −7,6 % → R8.
+- N1 · Harbor – Ridge · NBA · lundi 14 décembre 02:00 · marge 4,3 % · Harbor 62,4 % · Harbor +1,1 %, Ridge −11,7 % → R9.
+
+**Par sport :**
+- Tennis (ATP 250 de Corvel, WTA 250 de Lisière ; dimanche) : 3 rencontres recensées, 1 écartée pour l'horaire (T1), 2 présélectionnées (T3, T2), 1 approfondie (T3, jambe du concurrent). La règle Winamax en cas d'abandon est illisible : chaque calcul est fait sous les deux règles plausibles et je retiens l'EV la plus basse.
+- Football (Ligue de Valmorie D1 ; dimanche) : 5 rencontres, 5 favoris présélectionnés, 2 approfondis (F1, F5). F3 et F4 ont été examinés pour leurs nouvelles ; F2 est conditionnel (pas de cote Winamax). Les compositions ne seront pas connues à 14:00, sauf peut-être celle de F1.
+- Basket (NBA ; nuit de dimanche à lundi) : 1 rencontre, présélectionnée pour l'information sur Okoye, puis déclassée parce que son statut sera publié après 14:00.
+- Autres limites : aucun autre marché que le vainqueur ou le 1X2 n'a été relevé ; aucune référence ne pourra être relue à 14:00 (tous les seuils supposent les prix Pinnacle de 11:40 à 11:50 inchangés).
+
+**Facteurs de contexte** (le facteur change-t-il le match ? est-il déjà dans le prix ? quel effet sur la décision ?) :
+- Forfait officiel du gardien titulaire de Saint-Aimé (10:30) : rôle décisif, mais Pinnacle n'a pas bougé de 09:00 à 11:45. L'annonce est donc réputée dans le prix ou sans effet : aucun ajustement, et Port-Vallon reste à −3,5 %.
+- Suspension du meilleur buteur de Brévent (10:00) : elle est postérieure à la seule lecture de Pinnacle (08:15), et aucune lecture plus récente n'existe. Cette référence devient inutilisable, d'où la base Winamax seule (lue à 11:58, après la nouvelle). Sans méthode pour chiffrer l'effet : aucun ajustement.
+- Okoye « Questionable » (rapport de la veille) : déjà connu au moment du prix de 11:40, donc aucun ajustement. Le modèle de remplacement du site d'analyse (Harbor environ 66 % s'il joue, 52 % s'il est absent) encadre la jambe ; le prix (62,4 %) lui correspond si Okoye joue environ trois fois sur quatre. Le rapport de 19:30 tombe après 14:00, donc la borne basse est le scénario « absent ».
+- Holm (abandon pour le dos il y a dix jours, deux victoires depuis sans incident) : information antérieure au prix, aucun ajustement. Elle ne compte que dans le calcul de la règle d'abandon (côté Varga).
+
+**Ce que l'exploration a changé :** au premier tri, quatre sélections jouables semblaient payées au-dessus de la référence : Brévent (+2,1 %), Harbor (+1,1 %), Lanvaux (+1,0 %) et Ruiz (+0,1 %). Brévent tombe parce que cette value apparente vient de la référence de 08:15, antérieure à la suspension : c'est une fausse value (−5,1 % sur base Winamax). Harbor tombe parce que le statut d'Okoye ne peut pas être vérifié avant tes paris (−15,8 % prudente). Lanvaux et Ruiz restent, mais en 🟡 seulement.
+**Seconde passe sur les écartés :** T1 (horaire) : l'exclusion tient. Brévent (référence périmée, aucune relecture) : l'exclusion tient. La « meilleure cote Calvi 1,80 » du comparateur vient d'un bookmaker non agréé en France : exclue. Avec elle, Calvi aurait affiché +0,9 % au lieu de −4,7 %.
+
+---
+
+## 📒 REGISTRE
+
+Retrait de marge par défaut : méthode power ; le contrôle multiplicatif est indiqué entre parenthèses. EV = centrale / prudente.
+
+**R1** · F1 · Football · Ligue de Valmorie (D1) · Orvault – Belmar · dim. 15:00 · Orvault vainqueur, 1X2 temps réglementaire (règle vérifiée) · Winamax 1,92 / 3,45 / 3,90 ✅ 11:50–11:58 · réf. Pinnacle 11:45 (1,92 / 3,75 / 4,30), power (mult. 51,1 %) · p_ref 51,4 % · ajustement : aucun · p_ret 51,4 % [49,4 ; 53,4] · EV −1,3 % / −5,1 % · marge Winamax 6,7 % (Pinnacle 2,0 %) · Q1 · tier B/C · condition : aucune (composition vers 14:00).
+
+**R2** · T3 · Tennis · ATP 250 de Corvel (dur intérieur), quart · Ruiz – Novak · dim. 15:30 (horaire fourni) · Ruiz vainqueur · abandon : règle non vérifiée, calcul avec le règlement sur le qualifié, le moins favorable pour une cote sous 2,00 (si un abandon annule le pari : +1,1 % / −1,5 %) · Winamax 1,30 / 3,55 ✅ · réf. Pinnacle 11:40 (1,28 / 4,00), power (mult. 75,8 %) · p_ref 77,0 % · ajustement : aucun · p_ret 77,0 % [75,0 ; 79,0] · EV +0,1 % / −2,5 % · marge 5,1 % (Pinnacle 3,1 %) · Q2 · tier S · condition : aucune.
+
+**R3** · F5 · Football · Ligue de Valmorie (D1) · Lanvaux – Rocher · dim. 16:00 · Lanvaux vainqueur, 1X2 temps réglementaire · Winamax 1,45 / 4,20 / 6,50 ✅ · réf. Pinnacle 11:45 (1,42 / 4,90 / 8,50), power (mult. 68,6 %) · p_ref 69,6 % · ajustement : aucun · p_ret 69,6 % [67,6 ; 71,6] · EV +1,0 % / −1,9 % · marge 8,2 % (Pinnacle 2,6 %) · Q1 · tier A/S · condition : aucune.
+
+**R4** · T2 · Tennis · WTA 250 de Lisière (dur intérieur), quart · Varga – Holm · dim. 16:00 · Holm vainqueur · abandon non vérifié : règlement sur la qualifiée, le moins favorable ici (si l'abandon annule : −5,1 % / −8,3 %) · Winamax 2,25 / 1,62 ✅ · réf. Pinnacle 11:40 (2,25 / 1,70), power (mult. 57,0 %) · p_ref 57,3 % · ajustement : aucun (blessure au dos antérieure au prix) · p_ret 57,3 % [55,3 ; 59,3] · EV −7,2 % / −10,4 % · marge 6,2 % (Pinnacle 3,3 %) · Q2 · tier B · condition : aucune.
+
+**R5** · T2 · Varga vainqueur · 2,25 ✅ · même référence · p_ref 42,7 % [40,7 ; 44,7] · EV retenue sous la règle d'annulation, la moins favorable ici : −6,2 % / −10,7 % (hypothèse de sensibilité : 1,5 % d'abandon pour Varga, doublé à 3 % pour Holm ; repère : environ 3 % des matchs en deux sets gagnants finissent sur abandon, étude PLOS ONE 2024) · règlement sur la qualifiée : −3,9 % / −8,4 % · Q2 · tier C · condition : aucune.
+
+**R6** · F2 · Football · Ligue de Valmorie (D1) · Calvi – Dornes · dim. 17:00 · Calvi vainqueur, 1X2 temps réglementaire · Winamax illisible à 11:55 ⚠️ · prix provisoire 1,70 (Betclic 11:55, cote agréée la plus basse ; Unibet 1,73) · réf. Pinnacle 11:50 (1,76 / 3,85 / 5,10), power (mult. 55,5 %) ; contrôle Betclic 56,9 % et Unibet 55,6 % sans marge (dispersion 1,3 point, sous 2) · p_ref 56,0 % · ajustement : aucun · p_ret 56,0 % [54,0 ; 58,0] · EV −4,7 % / −8,1 % au prix provisoire · marges Betclic 5,9 %, Unibet 6,9 % (Pinnacle 2,4 %) · Q2 · tier B · condition : marché Winamax rouvert ; Calvi entre en jeu seulement à 1,78 ou plus.
+
+**R7** · F4 · Football · Ligue de Valmorie (D1) · Brévent – Ostal · dim. 18:30 · Brévent vainqueur, 1X2 temps réglementaire · Winamax 2,10 / 3,40 / 3,30 ✅ 11:58 · base Winamax seule (Pinnacle de 08:15 antérieur à la suspension de 10:00, impossible à relire) · power (mult. 44,4 %) · p_ref 45,2 % · ajustement : aucun · p_ret 45,2 % [42,2 ; 48,2] (±3 points sur base Winamax seule) · EV −5,1 % / −11,4 % : un coût de marge, pas un avantage · marge 7,3 % · Q2 · tier C · condition : aucune.
+
+**R8** · F3 · Football · Ligue de Valmorie (D1) · Port-Vallon – Saint-Aimé · dim. 20:45 · Port-Vallon vainqueur, 1X2 temps réglementaire · Winamax 1,88 / 3,55 / 4,20 ✅ · réf. Pinnacle 11:45 (1,92 / 3,65 / 4,40, inchangé depuis 09:00), power (mult. 51,0 %) · p_ref 51,4 % · ajustement : aucun (forfait du gardien annoncé avant le prix, référence immobile depuis) · p_ret 51,4 % [49,4 ; 53,4] · EV −3,5 % / −7,2 % · marge 5,2 % (Pinnacle 2,2 %) · Q1 · tier B/C · condition : aucune.
+
+**R9** · N1 · Basket · NBA · Harbor Hawks – Ridge Rams · lundi 14 décembre 02:00 · Harbor vainqueur, prolongations incluses (règle vérifiée) · Winamax 1,62 / 2,35 ✅ · réf. Pinnacle 11:40 (1,57 / 2,55), power (mult. 61,9 %) · p_ref 62,4 % · ajustement : aucun · scénarios du modèle de remplacement : 66 % si Okoye joue, 52 % s'il est absent ; rapport vers 19:30, après tes paris, donc borne basse au scénario défavorable · p_ret 62,4 % [52,0 ; 66,0] · EV +1,1 % / −15,8 % · marge 4,3 % (Pinnacle 2,9 %) · Q2 · tier A (fourchette de B à A) · condition : invérifiable pour toi avant 14:00.
+
+---
+
+## ⚖️ COMPARAISON DES TICKETS
+
+Énumération faite en code : 317 tickets de 1 à 5 jambes construits à partir de R1 à R9, avec une sélection au plus par match. Règle de décision R★ : je classe d'abord par EV prudente ; les tickets à un point ou moins du meilleur forment le groupe de tête, et dans ce groupe le plus simple l'emporte.
+
+| Ticket | Cote | Chance · EV (centrale / prudente) | Pourquoi ce rang |
+|---|---|---|---|
+| ⭐ 1 jambe dans la zone : Orvault (R1) | 1,92 | 51,4 % · −1,3 % / −5,1 % | Dans le groupe de tête de la zone 1,50–4,00 (à 0,7 point du meilleur) ; une jambe, Q1 : retenu |
+| 🛡️ 2 jambes : Lanvaux + Ruiz (R3 + R2) | 1,885 | 53,6 % · +1,0 % / −4,4 % | Meilleure EV prudente de la zone, mais deux jambes dont une Q2 : deuxième et plan B |
+| 🎯 1 jambe : Lanvaux (R3) | 1,45 | 69,6 % · +1,0 % / −1,9 % | Meilleur ticket du jour, sous la zone du ⭐ |
+| Ruiz (R2) | 1,30 | 77,0 % · +0,1 % / −2,5 % | À 0,6 point de Lanvaux, mais Q2 (règle d'abandon) |
+| 🚀 Orvault + Lanvaux | 2,78 | 35,8 % · −0,3 % / −7,0 % | Meilleur double coté 2 à 4 ; Orvault + Ruiz (2,50 ; −7,5 %) est à 0,6 point mais Q2 |
+| 3 jambes : Orvault + Lanvaux + Ruiz | 3,62 | 27,6 % · −0,2 % / −9,3 % | 4,9 points de prudente de moins que le meilleur double |
+| 🎉 Orvault + Lanvaux + Port-Vallon | 5,23 | 18,4 % · −3,8 % / −13,7 % | Meilleur ticket de 3 à 5 jambes coté 5 à 15 |
+| 4 jambes : Orvault + Lanvaux + Ruiz + Port-Vallon | 6,80 | 14,2 % · −3,7 % / −15,8 % | Chaque jambe ajoutée coûte |
+| 5 jambes : la même + Calvi ⚠️ | 11,57 | 7,9 % · −8,3 % / −22,7 % | En plus, une jambe conditionnelle |
+| Calvi ⚠️ (R6) | 1,70 | 56,0 % · −4,7 % / −8,1 % | Prix provisoire ; n'entre en jeu qu'à 1,78 ou plus sur Winamax |
+| Harbor (R9) | 1,62 | 62,4 % · +1,1 % / −15,8 % | Statut d'Okoye inconnu à ton heure de pari |
+
+**Meilleurs par sport :** football, Lanvaux (dans la zone du ⭐ : Orvault) ; tennis, Ruiz à 1,30 (dans la zone du ⭐ : Holm à 1,62, −7,2 % / −10,4 %) ; NBA, Harbor (−15,8 % prudente) ; multisport, Lanvaux + Ruiz.
+
+**Orvault plutôt que Lanvaux + Ruiz :** l'écart d'EV prudente est de 0,7 point (−5,1 % contre −4,4 %), sous le seuil d'un point. À prix équivalent, une jambe Q1 sans condition passe devant deux jambes dont une a une règle d'abandon non vérifiée. Il suffit que l'écart dépasse un point pour inverser l'ordre : Orvault à 1,91, Lanvaux à 1,46 ou Ruiz à 1,31.
+**Contrôles de robustesse (en code) :** avec le retrait multiplicatif, Orvault est seul en tête (−5,8 % contre −7,3 % pour le double). Avec des fourchettes élargies d'un point, Orvault reste devant (−7,0 % contre −7,1 %). En revanche, si la règle Winamax annule le pari en cas d'abandon, la jambe Ruiz vaut davantage et le double passe devant (−3,4 % de prudente, pour un repère de 3 % d'abandons).
+
+**🛡️ :** aucun sacrifice : le ticket le mieux classé de la zone 1,75–2,10 (−4,4 %) est aussi le plus probable (53,6 %, contre 51,4 % pour Orvault). Sa chance réelle : à peu près une sur deux.
+
+**🎾 :** impossible aujourd'hui. Il faut trois matchs de tennis distincts et deux seulement sont jouables (Ruiz – Novak, Varga – Holm). Il en manque un : Lind – Faure commence à 13:30, et tes données ne contiennent ni autre tournoi, ni match de demain.
+
+**Ce que coûte une jambe de plus :**
+- Lanvaux → Lanvaux + Ruiz : cote 1,45 → 1,885 ; chance 69,6 → 53,6 % (−16,0 points, −23 %) ; EV +1,0 → +1,0 % ; prudente −1,9 → −4,4 %.
+- Orvault → Orvault + Lanvaux : 1,92 → 2,78 ; chance 51,4 → 35,8 % (−15,6 points, −30 %) ; EV −1,3 → −0,3 % ; prudente −5,1 → −7,0 %.
+- Lanvaux + Ruiz → avec Orvault en plus : 1,885 → 3,62 ; chance 53,6 → 27,6 % (−26,0 points, −49 %) ; EV +1,0 → −0,2 % ; prudente −4,4 → −9,3 %.
+- Orvault + Lanvaux → avec Port-Vallon en plus : 2,78 → 5,23 ; chance 35,8 → 18,4 % (−17,4 points, −49 %) ; EV −0,3 → −3,8 % ; prudente −7,0 → −13,7 %.
+Aucune jambe n'a d'EV prudente positive : chaque ajout fait baisser le ticket. Dans le 🚀 et le 🎉, les jambes ajoutées ne servent qu'à atteindre la cote du format.
+
+**Remplacer la jambe la plus fragile :**
+- ⭐ Orvault : le remplaçant est Lanvaux + Ruiz (cote 1,885 ; +2,2 points de chance ; +0,7 point de prudente).
+- 🛡️ jambe Ruiz (Q2) : aucun autre double ne tombe dans 1,75–2,10 ; la sortie est Orvault seul (−2,2 points de chance, −0,7 point de prudente).
+- 🚀 jambe Orvault : avec Ruiz à sa place, la cote (1,885) tombe sous la zone 2–4 ; le remplaçant est donc Lanvaux + Port-Vallon (2,73 ; 35,8 % ; −2,5 % / −9,0 %).
+
+**Assemblages à éviter :**
+- Lanvaux + Harbor (2,35) : c'est la meilleure EV centrale des doubles (+2,1 %), mais −17,4 % en prudente. Le rapport sur Okoye tombe à 19:30, après tes paris, et sans lui Harbor descend vers 52 %.
+- Lanvaux + Brévent (3,05) : avec le Pinnacle de 08:15, Brévent semble à +2,1 % et le ticket à +3,1 %. Mais cette référence précède la suspension du buteur : c'est une fausse value. Sur base Winamax seule, le ticket donne −4,2 % / −13,1 %.
+
+**Conditions invérifiables :** tous tes tickets se valident à 14:00, avant leur première jambe (15:00 au plus tôt). La seule condition qui tombe après, le rapport NBA, est traitée avec le scénario défavorable, ce qui écarte Harbor de tous les tickets. Jouer Harbor en simple après l'annonce est impossible avec tes horaires.
+
+---
+
+## 🔬 DOSSIERS DES FINALISTES
+
+**Orvault vainqueur (⭐, R1)** : 1,92 ✅ ; p_ret 51,4 % (Pinnacle de 11:45 sans marge) ; EV −1,3 % / −5,1 %.
+- Données décisives : le prix seul. Winamax affiche le même 1,92 que Pinnacle, mais Pinnacle garde 2,0 % de marge : la cote juste est de 1,945, donc Winamax paie un peu moins. Ni nouvelle ni statistique fournie : aucun élément n'est « absent du prix ».
+- Objection la plus forte : il n'y a aucun avantage de prix. C'est presque un pile ou face (51 %), que le nul (26 %) fait perdre, et la composition d'Orvault ne sera connue qu'autour de 14:00.
+- Alternative : Lanvaux + Ruiz a une meilleure prudente (−4,4 %) et plus de chance (53,6 %), mais demande deux jambes, dont une à la règle d'abandon non vérifiée. L'écart (0,7 point) reste sous le seuil d'un point.
+- Bascule : Orvault à 1,91 ou moins, ou bien Lanvaux à 1,46 ou plus, ou Ruiz à 1,31 ou plus (référence supposée inchangée), donne Lanvaux + Ruiz. Une règle « abandon = pari annulé » lue sur Winamax donne aussi le double. Calvi à 1,78 ou plus donne Calvi seul. Une absence du gardien ou du buteur d'Orvault renvoie au plan B.
+
+**Lanvaux vainqueur (jambe du concurrent, aussi 🎯, R3)** : 1,45 ✅ ; p_ret 69,6 % ; EV +1,0 % / −1,9 %.
+- Données décisives : c'est la seule cote de football au-dessus de la référence (1,45 contre 1,42 chez Pinnacle ; cote juste 1,436). Aucune nouvelle.
+- Objection la plus forte : l'avantage dépend de la méthode (−0,5 % en multiplicatif) et disparaît dans la fourchette. Le nul (19 %) fait perdre, et la jambe perd environ trois fois sur dix. Sa composition ne sort que vers 15:00, après tes paris.
+- Alternative : Ruiz seul (1,30 ; −2,5 % ; Q2).
+- Bascule : en simple, il faut Lanvaux ≥ 1,43 (sinon Ruiz) ; dans le double, Lanvaux ≥ 1,41.
+
+**Ruiz vainqueur (jambe du concurrent, R2)** : 1,30 ✅ ; p_ret 77,0 % ; EV +0,1 % / −2,5 %.
+- Données décisives : Winamax est à 1,30 contre 1,28 chez Pinnacle, pour une cote juste de 1,299. Winamax paie donc le prix sans marge, pas davantage. Aucune nouvelle.
+- Objection la plus forte : une cote courte n'est pas une sécurité, à 1,30 la jambe perd encore environ une fois sur quatre (23 %). La règle d'abandon est illisible, d'où un calcul avec la moins favorable. En multiplicatif, l'EV tombe à −1,5 %.
+- Alternative : aucune jambe de tennis comparable (Holm à −10,4 % de prudente).
+- Bascule : dans le double, Ruiz ≥ 1,27.
+
+---
+
+## 📋 FICHE FINALE
+
+**Calendrier** (dimanche 13 décembre 2026, heure de Paris)
+- 13:30 · Lind – Faure : commence avant ton heure de pari, hors jeu.
+- **14:00 · TON HEURE DE PARI** : tous les contrôles se font maintenant (cotes d'Orvault, Lanvaux et Ruiz ; marché Calvi – Dornes ; composition d'Orvault si elle est publiée). C'est aussi l'heure limite de validation de tous les combinés : leur première jambe part à 15:00 (🚀, 🎉) ou à 15:30 (🛡️).
+- 15:00 · Orvault – Belmar (⭐, 🚀, 🎉) · composition attendue vers 14:00.
+- 15:30 · Ruiz – Novak (🛡️).
+- 16:00 · Lanvaux – Rocher (🎯, 🛡️, 🚀, 🎉) · composition vers 15:00, après tes paris · Varga – Holm (aucun ticket).
+- 17:00 · Calvi – Dornes (seulement si Calvi est à 1,78 ou plus sur Winamax à 14:00).
+- 18:30 · Brévent – Ostal (aucun ticket).
+- 20:45 · Port-Vallon – Saint-Aimé (🎉).
+- Lundi 14 décembre, 02:00 · Harbor – Ridge (aucun ticket ; rapport de blessures vers 19:30, après tes paris).
+
+**Paris**
+
+⭐ CHOIX PRINCIPAL · sans label · **Orvault vainqueur · 1,92 · 51,4 %**
+— Football · Orvault – Belmar · Ligue de Valmorie (D1) · dimanche 13 décembre, 15:00
+— Vainqueur 1X2, temps réglementaire · Winamax 1,92 ✅ (11:50–11:58) · référence Pinnacle 1,92 / 3,75 / 4,30 (11:45)
+— Pourquoi : à prix équivalent de Lanvaux + Ruiz, c'est le pari le plus simple ; EV −1,3 % (en moyenne 98,7 % de la mise rendue), prudente −5,1 % : un coût, pas une value.
+— Avant de cliquer : **cote ≥ 1,92** ; si la composition est sortie, **gardien titulaire et buteur principal présents**.
+— Plan B : **Lanvaux + Ruiz** (🛡️ ci-dessous) ; **Calvi seul** si Winamax l'affiche à 1,78 ou plus.
+
+🎯 MEILLEUR SIMPLE · 🟡 · **Lanvaux vainqueur · 1,45 · 69,6 %**
+— Football · Lanvaux – Rocher · Ligue de Valmorie (D1) · dimanche 13 décembre, 16:00
+— Vainqueur 1X2, temps réglementaire · Winamax 1,45 ✅ (11:50–11:58) · référence Pinnacle 1,42 / 4,90 / 8,50 (11:45)
+— Pourquoi : seule cote de football au-dessus de la référence ; EV +1,0 %, prudente −1,9 %, le pari le moins coûteux du jour, mais sous la cote minimale de 1,50 du ⭐.
+— Avant de cliquer : **cote ≥ 1,43**.
+— Plan B : Ruiz vainqueur à 1,30 (Ruiz – Novak, 15:30).
+
+🛡️ TICKET COURT · 🟡 · **Lanvaux + Ruiz · 1,885 · 53,6 %**
+— Ruiz vainqueur · Tennis · Ruiz – Novak · ATP 250 de Corvel, quart · dimanche 15:30 · 1,30 ✅ · R2
+— Lanvaux vainqueur, temps réglementaire · Football · Lanvaux – Rocher · Ligue de Valmorie (D1) · dimanche 16:00 · 1,45 ✅ · R3
+— Cote 1,885 (la cote affichée sur le ticket Winamax fait foi) · chance 53,6 % · EV +1,0 % / prudente −4,4 % · jambes indépendantes · calculé avec la règle d'abandon la moins favorable ; si Winamax annule un match abandonné, la jambe Ruiz serait remboursée (cote ramenée à 1).
+— Pourquoi : aucun sacrifice, c'est à la fois la meilleure EV prudente et la meilleure chance de sa zone ; à peu près une chance sur deux, aucune sécurité.
+— Avant de cliquer : **Lanvaux ≥ 1,41 (avec Ruiz à 1,30) et Ruiz ≥ 1,27 (avec Lanvaux à 1,45)** ; si les deux ont baissé, il faut une cote du ticket ≥ 1,84 ; à valider avant 15:30.
+— Plan B : Orvault seul (⭐).
+
+🎾 COMBINÉ TENNIS · non servi : il faut trois matchs et deux seulement sont jouables (Ruiz – Novak, Varga – Holm) ; il en manque un.
+
+🎲 PLAISIR · non servi : aucun total, handicap ni marché joueur n'a été relevé. Si tu m'envoies avant 14:00 les totaux de buts de Port-Vallon – Saint-Aimé (gardien remplaçant) ou de Brévent – Ostal (buteur suspendu), avec une référence si possible, je les chiffre.
+
+🚀 COMBINÉ PLAISIR · sans label · **Orvault + Lanvaux · 2,78 · 35,8 %**
+— Orvault vainqueur, temps réglementaire · Orvault – Belmar · dimanche 15:00 · 1,92 ✅ · R1
+— Lanvaux vainqueur, temps réglementaire · Lanvaux – Rocher · dimanche 16:00 · 1,45 ✅ · R3
+— Cote 2,784 · chance 35,8 % · EV −0,3 % / prudente −7,0 % · deux matchs distincts du même championnat, sans dépendance connue ; pas de remboursement possible.
+— Pourquoi : meilleur double coté de 2 à 4 ; Orvault + Ruiz (2,50) est à 0,6 point, mais sa jambe de tennis est moins solide (règle d'abandon).
+— Avant de cliquer : **Orvault ≥ 1,88 et Lanvaux ≥ 1,43** ; à valider avant 15:00.
+— Plan B : Orvault + Ruiz (2,50) si Lanvaux faiblit ; Lanvaux + Port-Vallon (2,73) si Orvault faiblit.
+
+🎉 FUN · sans label · **Orvault + Lanvaux + Port-Vallon · 5,23 · 18,4 %**
+— Orvault vainqueur, temps réglementaire · Orvault – Belmar · dimanche 15:00 · 1,92 ✅ · R1
+— Lanvaux vainqueur, temps réglementaire · Lanvaux – Rocher · dimanche 16:00 · 1,45 ✅ · R3
+— Port-Vallon vainqueur, temps réglementaire · Port-Vallon – Saint-Aimé · dimanche 20:45 · 1,88 ✅ · R8
+— Cote 5,234 · chance 18,4 % · EV −3,8 % / prudente −13,7 % · matchs distincts, sans dépendance connue.
+— Pourquoi : trois favoris sans nouvelle défavorable ; un peu moins d'une chance sur cinq, à un coût élevé.
+— Avant de cliquer : Orvault ≥ 1,84, Lanvaux ≥ 1,39, Port-Vallon ≥ 1,80 ; à valider avant 15:00.
+— Plan B : renoncer, car le ticket suivant contient Brévent (base Winamax seule, buteur suspendu).
+
+**Si je ne devais jouer qu'un pari :** **Orvault à 1,92** si la cote tient, sinon **Lanvaux + Ruiz** ; et si une cote sous 1,50 te convient, **Lanvaux seul à 1,45** est le pari le moins coûteux du jour.
+
+**Rappel :** la limite principale du jour est que tout se joue à 14:00 sur des prix relevés vers 11:45, sans pouvoir relire la référence, sans les compositions (sauf peut-être celle d'Orvault) et sans le rapport NBA. Les seuils supposent que Pinnacle n'a pas bougé : si tu le revois au comparateur à 14:00 et qu'il a bougé contre ta sélection, abstiens-toi plutôt que d'appliquer le seuil. Aucune EV prudente n'est positive aujourd'hui. Vérifie les prix et les compositions avant de jouer ; aucune promesse de gain ; 18+.

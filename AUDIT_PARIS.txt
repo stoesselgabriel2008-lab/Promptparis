@@ -1,7 +1,7 @@
 AUDIT DE « SOL 5.16 · TENNIS COMPLET » ET PASSAGE À SOL 6.0
 Audit réalisé le 4 novembre 2026. Objet : le fichier joint (1 318 lignes, 137 366 caractères, environ 20 400 mots), lu intégralement avant toute modification. Ses instructions quotidiennes ont été traitées comme l'objet de l'audit, pas comme une mission à exécuter.
 
-Livrables associés : PROMPT_PARIS_VERSION_FINALE.txt (SOL 6.0, environ 10 200 mots, contre 20 400 pour SOL 5.16) et le présent audit ; le dossier annexes/ contient les scripts, les cas, les sorties de test et les résultats bruts.
+Livrables associés : PROMPT_PARIS_VERSION_FINALE.txt (SOL 6, livré en 6.0 avec environ 10 200 mots contre 20 400 pour SOL 5.16 ; révision 6.21 et environ 11 400 mots après les cycles d'amélioration de la section 8.10) et le présent audit ; le dossier annexes/ contient les scripts, les cas, les sorties de test et les résultats bruts.
 
 
 ═══ 0. RÉSUMÉ ═══
@@ -27,7 +27,8 @@ Tests :
 - comparaison A/B en aveugle sur six journées fictives contrastées : la refonte l'emporte dans les six cas (70/72 contre 56,5/72), sans erreur grave d'un côté comme de l'autre. Dans quatre cas sur six, la correction minimale retient un simple à 1,20–1,33, justifié surtout par sa forte chance de toucher ;
 - deux validations des règles ajoutées, toutes conformes : cas C7 (hockey et bonus combiné) et cas C4 rejoué sur la version finale (section 8.5) ;
 - relecture finale, doublée d'une relecture à froid (section 8.8) ;
-- passe ciblée après livraison, sur les remarques d'un relecteur externe : huit corrections retenues (ticket court avec sacrifice de prix affiché, formule d'ajout de jambe, scénarios prudents à 100 %, seuils par rejeu complet, cote Winamax ou référence qui bouge, revue des écartés, conditions invérifiables avant la première jambe), testées sur trois nouveaux cas (section 8.9).
+- passe ciblée après livraison, sur les remarques d'un relecteur externe : huit corrections retenues (ticket court avec sacrifice de prix affiché, formule d'ajout de jambe, scénarios prudents à 100 %, seuils par rejeu complet, cote Winamax ou référence qui bouge, revue des écartés, conditions invérifiables avant la première jambe), testées sur trois nouveaux cas (section 8.9) ;
+- cycles d'amélioration après livraison (révisions 6.1 à 6.21) : relectures indépendantes, règle Winamax d'abandon et accès aux sources vérifiés, quatre cas nouveaux C11 à C14 tous conformes, 34 contrôles de calcul (section 8.10).
 
 Limites : les règles de règlement propres à Winamax (abandon au tennis, prolongations, joueur non partant, Combo Booster) n'ont pas pu être confirmées sur une source officielle ; elles sont marquées « à confirmer » et traitées prudemment dans le prompt. Aucune performance de gain n'est démontrée.
 
@@ -663,16 +664,47 @@ C10 — plan B qui change quand la cote bouge : conforme.
 
 Bilan : les règles corrigées produisent les décisions attendues dans les trois situations demandées. Deux erreurs de ma vérité de calcul ont été trouvées grâce aux sorties : elles sont corrigées dans annexes/tests/verite_de_calcul/GROUND_TRUTH.txt et ne remettent pas le prompt en cause. Limite : une seule exécution par cas.
 
+8.10 Cycles d'amélioration après livraison (révisions 6.1 à 6.21)
+
+Demande : de nombreux petits audits successifs, chacun sauvegardé, poussé sur GitHub et envoyé, pour qu'une interruption laisse toujours une version complète et utilisable. Le détail de chaque révision (défaut, chiffres refaits, règle) est dans JOURNAL_DES_AMELIORATIONS.txt ; cette section en donne la synthèse.
+
+Méthode :
+- chaque révision ne touche qu'une petite partie du prompt et passe des contrôles automatiques avant d'être enregistrée (renvois de sections, blocs obligatoires, formulations obsolètes, numérotation, longueur ; 34 contrôles de calcul) ; si un contrôle échoue, rien n'est enregistré et la version précédente reste en place ;
+- relectures indépendantes : logique et calculs (10 constats, tous les exemples chiffrés du prompt confirmés), exécution par un modèle (12 constats), proposition de compression (30 coupes, 27 retenues après vérification une à une) ;
+- vérification réelle de l'accès aux sources et du règlement Winamax (4 novembre 2026, simple outil de lecture web, aucun contournement) ;
+- quatre cas nouveaux, vérité de calcul figée avant exécution : C11 (tennis complet, 20 matchs), C12 (marchés vivants), C13 (freebet et journal), C14 (cas composite : cinq pièges, dont chacun change le choix principal si l'on y tombe).
+
+Corrections qui pouvaient changer un pari :
+- Freebet (6.3) : l'ancienne règle « n'allonge pas un ticket » faisait perdre de la valeur ; avec une mise non rendue, la valeur vaut (1 + EV) − P. Cas C13 : 7,88 € de valeur prudente contre 6,60 € pour le meilleur simple.
+- Prix provisoire quand Winamax n'est pas lu (6.6) : la plus basse des cotes d'opérateurs agréés, jamais la référence ni la meilleure cote d'un comparateur (qui surestimaient l'EV de 3 à 4 points).
+- Statut décisif encore inconnu (6.7) : un seul traitement selon l'heure de décision ; une incertitude de plus ne peut plus améliorer l'EV prudente.
+- Ajustements (6.8) : un ajustement ne crée plus de value prudente (borne basse plafonnée à p_ref) ; une annonce antérieure à une référence liquide immobile est réputée dans le prix.
+- Seuil de bascule (6.9) : raccourci corrigé (départage complet, plancher de la jambe et non du ticket, remboursements exclus).
+- Fraîcheur (6.10) : lectures à moins de 30 minutes d'écart et sans nouvelle = simultanées ; au-delà, relecture de la référence.
+- Abandon au tennis (6.11, 6.20) : sans règle vérifiée, calcul sous les deux règles plausibles ; puis règle Winamax vérifiée et datée (vainqueur annulé, jambe à 1,00 dans un combiné).
+- Ticket court (6.16) : un simple de la zone remplace la paire quand il la domine (cas C12 : la seule paire possible était à −18,3 %).
+
+Corrections d'exécution : journal remplissable (6.2, 6.5, 6.19), horizon de nuit (6.4), lignes Q3 cohérentes (6.12), périmètre nommé et présélection plafonnée (6.13), mode Tennis complet (6.14), calcul sans code (6.15), précisions de cohérence (6.18), accès réel aux sources et marche à suivre sans cote Winamax lisible (6.21) ; compression d'environ 300 mots sans perte de règle (6.17).
+
+Examiné et non retenu : ancrer le groupe de tête sur le meilleur ticket le plus court plutôt que sur le meilleur ticket tout court (relecture « logique »). Les deux règles bornent la perte à un point d'EV prudente face au meilleur ticket ; la proposée a sa propre dépendance au chemin, et le cas ne se présente qu'avec plusieurs jambes d'EV prudente positive, rares sur Winamax. Changer R★ aurait invalidé les validations passées sans gain démontré.
+
+Résultats des tests :
+- C11 (révision 6.4) : conforme ; ⭐ Weber/Morel 1,72, 🎾 à trois matchs 3,41, compteurs de couverture cohérents, dépendance simple/double signalée.
+- C12 (révision 6.4) : conforme ; ⭐ Montval −0,75 à 1,83 avec demi-gain correct ; a révélé le défaut du ticket court corrigé en 6.16.
+- C13 (révision 6.4) : conforme ; freebet Bréda + Rodez + Weber 8,55 (7,88 €) avec le meilleur simple affiché ; bilan du journal exact (CLV −4,3 %, Brier 0,2408 contre 0,2418, rendement −13,3 %, aucune convention modifiée).
+- C14 (révision 6.19) : conforme ; ⭐ Orvault 1,92 retenu par simplicité devant Lanvaux + Ruiz (écart de 0,7 point, écrit comme tel), seuil 1,92 et plan B rejoués ; les cinq pièges évités (match commencé avant l'heure de pari, meilleure cote d'un bookmaker non agréé, annonce déjà dans le prix, référence périmée, statut NBA publié après l'heure de pari) ; règles d'abandon calculées des deux façons.
+Limite : une seule exécution par cas, sur des cas fictifs ; ces tests vérifient l'application des règles, pas la rentabilité.
+
 
 ═══ 9. LIMITES RESTANTES ═══
 
 1. Aucune performance n'est démontrée. Les tests vérifient la cohérence et la vérifiabilité des décisions, pas leur rentabilité. Les données historiques ne montrent d'ailleurs aucune règle simple gagnante dans les sports étudiés. La refonte aide surtout à ne pas payer de coûts inutiles (jambes ajoutées, prix périmés, double comptage) et à repérer les rares écarts de prix face à une référence.
-2. Règles Winamax non confirmées : abandon au tennis, prolongations au basket et au hockey, joueur non partant, conditions du Combo Booster, présence des Challengers, ITF et doubles dans l'offre. Le prompt demande de les vérifier et prévoit une règle prudente. Une lecture du règlement officiel par l'utilisateur dans l'application lèverait cette limite.
+2. Règles Winamax non confirmées : prolongations au basket et au hockey, joueur non partant, conditions du Combo Booster, présence des Challengers, ITF et doubles dans l'offre. Le prompt demande de les vérifier et prévoit une règle prudente. Une lecture du règlement officiel par l'utilisateur dans l'application lèverait cette limite. La règle d'abandon au tennis a, elle, été vérifiée dans le règlement officiel (section 43) et intégrée au prompt (révision 6.20).
 3. Marges Winamax non mesurées. Elles sont probablement supérieures à celles de Pinnacle et de Bet365 (plafond légal de 85 % de retour en moyenne annuelle, sources secondaires à 90–93 % sur les marchés principaux). La règle « une jambe sans avantage coûte sa marge » est donc probablement plus sévère sur Winamax que dans les repères historiques.
 4. Tennis : aucune mesure propre (cotes historiques inaccessibles). Les conclusions reposent sur la littérature : environ 70 % de favoris gagnants, biais favori-outsider, Elo compétitif seulement en haut de la hiérarchie.
 5. NBA et NHL : une seule saison de test et un seul bookmaker américain grand public. Les intervalles de confiance sont donnés ; les écarts entre sports sont nets, mais les écarts fins (par exemple le biais sur les cotes longues en NBA) ne sont pas significatifs.
 6. Paramètres conventionnels de R★, choisis a priori et non estimés : groupe de tête à 1 point, fourchette de ±2 points (±3 sur base Winamax seule), zone de 1,50 à 4,00. Le calculateur montre que le choix change si on les modifie fortement. Un journal tenu sur plusieurs mois (partie 7 du prompt) permettrait de les ajuster hors échantillon.
-7. Accès réel aux références : Pinnacle et les bourses de paris ne sont pas toujours lisibles par un assistant en ligne. Quand elles manquent, la décision repose sur la marge Winamax et la qualité des preuves. Le prompt l'assume (base « Winamax seule », aucune value affichée), mais l'avantage de prix devient alors invisible.
+7. Accès réel aux références : Pinnacle et les bourses de paris ne sont pas toujours lisibles par un assistant en ligne. Quand elles manquent, la décision repose sur la marge Winamax et la qualité des preuves. Le prompt l'assume (base « Winamax seule », aucune value affichée), mais l'avantage de prix devient alors invisible. Constat du 4 novembre 2026, sans navigateur : les cotes de winamax.fr, de Pinnacle et de Betfair ne sont pas lisibles ; le fichier de football-data.co.uk (dont la bourse Betfair) et la page « ligue » d'OddsPortal le sont. Le prompt demande donc une capture des cotes Winamax des finalistes (révision 6.21).
 8. Les tests A/B portent sur six journées fictives et douze exécutions d'un même modèle, notées en aveugle par un autre modèle et contrôlées à la main. Ils montrent des tendances ; ce ne sont pas des statistiques. Les journées historiques réelles n'ont pas été utilisées, car le modèle testé peut connaître les résultats de matchs réels passés (contamination), et un résultat isolé ne prouve rien.
 
 9. Dépense de la session. Je ne peux pas mesurer la consommation réelle depuis cet environnement : je ne peux donc pas garantir le respect du plafond d'environ 250 $. Pour l'économiser, j'ai :
