@@ -237,3 +237,5 @@ C17 — journée ordinaire (zones de la révision 6.33)
 🎾 meilleur à 3 : T1-1+T2-1+T4-1         k=3 cote=4.826 P= 18.5% EV=-10.5% EVprud=-19.7% tennis
 🎾 meilleur à 4 : T1-1+T2-1+T3-1+T4-1    k=4 cote=7.288 P= 11.5% EV=-16.3% EVprud=-27.3% tennis
 Attendu de forme : réponse courte par défaut (décision, menu, fiche finale), chances en clair (« x fois sur 10 »), coût honnête, aucune recommandation sous 1,50 hors demande.
+
+CONSTAT APRÈS EXÉCUTION (C17, révision 6.33) : conforme. Réponse courte par défaut (1 538 mots, contre 3 600 à 4 600 pour les réponses complètes des cas précédents). ⭐ Orvault 1,95 (chance 50 %, prudente −6,5 %, ticket le moins coûteux de la zone 1,80–3,00 ; plancher 1,93, plan B Kovac 2,01) ; 🚀 Lind + Orvault 2,69 (chance 35,5 %), identiques à la vérité de calcul.

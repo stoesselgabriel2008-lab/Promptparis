@@ -1,0 +1,83 @@
+📌 DÉCISION
+
+Préparé le mercredi 23 décembre 2026 à 13:00 (Paris) · horizon : aujourd'hui, jusqu'à jeudi 06:00 · sports balayés : football (Ligue et Coupe de Valmorie), tennis (ATP 250 de Corvel, WTA 250 de Lisière), NBA, soit les 11 rencontres fournies (aucune recherche possible au-delà) · base de prix : référence indépendante (Pinnacle via un comparateur qui le nomme, 12:45), cotes Winamax lues dans l'application (12:50, ✅).
+
+Constat : aucune value aujourd'hui. Chaque cote Winamax est sous celle de Pinnacle, issue par issue. Les 21 sélections chiffrées (nuls et Dornes à 5,83 exclus) ont une EV centrale comprise entre −2,6 % et −7,7 %. En NBA, la fourchette est de ±3 points tant que le rapport de blessures du jour de match n'est pas publié, et aucun ticket NBA n'approche la tête (meilleure EV prudente : −8,1 %). Le choix principal est donc le ticket le moins coûteux selon la règle de décision R★ (prix prudent, puis simplicité). Tout le menu est récréatif.
+
+⭐ CHOIX PRINCIPAL : R1, **Orvault vainqueur** (1X2, temps réglementaire) · Orvault – Belmar · 18:30 · **cote 1,95 ✅** (12:50) · chance 50,0 %, soit environ 5 fois sur 10 · EV −2,6 % / prudente −6,5 % · sans label (en moyenne, ce prix rend 97,4 % de la mise).
+
+Pourquoi lui : c'est la meilleure EV prudente de ta zone 1,80–3,00, à −6,5 %, contre −7,5 % pour le deuxième, Kovac (T4, 2,01), puis −7,6 % pour Lanvaux (F3, 2,20). L'écart n'est que de 1,0 point. Orvault et Kovac sont donc des options de prix équivalent : deux simples avec les mêmes preuves, qu'Orvault départage par sa meilleure EV prudente. Un autre réglage raisonnable pourrait les inverser, même si Orvault garde sa place quand les fourchettes s'élargissent d'un point. Une jambe de plus coûte cher : le meilleur combiné de la zone (Lind + Orvault, 2,69) tombe à −12,0 % en prudent.
+
+Il reste mon choix tant que : **cote ≥ 1,93** (seuil de bascule calculé en rejouant tout le classement) et aucune absence importante dans la composition d'Orvault. Sinon : **Kovac vainqueur (T4) à 2,01** si tu décides avant 18:00, ou **Lanvaux vainqueur (F3, 19:00) à 2,20** après 18:00.
+
+Avant de cliquer :
+1) Compositions officielles d'Orvault – Belmar (vers 17:30) : gardien, axe défensif, meneur et buteur présents.
+2) Cote Orvault ≥ 1,93.
+3) Si une nouvelle est tombée ou si la cote Pinnacle d'Orvault (1,97 à 12:45) a bougé, recolle-moi les cotes avant de jouer : le seuil de 1,93 repose sur cette référence.
+
+Menu (alternatives, pas à cumuler) :
+- 🎯 Meilleur simple : c'est le ⭐ (Orvault à 1,95). Premier concurrent : Calvi (F2, 20:45) à 1,55, chance 62,1 %, EV −3,8 % / prudente −6,9 % (0,4 point derrière).
+- 🛡️ Ticket court : **Brandt vainqueur (T4, 18:00) à 1,84** · chance 50,5 %, environ une chance sur deux · EV −4,2 % / prudente −7,8 %. Je paie 1,4 point d'EV prudente pour 0,5 point de chance en plus qu'Orvault. Aucun ticket de deux jambes ne tient dans la limite de 2 points : le meilleur, Lind + Comets à 2,01, est à −13,5 % en prudent pour une limite de −8,5 %.
+- 🎾 Combiné tennis : **Lind + Ruiz + Kovac à 4,83** · chance 19,9 % (gain plein 16,9 %) · EV −10,2 % / prudente −19,5 %.
+- 🎲 Plaisir : non servi. Aucun marché vivant (total, handicap, jeux, sets, buteur, statistique joueur) n'a de cote lue, ni chez Winamax ni chez Pinnacle, et aucune donnée ne documente une lecture.
+- 🚀 Combiné plaisir : **Lind + Orvault à 2,69** · chance 35,5 % (gain plein 34,0 %) · EV −5,6 % / prudente −12,0 %.
+- 🎉 Fun : non servi (facultatif). À 5 ou plus, le moins cher des tickets de trois jambes perdrait déjà 8,9 % de la mise en moyenne.
+- 🟢 / 🟡 : aucun.
+
+Exposition commune et doublons : Orvault figure dans le ⭐/🎯 et le 🚀, Lind dans le 🎾 et le 🚀. Kovac – Brandt (T4) est joué des deux côtés : Brandt au 🛡️, Kovac au 🎾 et en plan B du ⭐. Ne joue jamais ces cartes ensemble, tu parierais contre toi-même.
+
+Version complète sur demande (couverture, registre, comparaisons, dossiers).
+
+
+📋 FICHE FINALE
+
+A. Calendrier (mercredi 23 décembre, heure de Paris)
+- Avant 14:00 : dernier moment pour valider le 🎾 et le 🚀 (leur première jambe est Lind).
+- 14:00 · Lind – Faure (🎾, 🚀).
+- 15:30 · Ruiz – Novak (🎾).
+- Vers 17:30 : compositions d'Orvault – Belmar. Contrôle le ⭐ entre leur publication et 18:00 pour garder le plan B Kovac.
+- 18:00 · Kovac – Brandt (🛡️, à contrôler juste avant ; 🎾).
+- 18:30 · Orvault – Belmar (⭐/🎯, 🚀).
+- 19:00 · Lanvaux – Rocher (plan B du ⭐ après 18:00 ; compositions vers 18:00).
+- Non retenus : Varga – Holm (16:00), Calvi – Dornes (20:45, sauf plan B du 🚀), Port-Vallon – Saint-Aimé (21:00), NBA jeudi 01:00, 02:00 et 03:30.
+
+B. Paris
+
+⭐ CHOIX PRINCIPAL = 🎯 MEILLEUR SIMPLE · sans label · **Orvault vainqueur · 1,95 · 50,0 %**
+— Football · Orvault – Belmar · Ligue de Valmorie (D1) · mercredi 23 décembre, 18:30
+— 1X2, temps réglementaire (le nul, 27,0 %, fait perdre) · Winamax 1,95 ✅ 12:50 · référence Pinnacle 1,97 / 3,59 / 4,20 (12:45)
+— Pourquoi : la cote du jour la plus proche du prix sans marge ; en moyenne, elle rend 97,4 % de la mise (EV −2,6 %, prudente −6,5 %).
+— Avant de cliquer : **compositions sans absence importante** ; **cote ≥ 1,93**.
+— Plan B : Kovac vainqueur (T4) à 2,01 avant 18:00 ; ensuite Lanvaux vainqueur (F3, 19:00) à 2,20.
+
+🛡️ TICKET COURT · sans label · **Brandt vainqueur · 1,84 · 50,5 %**
+— Tennis · Kovac – Brandt · WTA 250 de Lisière (dur intérieur), 8e de finale · mercredi 18:00
+— Vainqueur du match, pari annulé en cas d'abandon (mise rendue) · Winamax 1,84 ✅ 12:50 · référence Pinnacle 2,02 / 1,87 (12:45)
+— Pourquoi : c'est le pari le plus probable de la zone 1,75–2,10 qui ne coûte pas plus de 2 points d'EV prudente (−7,8 % contre −6,5 % pour Orvault). Brandt a 52,0 % de chances de gagner le match et 50,5 % d'être payée une fois retirés les abandons (environ 3 % des matchs selon une étude de 2024 : un repère, pas une donnée du jour). Son avance sur Orvault est mince : au-delà d'environ 4 % d'abandons, Orvault reprendrait la place.
+— Avant de cliquer : **cote ≥ 1,83** ; match non commencé.
+— Plan B : Orvault (⭐).
+
+🎾 COMBINÉ TENNIS · sans label · **Lind + Ruiz + Kovac · 4,83 · 19,9 %** (gain plein 16,9 %)
+— Lind vainqueur · Lind – Faure · ATP 250 de Corvel, 8e · 14:00 · Winamax 1,38 ✅ · R9
+— Ruiz vainqueur · Ruiz – Novak · ATP 250 de Corvel, 8e · 15:30 · Winamax 1,74 ✅ · R11
+— Kovac vainqueur · Kovac – Brandt · WTA 250 de Lisière, 8e · 18:00 · Winamax 2,01 ✅ · R15
+— Cote totale 4,83 · gain plein 16,9 %, profit 19,9 % · EV −10,2 % / prudente −19,5 % · matchs distincts, traités comme indépendants · en cas d'abandon, la jambe est annulée et comptée 1,00 (environ 9 % de risque qu'au moins une le soit)
+— Pourquoi trois matchs : la 4e jambe (Varga à 1,51, la cote la plus éloignée de Pinnacle, qui la donne à 1,58) coûterait 7,5 points d'EV prudente et ferait tomber la chance de profit de 19,9 % à 12,5 % (7,29 ; −26,9 %). Cinq matchs sont impossibles : il n'y en a que quatre au programme.
+— Avant de cliquer : **valider avant 14:00** ; Lind ≥ 1,33, Ruiz ≥ 1,71, Kovac ≥ 2,01.
+— Plan B : la jambe la plus fragile est Kovac (46,5 % de gain plein). Son remplacement, Lind + Ruiz + Brandt (4,42 ; chance 21,4 % ; EV −10,9 % / prudente −19,8 %), est de prix équivalent. C'est aussi la version à prendre si Kovac passe sous 2,01.
+
+🎲 PLAISIR · non servi : il manque les cotes d'un marché vivant, Winamax et Pinnacle à la même heure (par exemple un total de buts de F1 à F4 ou un total de jeux de T1 à T4), et une donnée qui le relie à un mécanisme. Colle-les-moi et je le chiffre.
+
+🚀 COMBINÉ PLAISIR · sans label · **Lind + Orvault · 2,69 · 35,5 %** (gain plein 34,0 %)
+— Lind vainqueur · Lind – Faure · ATP 250 de Corvel, 8e · 14:00 · Winamax 1,38 ✅ · R9
+— Orvault vainqueur, temps réglementaire · Orvault – Belmar · Ligue de Valmorie (D1) · 18:30 · Winamax 1,95 ✅ · R1
+— Cote totale 2,69 · gain plein 34,0 %, profit 35,5 % (si Lind – Faure se termine par un abandon, le ticket devient Orvault seul à 1,95) · EV −5,6 % / prudente −12,0 % · sports différents, indépendants
+— Pourquoi : meilleure EV prudente des combinés de deux jambes entre 2,50 et 3,50. Lind + Kovac (2,77) et Orvault + Calvi (3,02), tous deux à −12,9 % en prudent, sont de prix équivalent.
+— Avant de cliquer : **valider avant 14:00**. La composition d'Orvault sera encore inconnue, mais aucun statut incertain n'est signalé, donc rien à chiffrer en scénario défavorable. Lind ≥ 1,37, Orvault ≥ 1,93.
+— Plan B : Orvault + Calvi à 3,02 (chance 31,0 % ; EV −6,3 % / prudente −12,9 %), à valider avant 18:30, après les compositions.
+
+🎉 FUN · non servi (facultatif).
+
+C. Si je ne devais jouer qu'un pari : **Orvault vainqueur à 1,95** (pas sous 1,93), après les compositions. C'est le moins cher du jour, mais il coûte quand même 2,6 % de la mise en moyenne.
+
+D. Rappel : aucune value aujourd'hui, seulement des coûts, de 2,6 % de la mise en moyenne pour le ⭐ à 10,2 % pour le 🎾. Les prix datent de 12:45–12:50 : vérifie prix et compositions avant de jouer. Aucune promesse de gain · 18+ · aide : Joueurs Info Service, 09 74 75 13 13 (appel non surtaxé).
