@@ -36,5 +36,6 @@ OK  SOL6 r6.23 3.5 : ajustement de +2 points sur p_ref 50 % à 2,04 : la formule
 OK  SOL6 r6.26 2.3 : 🛡️ — C8 et l'exemple 6.16 inchangés ; sans paire à 2 points du mieux classé, le plus probable des tickets admis (ici le simple 2,08) remplace la paire à 1,76  — C8 ['R2', 'R3'] ; 6.16 ['AH'] ; avant ['A', 'B'] (-10.3 %, P 54.0) ; après ['S1'] (-6.4 %, P 47.0) simple (aucune paire dans la limite)
 OK  SOL6 r6.31 2.3 : « le plus sûr » — l'objectif du 🛡️ étendu aux simples retenait le boost à 2,40 (53 %) ; la règle locale retient Kovac 1,33 (75,7 %), Harbor étant chiffré au scénario défavorable  — 6.29 ['BOOST'] ; 6.31 ['S1'] P 75.7 %
 OK  SOL6 r6.34 3.7 : p = (p_ref + 1/o)/2 divise l'EV centrale par deux (2,30 et 48 % : +10,4 % → +5,2 %)  — +0.1040 → +0.0520
+OK  SOL6 r6.36 partie 7 : sur 100 paris, ≥ 6 pertes d'affilée ≈ 60 % à cote 2 ; ≥ 10 ≈ 48 % à cote 3 ; avec +3 % réel, encore en perte après 200 paris ≈ 31 % (cote 2) et 38 % (cote 3)  — 0.603 0.479 0.310 0.376
 
-38/38 contrôles réussis
+39/39 contrôles réussis

@@ -183,6 +183,12 @@ _ps = (_pr + 1 / _o) / 2
 check("SOL6 r6.34 3.7 : p = (p_ref + 1/o)/2 divise l'EV centrale par deux (2,30 et 48 % : +10,4 % → +5,2 %)",
       abs((_o * _ps - 1) - _ev / 2) < 1e-12 and round(_ev * 100, 1) == 10.4, f"{_ev:+.4f} → {_o*_ps-1:+.4f}")
 
+# ---------- 6.36 : variance ----------
+_r2 = run_prob(100, 1 - 0.485, 6); _r3 = run_prob(100, 1 - 0.323, 10)
+_d2 = p_down(200, 2.00, 0.03); _d3 = p_down(200, 3.00, 0.03)
+check("SOL6 r6.36 partie 7 : sur 100 paris, ≥ 6 pertes d'affilée ≈ 60 % à cote 2 ; ≥ 10 ≈ 48 % à cote 3 ; avec +3 % réel, encore en perte après 200 paris ≈ 31 % (cote 2) et 38 % (cote 3)",
+      round(_r2 * 100) == 60 and round(_r3 * 100) == 48 and round(_d2 * 100) == 31 and round(_d3 * 100) == 38, f"{_r2:.3f} {_r3:.3f} {_d2:.3f} {_d3:.3f}")
+
 w = max(len(n) for n, _, _ in results)
 ok = sum(1 for _, c, _ in results if c)
 for n, c, d in results:

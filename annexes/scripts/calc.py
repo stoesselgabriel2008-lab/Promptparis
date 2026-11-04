@@ -244,3 +244,25 @@ def safest_single(legs, min_odds=1.30, dp=0.03, dev=0.02):
     top = s[0]
     near = [t for t in s[1:] if t["P"] >= top["P"] - dp - 1e-12 and t["ev_low"] > top["ev_low"] + dev + 1e-12]
     return max(near, key=lambda t: (t["ev_low"], t["P"])) if near else top
+
+
+# ---------------- 6.36 : variance ----------------
+def run_prob(n, q, r):
+    """Probability of at least one run of >= r consecutive losses in n independent bets with loss probability q."""
+    dp = [0.0] * r; dp[0] = 1.0; hit = 0.0
+    for _ in range(n):
+        nd = [0.0] * r
+        for k, pr in enumerate(dp):
+            if pr:
+                nd[0] += pr * (1 - q)
+                if k + 1 >= r: hit += pr * q
+                else: nd[k + 1] += pr * q
+        dp = nd
+    return hit
+
+
+def p_down(n, odds, edge):
+    """Probability of being strictly down after n flat bets at `odds` with true EV `edge`."""
+    from math import comb
+    p = (1 + edge) / odds
+    return sum(comb(n, w) * p ** w * (1 - p) ** (n - w) for w in range(n + 1) if odds * w - n < -1e-9)
