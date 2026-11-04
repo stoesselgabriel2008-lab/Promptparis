@@ -23,5 +23,9 @@ OK  Formule Poisson P(plus de 2,5) conforme à la somme de la grille  — 0.4815
 OK  SOL6 fiche : exemple de registre (p_ref 71,0 % ; EV +0,8 % ; prudente −2,0 % ; marge Winamax 6,8 %)  — 0.7099 +0.0080 -0.0204 0.0679
 OK  SOL6 3.10 exemple : (1 − 0,025 − 0,01) / 0,613 = 1,574 → plancher 1,58
 OK  SOL6 carte d'exemple : Comets EV +4,2 %, prudente −0,6 % (±3 avant rapport), plancher 1,58 avec t = −1 point exact au centime  — EVp -0.00648 Y -0.02487 plancher 1.58
+OK  SOL6 v7 3.5 : scénario prudent du remboursé si nul (54,67 / 25,37 / 19,96 → 52,67 / 25,37 / 21,96 %, total 100 %, EV +1,9 % → prudente −0,9 %)  — [0.527, 0.254, 0.22] EV +0.0191 EVp -0.0089
+OK  SOL6 v7 3.10 : le raccourci contre un concurrent qui partage la jambe donne 1,74 ; le rejeu complet 1,71 (Aubrac prend la place)  — raccourci 1.74 rejeu 1.71 ['R3']
+OK  SOL6 v7 2.2 : factorisation (1+EVp) exacte sans bonus, fausse avec bonus (+15 %)  — sans -0.0840 = -0.0840 ; avec +0.0362
+OK  SOL6 v7 2.3 : ticket court = Ilic + Costa 1,78 (55,8 %), sacrifice 1,3 point d'EV prudente pour +6,7 points de chance face au mieux payé (Montval + Novak, 49,1 %)  — ['R2', 'R3'] P 0.5583 sacrifice 1.29
 
-25/25 contrôles réussis
+29/29 contrôles réussis

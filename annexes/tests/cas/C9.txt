@@ -1,0 +1,19 @@
+CAS DE CONTRÔLE FICTIF C9 — noms, compétitions et chiffres inventés ; données figées à l'heure indiquée.
+
+Demande de l'utilisateur : « Analyse du jour. »
+Préparation : mercredi 25 novembre 2026, 11:00 (heure de Paris). L'utilisateur peut valider ses paris jusqu'à 23:00.
+Accès : aucune recherche possible au-delà de ces données. Cotes Winamax lues dans l'application (captures 10:45) ; référence Pinnacle via un comparateur qui le nomme (10:40).
+Règlement Winamax (vérifié) : « Remboursé si nul » = mise rendue en cas de nul, cote ramenée à 1 dans un combiné ; tennis, abandon après le début → pari annulé, cote ramenée à 1 ; basket, vainqueur prolongations incluses.
+
+PROGRAMME ET COTES
+Tennis — Trophée de Brévent (dur intérieur)
+T2 · 15:00 · H. Weber – K. Lind · Winamax 1,36 / 3,05 · Pinnacle 1,33 / 3,60
+T1 · 17:00 (pas avant) · E. Novak – M. Ruiz · Winamax 1,55 / 2,45 · Pinnacle 1,52 / 2,62
+Football — Ligue de Valmorie (D1)
+F1 · 18:30 · Union Bréda – SC Hautval · Winamax 1X2 1,85 / 3,60 / 4,40 ; Winamax « Remboursé si nul » : Bréda 1,40 / Hautval 2,95 · Pinnacle 1X2 1,80 / 3,80 / 4,80 · compositions vers 17:30, aucune absence annoncée.
+Basket — NBA, nuit de mercredi à jeudi
+N1 · jeudi 26/11 01:00 · Harbor Hawks – Gulf Giants · Winamax 1,48 / 2,70 · Pinnacle 1,45 / 2,85 · la star de Harbor est « Questionable » (genou) sur le rapport de la veille ; rapport du jour attendu vers 19:00 (Paris). Repère : lors de ses absences cette saison, la référence de ce type de match est passée autour de 1,75 / 2,15.
+
+INFORMATIONS
+- Rien de notable sur Weber, Lind, Novak et Ruiz.
+- Aucun autre match dans l'horizon.

@@ -80,6 +80,35 @@ ok_t = (1.58*(pc-0.03)-1 >= evy-0.01) and (1.57*(pc-0.03)-1 < evy-0.01)
 check("SOL6 carte d'exemple : Comets EV +4,2 %, prudente −0,6 % (±3 avant rapport), plancher 1,58 avec t = −1 point exact au centime",
       round((1.62*pc-1)*100,1) == 4.2 and round(evx*100,1) == -0.6 and fl == 1.58 and ok_t, f"EVp {evx:+.5f} Y {evy:+.5f} plancher {fl}")
 
+
+# ---------- v7 corrections ----------
+import io, contextlib
+pG, pR, pP = devig_power([1.80, 3.80, 4.80])
+d = MLeg("D", "m", [("gain", pG, 1.40), ("rembourse", pR, 1.0), ("perte", pP, 0.0)], 0.02)
+pr = d.prudent()
+evc = ticket_states([d])["ev"]; evp = ticket_states([d], prudent=True)["ev"]
+check("SOL6 v7 3.5 : scénario prudent du remboursé si nul (54,67 / 25,37 / 19,96 → 52,67 / 25,37 / 21,96 %, total 100 %, EV +1,9 % → prudente −0,9 %)",
+      [round(x[1]*100,2) for x in pr] == [52.67, 25.37, 21.96] and abs(sum(x[1] for x in pr) - 1) < 1e-12 and round(evc*100,1) == 1.9 and round(evp*100,1) == -0.9,
+      f"{[round(x[1],3) for x in pr]} EV {evc:+.4f} EVp {evp:+.4f}")
+with contextlib.redirect_stdout(io.StringIO()):
+    import cases_v7 as v7
+before = v7.c10(1.75, [1.62, 4.20, 6.00], True)
+thr, nw = replay_threshold(before, "R1")
+xl = [l for l in before if l.rid == "R1"][0]
+y = ticket_stats([l for l in before if l.rid in ("R1", "R3")])
+short = math.ceil((1 + y["ev_low"] - 0.01) / xl.p_low * 100 - 1e-9) / 100
+check("SOL6 v7 3.10 : le raccourci contre un concurrent qui partage la jambe donne 1,74 ; le rejeu complet 1,71 (Aubrac prend la place)",
+      short == 1.74 and thr == 1.71 and nw == ["R3"], f"raccourci {short} rejeu {thr} {nw}")
+legs5 = [l for l in v7.C8 if l.rid in ("R1", "R2", "R3", "R5", "R8")]
+t0 = ticket_stats(legs5); t15 = ticket_stats(legs5, 0.15)
+fact = math.prod(1 + l.ev_low() for l in legs5) - 1
+check("SOL6 v7 2.2 : factorisation (1+EVp) exacte sans bonus, fausse avec bonus (+15 %)",
+      abs(t0["ev_low"] - fact) < 1e-12 and abs(t15["ev_low"] - fact) > 0.05, f"sans {t0['ev_low']:+.4f} = {fact:+.4f} ; avec {t15['ev_low']:+.4f}")
+sh, best, _ = shield(v7.C8)
+check("SOL6 v7 2.3 : ticket court = Ilic + Costa 1,78 (55,8 %), sacrifice 1,3 point d'EV prudente pour +6,7 points de chance face au mieux payé (Montval + Novak, 49,1 %)",
+      sh["rids"] == ["R2", "R3"] and round((best - sh["ev_low"]) * 100, 1) == 1.3 and round((sh["P"] - 0.4913) * 100, 1) in (6.7, 6.6, 6.8),
+      f"{sh['rids']} P {sh['P']:.4f} sacrifice {(best-sh['ev_low'])*100:.2f}")
+
 w = max(len(n) for n, _, _ in results)
 ok = sum(1 for _, c, _ in results if c)
 for n, c, d in results:

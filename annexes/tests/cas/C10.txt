@@ -1,0 +1,20 @@
+CAS DE CONTRÔLE FICTIF C10 — noms, compétitions et chiffres inventés ; données figées aux heures indiquées.
+
+Demande de l'utilisateur : « Analyse du jour. »
+Accès : aucune recherche possible au-delà de ces données. Cotes Winamax lues dans l'application ; référence Pinnacle via un comparateur qui le nomme. Règlement Winamax (vérifié) : tennis, abandon après le début → pari annulé, cote ramenée à 1 ; football, 1X2 en temps réglementaire.
+
+PARTIE A — données disponibles vendredi 27 novembre 2026 à 17:00 (Paris)
+M1 · 20:30 · tennis · M. Kerr – A. Lopez · Winamax 1,75 / 2,30 · Pinnacle 1,62 / 2,50
+M2 · 21:00 (pas avant) · tennis · H. Stein – J. Pavic · Winamax 1,28 / 3,80 · Pinnacle 1,26 / 4,30
+M3 · 21:00 · football · Aubrac – Sévérac · Winamax 1,70 / 3,80 / 5,00 · Pinnacle 1,62 / 4,20 / 6,00
+M4 · 21:30 (pas avant) · tennis · H. Weber – K. Lind · Winamax 1,40 / 3,05 · Pinnacle 1,38 / 3,30
+M5 · 22:00 (pas avant) · tennis · E. Novak – M. Ruiz · Winamax 1,42 / 2,90 · Pinnacle 1,40 / 3,15
+M6 · 21:00 · football · Laval – Rodez · Winamax 1,66 / 4,10 / 5,00 · Pinnacle 1,58 / 4,40 / 6,00 · meneur de jeu de Laval incertain (communiqué du club : décision après l'entraînement de 18:30).
+
+PARTIE B — mises à jour reçues à 19:30
+- Kerr : Winamax 19:20 → 1,66 / 2,45. Pinnacle relu à 19:15 : inchangé, 1,62 / 2,50.
+- Aubrac – Sévérac : 19:00, le club de Sévérac annonce le retour de son buteur. Pinnacle 19:15 → 1,75 / 4,00 / 5,20. Winamax relu à 19:20 : inchangé, 1,70 / 3,80 / 5,00.
+- Laval : 18:35, le club confirme son meneur de jeu titulaire. Cotes inchangées.
+- Rien de nouveau pour M2, M4 et M5.
+
+Consigne du cas : rends la réponse telle qu'elle doit être livrée à 19:30 (rien n'a encore été joué). Indique brièvement ce qu'était le choix et son plan B à 17:00, et ce qui a changé.

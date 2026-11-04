@@ -45,3 +45,21 @@ Knights prolongation incluse : p_ref 62,4 % (Pinnacle 1,56 / 2,52) ; Winamax 1,6
 Monarchs 1,48 : p 68,8 %, EV +1,8 % ; fourchette ±3 avant le rapport du jour → EV prudente −2,6 % (±2 → −1,1 %).
 Ilic 1,30 : 76,9 %, −0,1 %, prudente −2,7 % ; Moreau (T2) 1,44 : 68,9 %, −0,8 % ; Ricci 1,62 : 61,0 %, −1,2 % ; Bréda 1,70 : 59,4 %, +1,0 %, prudente −2,4 %.
 Choix principal selon la règle : Bréda simple 1,70 (🟡 au mieux, EV centrale +1,0 % mais prudente −2,4 %). Piège du bonus : le triple Ilic + Bréda + Monarchs 3,27 a une EV centrale de +6,4 % avec le bonus de 5 %, mais une EV prudente de −4,2 % : il ne bat pas le simple. Bonus : à 5 jambes, EV prudente −3,7 % au lieu de −14,8 % sans bonus (🎉 possible en 🟡, jamais présenté comme sûr). 🎾 Ilic + Moreau + Ricci 3,03 : EV +1,3 % avec bonus, prudente −7,4 %.
+
+═══ CAS DE VALIDATION DE LA PASSE CIBLÉE v7 (fixés avant exécution) ═══
+C8 — simple contre long combiné, ticket court, bonus
+Ridge 2,18 : p 48,7 %, EV +6,2 %, prudente +1,8 % (seul écart de prix). Choix principal attendu : Ridge simple ; seuil par rejeu complet 2,11, puis Novak simple (plan B).
+Piège « EV centrale » : Ridge + Ilic + Montval bonifié (+5 %) 3,80 : EV +9,8 % mais prudente −0,2 % → ne bat pas le simple (écart > 1 point).
+Long combiné : Ridge + Ilic + Costa + Montval + Novak, bonifié +15 %, 8,01 : P 13,3 %, EV +20,9 %, prudente +3,6 % ; sans bonus, ces cinq jambes ont une EV prudente fortement négative ; la factorisation par jambe ne vaut plus avec bonus (🎉 possible, présenté comme récréatif, positif seulement grâce au bonus et à Ridge).
+🎾 avec bonus : à 3 Ilic + Costa + Novak 2,76 (prudente −4,6 %) ; à 4 avec Faure 3,92 (prudente −4,1 %) : la 4e jambe, d'EV prudente négative, améliore le ticket grâce au bonus, mais de moins d'un point → 3 matchs retenus par simplicité.
+🛡️ nouvelle règle : meilleur prix de la zone Montval + Novak 2,06 (P 49,1 %, prudente −4,5 %) ; retenu Ilic + Costa 1,78 (P 55,8 %, prudente −5,8 %) : sacrifice 1,3 point pour +6,7 points de chance, à écrire.
+C9 — ticket avec remboursement, condition invérifiable avant la première jambe
+Bréda : p_G 54,67 %, p_R 25,37 %, p_P 19,96 % (1X2 Pinnacle). Remboursé si nul 1,40 : EV +1,9 % ; scénario prudent 52,67 / 25,37 / 21,96 % (total 100 %) → EV prudente −0,9 % ; cote d'équilibre 1,365. 🎯 attendu : ce DNB.
+Bréda DNB + Weber 1,90 (🛡️) : gain plein 40,5 %, remboursement de Bréda et Weber gagnant (retour 1,36) 18,8 %, profit 59,3 %, perte 40,7 % ; EV +2,6 % ; prudente −2,9 %.
+Choix principal selon la règle : Novak simple 1,55 (prudente −3,8 %), dans le groupe de tête avec Bréda DNB + Weber (−2,9 %) et préféré par simplicité, duel serré à signaler.
+Piège : tout combiné avec Harbor et une jambe qui commence avant 19:00 ne peut pas être vérifié avant sa première jambe → scénario défavorable (star absente, p ≈ 55,4 %) : Bréda DNB + Harbor 2,07 passe de prudente −5,7 % (statut connu) à −21,7 % ; à jouer plutôt Harbor en simple après le rapport, conditionnel.
+🎾 : deux matchs de tennis seulement → impossible (il manque une rencontre).
+C10 — plan B qui change quand la cote bouge
+17:00 : Kerr simple 1,75 (p 61,0 %, EV +6,7 %, prudente +3,2 %), devant Kerr + Aubrac (prudente +3,5 %, même groupe de tête, deux jambes). Seuil par rejeu complet : 1,71, puis Aubrac simple (plan B à 17:00). La formule contre Kerr + Aubrac (qui contient Kerr) donnerait 1,74 : faux.
+19:30 : Kerr 1,66, référence inchangée → p reste 61,0 % (EV +1,2 %, prudente −2,1 %). Aubrac : référence passée à 1,75 → p 56,7 % (EV −3,6 %, prudente −7,0 %). Laval confirmé → admissible (EV +3,7 %, prudente +0,3 %). Choix principal à 19:30 : Laval simple 1,66 ; plan B : Kerr simple 1,66 ; seuil de Laval par rejeu 1,62.
+Pièges : garder l'ancienne p d'Aubrac (fausse EV +3,7 %) ; recalculer Kerr sur la seule cote Winamax (p 58,5 % au lieu de 61,0 %) alors que la référence n'a pas bougé.

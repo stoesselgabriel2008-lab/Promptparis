@@ -105,3 +105,76 @@ def threshold_odds(x_leg_or_ticket_plow, y_ev_low):
 def fmt(t):
     return (f"{'+'.join(t['rids']):22s} k={t['n']} cote={t['odds']:.3f} P={t['P']*100:5.1f}% "
             f"EV={t['ev']*100:+5.1f}% EVprud={t['ev_low']*100:+5.1f}% {','.join(t['sports'])}")
+
+
+# ---------------- v7 extensions ----------------
+def with_odds(legs, rid, o):
+    out = []
+    for l in legs:
+        out.append(Leg(l.rid, l.match, l.sport, (o if l.rid == rid else l.odds), l.p, l.band, l.quality, l.gate, label=l.label, group=l.group))
+    return out
+
+
+def replay_threshold(legs, rid, lo=1.50, hi=4.00, step=0.01, stop=1.01, chooser=None):
+    """Lower the odds of leg `rid` cent by cent, recomputing every ticket that contains it, and replay the full ranking.
+    Returns (threshold, new_winner_rids): the lowest odds at which the current winner still wins, and who wins just below."""
+    chooser = chooser or (lambda L: (rstar(enumerate_tickets(L, lo=lo, hi=hi)) or [None])[0])
+    o0 = [l.odds for l in legs if l.rid == rid][0]
+    w0 = chooser(legs)
+    o = o0
+    while o - step >= stop:
+        o = round(o - step, 2)
+        w = chooser(with_odds(legs, rid, o))
+        if w is None or w["rids"] != w0["rids"]:
+            return round(o + step, 2), (w["rids"] if w else None)
+    return None, None
+
+
+def shield(legs, lo=1.75, hi=2.10, cap=0.02):
+    """🛡️ ticket court: two legs in the zone; among tickets whose EV prudente is within `cap` of the best one in the zone,
+    pick the highest P(ticket); report the price sacrifice."""
+    c = enumerate_tickets(legs, kmin=2, kmax=2, lo=lo, hi=hi)
+    if not c:
+        return None, None, []
+    best = max(t["ev_low"] for t in c)
+    allowed = [t for t in c if t["ev_low"] >= best - cap - 1e-12]
+    allowed.sort(key=lambda t: (-t["P"], -t["ev_low"]))
+    return allowed[0], best, sorted(c, key=lambda t: -t["ev_low"])
+
+
+class MLeg:
+    """Multi-state leg: states = [(name, prob, gross_return)], probabilities sum to 1."""
+    def __init__(self, rid, match, states, band=0.02, label=""):
+        self.rid, self.match, self.states, self.band, self.label = rid, match, states, band, label
+        assert abs(sum(p for _, p, _ in states) - 1) < 1e-9
+
+    def prudent(self):
+        """Move `band` of probability from the best-return state to the worst-return state (total stays 100 %)."""
+        st = [list(s) for s in self.states]
+        ib = max(range(len(st)), key=lambda i: st[i][2]); iw = min(range(len(st)), key=lambda i: st[i][2])
+        d = min(self.band, st[ib][1])
+        st[ib][1] -= d; st[iw][1] += d
+        return [tuple(s) for s in st]
+
+
+def ticket_states(mlegs, prudent=False, boost=0.0):
+    """Joint distribution of gross return for independent multi-state legs. Boost (on net winnings) only if every leg is a full win."""
+    import itertools as it
+    dists = [(l.prudent() if prudent else l.states) for l in mlegs]
+    out = {}
+    for combo in it.product(*dists):
+        p = math.prod(s[1] for s in combo)
+        r = math.prod(s[2] for s in combo)
+        full = all(s[0] == "gain" for s in combo)
+        if full and boost:
+            r = 1 + (r - 1) * (1 + boost)
+        out[r] = out.get(r, 0) + p
+    ev = sum(p * r for r, p in out.items()) - 1
+    p_full = sum(p for r, p in out.items() if r >= max(out) - 1e-12)
+    p_profit = sum(p for r, p in out.items() if r > 1 + 1e-12)
+    p_refund = sum(p for r, p in out.items() if abs(r - 1) < 1e-12)
+    return dict(ev=ev, p_full=p_full, p_profit=p_profit, p_refund=p_refund, dist=sorted(out.items()), total=sum(out.values()))
+
+
+def binary(rid, match, o, p, band=0.02, label=""):
+    return MLeg(rid, match, [("gain", p, o), ("perte", 1 - p, 0.0)], band, label)
