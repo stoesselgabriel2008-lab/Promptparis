@@ -1,0 +1,11 @@
+JOURNAL DES AMÉLIORATIONS DU PROMPT (après la livraison de SOL 6, v7)
+
+Chaque révision ne touche qu'une petite partie du prompt. Elle n'est sauvegardée qu'après des contrôles automatiques réussis : renvois de sections, formulations obsolètes, numérotation, exemples chiffrés recalculés. Le fichier PROMPT_PARIS_VERSION_FINALE.txt est donc toujours une version complète et utilisable ; la plus récente est la dernière entrée ci-dessous.
+
+Révision 6.0 (= v7 de l'audit) — version livrée et validée sur les cas C1 à C10 (voir AUDIT_PARIS.txt).
+
+Révision 6.1 — utilisation au quotidien
+- Versions : « SOL 6 », avec le numéro de révision en en-tête ; la phrase de lancement ne change plus à chaque révision.
+- Saisie manuelle : modèle d'une ligne par match pour coller les cotes Winamax et de référence sans accès web ; une capture sans heure visible = prix « à confirmer ».
+- Calcul sans code (3.13) : énumération restreinte aux 6 à 8 meilleures lignes, calcul à la main montré, seuils testés par pas de 0,02 et signalés comme approchés ; un calcul non refait n'est jamais présenté comme vérifié.
+Contrôles : statiques OK ; calculs 29/29.
