@@ -147,6 +147,14 @@ check("SOL6 r6.16 2.3 : 🛡️ — le cas C8 ne change pas (Laval 1,95 ne domin
       _sh8["rids"] == ["R2", "R3"] and _k8 == "deux jambes" and _sh12["rids"] == ["AH"] and _k12 == "simple dominant",
       f"C8 {_sh8['rids']} ; exemple {_sh12['rids']} ({_k12})")
 
+# ---------- 6.23 : borne basse après ajustement ----------
+_o, _pr, _dl = 2.04, 0.50, 0.02
+_ev0 = _o * (_pr - _dl) - 1
+_old = _o * min(_pr + 0.02 - _dl, _pr) - 1
+_new = _o * (min(_pr + 0.02, _pr) - _dl) - 1
+check("SOL6 r6.23 3.5 : ajustement de +2 points sur p_ref 50 % à 2,04 : la formule 6.8 donnait +2,0 % (au lieu de −2,1 %) ; min(p_ret ; p_ref) − demi-largeur rend −2,1 %",
+      round(_ev0 * 100, 1) == -2.1 and round(_old * 100, 1) == 2.0 and abs(_new - _ev0) < 1e-12, f"sans {_ev0:+.4f} ; 6.8 {_old:+.4f} ; 6.23 {_new:+.4f}")
+
 w = max(len(n) for n, _, _ in results)
 ok = sum(1 for _, c, _ in results if c)
 for n, c, d in results:
