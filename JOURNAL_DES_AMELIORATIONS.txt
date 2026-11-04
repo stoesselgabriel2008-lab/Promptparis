@@ -88,3 +88,10 @@ Révision 6.15 — calcul sans code (3.13)
 - Défaut (relecture « exécution ») : sans outil de calcul, l'énumération était limitée aux « 6 à 8 meilleures lignes », sans définir « meilleures ». Classées par EV prudente, elles pouvaient ne contenir ni trois matchs de tennis ni un marché vivant : le 🎾 et le 🎲 devenaient impossibles, alors qu'une limite de calcul n'est pas une « raison matérielle » au sens du contrat récréatif. Le balayage demandait aussi de résoudre à la main l'équation de la méthode power pour des dizaines de marchés.
 - Règle : au balayage, retrait de marge multiplicatif (power pour les seules lignes du registre) ; 6 à 8 lignes d'EV prudente la plus haute pour le ⭐ et le 🎯, plus les seules lignes qu'exige chaque autre format.
 Contrôles : statiques OK ; calculs 33/33.
+
+Révision 6.16 — ticket court 🛡️ (2.3) : un simple peut le remplacer quand il domine
+- Défaut révélé par le test C12 : le 🛡️ exigeait deux jambes. Sur un petit programme, le seul ticket de deux jambes de la zone (double chance + Doe, 2,09) avait 42,5 % de chance et une EV prudente de −18,3 %, alors qu'un simple de la même zone (Montval −0,75 à 1,83, le ⭐) touchait 62 % des fois pour une EV prudente proche de 0. Le format imposait donc un ticket dominé sur les deux critères. SOL 5.16 disait d'ailleurs « deux jambes de préférence ».
+- Règle : deux jambes de préférence ; un simple de la zone remplace le ticket de deux jambes retenu quand il le domine (chance et EV prudente au moins égales) ; la carte renvoie au ⭐ si c'est lui. Le cas validé C8 ne change pas : Laval 1,95 paie mieux mais touche moins souvent qu'Ilic + Costa.
+- Précisions au passage (relecture « logique ») : la référence du plafond de 2 points est « le ticket de la zone dont l'EV prudente est la plus haute » (« le mieux payé » pouvait se lire comme la cote la plus haute, ce qui autorisait un sacrifice de 5,8 points au lieu de 2) ; la mention « autour de 1,90–2,00 » est retirée, puisque la recherche de la chance la plus haute place souvent ce ticket vers 1,75–1,85.
+- Calculateur : fonction shield_with_single ; un contrôle ajouté.
+Contrôles : statiques OK ; calculs 34/34.

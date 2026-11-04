@@ -31,5 +31,6 @@ OK  SOL6 r6.3 3.12 : deux tickets d'EV nulle à 2,00 et 8,00 valent 0,50 et 0,87
 OK  SOL6 r6.3 cas C13 : freebet de 10 € → Bréda + Rodez + Weber (8,55 ; valeur prudente 7,88 €) devant le meilleur simple Rodez 3,40 (6,60 €)  — ['Bréda', 'Rodez', 'Weber'] 8.55 7.88 € ; simple ['Rodez'] 6.60 €
 OK  SOL6 r6.9 3.10 : X simple Q2 (P_basse 0,57) face à Y simple Q1 (EV prudente +1,0 %) : rejeu 1,79 = raccourci avec t = +1 point (t = 0 donnait 1,78)  — rejeu 1.79 → ['Y']
 OK  SOL6 r6.9 3.10 : jambe remboursé si nul (états prudents 52,67 / 25,37 / 21,96 %) : plancher par états 1,37, pas 1,86
+OK  SOL6 r6.16 2.3 : 🛡️ — le cas C8 ne change pas (Laval 1,95 ne domine pas Ilic + Costa) ; un simple 1,80 à 57 % remplace un double à 2,09 et 42,5 %  — C8 ['R2', 'R3'] ; exemple ['AH'] (simple dominant)
 
-33/33 contrôles réussis
+34/34 contrôles réussis

@@ -139,6 +139,14 @@ check("SOL6 r6.9 3.10 : X simple Q2 (P_basse 0,57) face à Y simple Q1 (EV prude
 check("SOL6 r6.9 3.10 : jambe remboursé si nul (états prudents 52,67 / 25,37 / 21,96 %) : plancher par états 1,37, pas 1,86",
       _cu((0.975 - 0.2537) / 0.5267) == 1.37 and _cu(0.975 / 0.5267) == 1.86 and 1.37 * 0.5267 + 0.2537 - 1 >= -0.025 > 1.36 * 0.5267 + 0.2537 - 1)
 
+# ---------- 6.16 : 🛡️ et simple dominant ----------
+_sh8, _k8 = shield_with_single(v7.C8)
+_L = [Leg("DC", "F", "foot", 1.12, 0.845, 0.02), Leg("DOE", "N", "basket", 1.87, 0.503, 0.03), Leg("AH", "T", "foot", 1.80, 0.57, 0.02)]
+_sh12, _k12 = shield_with_single(_L)
+check("SOL6 r6.16 2.3 : 🛡️ — le cas C8 ne change pas (Laval 1,95 ne domine pas Ilic + Costa) ; un simple 1,80 à 57 % remplace un double à 2,09 et 42,5 %",
+      _sh8["rids"] == ["R2", "R3"] and _k8 == "deux jambes" and _sh12["rids"] == ["AH"] and _k12 == "simple dominant",
+      f"C8 {_sh8['rids']} ; exemple {_sh12['rids']} ({_k12})")
+
 w = max(len(n) for n, _, _ in results)
 ok = sum(1 for _, c, _ in results if c)
 for n, c, d in results:

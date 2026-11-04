@@ -200,3 +200,17 @@ def freebet_rank(legs, amount=10.0, min_odds=1.0, kmax=5, tol=0.01):
     b = max(t["value_low"] for t in out)
     head = sorted([t for t in out if t["value_low"] >= b - tol * amount - 1e-12], key=lambda t: (t["n"], t["qual"], t["conds"], -t["value_low"]))
     return head + sorted([t for t in out if t not in head], key=lambda t: -t["value_low"])
+
+
+# ---------------- 6.16 : 🛡️ with a dominating single ----------------
+def shield_with_single(legs, lo=1.75, hi=2.10, cap=0.02):
+    """Two-leg short ticket as in shield(); a single in the zone replaces it when it dominates it
+    (chance and EV prudente at least equal). Returns (ticket, kind) with kind in {'deux jambes', 'simple dominant'}."""
+    pick, best, _ = shield(legs, lo, hi, cap)
+    singles = [ticket_stats([l]) for l in legs if lo - 1e-9 <= l.odds <= hi + 1e-9 and admissible([l])]
+    if pick is None:
+        return (max(singles, key=lambda t: (t["P"], t["ev_low"])) if singles else None), "simple (aucun ticket de deux jambes)"
+    dom = [t for t in singles if t["P"] >= pick["P"] - 1e-12 and t["ev_low"] >= pick["ev_low"] - 1e-12]
+    if dom:
+        return max(dom, key=lambda t: (t["P"], t["ev_low"])), "simple dominant"
+    return pick, "deux jambes"
