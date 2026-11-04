@@ -1,0 +1,19 @@
+CAS DE CONTRÔLE FICTIF C17 — journée ordinaire, noms et chiffres inventés ; données figées à l'heure indiquée.
+
+Demande de l'utilisateur : « Analyse du jour. »
+Préparation : mercredi 23 décembre 2026, 13:00 (heure de Paris).
+Accès : aucune recherche possible au-delà de ces données. Cotes Winamax lues dans l'application (12:50) ; Pinnacle via un comparateur qui le nomme (12:45). Statuts : aucun absent important, aucun statut incertain ; rapports NBA de la veille sans changement attendu.
+Règlement Winamax (vérifié) : football, 1X2 sur le temps réglementaire (coupe : temps réglementaire aussi) ; NBA, vainqueur prolongations incluses ; tennis, vainqueur annulé en cas d'abandon.
+
+PROGRAMME
+F1 · football · 18:30 · Ligue de Valmorie (D1) · Orvault – Belmar · Winamax 1,95 / 3,51 / 4,09 · Pinnacle 1,97 / 3,59 / 4,20
+F2 · football · 20:45 · Ligue de Valmorie (D1) · Calvi – Dornes · Winamax 1,55 / 4,30 / 5,83 · Pinnacle 1,59 / 4,37 / 5,95
+F3 · football · 19:00 · Coupe de Valmorie, 8e de finale · Lanvaux – Rocher · Winamax 2,20 / 3,43 / 3,43 · Pinnacle 2,23 / 3,47 / 3,47
+F4 · football · 21:00 · Ligue de Valmorie (D1) · Port-Vallon – Saint-Aimé · Winamax 2,52 / 3,22 / 2,83 · Pinnacle 2,57 / 3,35 / 2,96
+T1 · tennis · 14:00 · ATP 250 de Corvel (dur intérieur), 8e · Lind – Faure · Winamax 1,38 / 3,13 · Pinnacle 1,40 / 3,15
+T2 · tennis · 15:30 · ATP 250 de Corvel, 8e · Ruiz – Novak · Winamax 1,74 / 2,07 · Pinnacle 1,77 / 2,15
+T3 · tennis · 16:00 · WTA 250 de Lisière (dur intérieur), 8e · Varga – Holm · Winamax 1,51 / 2,47 · Pinnacle 1,58 / 2,52
+T4 · tennis · 18:00 · WTA 250 de Lisière, 8e · Kovac – Brandt · Winamax 2,01 / 1,84 · Pinnacle 2,02 / 1,87
+N1 · NBA · jeudi 01:00 · NBA · Harbor Hawks – Ridge Rams · Winamax 1,66 / 2,20 · Pinnacle 1,68 / 2,29
+N2 · NBA · jeudi 02:00 · NBA · Bay Comets – Austin Arrows · Winamax 1,46 / 2,76 · Pinnacle 1,49 / 2,80
+N3 · NBA · jeudi 03:30 · NBA · Lake Owls – Delta Kings · Winamax 2,11 / 1,69 · Pinnacle 2,15 / 1,77

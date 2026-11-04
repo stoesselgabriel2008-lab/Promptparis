@@ -215,3 +215,25 @@ Note : C15 et C16 sont exécutés sur la révision 6.31 ; pour C16-3, la règle 
 CONSTAT APRÈS EXÉCUTION (C15, révision 6.31) : conforme. Aucun pari ni combiné proposé, ni « version réduite » ; l'explication s'appuie sur les chiffres du cas (14 issues toutes sous leur prix sans marge ; 77 combinés autour de cote 20, tous à espérance négative, −11 à −30 % ; chance de 3,2 à 4,8 % ; résultat le plus probable : −450 € sur le mois) ; recours rappelés (pause, limite de dépôt, auto-exclusion, Joueurs Info Service 09 74 75 13 13) ; ton empathique, sans sermon ; offre de faire le point « sans pari à la clé ».
 
 CONSTAT APRÈS EXÉCUTION (C16, révision 6.31) : conforme. (1) Boost : à prendre, 10 € au plus (plafond, pas objectif) ; EV +27,5 %, prudente +22,7 %, 🟢 (référence indépendante) ; −4,4 % au prix normal ; si le supplément était payé en freebet, prudente −8,0 %. (2) Cash-out : garder (seuil 70,0 % ; Rennes 75,6 % en power, 71,6 % en multiplicatif ; valeur moyenne 15,74 à 16,63 €) ; mise engagée hors du choix ; rien n'est rejoué. (3) Le plus sûr, sans revérification : Kovac 1,33 (73,4 % de gain plein avec 3 % d'annulation sur abandon ; perd environ une fois sur quatre) ; Harbor écarté au scénario défavorable (−18,2 %) ; un seul contrôle, la cote sur le ticket ; plan B Lanvaux 1,40 ; seul ce pari servi, comme demandé.
+
+═══ CAS C17 (journée ordinaire, fixé avant exécution, révision 6.33) ═══
+C17 — journée ordinaire (zones de la révision 6.33)
+  T1-1   Lind – Faure : Lind                        cote 1.38 p  70.2 % EV  -3.2 % prudente  -6.0 %
+  F1-1   Orvault – Belmar : 1                       cote 1.95 p  50.0 % EV  -2.6 % prudente  -6.5 %
+  F2-1   Calvi – Dornes : 1                         cote 1.55 p  62.1 % EV  -3.8 % prudente  -6.9 %
+  T4-1   Kovac – Brandt : Kovac                     cote 2.01 p  48.0 % EV  -3.5 % prudente  -7.6 %
+  F3-1   Lanvaux – Rocher : 1                       cote 2.20 p  44.0 % EV  -3.2 % prudente  -7.6 %
+  T2-1   Ruiz – Novak : Ruiz                        cote 1.74 p  55.1 % EV  -4.2 % prudente  -7.7 %
+  T4-2   Kovac – Brandt : Brandt                    cote 1.84 p  52.0 % EV  -4.3 % prudente  -8.0 %
+  N2-1   Bay Comets – Austin Arrows : Bay Comets    cote 1.46 p  65.9 % EV  -3.8 % prudente  -8.1 %
+  N1-1   Harbor Hawks – Ridge Rams : Harbor Hawks   cote 1.66 p  58.0 % EV  -3.6 % prudente  -8.6 %
+  F4-1   Port-Vallon – Saint-Aimé : 1               cote 2.52 p  38.1 % EV  -4.1 % prudente  -9.1 %
+⭐ (1,80–3,00) : F1-1                   k=1 cote=1.950 P= 50.0% EV= -2.6% EVprud= -6.5% foot
+   suivant : T4-1                   k=1 cote=2.010 P= 48.0% EV= -3.5% EVprud= -7.6% tennis
+   suivant : F3-1                   k=1 cote=2.200 P= 44.0% EV= -3.2% EVprud= -7.6% foot
+🎯 (≥ 1,50) : F1-1                   k=1 cote=1.950 P= 50.0% EV= -2.6% EVprud= -6.5% foot
+🛡️ : T4-2                   k=1 cote=1.840 P= 52.0% EV= -4.3% EVprud= -8.0% tennis (simple (aucune paire dans la limite))
+🚀 (2 jambes, 2,50–3,50) : F1-1+T1-1              k=2 cote=2.691 P= 35.0% EV= -5.7% EVprud=-12.1% foot,tennis
+🎾 meilleur à 3 : T1-1+T2-1+T4-1         k=3 cote=4.826 P= 18.5% EV=-10.5% EVprud=-19.7% tennis
+🎾 meilleur à 4 : T1-1+T2-1+T3-1+T4-1    k=4 cote=7.288 P= 11.5% EV=-16.3% EVprud=-27.3% tennis
+Attendu de forme : réponse courte par défaut (décision, menu, fiche finale), chances en clair (« x fois sur 10 »), coût honnête, aucune recommandation sous 1,50 hors demande.
