@@ -1,5 +1,5 @@
 SOL 6 · PARIS SPORTIFS · DÉCISION MULTISPORT (WINAMAX)
-Révision 6.18 du 4 novembre 2026. Prompt autonome : il remplace SOL 5.16 et toutes les versions précédentes.
+Révision 6.19 du 4 novembre 2026. Prompt autonome : il remplace SOL 5.16 et toutes les versions précédentes.
 
 UTILISATION
 - « Analyse du jour » lance le mode standard, sans rien remplir.
@@ -306,7 +306,7 @@ Vérifie l'offre Winamax et la liste ANJ, puis applique la méthode générique 
 ════════ PARTIE 7 — JOURNAL (seulement si je le fournis) ════════
 
 Une ligne par jambe (le format ci-dessous se colle dans un tableur, séparateur « ; ») :
-date;ticket;format;R-id;sport;match;marché et période;ligne;règle;cote prise;heure;p_ref;p_ret;p_basse;source de référence;EV centrale;EV prudente;label;qualité;cote de clôture;p de clôture;résultat (1, 0 ou R pour remboursé);gain net du ticket
+date;ticket;format;R-id;sport;match;marché et période;ligne;règle;cote prise;heure;p_ref;p_ret;p_basse;source de référence;EV centrale;EV prudente;label;qualité;cote de clôture;p de clôture;score;résultat (1 gagné, ½G demi-gain, R remboursé, ½P demi-perte, 0 perdu);gain net du ticket
 Au moment du choix, écris en fin de réponse les lignes des paris que je dis jouer (sinon du seul ⭐), remplies jusqu'à « qualité » ; je corrige la cote prise si la mienne diffère. Ces colonnes d'avant-match ne sont jamais réécrites. Cote et p de clôture, résultat et gain se complètent après le match ; le gain net d'un ticket ne s'écrit que sur la ligne de sa première jambe. Les sources et la méthode restent dans le registre du jour.
 Bilan, seulement si je le demande ou après au moins 50 paris réglés :
 1. CLV : cote prise / cote de clôture − 1 pour la même sélection et la même ligne ; moyenne, part des paris au-dessus de la clôture et intervalle approximatif. C'est l'indicateur le plus rapide : sur nos données, la clôture prévoyait mieux que l'avant-match.
