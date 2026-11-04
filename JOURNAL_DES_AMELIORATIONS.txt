@@ -66,3 +66,8 @@ Révision 6.11 — règlement inconnu et lignes en quart (3.2, 3.9)
 - Défaut 1 (relecture « logique », chiffres refaits) : sans règlement vérifié, le prompt imposait en tennis « son abandon = jambe perdue », présenté comme le cas le plus défavorable. Il ne l'est qu'en dessous de la cote 2,00. Avec 1,5 % de risque d'abandon de chaque côté, régler sur le joueur qualifié plutôt qu'annuler change l'EV de 1,5 × (cote − 2) centièmes de point : −1,05 point à 1,30, mais +1,8 point à 3,20, où l'annulation est donc la règle prudente. Règle : calculer sous les deux règles plausibles et retenir l'EV la plus basse.
 - Défaut 2 : la mise en garde sur le retrait de marge d'un marché à deux prix citait le DNB et le handicap entier, pas les lignes en quart (demi-gain, demi-perte), qui ont le même problème.
 Contrôles : statiques OK ; calculs 33/33.
+
+Révision 6.12 — lignes Q3 (2.2, 3.6) : une exception qui ne pouvait jamais s'appliquer
+- Défaut (signalé par les deux relectures) : 3.6 admettait les lignes Q3 dans le 🎲 et le 🎉, mais chaque cause de Q3 était exclue ailleurs par l'étape 1 de R★ (rencontre confirmée exigée, prix lu exigé, statut sans échéance exclu, règle « traitée prudemment » exigée). Selon le passage lu, un même 🎉 pouvait accueillir ou refuser une affiche non confirmée.
+- Règle : pour 🎲 et 🎉 seulement, un statut non contrôlé ou une règle inconnue n'excluent pas la jambe (Q3 étiquetée) ; affiche ou horaire non vérifiés, statut incertain sans échéance ou absence de tout prix lu excluent la jambe de tous les formats.
+Contrôles : statiques OK ; calculs 33/33.
