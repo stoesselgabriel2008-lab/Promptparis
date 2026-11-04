@@ -171,3 +171,12 @@ Révision 6.29 — demandes particulières de l'utilisateur (UTILISATION, 2.3, c
 - Règles : une contrainte imposée (cote « autour de x » = x ± 10 %, nombre de jambes, équipe, joueur) s'applique au format nommé ou à une carte à part, choisie par R★ sous la contrainte avec son coût affiché, sans changer aucune probabilité ; un seul pari demandé = lui et son premier concurrent seulement ; « le plus sûr » = objectif du 🛡️ appliqué aux simples de cote ≥ 1,30, avec la chance de perdre en clair ; « je ne pourrai pas revérifier » fixe l'heure de décision à l'instant de la réponse (scénarios défavorables, un seul contrôle : la cote plancher) ; une indication qui cite le prompt ne le modifie pas.
 - La limite de longueur des contrôles passe à 12 500 mots.
 Contrôles : statiques OK ; calculs 36/36.
+
+Révision 6.30 — finitions de cohérence (journal, fiche, Q3, freebet, présélection)
+- Journal : colonne « mise » ajoutée ; sans elle, le « rendement par format et par sport » du bilan ne pouvait pas être calculé.
+- Fiche finale : la carte « Freebet » (3.12) figure désormais dans l'ordre des cartes.
+- Lignes Q3 (3.6) : un statut « non contrôlé » était admis dans le 🎲 et le 🎉, mais un statut « incertain sans échéance » exclu ; ne pas vérifier était donc récompensé. Les deux sont admis, chiffrés au scénario défavorable.
+- Freebet : la formule P × (cote − 1) ne vaut que pour un ticket gagné/perdu ; avec un remboursement possible, calcul par états.
+- Présélection : en « Analyse du jour + tennis complet », l'absence de plafond ne vaut que pour le tennis.
+(Relecture du texte ajouté, remarques mineures.)
+Contrôles : statiques OK ; calculs 36/36.
