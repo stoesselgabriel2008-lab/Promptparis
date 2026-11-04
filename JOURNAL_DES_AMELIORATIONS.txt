@@ -191,3 +191,14 @@ Révision 6.32 — zones de cote réglées sur le goût de l'utilisateur (2.3)
 - Demande de l'utilisateur : « J'aime bien les cotes aux alentours de 2, qui soient plutôt safe… voire des cotes à 3 si on est un peu foufou. » Le prompt exprime le goût du risque par la zone de cote de chaque format (2.2, point 4) : c'est donc là qu'il s'inscrit.
 - Règle : ⭐ choix principal de 1,60 à 2,60 par défaut (au lieu de 1,50 à 4,00), présenté comme « des cotes autour de 2, plutôt sûres » ; 🚀 combiné plaisir de 2,50 à 3,50 (« autour de 3 »), au lieu de 2 à 4. Les zones restent modifiables dans la demande du jour ; le 🛡️ (1,75 à 2,10) et le 🎯 (simple ≥ 1,30) ne changent pas. Contrôle : le cas validé C8 garde le même ⭐ (Ridge 2,18).
 Contrôles : statiques OK ; calculs 37/37.
+
+Révision 6.33 — des paris sympas de 2 à 3 chaque jour (UTILISATION, 2.3, fiche)
+- Demande de l'utilisateur : « je ne veux pas d'un système à 1,20 qui trouve un match tous les deux ans ; je veux un truc sympa qui me fait des cotes à 2-3 tous les jours, ou qui les répartit sur 2-3 jours ».
+- Ce qui ne change pas : le contrat récréatif sert déjà des paris chaque jour, même quand toutes les EV sont négatives ; l'EV sert à choisir le moins coûteux et le mieux justifié parmi les paris de la bonne cote, jamais à supprimer un format.
+- Ce qui change :
+  - ⭐ choix principal de 1,80 à 3,00 par défaut (« des paris sympas de 2 à 3, plutôt sûrs, chaque jour ») ; 🚀 autour de 3 (2,50 à 3,50, depuis 6.32) ; 🎯 meilleur simple à partir de 1,50 (pas de recommandation à 1,20–1,40, sauf demande) ;
+  - nouveau mode « Mes paris sur 3 jours » (ou 2) : une carte par jour avec son ⭐ et son 🚀, revalidée le jour même ;
+  - réponse courte par défaut (décision, menu, fiche finale) ; « version complète » ou « détails » ajoute couverture, registre, comparaisons et dossiers ; le registre, les calculs et les vérifications sont faits dans tous les cas ;
+  - la chance s'affiche aussi en clair (« environ x fois sur 10 »).
+- Cohérence : l'exemple de seuil de 3.10 précise sa zone (1,50 à 4,00) ; la carte d'exemple de la fiche (1,62) devient un 🎯, puisque le ⭐ commence désormais à 1,80 (ses chiffres, vérifiés par le calculateur, ne changent pas).
+Contrôles : statiques OK ; calculs 37/37.
