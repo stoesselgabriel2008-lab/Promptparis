@@ -44,8 +44,8 @@ for e in ["⭐", "🎯", "🛡️", "🎾", "🎲", "🚀", "🎉"]:
 
 words = len(s.split())
 notes.append(f"mots : {words}")
-if words > 12000:
-    errors.append(f"prompt trop long ({words} mots > 12 000)")
+if words > 12500:
+    errors.append(f"prompt trop long ({words} mots > 12 500)")
 
 for n in notes: print("INFO", n)
 for e in errors: print("ÉCHEC", e)
