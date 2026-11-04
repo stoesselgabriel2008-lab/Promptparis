@@ -542,7 +542,7 @@ Relecture à froid par un autre modèle, consigne : seulement ce qui pourrait pr
 - un statut incertain rend le ticket conditionnel seulement s'il sera publié à une heure connue ; sans échéance connue, la jambe est exclue ;
 - l'exemple du registre était faux (la méthode power donne 71,0 % et non 70,2 %) : recalculé, avec la marge, la fourchette et le tier double S/A, et vérifié par le code ;
 - les labels 🟢 et 🟡 laissaient des cas sans label ; le 🟡 a maintenant une condition commune (EV centrale > 0) ;
-- le seuil entre qualité moyenne et faible est précisé (deux éléments manquants ou un point décisif inconnu → Q3) ;
+- le seuil entre qualité moyenne et faible est précisé : Q2 si chaque manque est borné (prix réel lu ailleurs, base Winamax seule, statut publié à heure connue, règle calculée prudemment), Q3 si un point décisif est inconnu et non borné. Une première rédaction (« deux éléments manquants → Q3 ») aurait privé de choix principal une journée comme C4 (Winamax inaccessible, règle d'abandon non vérifiée) : elle a été corrigée avant livraison ;
 - l'EV se calcule par états de retour dès qu'un remboursement est possible ;
 - chaque format a une règle de repli hors zone ;
 - divers : collision des lettres « qualité A/B/C » avec les tiers S à D (qualité renommée Q1 à Q3) ; longueur du 🎾 (« plus d'un point » d'EV prudente) ; tableau limité à quatre colonnes ; renvoi au biais favori-outsider ; mention « prompt autonome » rendue compatible avec le renvoi à l'audit.

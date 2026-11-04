@@ -120,8 +120,8 @@ Par défaut : p_basse et p_haute = p_ret ∓ max(2 points ; écart entre méthod
 
 3.6 Qualité de la ligne
 Q1 — cote Winamax observée, référence indépendante, statuts décisifs confirmés, règle de règlement vérifiée.
-Q2 — un seul de ces quatre éléments manque et sa conséquence est bornée (base Winamax seule, cote à confirmer, statut publié plus tard à une heure connue, règle traitée prudemment).
-Q3 — deux éléments ou plus manquent, ou un point décisif est inconnu (statut non contrôlé, règle inconnue, horaire ou affiche non vérifiés). Une ligne Q3 n'entre que dans un 🎲 ou un 🎉, avec son étiquette.
+Q2 — au moins un de ces éléments manque, mais chaque manque est borné : cote Winamax à confirmer avec le prix réel d'un autre bookmaker lu ; base Winamax seule ; statut publié plus tard à une heure connue ; règle non vérifiée mais calculée avec l'hypothèse la plus défavorable (3.9).
+Q3 — au moins un point décisif est inconnu et non borné : statut non contrôlé ou sans échéance, règle inconnue sans hypothèse prudente possible, horaire ou affiche non vérifiés, aucun prix lu. Une ligne Q3 n'entre que dans un 🎲 ou un 🎉, avec son étiquette.
 La qualité décrit les preuves, pas la force du favori : un favori à 80 % peut être Q2, une sélection à 52 % peut être Q1.
 
 3.7 Pari binaire
